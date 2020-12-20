@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<link as="style" href="https://git.rip/assets/application-62e4cc014d9d96f9cbf443186289ffd9c41bdfe951565324891dcf38bcca5a51.css" rel="preload">
+<link as="style" href="https://git.rip/assets/highlight/themes/white-aa4568025f9b4ea36b357bdccb95c9138a515f1e611b59f20a1777a68b6995db.css" rel="preload">
+<link as="font" href="https://git.rip/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0" rel="preload" type="font/woff2">
+
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="system_ext/lib/libqvrcamera_client.qti.so Â· qssi-user-11-RKQ1.200826.002-20.12.10-release-keys Â· Android Dumps / Redmi / phoenix" property="og:title">
+<meta content="Redmi K30 dump" property="og:description">
+<meta content="https://git.rip/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://git.rip/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext/lib/libqvrcamera_client.qti.so" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="system_ext/lib/libqvrcamera_client.qti.so Â· qssi-user-11-RKQ1.200826.002-20.12.10-release-keys Â· Android Dumps / Redmi / phoenix" property="twitter:title">
+<meta content="Redmi K30 dump" property="twitter:description">
+<meta content="https://git.rip/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>system_ext/lib/libqvrcamera_client.qti.so Â· qssi-user-11-RKQ1.200826.002-20.12.10-release-keys Â· Android Dumps / Redmi / phoenix Â· GitLab</title>
+<meta content="Redmi K30 dump" name="description">
+<link rel="shortcut icon" type="image/png" href="/uploads/-/system/appearance/favicon/1/git.rip.favicon.png" id="favicon" data-original-href="/uploads/-/system/appearance/favicon/1/git.rip.favicon.png" />
+
+<link rel="stylesheet" media="all" href="/assets/application-62e4cc014d9d96f9cbf443186289ffd9c41bdfe951565324891dcf38bcca5a51.css" />
+
+<link rel="stylesheet" media="all" href="/assets/application_utilities-f636133344c99e44738666d9eecff2eb037c36ed05c5cbc2bfacc8dfad2bede2.css" />
+<link rel="stylesheet" media="all" href="/assets/themes/theme_dark-de1de60d7598a5915c968eb4399f97056b5517e5bef8223fbc6a85bbd3b6be69.css" />
+
+<link rel="stylesheet" media="all" href="/assets/highlight/themes/white-aa4568025f9b4ea36b357bdccb95c9138a515f1e611b59f20a1777a68b6995db.css" />
+
+
+<script>
+//<![CDATA[
+window.gon={};gon.features={"suggestPipeline":true,"gitlabCiYmlPreview":false};
+//]]>
+</script>
+
+
+
+<script src="/assets/webpack/runtime.206056c6.bundle.js" defer="defer"></script>
+<script src="/assets/webpack/main.447bfb48.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-globalSearch-pages.admin.abuse_reports-pages.admin.application_settings.ci_cd-pages.admin.gr-bcb9d7d0.e13f2c5e.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.boards-pages.groups.details-pages.groups.show-pages.groups.wikis-pages.projects-f7a29bbf.98904b70.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.application_settings-pages.admin.application_settings.ci_cd-pages.admin.applicat-1386858e.29d837cc.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.epics.index-pages.groups.epics.new-pages.groups.epics.show-pages.groups.iterati-85c41ccb.37c1e60d.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.projects.blame.show-pages.projects.blob.edit-pages.projects.blob.new-pages.projects.bl-c6edf1dd.e3e2e206.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.projects.blob.show-pages.projects.shared.web_ide_link-pages.projects.show-pages.projec-cf300cc3.a895228a.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/pages.projects.blob.show.267e246a.chunk.js" defer="defer"></script>
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fWSN/VPYaCVl29hpPaevi78RMaD129d0BvA+D9VWHnAHgeWRzCX5rDviStvA+LBvx/nrfbTgl/gzHWbk1iDFgg==" />
+<meta name="csp-nonce" />
+<meta name="action-cable-url" content="/-/cable" />
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
+<link color="rgb(226, 67, 41)" href="/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+
+
+
+
+</head>
+
+<body class="ui-dark tab-width-8  gl-browser-generic gl-platform-other" data-find-file="/dumps/redmi/phoenix/-/find_file/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" data-group="redmi" data-namespace-id="628" data-page="projects:blob:show" data-page-type-id="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext/lib/libqvrcamera_client.qti.so" data-project="phoenix" data-project-id="2571">
+
+<script>
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isGeneric":true,"isOther":true};
+
+
+//]]>
+</script>
+
+
+<header class="navbar navbar-gitlab navbar-expand-sm js-navbar" data-qa-selector="navbar">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<span class="gl-sr-only">GitLab</span>
+<a title="Dashboard" id="logo" href="/"><img class="brand-header-logo lazy" data-src="/uploads/-/system/appearance/header_logo/1/Group_25.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li class="home"><a title="Projects" class="dashboard-shortcuts-projects" href="/explore">Projects
+</a></li><li class=""><a title="Groups" class="dashboard-shortcuts-groups" href="/explore/groups">Groups
+</a></li><li class=""><a title="Snippets" class="dashboard-shortcuts-snippets" href="/explore/snippets">Snippets
+</a></li><li>
+<a title="About GitLab CE" href="/help">Help</a>
+</li>
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item d-none d-lg-block m-auto">
+<div class="search search-form" data-track-event="activate_form_input" data-track-label="navbar_search" data-track-value="">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump toâ€¦" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options" spellcheck="false" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" data-qa-selector="search_term_field" aria-label="Search or jump toâ€¦" />
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select" data-testid="dashboard-search-options">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><div class="gl-spinner-container"><span class="gl-spinner gl-spinner-orange gl-spinner-md gl-mt-7" aria-label="Loading"></span></div></div>
+</div>
+<svg class="s16 search-icon" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" value="628" class="js-search-group-options" data-group-path="redmi" data-name="Redmi" data-issues-path="/groups/dumps/redmi/-/issues" data-mr-path="/groups/dumps/redmi/-/merge_requests" />
+<input type="hidden" name="project_id" id="search_project_id" value="2571" class="js-search-project-options" data-project-path="phoenix" data-name="phoenix" data-issues-path="/dumps/redmi/phoenix/-/issues" data-mr-path="/dumps/redmi/phoenix/-/merge_requests" data-issues-disabled="false" />
+<input type="hidden" name="scope" id="scope" />
+<input type="hidden" name="search_code" id="search_code" value="true" />
+<input type="hidden" name="snippets" id="snippets" value="false" />
+<input type="hidden" name="repository_ref" id="repository_ref" value="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" />
+<input type="hidden" name="nav_source" id="nav_source" value="navbar" />
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="2571" data-autocomplete-project-ref="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-lg-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=2571"><svg class="s16" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg>
+</a></li>
+<li class="nav-item header-help dropdown d-none d-md-block">
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><span class="gl-sr-only">
+Help
+</span>
+<svg class="s16" data-testid="question-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#question"></use></svg>
+<svg class="s16 caret-down" data-testid="chevron-down-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+
+<li>
+<a href="/help">Help</a>
+</li>
+<li>
+<a href="https://about.gitlab.com/getting-help/">Support</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" rel="noopener noreferrer" data-track-event="click_forum" data-track-property="question_menu" href="https://forum.gitlab.com/">Community forum</a>
+
+</li>
+<li>
+<button class="js-shortcuts-modal-trigger" type="button">
+Keyboard shortcuts
+<span aria-hidden class="text-secondary float-right">?</span>
+</button>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li>
+
+</li>
+
+</ul>
+
+</div>
+</li>
+<li class="nav-item">
+<div>
+<a class="btn btn-sign-in" href="/users/sign_in?redirect_to_referer=yes">Sign in / Register</a>
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right" data-testid="ellipsis_h-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+
+<div class="layout-page page-with-contextual-sidebar">
+<div class="nav-sidebar">
+<div class="nav-sidebar-inner-scroll">
+<div class="context-header">
+<a title="phoenix" href="/dumps/redmi/phoenix"><div class="avatar-container rect-avatar s40 project-avatar">
+<div class="avatar s40 avatar-tile identicon bg3">P</div>
+</div>
+<div class="sidebar-context-title">
+phoenix
+</div>
+</a></div>
+<ul class="sidebar-top-level-items qa-project-sidebar">
+<li class="home"><a class="shortcuts-project rspec-project-link" data-qa-selector="project_link" href="/dumps/redmi/phoenix"><div class="nav-icon-container">
+<svg class="s16" data-testid="home-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#home"></use></svg>
+</div>
+<span class="nav-item-name">
+Project overview
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix"><strong class="fly-out-top-item-name">
+Project overview
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Project details" class="shortcuts-project" href="/dumps/redmi/phoenix"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" data-qa-selector="activity_link" href="/dumps/redmi/phoenix/activity"><span>Activity</span>
+</a></li><li class=""><a title="Releases" class="shortcuts-project-releases" href="/dumps/redmi/phoenix/-/releases"><span>Releases</span>
+</a></li></ul>
+</li><li class="active"><a class="shortcuts-tree" data-qa-selector="repository_link" href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"><div class="nav-icon-container">
+<svg class="s16" data-testid="doc-text-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#doc-text"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-repo-link">
+Repository
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item active"><a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"><strong class="fly-out-top-item-name">
+Repository
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="active"><a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Files
+</a></li><li class=""><a id="js-onboarding-commits-link" href="/dumps/redmi/phoenix/-/commits/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Commits
+</a></li><li class=""><a data-qa-selector="branches_link" id="js-onboarding-branches-link" href="/dumps/redmi/phoenix/-/branches">Branches
+</a></li><li class=""><a data-qa-selector="tags_link" href="/dumps/redmi/phoenix/-/tags">Tags
+</a></li><li class=""><a href="/dumps/redmi/phoenix/-/graphs/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Contributors
+</a></li><li class=""><a href="/dumps/redmi/phoenix/-/network/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Graph
+</a></li><li class=""><a href="/dumps/redmi/phoenix/-/compare?from=qssi-user-11-RKQ1.200826.002-20.12.10-release-keys&amp;to=qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Compare
+</a></li><li class=""><a data-qa-selector="path_locks_link" href="/dumps/redmi/phoenix/path_locks">Locked Files
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-issues qa-issues-item" href="/dumps/redmi/phoenix/-/issues"><div class="nav-icon-container">
+<svg class="s16" data-testid="issues-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#issues"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-issues-link">
+Issues
+</span>
+<span class="badge badge-pill count issue_counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/issues"><strong class="fly-out-top-item-name">
+Issues
+</strong>
+<span class="badge badge-pill count issue_counter fly-out-badge">
+0
+</span>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Issues" href="/dumps/redmi/phoenix/-/issues"><span>
+List
+</span>
+</a></li><li class=""><a title="Boards" data-qa-selector="issue_boards_link" href="/dumps/redmi/phoenix/-/boards"><span>
+Boards
+</span>
+</a></li><li class=""><a title="Labels" class="qa-labels-link" href="/dumps/redmi/phoenix/-/labels"><span>
+Labels
+</span>
+</a></li><li class=""><a title="Service Desk" href="/dumps/redmi/phoenix/-/issues/service_desk">Service Desk
+</a></li>
+<li class=""><a title="Milestones" class="qa-milestones-link" href="/dumps/redmi/phoenix/-/milestones"><span>
+Milestones
+</span>
+</a></li><li class=""><a title="Iterations" href="/dumps/redmi/phoenix/-/iterations"><span>
+Iterations
+</span>
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-merge_requests" data-qa-selector="merge_requests_link" href="/dumps/redmi/phoenix/-/merge_requests"><div class="nav-icon-container">
+<svg class="s16" data-testid="git-merge-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#git-merge"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-mr-link">
+Merge Requests
+</span>
+<span class="badge badge-pill count merge_counter js-merge-counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/merge_requests"><strong class="fly-out-top-item-name">
+Merge Requests
+</strong>
+<span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
+0
+</span>
+</a></li></ul>
+</li><li class=""><a class="qa-project-requirements-link" href="/dumps/redmi/phoenix/-/requirements_management/requirements"><div class="nav-icon-container">
+<svg class="s16" data-testid="requirements-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#requirements"></use></svg>
+</div>
+<span class="nav-item-name">
+Requirements
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/requirements_management/requirements"><strong class="fly-out-top-item-name">Requirements</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="home"><a title="List" href="/dumps/redmi/phoenix/-/requirements_management/requirements"><span>List</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-pipelines qa-link-pipelines rspec-link-pipelines" data-qa-selector="ci_cd_link" href="/dumps/redmi/phoenix/-/pipelines"><div class="nav-icon-container">
+<svg class="s16" data-testid="rocket-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#rocket"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-pipelines-link">
+CI / CD
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/pipelines"><strong class="fly-out-top-item-name">
+CI / CD
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/dumps/redmi/phoenix/-/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/dumps/redmi/phoenix/-/jobs"><span>
+Jobs
+</span>
+</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/dumps/redmi/phoenix/-/pipeline_schedules"><span>
+Schedules
+</span>
+</a></li>
+</ul>
+</li><li class=""><a data-qa-selector="dependency_list_link" href="/dumps/redmi/phoenix/-/dependencies"><div class="nav-icon-container">
+<svg class="s16" data-testid="shield-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#shield"></use></svg>
+</div>
+<span class="nav-item-name">
+Security &amp; Compliance
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/dependencies"><strong class="fly-out-top-item-name">
+Security &amp; Compliance
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Dependency List" data-qa-selector="dependency_list_link" href="/dumps/redmi/phoenix/-/dependencies"><span>Dependency List</span>
+</a></li><li class=""><a title="License Compliance" data-qa-selector="licenses_list_link" href="/dumps/redmi/phoenix/-/licenses"><span>License Compliance</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-operations" data-qa-selector="operations_link" href="/dumps/redmi/phoenix/-/environments/metrics"><div class="nav-icon-container">
+<svg class="s16" data-testid="cloud-gear-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#cloud-gear"></use></svg>
+</div>
+<span class="nav-item-name">
+Operations
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/environments/metrics"><strong class="fly-out-top-item-name">
+Operations
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+
+<li class=""><a title="Incidents" data-qa-selector="operations_incidents_link" href="/dumps/redmi/phoenix/-/incidents"><span>
+Incidents
+</span>
+</a></li><li class=""><a title="Environments" class="shortcuts-environments qa-operations-environments-link" href="/dumps/redmi/phoenix/-/environments"><span>
+Environments
+</span>
+</a></li></ul>
+</li><li class=""><a data-qa-selector="packages_link" href="/dumps/redmi/phoenix/container_registry"><div class="nav-icon-container">
+<svg class="s16" data-testid="package-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#package"></use></svg>
+</div>
+<span class="nav-item-name">
+Packages &amp; Registries
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/container_registry"><strong class="fly-out-top-item-name">
+Packages &amp; Registries
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a class="shortcuts-container-registry" title="Container Registry" href="/dumps/redmi/phoenix/container_registry"><span>Container Registry</span>
+</a></li></ul>
+</li>
+<li class=""><a data-qa-selector="analytics_anchor" href="/dumps/redmi/phoenix/-/value_stream_analytics"><div class="nav-icon-container">
+<svg class="s16" data-testid="chart-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chart"></use></svg>
+</div>
+<span class="nav-item-name" data-qa-selector="analytics_link">
+Analytics
+</span>
+</a><ul class="sidebar-sub-level-items" data-qa-selector="analytics_sidebar_submenu">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/value_stream_analytics"><strong class="fly-out-top-item-name">
+Analytics
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="CI / CD" href="/dumps/redmi/phoenix/-/pipelines/charts"><span>CI / CD</span>
+</a></li><li class=""><a title="Code Review" href="/dumps/redmi/phoenix/-/analytics/code_reviews"><span>Code Review</span>
+</a></li><li class=""><a class="shortcuts-project-insights" data-qa-selector="project_insights_link" title="Insights" href="/dumps/redmi/phoenix/insights/"><span>Insights</span>
+</a></li><li class=""><a title="Issue" href="/dumps/redmi/phoenix/-/analytics/issues_analytics"><span>Issue</span>
+</a></li><li class=""><a class="shortcuts-repository-charts" title="Repository" href="/dumps/redmi/phoenix/-/graphs/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/charts"><span>Repository</span>
+</a></li><li class=""><a class="shortcuts-project-cycle-analytics" title="Value Stream" href="/dumps/redmi/phoenix/-/value_stream_analytics"><span>Value Stream</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/dumps/redmi/phoenix/-/wikis/home"><div class="nav-icon-container">
+<svg class="s16" data-testid="book-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#book"></use></svg>
+</div>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/wikis/home"><strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-snippets" data-qa-selector="snippets_link" href="/dumps/redmi/phoenix/-/snippets"><div class="nav-icon-container">
+<svg class="s16" data-testid="snippet-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#snippet"></use></svg>
+</div>
+<span class="nav-item-name">
+Snippets
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/snippets"><strong class="fly-out-top-item-name">
+Snippets
+</strong>
+</a></li></ul>
+</li><li class=""><a title="Members" class="qa-members-link" id="js-onboarding-members-link" href="/dumps/redmi/phoenix/-/project_members"><div class="nav-icon-container">
+<svg class="s16" data-testid="users-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#users"></use></svg>
+</div>
+<span class="nav-item-name">
+Members
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/project_members"><strong class="fly-out-top-item-name">
+Members
+</strong>
+</a></li></ul>
+</li>
+<a class="toggle-sidebar-button js-toggle-sidebar qa-toggle-sidebar rspec-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="s16 icon-chevron-double-lg-left" data-testid="chevron-double-lg-left-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-double-lg-left"></use></svg>
+<svg class="s16 icon-chevron-double-lg-right" data-testid="chevron-double-lg-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-double-lg-right"></use></svg>
+<span class="collapse-text">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+<span class="collapse-text">Close sidebar</span>
+</button>
+<li class="hidden">
+<a title="Activity" class="shortcuts-project-activity" href="/dumps/redmi/phoenix/activity"><span>
+Activity
+</span>
+</a></li>
+<li class="hidden">
+<a title="Network" class="shortcuts-network" href="/dumps/redmi/phoenix/-/network/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Graph
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="/dumps/redmi/phoenix/-/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Jobs" class="shortcuts-builds" href="/dumps/redmi/phoenix/-/jobs">Jobs
+</a></li>
+<li class="hidden">
+<a title="Commits" class="shortcuts-commits" href="/dumps/redmi/phoenix/-/commits/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Commits
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/dumps/redmi/phoenix/-/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="content-wrapper">
+<div class="mobile-overlay"></div>
+
+<div class="alert-wrapper gl-force-block-formatting-context">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="breadcrumbs container-fluid container-limited" role="navigation">
+<div class="breadcrumbs-container">
+<button name="button" type="button" class="toggle-mobile-nav"><span class="sr-only">Open sidebar</span>
+<svg class="s16" data-testid="hamburger-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#hamburger"></use></svg>
+</button><div class="breadcrumbs-links js-title-container" data-qa-selector="breadcrumb_links_content">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/dumps"><img class="avatar-tile lazy" width="15" height="15" data-src="/uploads/-/system/group/avatar/562/dumpyara.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />Android Dumps</a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li><li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/dumps/redmi">Redmi</a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li> <li><a href="/dumps/redmi/phoenix"><span class="breadcrumb-item-text js-breadcrumb-item-text">phoenix</span></a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li>
+
+<li>
+<h2 class="breadcrumbs-sub-title"><a href="/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext/lib/libqvrcamera_client.qti.so">Repository</a></h2>
+</li>
+</ul>
+</div>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Android Dumps","item":"https://git.rip/dumps"},{"@type":"ListItem","position":2,"name":"Redmi","item":"https://git.rip/dumps/redmi"},{"@type":"ListItem","position":3,"name":"phoenix","item":"https://git.rip/dumps/redmi/phoenix"},{"@type":"ListItem","position":4,"name":"Repository","item":"https://git.rip/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext/lib/libqvrcamera_client.qti.so"}]}
+
+</script>
+
+</div>
+</nav>
+
+</div>
+<div class="container-fluid container-limited ">
+<div class="content" id="content-body" itemscope itemtype="http://schema.org/SoftwareSourceCode">
+<div class="flash-container flash-container-page sticky" data-qa-selector="flash_container">
+</div>
+
+<div class="js-signature-container" data-signatures-path="/dumps/redmi/phoenix/-/commits/3877fc95a5a71d75fdce82b9623edc9acb32487e/signatures?limit=1"></div>
+
+<div class="tree-holder" id="tree-holder">
+<div class="nav-block">
+<div class="tree-ref-container">
+<div class="tree-ref-holder">
+<form class="project-refs-form" action="/dumps/redmi/phoenix/-/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="blob" />
+<input type="hidden" name="path" id="path" value="system_ext/lib/libqvrcamera_client.qti.so" />
+<div class="dropdown">
+<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" data-ref="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" data-refs-url="/dumps/redmi/phoenix/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">qssi-user-11-RKQ1.200826.002-20.12.10-release-keys</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
+<div class="dropdown-menu dropdown-menu-paging dropdown-menu-selectable git-revision-dropdown qa-branches-dropdown">
+<div class="dropdown-page-one">
+<div class="dropdown-title gl-display-flex"><span class="gl-ml-auto">Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close gl-ml-auto" aria-label="Close" type="button"><svg class="s16 dropdown-menu-close-icon" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field qa-dropdown-input-field" placeholder="Search branches and tags" autocomplete="off" /><svg class="s16 dropdown-input-search" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg><svg class="s16 dropdown-input-clear js-dropdown-input-clear" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><div class="gl-spinner-container"><span class="gl-spinner gl-spinner-orange gl-spinner-md gl-mt-7" aria-label="Loading"></span></div></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<ul class="breadcrumb repo-breadcrumb">
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">phoenix
+</a></li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext">system_ext</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext/lib">lib</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext/lib/libqvrcamera_client.qti.so"><strong>libqvrcamera_client.qti.so</strong>
+</a></li>
+</ul>
+</div>
+<div class="tree-controls gl-children-ml-sm-3"><a class="gl-button btn shortcuts-find-file" rel="nofollow" href="/dumps/redmi/phoenix/-/find_file/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Find file
+</a><a class="gl-button btn" href="/dumps/redmi/phoenix/-/commits/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext/lib/libqvrcamera_client.qti.so">History</a><a class="gl-button btn js-data-file-blob-permalink-url" href="/dumps/redmi/phoenix/-/blob/3877fc95a5a71d75fdce82b9623edc9acb32487e/system_ext/lib/libqvrcamera_client.qti.so">Permalink</a></div>
+</div>
+
+<div class="info-well d-none d-sm-block">
+<div class="well-segment">
+<ul class="blob-commit-info">
+<li class="commit flex-row js-toggle-container" id="commit-3877fc95">
+<div class="avatar-cell d-none d-sm-block">
+<a href="/dumper"><img alt="dumper&#39;s avatar" src="/uploads/-/system/user/avatar/457/dumper.jpg?width=40" class="avatar s40 d-none d-sm-inline-block" title="dumper" /></a>
+</div>
+<div class="commit-detail flex-list">
+<div class="commit-content" data-qa-selector="commit_content">
+<a class="commit-row-message item-title js-onboarding-commit-item " href="/dumps/redmi/phoenix/-/commit/3877fc95a5a71d75fdce82b9623edc9acb32487e">qssi-user 11 RKQ1.200826.002 20.12.10 release-keys</a>
+<span class="commit-row-message d-inline d-sm-none">
+&middot;
+3877fc95
+</span>
+<button class="text-expander js-toggle-button">
+<svg class="s12" data-testid="ellipsis_h-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#ellipsis_h"></use></svg>
+</button>
+<div class="committer">
+<a class="commit-author-link js-user-link" data-user-id="457" href="/dumper">dumper</a> authored <time class="js-timeago" title="Dec 15, 2020 9:50pm" datetime="2020-12-15T21:50:19Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Dec 15, 2020</time>
+</div>
+
+<pre class="commit-row-description gl-mb-3 js-toggle-content">Signed-off-by: <span data-trailer="Signed-off-by:" data-user="457"><a href="https://git.rip/dumper" title="457-dumper@users.noreply.git.rip"><img alt="dumper's avatar" src="https://git.rip/uploads/-/system/user/avatar/457/dumper.jpg?width=16" class="avatar s16 avatar-inline" title="dumper"></a><a href="https://git.rip/dumper" title="457-dumper@users.noreply.git.rip">dumper</a> &lt;<a href="mailto:457-dumper@users.noreply.git.rip" title="457-dumper@users.noreply.git.rip">457-dumper@users.noreply.git.rip</a>&gt;</span></pre>
+</div>
+<div class="commit-actions flex-row">
+
+<div class="js-commit-pipeline-status" data-endpoint="/dumps/redmi/phoenix/-/commit/3877fc95a5a71d75fdce82b9623edc9acb32487e/pipelines?ref=qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"></div>
+<div class="commit-sha-group btn-group d-none d-sm-flex">
+<div class="label label-monospace monospace">
+3877fc95
+</div>
+<button class="btn gl-button btn btn-default" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy commit SHA" data-class="gl-button btn btn-default" data-clipboard-text="3877fc95a5a71d75fdce82b9623edc9acb32487e" type="button" title="Copy commit SHA" aria-label="Copy commit SHA"><svg class="s16" data-testid="copy-to-clipboard-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#copy-to-clipboard"></use></svg></button>
+
+</div>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+
+
+</div>
+<div class="blob-content-holder" id="blob-content-holder">
+<article class="file-holder">
+<div class="js-file-title file-title-flex-parent">
+<div class="file-header-content">
+<svg class="s16" data-testid="doc-text-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#doc-text"></use></svg>
+<strong class="file-title-name gl-word-break-all" data-qa-selector="file_name_content">
+libqvrcamera_client.qti.so
+</strong>
+<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent" data-title="Copy file path" data-clipboard-text="{&quot;text&quot;:&quot;system_ext/lib/libqvrcamera_client.qti.so&quot;,&quot;gfm&quot;:&quot;`system_ext/lib/libqvrcamera_client.qti.so`&quot;}" type="button" title="Copy file path" aria-label="Copy file path"><svg class="s16" data-testid="copy-to-clipboard-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#copy-to-clipboard"></use></svg></button>
+<small class="mr-1">
+120 KB
+</small>
+</div>
+
+<div class="file-actions gl-display-flex gl-flex-fill-1 gl-align-self-start gl-md-justify-content-end"><a class="btn btn-primary ide-edit-button gl-mr-3 btn-inverted btn-sm" data-track-event="click_edit_ide" data-track-label="Web IDE" data-track-property="secondary" href="/-/ide/project/dumps/redmi/phoenix/edit/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/-/system_ext/lib/libqvrcamera_client.qti.so">Web IDE</a><div class="btn-group ml-2" role="group">
+
+
+</div><div class="btn-group ml-2" role="group">
+
+
+<a download="system_ext/lib/libqvrcamera_client.qti.so" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" aria-label="Download" title="Download" data-container="body" href="/dumps/redmi/phoenix/-/raw/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext/lib/libqvrcamera_client.qti.so?inline=false"><svg class="s16" data-testid="download-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#download"></use></svg></a>
+
+</div></div>
+</div>
+
+<script id="js-file-lock" type="application/json">
+{"path":"system_ext/lib/libqvrcamera_client.qti.so","toggle_path":"/dumps/redmi/phoenix/path_locks/toggle"}
+</script>
+
+
+<div data-blob-data="ELF          (    0å  4   DÝ   4   
+ (      4   4   4   @  @                       0Õ  0Õ           0Õ  0å  0å  ðè  ðè            ¾  Þ  Þ œ  œ           ¼Å ¼õ ¼õ \  (
+           ô¿ ôß ôß             Råtd ¾  Þ  Þ œ  à        Qåtd                              t  t  t  8   8           p n   n   n  P  P                 Android             GNU ó¹–rdR®¿¢€rötÉ                                                        Ï             +             {             º             ú             E                          Ø             Ú             î                                                    +             &lt;             N             T             Z             m             t             y             €                          œ             ²             Å             Ú             í             ô             û                                                                 )(             7(             E(             R(             b(             t(             Œ(             œ(             £(             ª(             Á(             Ö(             è(             ü(             )             !)             &amp;)             2)             ?)             H)             Q)             Z)             `)             h)             o)             t)             {)             a1             Š1             ±1             ¸1             Ó1             Ø1             à1             ë1             ò1             û1             2             2             2             2             &amp;2             -2             M2             R2             æ4             ô4             ü4             5             5             Ï5             Ö5             Ü5             ï5             |D             „D             ŒD             “D             ™D             E             +E             rE             M  Á±      K&quot;  åa Œ     ¯2  E— 
+     &#39;7  ï¦      $   ¬    Á0  qf ä     ô6  ë¦      ?  %¢ `    ‹  ø      _  ‰ l     ò  µ±      _  ø      Z&amp;  U Ì   &quot;  41  ™b |    ð@  cš      .&lt;  G±      ãC  ² &quot;   &quot;  X  á ô   &quot;  ]  1. Œ    •0  ™e Ø     ñB  7² r   &quot;  Ø  /ù       ?  ç       ö  =ê  à     ¾  Ì¸      ­/  uk D     Œ?  £ l    Î  { ´      ù# Ä    å)  Q` ,     ™9  ç¦      =  !¢      &gt;  ‘  ä     û  è  $    &amp;  -› Ø     í&#39;  8· X     …  ? ,     Ú  ™     Ê  5# Ä     &quot;  	Z ¸     v#  yW      °)  Y      Å.  Im      ¬4  Ýv Ü     &gt;;  ¥¦      S?  ù¤      ¼  y+ À     c  yH      y&quot;  ` P     0$  ™±      Y%  …S Ì   &quot;  16  9˜ À     RE  Ô¸         å&quot; P     	E  Ð¸      n	  %ƒ T    +  	X ü     8,  ùk 
+     Ý.  ¹k      «:  Ó¦      ˜  q( Ð       ë  ¸     *  Ù l     M+  Y .     Z  è       (  ð¸      v,  An ô     /  am à     ÆD  · 8     bE  Ô¸        a&lt;      3  e” $    6:  §      E  Ð¸      Ë  ý 8    b  é&#39; ˆ     ð  3 
+     #  ¥V È     e/  Ik ,     Ó7  »¦      ·*  Å`      a&lt;  /±      •=  	§ ð    Ž@  {š 2     0  d H     :  Ï¦      3=  =¦      ù#  ×±      ,  yW      É4  Ýv Ü     ö5  9˜ À     Ÿ  ä¸      ó  i&lt; &lt;    ¬D  è¶ P     Ã  aí         î  &lt;     ”.  El     Ê9  Ç¦      Ñ   õ  Ì    Ò  Q   &quot;  q3  Ñv 
+     e4  áu ð     d9  ã¦      ™;  )±        ¼õ     +  ”Ô       ±+  ¥V È     Z
+  ˆ     y  ù˜ 4     w  ¿ì       Â,  Ui p     Ñ=  ±         ½î         ]ú  $     9  I À     Ð  y„ d     &amp;
+  ‰ Ä     d  ø    !  g$  ×P Ž   &quot;  w/  Ik ,     å  u‚ T       ¥ 0    *+  UY ´     †6  «¦      5  ƒ      ¯  ’ x    š  ) ü         ¥&gt; `     Ö&lt;  7±      ­  )&amp; ¨     ï  ‰&quot; \     ¿
+  ‘ h     6   Á (    âD  Ì¸      M  Íì  &lt;     ø  &amp; $     Ä  ™) ¨    ß
+  q ¬    Š  Y F   &quot;  =  ±™ ¤     _  = (     Ù  E |    ±%  eQ (   &quot;  Í8  ×¦      òD  Ì¸      ‚  ýF ð     ”  Õë  Ä     …)  IY 
+     l6  ù˜ 4     ò=  ±        1 Œ     ¿/  ß      _2  – x     43  Iy 4    ™8  ·¦      s!  ™     ì&gt;  Ìþ      J  $Þ h     €*  ÁZ @    ð/  	e      42  iu x     
+3  ¹w @    »5  Pß h     ¤5  É‚ T     î  ¯±      ;  O±      k;  …£      þ%  áU Ä   &quot;  I/  Ýj l     [&gt;  œ Œ    Ë#  ‘±      !  y0 ,
+    t:  Ë¦      @  y¦ ,     CE  Ô¸      ó  íG P     	  ‰“ Ü     Í  · 8     ~.  Ëk      ÔD  È·       9, H     ±  Õë  Ä     (  È·     1  5h ì     A5  u t     1  , ¨    š	  =‡ Ô     ¢,  Åi     Å-  	u \     Õ  u— Ä     ’   @     “  ) 
+     R&#39;  ½% F   &quot;  70  Ug à     o0  ±d X     |7  ³¦      Œ&gt;  Ðþ      P.  l 2     R7  ¿¦      û;  ?±        è  $    ¾  É‚ T     .  1r x    QA  Ñ² 8  &quot;  ã	  …‘ Œ     ´  )      á  	í  X     »  c±      &#39;  Y    &quot;  ó  Ÿ    &quot;     ¨    p  ÉJ &lt;    •#  i± (     þ8  Û¦      Y=  	§ ð    Î/  ]d T     A  ‘´ X  &quot;  œA  	´ B   &quot;  -  Ôö 4    D	  Ý„     Ç  Q .     ½   Ñ&amp;     {-  ±t X     ã:  ¢      1  ±C L    µ  û  2     Ã&quot;  }` H     p  1ú  ,     ï  = È    d  )ü  ˜     I*  mW 
+     58  ß¦         L    &#39;  é! 0   &quot;  û&#39;  Ð¸      W,  ïk 
+     ¨7  Ã¦      „   Áü  8    7  Iû  à     z  ñþ  8    /9  ó¦        	Œ $    †  å      ‰/  ák      8  û¦      ¼&gt;  Ôþ      0  % ´    ®.  5l      ¢3  ùx P     z  1? T    &amp;  ú  ”     ŸD  ¹ à       -™ „     T  ­š €     ÿ$  QT Ä   &quot;  P@  {š 2     Ö  ½ (     µ$   &amp;   &quot;  3E  ä¸      Ê6  ÷¦      [  Uš      „  W±      -  ©t      ö.  !i 2     Œ  e      ¯  =H &lt;     d5  é 0    Ã  ).      ¡  ý} x    ®  ä¸      Á  ¿ V     æ!  = È    €2  O— $     Ì@  cš      T  5      Þ  yI P    e.  Íj      Ö3  Ñ| ,    —&lt;  í± (     ³&amp;  Q ,  &quot;  4  áu ð     O  B ¤    “  Åî  p    m   ½/ ¤     ›/  uk D     §6  ¯¦      e8  ÿ¦      Ê;  ù¯ $    ;   þ  d     j  	      ä,  9o ô    É?  A¦ 8       Eù  ì     ‘  è¶ P     ¡  0ø    !  ô  m† Ð     @  -Ž D    4  ™ì  &amp;     3  qb &amp;     Ÿ&#39;  ‘P F   &quot;  4  a0      u  Ìö      ~  EŠ Ä    a  P Œ     Ó2  }z       ¹D  8· X     H-  1q ü     5   \    -B  ©² (   &quot;                                                                                                                                                                                                                                                                                                                                                                                                                                yE  @        ŠE  @        ­E  @        ºE  @       7q   ƒE      7÷œ   E      c    µE      c    µE      M   d   €        1@     ˜@„ ‚`    	d #  € @  `E      T   €&quot;  B PI€     D! Ð0° C˜E(@   L@‚    €   @&quot;@    €   ˆ B @  +Š@   @ ˆ @@(   €IÅ  $’@$ 0 ¹D     )€ @PH!@@   ‚ €¢0  @  ‚€d      € ˜ $ @  0  	@     €	  ‚ $Eˆ  @À  @A€ˆ     h¥&gt;   ˆ „ €h    À¢ ‚À@A eI T@`ÀL d3Ã•€            @0!   @@È€ € V  0   €   &quot;   !     ` @@   @  ‘  € @  @  ò@  B@2©       D   	0¢Õ@@  1  € €PD   @  „B @ @ Ä&quot;@ Ð`   *    @d   h   l   s   u   y      …   ˆ   ’   ™   ›       ¤   ª   ®   ±   ´   ¸   »   ¿   Â   Æ       Ì   Ï   Ô   Ú   Ü   à   á   å   ê   ë   ï   ó   õ   ú   ÿ                       !  )  ,  0  ;  &gt;      D  G  L  Q  U  Z  ]  `  d  g  h  l  o  v  {  }  „  ˆ  Š    –  ÆéUéÞÒµÈ+¹VŒIÒ™]·ý/}Þ‚L]âÀ½
+M ðïX”§V(­Ç¦0`ÙB
+õ² ÏáÊ¾(H½ß“çØH¬]€uA^¹@ýûûR¦^ºc4›œ^TnD˜R¼ÇYÓX¿tÅÌêN+à Lc¬‹Í]–øô™˜íü`çYûÌ‘ô‡ïÅ7vE!VÒ®ë.¼Y£T56‡L^Q²T–ŸBnnkâ3l„BhÐR×£¤]³BH–¶$ÚÔ•Î¤’LK#|P9ÏwAÒPdx?Q	Ø( /ðrb“dÐ}Q¶p²ey‰Á F€”r‘ácµ&amp;ÚLÏ¥tÍ½šH†öŠOŽÒß)äwAÒœõ4ª1À…ýŽCQ	FåÉ»*˜ýÑúh¤õ—5öÁ»Çq§ÊN\¾Ïòó~.¨04UÏs¿Ï@¿ðÜ«Ü£&lt; 6kFRŒbQ²Næ3l€çÉÔSnD¦©ÓyuÄY6Ó—!C„_	¸ÕÝbã$K×&lt;ÜX&#39;V´ð„{œ4%Äë«Tïœ¢,ÔòúªÛEó¢×R2°¡é&gt;rÊœ£…qyl/PDlÈ;”R¶0-Ú¯†ÞŠ-ó7Æ»Çày}9^oÙwº)÷êwv¥äIÜù€CïÍŒÈâ&lt;UhOWO—6)4£,æE#NvQ‹sà8Òš´&quot;ÚØuz¾GéŠL‚ê_ÈÒ;Ìèëôäžòhï™ŸLfÌCówà8Òä±­Xí&gt;rØ8_’6°¡ÅuyT§ÙÐâ0P_Ê»Ä— ç{ù`‹ö’Õ6%äÐdå¿úîÀFµ?áìõ¤*¾.˜&lt;®¨‹àùòÇÚ&gt;±iôÅžÜ~y:\h_?…¢Ä&lt;k“ÿx‚—.‡ ‚hr h´¼ÿ–nD°‚÷
+F›c*évÍ¹Ñ»Ãá)ä~bÎ™šñ&gt;r,év&amp;OnDz(ÓÚ2Fµ(ÊXJýâdÅŽC&quot;ÄT*Jð˜®¬\CŠéaBŒ¹NL®ÓÔ‘¾÷rë½ÔÔ¡É]®àÿkûÊäùäT—9$šB+=wôj¨.	ÒŸ†$ÊÞgdÅ*×b5f&gt;º:Æ¬ÆŽàxó
+§àÕš»lxˆTq3æÕÛ®)Îë6p9NŸœîc¶Då&lt;TX…Ø¤Ê¸Öšœ«D»y„CS9Õ‚Ë¤ÉN
+–‹åÂ¥ŠÖÐþtøxÂÊW&gt;Ò|ÔGš³M]†&lt;Mè‚
+‡80Ú¸œÁ!˜œPÒt­˜xÍØÕJ¼Çü~	““ïzœÖSšN%õ:œN¢¶âHÅ«1vÂ|‚Ë#Pú¤!^íÚ˜Oˆ£ùš¸Õ1D¼{‰Î8Ò‹ÛÀ-´ŠSçî
+Èòâ@€é$)¨‹ëø:Çàÿüì&gt;2ÛÖ&lt;4 ŒÎ8Òµ&amp;üPÙ‚Ë¬½ÞáÊ8ŽL1rE@ú¤MƒTÂ•]¿Q8ãÿvžRÔ—­?nÔìKCÄš°ƒàg¾üVN¼Çà{§LGÔ¡ Odtgù¤²4A¢‹S ¯*ájä…c…¾¡7ì“
+ç
+3(â½.ìEêX~	ß|ý³$¯ø—».T«ôÐñŒÿJ¾®mÇ®ÌYªÜBÎÐ]M-ú __cxa_finalize _ZN19QVRCameraClientImpl12AttachCameraEPKc _ZN19QVRCameraClientImpl18InitRingBufferDataE25QVRSERVICE_RING_BUFFER_ID _ZN19QVRCameraClientImpl19WriteRingBufferDataE25QVRSERVICE_RING_BUFFER_IDPvj _ZN19QVRCameraClientImpl22AttachCameraWithParamsEPKcP17_qvr_plugin_parami _ZN19QVRCameraClientImpl23SetClientStatusCallbackEPFvPv23QVRCAMERA_CLIENT_STATUSES0_ _ZN19QVRCameraClientImpl29RegisterForClientNotificationE29QVRCAMERA_CLIENT_NOTIFICATIONPFvPvS0_S1_jES1_ _ZN19QVRCameraClientImpl7ReleaseEv _ZN19QVRCameraClientImplC1EPKc _ZN19QVRCameraClientImplC2EPKc _ZN21QVRCameraDeviceClient11GetParamNumEPKc24QVRCAMERA_PARAM_NUM_TYPEhPc _ZN21QVRCameraDeviceClient11GetSyncCtrlE15QVR_SYNC_SOURCE _ZN21QVRCameraDeviceClient11SetParamNumEPKc24QVRCAMERA_PARAM_NUM_TYPEhS1_ _ZN21QVRCameraDeviceClient12ReleaseFrameEi _ZN21QVRCameraDeviceClient13GetPropertiesEP27XrCameraDevicePropertiesQTI _ZN21QVRCameraDeviceClient13SetCropRegionEjjjjjjjj _ZN21QVRCameraDeviceClient14GetCameraStateEP23QVRCAMERA_CAMERA_STATUS _ZN21QVRCameraDeviceClient15ReleaseSyncCtrlEP14qvrsync_ctrl_t _ZN21QVRCameraDeviceClient18SetExposureAndGainEyi _ZN21QVRCameraDeviceClient21FrameToHardwareBufferEP15qvrcamera_framePjPP21_qvrcamera_hwbuffer_t _ZN21QVRCameraDeviceClient21GetCurrentFrameNumberEPi _ZN21QVRCameraDeviceClient23SetCameraStatusCallbackEPFvPv23QVRCAMERA_CAMERA_STATUSES0_ _ZN21QVRCameraDeviceClient23SetGammaCorrectionValueEf _ZN21QVRCameraDeviceClient29RegisterForCameraNotificationE29QVRCAMERA_DEVICE_NOTIFICATIONPFvPvS0_S1_jES1_ _ZN21QVRCameraDeviceClient4StopEv _ZN21QVRCameraDeviceClient5StartEv _ZN21QVRCameraDeviceClient8GetFrameEPi20QVRCAMERA_BLOCK_MODE19QVRCAMERA_DROP_MODEP15qvrcamera_frame _ZN21QVRCameraDeviceClient8GetParamEPKcPjPc _ZN21QVRCameraDeviceClient8SetParamEPKcS1_ _ZN21QVRCameraDeviceClientD1Ev _ZdlPv _Znwj camera_client_ops camera_device_ops getQvrCameraClientInstance getQvrCameraDeviceInstance mCameraClientInstance mCameraDeviceInstance _ZGVZN16sensors_timeutil12get_instanceEvE4inst _ZN13QVRClientImpl10GetVersionEPjPc _ZN13QVRClientImpl12GetServiceFdE23QVRSERVICE_SHARED_FD_IDPiPj _ZN13QVRClientImpl14GetDeviceNamesEPPcPjS2_ _ZN13QVRClientImpl15InitSharedMemAtE15qvr_ring_buf_idP23qvrservice_shared_mem_t _ZN13QVRClientImpl15SyncClkRegisterE15QVR_SYNC_CLK_ID _ZN13QVRClientImpl16CreateConnectionEv _ZN13QVRClientImpl17SyncClkUnregisterE15QVR_SYNC_CLK_ID _ZN13QVRClientImpl19CapabilityHandshakeEv _ZN13QVRClientImpl19RegisterWithServiceEPKc _ZN13QVRClientImpl21GetServiceFdWithIndexE23QVRSERVICE_SHARED_FD_IDiPiPj _ZN13QVRClientImpl28NotifyServiceSharedMemUpdateE15qvr_ring_buf_id _ZN13QVRClientImpl29SendEmptyCommandWithIntReturnEh _ZN13QVRClientImpl30GetRingBufferLayoutFromServiceE15qvr_ring_buf_idP29qvrservice_ring_buffer_desc_t _ZN13QVRClientImpl8GetParamEPKc _ZN13QVRClientImpl8GetParamEPKc25QVRSERVICE_PARAM_NUM_TYPEPc _ZN13QVRClientImpl8GetParamEPKcPjPc _ZN13QVRClientImpl8SetParamEPKc25QVRSERVICE_PARAM_NUM_TYPES1_ _ZN13QVRClientImpl8SetParamEPKcS1_ _ZN13QVRClientImplC2EPKcS1_b _ZN13QVRClientImplD2Ev _ZN16QVRClientSyncClk16GetClientSyncClkE15QVR_SYNC_CLK_IDP13QVRClientImplb _ZN16QVRClientSyncClk4TickEv _ZN16QVRClientSyncClk4TickEyi _ZN16QVRClientSyncClk5ResetEv _ZN16QVRClientSyncClkD1Ev _ZN19QVRCameraClientImpl12AttachCameraEPKc22QVRCAMERA_FRAME_FORMAT _ZN19QVRCameraClientImpl12OnCameraStopEPKc _ZN19QVRCameraClientImpl13ReleaseCameraEh _ZN19QVRCameraClientImpl13mSharedMemIdsE _ZN19QVRCameraClientImpl14GetDeviceNamesEPPcPjS2_ _ZN19QVRCameraClientImpl16DspCommandThreadEPv _ZN19QVRCameraClientImpl16HasSyncClksOnDSPEv _ZN19QVRCameraClientImpl16SendNotificationE23QVRCAMERA_CLIENT_STATUS _ZN19QVRCameraClientImpl17SendReceivePacketER14QVRSocketPkt_t _ZN19QVRCameraClientImpl17SendReceivePacketER14QVRSocketPkt_tPP15AHardwareBuffer _ZN19QVRCameraClientImpl17SendReceivePacketER14QVRSocketPkt_tS1_ _ZN19QVRCameraClientImpl17SendReceivePacketER14QVRSocketPkt_thPc _ZN19QVRCameraClientImpl17SendReceivePacketER14QVRSocketPkt_thPcPi _ZN19QVRCameraClientImpl18CamDspClientCreateE25QVRSERVICE_DSP_SUBSYSTEMS _ZN19QVRCameraClientImpl18HandleNotificationEPK14QVRSocketPkt_ti _ZN19QVRCameraClientImpl19InitStaticSharedMemEv _ZN19QVRCameraClientImpl20StopDspCommandThreadE25QVRSERVICE_DSP_SUBSYSTEMS _ZN19QVRCameraClientImpl21StartDspCommandThreadE25QVRSERVICE_DSP_SUBSYSTEMS _ZN19QVRCameraClientImpl23DspCommandThreadHandlerE25QVRSERVICE_DSP_SUBSYSTEMS _ZN19QVRCameraClientImpl23HandleServiceDisconnectEv _ZN19QVRCameraClientImpl8GetParamEPKcPjPc _ZN19QVRCameraClientImplD0Ev _ZN19QVRCameraClientImplD1Ev _ZN19QVRCameraClientImplD2Ev _ZN19QVRClientConnection17SendReceivePacketEP14QVRSocketPkt_tS1_PiPP15AHardwareBuffer _ZN21QVRCameraDeviceClient13InitSharedMemE15qvr_ring_buf_idi _ZN21QVRCameraDeviceClient15InitCameraStateEv _ZN21QVRCameraDeviceClient18HandleNotificationE22QVRCAMERA_MESSAGE_TYPEjji _ZN21QVRCameraDeviceClientC1EP19QVRCameraClientImplPKchbhS3_25QVRSERVICE_DSP_SUBSYSTEMS22QVRCAMERA_FRAME_FORMATS5_ _ZN23QVRServiceCamDspWrapper16GetClientCommandEiPcS0_j _ZN23QVRServiceCamDspWrapper18CreateCameraClientEPKcii _ZN23QVRServiceCamDspWrapper18DeleteCameraClientEi _ZN23QVRServiceCamDspWrapper22CheckStaticRingBuffersEPb _ZN26QVRServiceCamDspWrapperMgr10GetWrapperEi _ZN26QVRServiceCamDspWrapperMgr11GetInstanceE25QVRSERVICE_DSP_SUBSYSTEMS _ZN26QVRServiceCamDspWrapperMgr14ReleaseWrapperEv _ZN7android19elapsedRealtimeNanoEv _ZNK23QVRServiceCamDspWrapper19SetRingBufferLayoutEiPKji _ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEjjPKcj _ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv _ZNKSt3__121__basic_string_commonILb1EE20__throw_length_errorEv _ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc _ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc _ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ _ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_jjRKS4_ _ZNSt3__113__vector_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED2Ev _ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEEC2EjjS8_ _ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEED2Ev _ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIRKS6_EEvOT_ _ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEvOT_ _ZTV19QVRCameraClientImpl _ZZN16sensors_timeutil12get_instanceEvE4inst __aeabi_d2ulz __aeabi_memclr __aeabi_memclr8 __aeabi_memcpy __aeabi_ul2d __android_log_print __cxa_guard_acquire __cxa_guard_release __errno __memcpy_chk __stack_chk_fail __stack_chk_guard abort close free g_debug_level malloc mmap munmap pthread_create pthread_join pthread_mutex_destroy pthread_mutex_lock pthread_mutex_unlock pthread_setname_np strchr strcmp strdup strerror strlen strtoull AHardwareBuffer_release _Z12getParamSize25QVRSERVICE_PARAM_NUM_TYPE _Z15showClientState23QVRCAMERA_CLIENT_STATUS _Z7showMsg22QVRCAMERA_MESSAGE_TYPE _ZN21QVRCameraDeviceClient10FindBufferEPh _ZN21QVRCameraDeviceClient11BufferSetupEii _ZN21QVRCameraDeviceClient11GetBufferFdEiii _ZN21QVRCameraDeviceClient11GetHwBufferEiP18qvr_offset_array_ti _ZN21QVRCameraDeviceClient12CreateStreamE22QVRCAMERA_FRAME_FORMATP17_qvr_client_parami _ZN21QVRCameraDeviceClient12GetFrameInfoEii _ZN21QVRCameraDeviceClient12ReleaseFrameEii _ZN21QVRCameraDeviceClient13DestroyStreamEP21QVRCameraStreamClient _ZN21QVRCameraDeviceClient14GetFrameFormatEPjPc _ZN21QVRCameraDeviceClient15ReleaseBufferFdEij _ZN21QVRCameraDeviceClient15ReleaseHwBufferEij _ZN21QVRCameraDeviceClient16DspCommandThreadEPv _ZN21QVRCameraDeviceClient16SendNotificationE23QVRCAMERA_CAMERA_STATUSS0_ _ZN21QVRCameraDeviceClient17CreateCameraOnDspEv _ZN21QVRCameraDeviceClient17GetHwBufferLayoutEP18qvr_offset_array_t _ZN21QVRCameraDeviceClient19GetSupportedFormatsEP22QVRCAMERA_FRAME_FORMATPj _ZN21QVRCameraDeviceClient20GetStreamClientIndexEi _ZN21QVRCameraDeviceClient21GetCurrentFrameNumberEPii _ZN21QVRCameraDeviceClient23DeviceStateChangeThreadEPv _ZN21QVRCameraDeviceClient23DspCommandThreadHandlerEv _ZN21QVRCameraDeviceClient23InternalFramesAreMappedEi _ZN21QVRCameraDeviceClient24DeviceStateChangeHandlerEv _ZN21QVRCameraDeviceClient24determineFnAndWaitStatusEPi19QVRCAMERA_DROP_MODEPbi _ZN21QVRCameraDeviceClient25GetCameraStateFromServiceEP23QVRCAMERA_CAMERA_STATUS _ZN21QVRCameraDeviceClient8GetFrameEPi20QVRCAMERA_BLOCK_MODE19QVRCAMERA_DROP_MODEP15qvrcamera_framei _ZN21QVRCameraDeviceClientC2EP19QVRCameraClientImplPKchbhS3_25QVRSERVICE_DSP_SUBSYSTEMS22QVRCAMERA_FRAME_FORMATS5_ _ZN21QVRCameraDeviceClientD2Ev _ZN21QVRCameraStreamClient14GetStreamStateEP23QVRCAMERA_CAMERA_STATUS _ZN21QVRCameraStreamClient15InitStreamStateEv _ZN21QVRCameraStreamClient16SendNotificationE23QVRCAMERA_CAMERA_STATUSS0_ _ZN21QVRCameraStreamClient20QueueNewNotificationE23QVRCAMERA_CAMERA_STATUS _ZN21QVRCameraStreamClientC1EP21QVRCameraDeviceClientP19QVRCameraClientImpli22QVRCAMERA_FRAME_FORMATPKc _ZN21QVRCameraStreamClientD1Ev _ZN23QVRServiceCamDspWrapper12CreateCameraEiPKciiiiib _ZN23QVRServiceCamDspWrapper12DeleteCameraEii _ZN23QVRServiceCamDspWrapper16GetDeviceCommandEiPcS0_j _ZN23QVRServiceCamDspWrapper17SetFrameBufferFdsEiiPKii _ZNSt3__112__deque_baseI23QVRCAMERA_CAMERA_STATUSNS_9allocatorIS1_EEE5clearEv _ZNSt3__112__deque_baseI23QVRCAMERA_CAMERA_STATUSNS_9allocatorIS1_EEED2Ev _ZNSt3__114__split_bufferIP23QVRCAMERA_CAMERA_STATUSNS_9allocatorIS2_EEE10push_frontEOS2_ _ZNSt3__114__split_bufferIP23QVRCAMERA_CAMERA_STATUSNS_9allocatorIS2_EEE9push_backEOS2_ _ZNSt3__114__split_bufferIP23QVRCAMERA_CAMERA_STATUSNS_9allocatorIS2_EEED2Ev _ZNSt3__114__split_bufferIP23QVRCAMERA_CAMERA_STATUSRNS_9allocatorIS2_EEE10push_frontERKS2_ _ZNSt3__114__split_bufferIP23QVRCAMERA_CAMERA_STATUSRNS_9allocatorIS2_EEE9push_backEOS2_ _ZNSt3__15dequeI23QVRCAMERA_CAMERA_STATUSNS_9allocatorIS1_EEE19__add_back_capacityEv _ZNSt3__15dequeI23QVRCAMERA_CAMERA_STATUSNS_9allocatorIS1_EEE9pop_frontEv _ZNSt3__15dequeI23QVRCAMERA_CAMERA_STATUSNS_9allocatorIS1_EEE9push_backEOS1_ _ZNSt3__15dequeI23QVRCAMERA_CAMERA_STATUSNS_9allocatorIS1_EEE9push_backERKS1_ __aeabi_f2ulz __aeabi_memmove __aeabi_uidivmod __aeabi_ul2f __strlcat_chk __strlcpy_chk __strlen_chk __vsnprintf_chk atrace_begin_body atrace_get_enabled_tags atrace_int_body getpid gettid pthread_cond_broadcast pthread_cond_destroy pthread_cond_init pthread_cond_signal pthread_cond_wait pthread_mutex_init rand sem_destroy sem_getvalue sem_init sem_post sem_wait srand strlcpy strstr time usleep vsnprintf _ZN21QVRCameraStreamClient12ReleaseFrameEi _ZN21QVRCameraStreamClient21GetCurrentFrameNumberEPi _ZN21QVRCameraStreamClient23RegisterForNotificationE29QVRCAMERA_STREAM_NOTIFICATIONPFvPvS0_S1_jES1_ _ZN21QVRCameraStreamClient23StreamStateChangeThreadEPv _ZN21QVRCameraStreamClient24StreamStateChangeHandlerEv _ZN21QVRCameraStreamClient25GetStreamStateFromServiceEP23QVRCAMERA_CAMERA_STATUS _ZN21QVRCameraStreamClient4StopEv _ZN21QVRCameraStreamClient5StartEv _ZN21QVRCameraStreamClient8GetFrameEPi20QVRCAMERA_BLOCK_MODE19QVRCAMERA_DROP_MODEP15qvrcamera_frame _ZN21QVRCameraStreamClientC2EP21QVRCameraDeviceClientP19QVRCameraClientImpli22QVRCAMERA_FRAME_FORMATPKc _ZN21QVRCameraStreamClientD2Ev _ZN9QVRSocket10OpenClientEPKci _ZN9QVRSocket10OpenServerEPKci _ZN9QVRSocket10SendPacketEP14QVRSocketPkt_t _ZN9QVRSocket10openSocketEiPKci _ZN9QVRSocket14nameThatSocketEPKc _ZN9QVRSocket15GetPacketWithFdEP14QVRSocketPkt_tPi _ZN9QVRSocket15SendCredentialsEP14QVRSocketPkt_t _ZN9QVRSocket16SendPacketWithFdEP14QVRSocketPkt_ti _ZN9QVRSocket21GetPacketWithHwBufferEP14QVRSocketPkt_tPP15AHardwareBuffer _ZN9QVRSocket22SendPacketWithHwBufferEP14QVRSocketPkt_tP15AHardwareBuffer _ZN9QVRSocket24GetPacketWithCredentialsEP14QVRSocketPkt_tP5ucred _ZN9QVRSocket4BindEv _ZN9QVRSocket4initEiPKci _ZN9QVRSocket5CloseEv _ZN9QVRSocket6AcceptEPPS_ _ZN9QVRSocket6ListenEi _ZN9QVRSocket7ConnectEv _ZN9QVRSocket8ShutdownEv _ZN9QVRSocket8_initMsgEP14QVRSocketMsg_t _ZN9QVRSocket9GetPacketEP14QVRSocketPkt_t _ZN9QVRSocket9readBytesEPhi _ZN9QVRSocketC1Ev _ZN9QVRSocketC2Ev _ZN9QVRSocketD0Ev _ZN9QVRSocketD1Ev _ZN9QVRSocketD2Ev _ZTV9QVRSocket _Z16sendByteResponseP9QVRSockethh _Z16sendDataResponseP9QVRSockethPKci _Z17sendEmptyResponseP9QVRSocketh _Z19doSendReceivePacketP9QVRSocketP14QVRSocketPkt_tS2_b _Z19sendIntegerResponseP9QVRSockethia _Z22sendDataResponseWithFdP9QVRSockethPKcii _Z28sendDataResponseWithHwBufferP9QVRSockethPKciP15AHardwareBuffer _Z31doSendEmptyCommandWithIntReturnP9QVRSocketh _Z9showParamPKc25QVRSERVICE_PARAM_NUM_TYPEPc AHardwareBuffer_recvHandleFromUnixSocket AHardwareBuffer_sendHandleToUnixSocket accept android_get_control_socket bind connect getsockopt listen recvfrom recvmsg sendmsg sendto setsockopt shutdown socket unlink _Z19updateQVRDebugLeveli atoi property_get _ZN10QVRVersion13qvrGetVersionEv _ZN10QVRVersion16qvrGetVersionIntEiRiS0_S0_S0_ _ZN10QVRVersion16qvrGetVersionIntEv _ZN19QVRClientConnection10SendPacketEP14QVRSocketPkt_t _ZN19QVRClientConnection13NetworkThreadEv _ZN19QVRClientConnection16HandleDataPacketEP14QVRSocketPkt_t _ZN19QVRClientConnection19NetworkThreadHelperEPv _ZN19QVRClientConnection23HandleServiceDisconnectEv _ZN19QVRClientConnection24ReceivePacketWithTimeoutEP14QVRSocketPkt_tjPi _ZN19QVRClientConnectionC1EP9QVRSocketP27QVRClientConnectionNotifierPc _ZN19QVRClientConnectionC2EP9QVRSocketP27QVRClientConnectionNotifierPc _ZN19QVRClientConnectionD1Ev _ZN19QVRClientConnectionD2Ev clock_gettime eventfd poll pthread_cond_timedwait write _ZN13QVRClientImpl12GetConnIdNumEv _ZN13QVRClientImpl12UpdateConnIdEv _ZN13QVRClientImpl13EarlySetParamEPKcS1_ _ZN13QVRClientImplD0Ev _ZN13QVRClientImplD1Ev _ZTV13QVRClientImpl _ZdaPv _Znaj __cxa_pure_virtual strtol _ZN16QVRClientSyncClkC1E15QVR_SYNC_CLK_IDP13QVRClientImplb _ZN16QVRClientSyncClkC2E15QVR_SYNC_CLK_IDP13QVRClientImplb _ZN16QVRClientSyncClkD2Ev _Z27nop_qvr_cam_dsp_driver_initv _Z29nop_qvr_cam_dsp_driver_deinitv _Z34nop_qvr_cam_dsp_driver_get_versionPci _Z36nop_qvr_cam_dsp_driver_create_cameraiPKciiiiib _Z36nop_qvr_cam_dsp_driver_delete_cameraii _Z36nop_qvr_cam_dsp_driver_forward_blocki _Z36nop_qvr_cam_dsp_driver_get_hvx_frameiPi _Z37nop_qvr_cam_dsp_driver_config_tracingi _Z40nop_qvr_cam_dsp_driver_stop_hvx_listeneri _Z41nop_qvr_cam_dsp_driver_get_client_commandiPcS_j _Z41nop_qvr_cam_dsp_driver_get_current_qtimerPy _Z41nop_qvr_cam_dsp_driver_get_device_commandiPcS_j _Z41nop_qvr_cam_dsp_driver_start_hvx_listeneriPKciy _Z42nop_qvr_cam_dsp_driver_notify_camera_frameii _Z42nop_qvr_cam_dsp_driver_notify_camera_stateii _Z42nop_qvr_cam_dsp_driver_set_frame_buffer_fdiiPKii _Z43nop_qvr_cam_dsp_driver_create_camera_clientPKcii _Z43nop_qvr_cam_dsp_driver_delete_camera_clienti _Z45nop_qvr_cam_dsp_driver_set_ring_buffer_layoutiPKji _Z46nop_qvr_cam_dsp_driver_add_notified_dsp_clientii _Z46nop_qvr_cam_dsp_driver_downscale_image_to_halfjjPKhijPhij _Z48nop_qvr_cam_dsp_driver_check_static_ring_buffersPb _Z49nop_qvr_cam_dsp_driver_remove_notified_dsp_clientii _ZN23QVRServiceCamDspWrapper10GetVersionEPci _ZN23QVRServiceCamDspWrapper11GetHVXFrameEiPi _ZN23QVRServiceCamDspWrapper12ForwardBlockEi _ZN23QVRServiceCamDspWrapper13ConfigTracingEi _ZN23QVRServiceCamDspWrapper15GetCurrentQtimeEPy _ZN23QVRServiceCamDspWrapper16unload_dyn_funcsEv _ZN23QVRServiceCamDspWrapper17NotifyCameraFrameEii _ZN23QVRServiceCamDspWrapper17NotifyCameraStateEii _ZN23QVRServiceCamDspWrapper20AddNotifiedDspClientEii _ZN23QVRServiceCamDspWrapper20DownscaleImageToHalfEjjPKhijPhij _ZN23QVRServiceCamDspWrapper23RemoveNotifiedDspClientEii _ZN23QVRServiceCamDspWrapper4InitEv _ZN23QVRServiceCamDspWrapper6DeinitEv _ZN23QVRServiceCamDspWrapperC1E25QVRSERVICE_DSP_SUBSYSTEMSb _ZN23QVRServiceCamDspWrapperC2E25QVRSERVICE_DSP_SUBSYSTEMSb _ZN23QVRServiceCamDspWrapperD1Ev _ZN23QVRServiceCamDspWrapperD2Ev _ZN26QVRServiceCamDspWrapperMgr11GetPropertyE22QVRSERVICE_PROPERTY_IDPi _ZN26QVRServiceCamDspWrapperMgr13CreateWrapperEi _ZN26QVRServiceCamDspWrapperMgr13mInstanceADSPE _ZN26QVRServiceCamDspWrapperMgr13mInstanceCDSPE _ZN26QVRServiceCamDspWrapperMgr13mInstanceMDSPE _ZN26QVRServiceCamDspWrapperMgr18FwdInvokeThreadDSPEPv _ZN26QVRServiceCamDspWrapperMgr21GetAndroidToQTimeDiffEb _ZN26QVRServiceCamDspWrapperMgr25ComputeAndroidToQTimeDiffEv _ZN26QVRServiceCamDspWrapperMgr26RegisterForSSRNotificationEPFvPvES0_ _ZN26QVRServiceCamDspWrapperMgr28UnregisterForSSRNotificationEPv _ZN26QVRServiceCamDspWrapperMgrC1E25QVRSERVICE_DSP_SUBSYSTEMS _ZN26QVRServiceCamDspWrapperMgrC2E25QVRSERVICE_DSP_SUBSYSTEMS _ZN26QVRServiceCamDspWrapperMgrD1Ev _ZN26QVRServiceCamDspWrapperMgrD2Ev _ZNSt3__113__tree_removeIPNS_16__tree_node_baseIPvEEEEvT_S5_ _ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5_ _ZNSt3__16__treeINS_12__value_typeIPvPFvS2_EEENS_19__map_value_compareIS2_S5_NS_4lessIS2_EELb1EEENS_9allocatorIS5_EEE14__erase_uniqueIS2_EEjRKT_ _ZNSt3__16__treeINS_12__value_typeIPvPFvS2_EEENS_19__map_value_compareIS2_S5_NS_4lessIS2_EELb1EEENS_9allocatorIS5_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIS2_EEEERSG_SG_ _ZNSt3__16__treeINS_12__value_typeIPvPFvS2_EEENS_19__map_value_compareIS2_S5_NS_4lessIS2_EELb1EEENS_9allocatorIS5_EEE25__emplace_unique_key_argsIS2_JNS_4pairIKS2_S4_EEEEENSE_INS_15__tree_iteratorIS5_PNS_11__tree_nodeIS5_S2_EEiEEbEERKT_DpOT0_ _ZNSt3__16__treeINS_12__value_typeIPvPFvS2_EEENS_19__map_value_compareIS2_S5_NS_4lessIS2_EELb1EEENS_9allocatorIS5_EEE7destroyEPNS_11__tree_nodeIS5_S2_EE dlclose dlerror dlopen dlsym sleep __udivmodsi4 __fixunsdfdi __fixunssfdi __floatundidf __floatundisf __aeabi_memcpy4 __aeabi_memcpy8 memcpy __aeabi_memmove4 __aeabi_memmove8 memmove __aeabi_memclr4 __aeabi_memset __aeabi_memset4 __aeabi_memset8 memset liblog.so LIBLOG libnativewindow.so LIBNATIVEWINDOW libc.so LIBC libdl.so libcutils.so libutils.so libc++.so libm.so libqvrcamera_client.qti.so    APS2Ö  Ö  ¬¼‚²‚¢‚„‚†‚Ô‚ì‚Â‚¨‚¶‚þ‚¸‚Ú‚®‚–‚¼‚ž‚°‚àœ‚ú‚®‚ž‚Ì(‚Ú‚À‚´‚´‚¤‚ª‚˜‚Ú‚Î‚Ö‚Â‚¨‚¶‚þ‚¸‚Ú‚®‚–‚¼‚ž‚°‚à‚€‚Ð‚²´•¢•Ø•$•‚•Þ•š•”•²•¬•Æ•à•”•ö••Œ•Ö•ò•–• •Ô•‚•¾•Ø•„•°•Î•Š• •¨•Î•Ô•„•”•Î•ò•æ•¾Ì*‚˜¼‚ü  Þ = øÿÿÿÿ?ðÿ ¼õ ÿ  Ôö ÿÿ&lt; v  °°°€œv  °°¨€Äv  °°°€Æv  °°ª€æv  °„€Pw  °« €°w  °°ª€Òw  °« €,x  °°°€0x  °„€:x  °°°€ y  ­?€&lt;{  ®?€|  °­€Ä|  °°¬€€}  °°¨€ž}  °„€¤}  °« €Ø}  °­€H  °ª€|  °°°€|  ¯?€äƒ  °¯
+€p…  „€¤…  „e  h‰  °°¬€¾‰  °°°€Ì‰  ª?€°Š  °°¬€ÔŠ  °« €ðŠ  ¬?€|‹  °« €¨‹  ®?€€Œ  ­?€  °­ €@Ž  °„€tŽ  0e  ÄŽ  °¨€   °¯
+€P‘  °°°€P‘  „€Ô‘  °°¨€’  °¯€&lt;“  °°°€P“  °­€P”  °°ª€Ž”  °°¨€œ”  °„€À”  °­€¬•  Ôd  (–  °°¨€8–  °°ª€X–  °¯€T˜  °­€øš  °¬€°›  °¯€È  °„€Ô  °¯
+€”   ¯?€Ø¡  °„€&gt;¢  °« €Œ¢  °°ª€¬¢  °°°€è¢  ¯?
+€ˆ¤  ¬²€|¥  ¯?
+€(§  „€Œ§  °¯*€ ª  °¯€ ±  °°¨€H±  °°°€°±  ª?€²  °­€³  °­€Ì´  °°ª€
+µ  °« €(µ  „€Èµ  «?€Ø¶  °°¬€(¸  °°ª€x¸  ®²€º  °¨€Hº  °¬€ »  ª?€@»  °¯€à¼  °°°€à¼  °¬€d¾  °¬€ ¿  „€¿   c  4É  ª€ÐÉ  «€tÊ  „€¸Ê  °°°€ØÊ  °®€Í  °°¬€Í  °¯
+€ÜÏ  °°¯€\Ð  Lc  øÑ  ¯J²€&lt;Õ  °ª€$Ö  °°¨€¨Ö  °«€ ×  ¯H²€èØ  4c  Þ  °«€ Þ  °°ª€lß  °°¨€Œß  °¬€°à  °°®€”ä  °ª€Tå  °„€Xå  °°ª€àå  ª?€Ôæ  °°°€âæ  „€ç  °°°€ç  ª?€¸ç  „€hè  °¯€ í  °­€èí  °°¬€î  °ª€Lî  «?€dï  °«€èï  °°°€ð  „€|ñ  «?€¼ñ  ¬?€ò  ­?€èò  ¯?€œô  °ª€tõ  ¬²€Xö  °„€„ö  °°ª€ìö  °¬€ì÷  °„€ô÷  „€Xø  °°°€|ø  °°¨€¸ø  °°°€Âø  °°¨€Ðø  °„€Öø  °°°€âø  °°¨€ù  °°°€ù  °°¬€ú  °°°€ ú  °­€øú  °¯€èû  °¬€Øþ  °­€H °°°€H „€ô °°°€ð „€` °¬€H °„€L °ª€  ¯?€X °„€  °«€Ì °ª€d °­€	 °®€4
+ °®€¤ „€ ¯F²€8 «²€Œ °„€Ø °°¨€$ °„€$ «²€p °°¬€Ì «²€T ¯²€ ®²€è ®²€ä °ª€H ®²€ ­H²€À ¯²€Ü ¯²€Ä °¬€$ ¬?€¨ ­²€ ¬²€ì ¯P²€&quot; °°°€&quot; „€t&quot; °¨€¬&quot; °°°€®&quot; °„€Ì&quot; °¬€ˆ# °« €@$ °°¨€l$ °¨€è$ °°«€„% °°°€Š% °°¨€Ì% °°ª€D&amp; °«€&#39; °¯€˜+ °«€t, ª€- °°°€- °¯ €l. °°°€l.  `  Ð/ °°¨€Ü/ °«€1 °°°€ 1 °¨€01 °¨€T1 °°°€°1 °«€˜: °¯ €´; °°¨€¸; °°°€ð; °ª€&lt; °°°€&lt; °„€&lt; °°°€(&lt; °„€L&lt; °ª€l&lt; °„€†&lt; °­ €ð&lt; °°¨€Ð&gt; °°ª€ A °°°€øA °°ª€ôB    E °°°€E    ”á   ˜á   œá ,  á y  ¤á Õ  ¨á Ô  ¬á …  °á „ ´á Q ¸á G ¼á Æ  Àá H Äá   Èá å  Ìá ë  Ðá    Ôá ì  Øá Ö  Üá ’  àá  äá æ  èá o ìá  ðá  ôá ª  øá ] üá ˆ   â } â D â õ  â  â “  â p â q â #   â   $â {  (â   ,â 	  0â $  4â ¡  8â   &lt;â   @â   Dâ   Hâ |  Lâ   Pâ 3 Tâ   Xâ Ý  \â   `â   dâ Ð  hâ   lâ - pâ   tâ  xâ    |â U €â €  „â 2 ˆâ ~ Œâ ¿  â   ”â ‰  ˜â h  œâ “  â 4 ¤â ! ¨â   ¬â Ç  °â 
+  ´â u  ¸â !  ¼â   Àâ   Äâ   Èâ   Ìâ ï  Ðâ   Ôâ   Øâ  Üâ ‰ àâ a äâ †  èâ i ìâ  ðâ n  ôâ ú  øâ   üâ &quot;   ã   ã   ã   ã h ã ®  ã d  ã ` ã «   ã ’ $ã Œ (ã í  ,ã ç  0ã î  4ã 5 8ã   &lt;ã   @ã &#39;  Dã 4  Hã 1  Lã 8  Pã &gt;  Tã ;  Xã ±  \ã … `ã Ž dã =  hã S lã -  pã 8 tã è  xã Š  |ã 2  €ã L „ã ¥  ˆã &quot; Œã r ã ˆ ”ã  ˜ã 0  œã 6   ã Œ  ¤ã e ¨ã ^ ¬ã /  °ã 7  ´ã ?  ¸ã %  ¼ã Ú  Àã ò  Äã R Èã E Ìã ¢  Ðã I Ôã â  Øã 6 Üã Z àã •  äã 3  èã M ìã ñ  ðã ™  ôã ”  øã d üã »   ä F ä $ ä { ä &lt;  ä ¯  ä &amp;  ä (  ä )   ä 5  $ä v  (ä ‹  ,ä  0ä :  4ä 9  8ä  &lt;ä +  @ä @  Dä .  Hä *  Lä ,  Pä À  Tä ã  Xä  \ä ‡  `ä w dä e  hä A lä  pä b tä p  xä  |ä –  €ä N „ä  ˆä œ  Œä ´  ä – ”ä   ˜ä j œä §   ä % ¤ä O  ¨ä D  ¬ä Ò  °ä I  ´ä N  ¸ä }  ¼ä  Àä P  Ää E  Èä H  Ìä C  Ðä F  Ôä  Øä L  Üä J  àä K  ää M  èä G  ìä A  ðä B  ôä R  øä Q  üä T   å  å W  å U  å ý  å \ å † å B å S   å V  $å ü  (å  ,å ²  0å  4å n 8å — &lt;å [  @å | Då   Hå   Lå Ž  På f  Tå t Xå Y  \å X  `å ” då —  hå ø  lå t  på  tå ¶  xå „  |å `  €å ~  „å ƒ ˆå x  Œå = å ^  ”å _  ˜å ]  œå \   å ˜ ¤å / ¨å &lt; ¬å a  °å b  ´å c  ¸å _ MDSP AttachCamera QVRCAMERA_CAM_NEW_RAW_FRAME GetHwBufferLayout %s: BufferSetup: retrieved %d fds for stream %d %d QVR_CAM_ERROR %s: Ending thread StreamStateChangeHandler %d QVRSocket::Accept SOCK_STREAM fd = %d %s: failed to receive message: disconnected
+ %s: invalid response packet on clientid (%d)
+ %s: Error %d for getting fd for ring buffer: %d %s: SetParam numerical failed
+ libqvr_cam_mdsp_driver_stub.so qvr_cam_dsp_driver_notify_camera_state %s, Error getting qvr_cam_dsp_driver_check_static_ring_buffers function: %s qvr_cam_dsp_driver_downscale_image_to_half %s, Error getting qvr_cam_dsp_driver_downscale_image_to_half function: %s CDSP %s: failed
+ %s: invalid data size %s: %s exiting %s: DeviceStateChangeHandler exiting due to unrecoverable mBuffersState error while detaching %s: GetParamNum %s Error: Invalid size for pValue, must match size of parameter&#39;s type (size=%d, type size=%d) QVRCAMERA_CAMERA_ERROR QVR_CAM_DEVICE_DETACHING QVRDebug %s: create event fd failed
+ %s: Error starting notification listener thread: %s
+ QVR_ERROR %s: SetParam QVR_INVALID_PARAM Error: Parameter Name &#39;%s&#39; concatenated with Value &#39;%s&#39; exceed maximum of 253 characters %s: value len is larger than the entire payload, something is wrong: %d %d %s: clk %d is %sneeded %s, Error getting qvr_cam_dsp_driver_deinit function: %s %s, Error getting qvr_cam_dsp_driver_config_tracing function: %s %s, Error getting qvr_cam_dsp_driver_get_hvx_frame function: %s %s: Can&#39;t use &#39;%s&#39; format since camera is configured for &#39;%s&#39; format %s: %s failed: DSP Wrapper&#39;s CreateCameraClient failed QVRCAMERA_CAM_STATE_CHANGE %s: %s: Stream index error for camera %s / stream %d qvrFrameLocked_%s|fn=%d QVR_BUFFERS_MAP_ERROR QVR_CAM_SUCCESS %s: %s failed - invalid stream client index failed to send QVRSOCKET_RSP_RECEIVE_HWBUFFER response back to client
+ %s: error writing to eventfd %d
+ %s: Capability Handshake failed!
+ %s: CreateConnection failed!
+ %s: mId %d duplicate tick %d %d Invalid DSP selection: %d QVRServiceCamDspDLOpen %s - Error getting qvr_cam_dsp_driver version string: %d %s - dlopen unsuccessful for DSP %d qvrcamclient_preferred_format raw CamDeviceState %s: GetCameraStateFromService failed %s: GetFrame failed: %s %s: GetFrame failed: %s, camera state:%s %s: Invalid number of AHBs reported: %d &gt;= %d %s: Stream type %d not supported QVRDebug: set log level to %d %s: QVRSOCKET_CMD_NOTIFICATION_CLASS_ID Error: Client is not set %s: %s: error occurred: %s (%d) null %s: registering clock %d... QVRServiceCamDspConfigTracing %s - failed to deinit ADSP
+ Invoking SSR notification callback
+ qvr_cam_dsp_driver_get_client_command qvrcamclient-qtime-to-android-boot-ns %s: failed to read parameter &#39;%s&#39; %s: %s:Enter
+ GetHwBuffer %s: param length is 0 %s: determineFnAndWaitStatus error: drop_mode unknown %s: GetFrame failed: QVR_CAM_DEVICE_DETACHING %s: GetProperties sensor count mismatch: expected %d, got %d _camera_ %s: %s: Warning: camera stream is starting while camera device state is %s) %s value=%d doSendEmptyCommandWithIntReturn %s: didn&#39;t receive a credential struct
+ failed to get credentials: %s %s: %s: error sending packet: %d %s: qvrservice client version: %s
+ %s: QVRSOCKET_CMD_GET_CLK failed
+ %s: GetDeviceNames failed %s: invalid buffer %s: mStateChangeThread already created %s: %s:Exit
+ %s: QVRCameraDeviceClient dtor: DeleteCamera %s: GetFrame (%d) Error on Camera %s Stream %d for buf_number %d - buffer not available %s: ReleaseFrame ClientId %d - BuffersState = QVR_BUFFERS_ALL_UNMAPPED %s: This camera (%s) doesn&#39;t support synchronization via camera frame reads %s: CreateStream: Using existing %s camera stream for client %d (service ID=%d, local index=%d) QVRCameraStreamClient Start %s: StreamStateChangeHandler - QVRService stream ID %d mState=%s %s: GetParam %s failed
+ %s: empty connection id %s: mConnIdString is now = %s Joining FwdInvoke thread qvr_cam_dsp_driver_create_camera_client %s: notification packet size mismatch: received=%d struct=%zu CamClientDspCmd %s: %s: Error retrieving Camera Height %s: %s: Error for Camera %s %s: GetCurrentFrameNumber Failed - index out of range - %d %s: GetFrame (%d) failed: %s, camera state:%s %s: GetSupportedFormats failed |tid= %s: StreamStateChangeHandler: Stream %d received state QVRCAMERA_CAM_STREAM_STATE_CHANGE %s =&gt; %s QVRSocketUtil %s value=%lld QVRSocket vendor.qvr.debug.level QVR_BUSY %s: capability handshake failed
+ %s: invalid payload size on client id (%d)
+ %s:%d lnxbuild Tick FwdInvokeThreadDSP - %s: %s: Error starting DspCommandThread thread: %s rawdepth %s: BufferSetup: stream %d mBuffersState %s %s: DeviceStateChangeHandler - clientId %d mState %s mBuffersState = %s %s: GetCameraState = %s %s: warning: version is being truncated %s: GetFrame failed: QVR_CAM_DEVICE_STOPPING %s: ReleaseFrame while all unmapped !!! mClientId %d frame_nb=%d buf_nb=%d - mBuffersState %d %s: GetProperties length check failed: expecting at least %d bytes, got %d %s: Failed to create camera stream - out of memory %s: Failed to read supported camera stream types from QVRService %s: CreateStream Error: Invalid value supplied for nParams %s: Out of memory QVRCAMERA_CAMERA_CLIENT_DISCONNECTED %s: received malformed response for capability: pkt size = %d %s: SetParam &#39;parameter size&#39; error:&gt;sizeof(uint64_t): %s %s: GetParam &#39;pName&#39; argument error: string too long (&gt;QVR_PKT_PARAM_MAX_PAYLOAD_SIZE): %s %s: %s[%s] failed - Init Ring Buffer Error %s: GetFrame: expecting meta is for frame %d but it is either different (%d) or flagged not useable (%d) QVRCAMERA_CAMERA_STARTED %s (%d): error sending packet
+ %s: Error in network listener poll: %s %s: failed to set connection id prefix on service %s: invalid input: name or len is NULL
+ %s: Normal exit from DSP 
+ %s, Error getting qvr_cam_dsp_driver_remove_notified_dsp_client function: %s _camera_rdi_frame_format SendReceivePacket CreateCameraOnDsp %s: GetBufferFd Error for Camera %s / Stream %d / buf_id %d: Size (%d) &lt; mWidth (%d) * mHeight (%d) %s: DeviceStateChangeHandler force stopping the camera due to unrecoverable mBuffersState error GetCurrentFrameNumber %s: Invalid sync controller QVRCAMERA_CAMERA_STOPPING QVR_CAM_DEVICE_STOPPING %s: %s failed - null CamDevice %s value=%llu Error creating socket: %s GetPacketWithFd %s (%d): not the message type we were expecting %s: Detected Service version: %d.%d.%d api: %d
+ %s: error mapping memory for shared memory %d
+ %s: GetParam &#39;parameter size&#39; error:&gt;sizeof(uint64_t): %s %d.%d.%d GetClientSyncClk qvr_cam_dsp_driver_get_device_command %s: HandleNotification received for an unknown camera handle %d %s: %s[%s]: eye-pose-written clk already obtained %s: DetachCamera failed for camIndex %d %s: %s: invalid fd %s: %s: Error retrieving Camera Width %s: HandleNotification %s %s: SetParamNum %s Error: Invalid input: name or len is NULL %s value=%hhu QVRSocket::Accept SOCK_DGRAM fd = %d GetPacket %s (%d): failed to receive message: disconnected %s (%d): failed to receive message: %s error setting sock opts: %s %s: param value length cannot be 0 created client clk %d %s, Error getting qvr_cam_dsp_driver_add_notified_dsp_client function: %s qvr_cam_dsp_driver_set_frame_buffer_fd qvr_cam_dsp_driver_check_static_ring_buffers %s - dlopen successful for DSP %d %s: %s failed: DSPWrapper&#39;s CheckStaticRingBuffers failed DspCommandThreadHandler QVRCameraDeviceClient %s: DeviceStateChangeHandler mBuffersState %s %s: invalid input: pName or pValue is NULL
+ %s: Setting exposure %llu, gain %d at index %d %s: SetCropRegion: Can&#39;t set crop region on raw mode %s: GetStreamStateFromService = %s conn-id-prefix %s: open server socket %s failed
+ %s: invalid response packet on socket %s
+ %s: QVRSOCKET_CMD_RELEASE_CLK failed
+ Init returned %d %s - QVRServiceCamDspWrapperMgr::ComputeAndroidToQTimeDiff invalid state %s - ReleaseWrapper(%p) new refcount=%d libqvr_cam_adsp_driver_stub.so %s, Error getting qvr_cam_dsp_driver_delete_camera_client function: %s yuv420 %s: Detaching From Camera %s APPLICATION ERROR: ClientId %d - buffer %d is LOCKED and must not be. Buffer is now unmapped and cannot be used any further. PLEASE FIX APPLICATION! %s: invalid input: name or len is NULL QVR_CAM_DEVICE_NOT_STARTED %s: socket error: %d %s: Error starting serviceComm
+ %s: received empty payload %s - qvr_cam_dsp_driver version: %s %s - AndroidToQTimeDiff=%llu qtime=%llu qtime_ns=%llu boot_time=%llu qvr_cam_dsp_driver_delete_camera /dev/socket/qvrservice_camera %s: QVRCameraClientImpl %s (%llu) succeeded adsp %s: %s: raw format %s AttachCameraWithParams y8 %s: DeviceStateChangeHandler mClientId %d - BuffersState is %s after handling camera state %s %s: Error: QVRService does not support more than %d simultaneous streams per camera client. %s: Warning: failure detaching from camera stream %d %s (%d): invalid payload size
+ QVR_CALLBACK_NOT_SUPPORTED 0 qvr_cam_dsp_driver_config_tracing %s, Error getting qvr_cam_dsp_driver_get_current_qtimer function: %s QVRSERVICE_DSP_CDSP %s: QVRCameraClientImpl construction failed: key &#39;%s&#39; in use ADSP %s: %s failed: DSPWrapper&#39;s SetRingBufferLayout failed %s: %s: out of memory unknown %s: %s: ring buffer elements exceeds max (%d &gt; %d) %s: DeviceStateChangeHandler: force stopping the camera due to unrecoverable mBuffersState error %s: HandleNotification: suppressing new frame notification because buffers are not mapped yet %s: SetCropRegion: No frame index pointer %s: CreateStream: Creating %s camera stream for for client %d (service ID=%d, local index=%d) QVR_CAM_DROPPED_FRAMENUMBER 7 QVRClientImpl %s: invalid length for QVRSOCKET_CMD_GET_CLK %s: overflow - can&#39;t write clk tick since the other end isn&#39;t reading %s - Releasing QVRServiceCamDspWrapper %s, Error getting qvr_cam_dsp_driver_get_device_command function: %s mdsp %s: SetCropRegion Error: Client is not granted rights to control Camera Crop Region %s: out of memory: mCamProps %s: CreateStream: Error for Camera %s / format %d QVR_CAM_INVALID_PARAM %s: %s: %s camera stream %d was already started %s: %s: cannot stop %s camera stream %d because it is not running QVRSocket::openSocket Server %s my_fd = %d SendPacketWithFd QVRClientConnection %s: invalid response packet on connection id retrieval
+ QVRServiceCamDspCreateWrapper cdsp CamDspClientCreate %s: %s: Stream index error for camera %s / stream %d / buf_id %d %s: DeviceStateChangeHandler - clientId %d mBuffersState = %s, try unmapping buffers %s: Ending Thread DeviceStateChangeHandler %s: GetFrame failed: stream ID %d cannot be negative %s: Setting SetCropRegion %d %d %d %d %d %d %d %d %s: %s: Error: the default stream object is missing %s: Failed to read initial state of camera device QVRCAMERA_CAMERA_STATUS_MAX QVR_CAM_CALLBACK_NOT_SUPPORTED content is larger than payload capacity  %s (%d): reading packet completed: total bytes = %d %s: API version mismatch!: client api = %d, service api = %d QVRServiceCamDspGetVersion qvr_cam_dsp_driver_set_ring_buffer_layout %s: %s[%s] failed - Ring Buffer Mapping Error %s: %s: failed
+ %s: %s failed: DSPWrapper&#39;s CreateCamera failed qvrGetFrameError_%s %s: GetProperties request failed: %d tracking %s: Failed to read camera stream data from QVRService %s: %s failed - Buffer setup failed for camera stream %d client-version conn-id-num %s: connection id retrieval failed
+ %s: invalid response packet on QVRSOCKET_CMD_GET_CLK
+ %s: invalid response packet on QVRSOCKET_CMD_RELEASE_CLK
+ QVRCamDspWrapper is not yet initialized. Camera SSR detection is disabled. libqvr_cam_cdsp_driver_stub.so %s: %s failed: Cannot obtain the Dsp Wrapper QVRCAMERA_CLIENT_STATE_CHANGE %s: HWBuffers may not be supported on this device %s: DeviceStateChangeHandler mClientId %d - unmapping buf_number %d %s: Warning: HandleNotification failed for new frame: no attached stream client found for camera %s stream ID %d qvrcamdevice_ %s: GetProperties length check failed: incorrect space for sensor properties %s: StreamStateChangeHandler error - stateChangeEventQueue cannot be empty after conditional variable wait %s value=%u path is too long
+ %s (%d): pkt cmd = 0x%x, payload len = %d, pkt resp = %d %s: Can&#39;t start Network thread: socket is NULL %s: %s: invalid response packet: spkt-&gt;cmd = %d / rpkt-&gt;cmd = %d QVR_API_NOT_SUPPORTED Exiting FwdInvokeThreadDSP qvr_cam_dsp_driver_get_version tracker-android-offset-ns %s: %s[%s] failed - unknown DSP selection %s %s: ReleaseCam Error: invalid Camera Handle depth16 %s: DeviceStateChangeHandler mClientId %d - cannot unmap buf_number %d: in-use by client %s: DeviceStateChangeHandler - frame[%d]-&gt;ref_cnt[QVR_CORE_ARM][%d] from MAPPED to UNMAPPED %c%s%c%s %s: SetParamNum %s Error: Invalid size for pValue, must match size of parameter&#39;s type (size=%d, type size=%d) %s: SetGammaCorrectionValue Error: Client is not granted rights to control Camera Gamma Correction %s: Tracking-cam-to-get-frame synchronizer is unavailable QVR_BUFFERS_PARTIALLY_UNMAPPED QVRCAMERA_CAMERA_STARTING StreamStateChangeHandler %s: StreamStateChangeHandler: newState == currentState %s - stream %d is ignoring the notification %s value=%f failed to send QVRSOCKET_RSP_RECEIVE_FD response back to client
+ %s: invalid length for connection id %s: connection id set prefix failed
+ %s: invalid input: pCameraListLen or pNameLen is NULL
+ %s, Error getting qvr_cam_dsp_driver_forward_block function: %s qvr_cam_dsp_driver_get_hvx_frame QVRCameraClientImpl %s: HandleNotification received for camera handle %d %s: error getting shared memory layout from service %d %s: %s: exit qvrcamdevice_frame_width %s: DeviceStateChangeHandler ERROR in QVRCAMERA_CAMERA_STARTED mBuffersState = %s (expected QVR_BUFFERS_ALL_UNMAPPED) %s: GetFrame (%d) failed: %s %s: GetProperties length request failed: %d %s: connect to server socket %s failed: %s
+ %s: QVRSOCKET_CMD_SHARED_MEM_WRITTEN failed
+ QVRServiceCamDspInit %s - Releasing QVRServiceCamDspWrapper due to UNRECOVERABLE state qvr_cam_dsp_driver_create_camera %s, Error getting qvr_cam_dsp_driver_set_ring_buffer_layout function: %s %s, Error getting qvr_cam_dsp_driver_get_version function: %s QVRSERVICE_DSP_NONE %s: Can&#39;t use &#39;%s&#39; format since camera is not in RDI mode qvrcamdevice_frame_height qvrcamdevice_hvx_mode %s: %s: hvx mode is %d %s: BufferSetup: SetFrameBufferFds on the DSP companion failed qvrGetFrame_%s|blk=%d,drop=%d,fn=%d %s: GetFrame failed: QVR_CAM_DEVICE_ERROR %s: GetFrame: Waiting for frame notification to wake us up, fn: %d, stream: %d %s: CreateStream: failed to set &#39;%s&#39; param QVR_BUFFERS_MAPPED QVRCAMERA_CAMERA_READY QVR_CAM_FUTURE_FRAMENUMBER %s: %s: cannot stop %s camera stream %d because it was not started by us %s (%d): invalid response packet: %02x %02x
+ %s (%d): sending %d bytes %s (%d): didn&#39;t receive a file descriptor %s: not the message type we were expecting
+ SendPacketWithHwBuffer %s: %s: unknown command QVRClientSyncClk QVRServiceCamDspWrapperMgr Error: mWrapper cannot be alive if no outstanding client qvr_cam_dsp_driver_init qvr_cam_dsp_driver_remove_notified_dsp_client %s, Error getting qvr_cam_dsp_driver_notify_camera_frame function: %s raw16 %s: error mapping memory for shared memory %d %s: invalid ring buffer id: %d %s: %s failed: Cannot obtain the Dsp Wrapper Mgr %s: GetBufferFd Error for Camera %s / Stream %d / buf_id %d %s: GetFrame (%d) aborting after wake-up because of QVR_CAM_DEVICE_DETACHING %s: Unsupported sync source: %d %s: StreamStateChangeHandler exiting %s: Camera stream %d: Pretending new frame arrival to end consumer thread
+ %s: GetStreamStateFromService failed QVRSocket::Accept _fd = %d hdr is NULL
+ GetPacketWithHwBuffer %s: broken pipe! %s: GetParam Numerical failed
+ %s - GetWrapper(%p) new refcount=%d qvr_cam_dsp_driver_add_notified_dsp_client QVRSERVICE_DSP_MDSP %s: %s: enter %s: BufferSetup: SetFrameBufferFds on the DSP companion succeeded %s: CreateStream %s failed - Ring Buffer Mapping Error QVR_BUFFERS_ALL_UNMAPPED E|tid=%d %s (%d): error sending packet: %s
+ %s: timed out after %d ms! QVR_SUCCESS %s: invalid service reply: %d CreateWrapper error - invalid dsp selection %d %s, Error getting qvr_cam_dsp_driver_init function: %s qvr_cam_dsp_driver_forward_block %s, Error getting qvr_cam_dsp_driver_notify_camera_state function: %s %s: AttachCameraWithParams: failed to set &#39;%s&#39; param %s: %s: Error creating camera on DSP %s: %s: invalid packet received: expected %d bytes, got %d %s: GetCameraStateFromService = %s %s: ReleaseFrame ClientId %d frame %d, setting it back to QVRCAMERA_FRAME_BUFFER_STATE_MAPPED QVRCAMERA_CAMERA_INITIALISING %s: GetStreamState = %s QVRSocket::openSocket Client %s my_fd = %d %s: failed to receive message: %s
+ %s: SetParam &#39;pName&#39; argument error: string too long (&gt;QVR_PKT_PARAM_MAX_PAYLOAD_SIZE): %s not  %s - CreateWrapper persist.vendor.qvrd.dsp_tracing.level %s - DSP instantiation is being skipped for this DSP qvr_cam_dsp_driver_deinit qvr_cam_dsp_driver_notify_camera_frame %s: %s[%s]: failed to acquire eye-pose-written clk _camera_frame_rdi_mode disabled %s: %s: Error retrieving hvx mode %s: ReleaseFrame mClientId %d frame_nb=%d buf_number=%d - unmapping %s: SetCropRegion error: invalid parameters fw=%d fh=%d lt=%d ll=%d lw=%d lh=%d rt=%d rl=%d rw=%d rh=%d %s: Setting Gamma Correction Value: %f  %s: CreateStream %s failed - Init Ring Buffer Error QVR_CAM_API_NOT_SUPPORTED QVR_CAM_DEVICE_ERROR read failed: %s!
+ %s (%d): sendmsg return code %d = %s hdr-&gt;cmsg_len = %zu, %zu
+ %s: registration failed on socket %s
+ %s: invalid connection ID: %d %s: failed to register clock %d %s - Initialize DSP (ConfigTracing) failed
+ qvr_cam_dsp_driver_get_current_qtimer camclient %s: QVRCameraClientImpl construction failed: cannot get clientId InitSharedMem CamDeviceDspCmd %s: HandleNotification: Received new frame notification %s: out of memory: buf %s: Pretending new frame arrival to end stream %d consumer loop
+ %s: Warning: Failed to stop stream while destroying it Unsupported socket type %d
+ GetPacketWithCredentials %s: HandleServiceDisconnect Error: Client is not set Failed to create fwd invoke DSP thread %s, Error getting qvr_cam_dsp_driver_create_camera_client function: %s qvr_cam_dsp_driver_delete_camera_client  %s: %s[%s] - camIndex=%d / ring id=%d attach_option_ %s: GetBufferFd Error for Camera %s / Stream %d / buf_id %d: error mapping buffer for fd %d %s: GetHwBuffer Error for Camera %s / Stream %d / buf_id %d %s: %s: Error: Stream %d does not exist or is not registered for %s camera client %s value=%hu %s (%d): error receiving packet
+ %s (%d): wrote %d bytes
+ %s: SetParam %s failed
+ %s: registered clock %d QVRServiceCamDspWrapper QVRServiceCamDspQTime Null argument to FwdInvokeThreadDSP %s: Send one parameter packet. Camera name %s %s: out of memory raw10 %s: invalid payload size
+ %s: %s failed: Key must be non-null to create a Camera Client on the DSP QVRCAMERA_CLIENT_CONNECTED %s: DeviceStateChangeHandler: newState == currentState %s - ignoring the notification %s: DeviceStateChangeHandler: Received State QVRCAMERA_CAM_STATE_CHANGE %s =&gt; %s %s: GetFrame (%d) aborting after wake-up because of %s ReleaseFrame %s: ReleaseFrame Error: frame %d was not locked %s: %s: Error starting StreamStateChangeThread thread: %s %s: Failed to read initial state of camera stream doSendReceivePacket SendPacket %s: error: not initialized or null socket %s: SetParam QVR_INVALID_PARAM Error: Parameter Name cannot be null conn-id-nickname %s: invalid input: pCameraListLen or pNameLen is 0
+ persist.vendor.qvrd.debug.adsp_disable %s: Some error occurred in DSP, need to clean up! 
+ %s, Error getting qvr_cam_dsp_driver_create_camera function: %s %s: HandleNotification received for an invalid camera handle %d %s: %s[%s] failed - Server Response Error %s: %s[%s] failed - Invalid Camera Handle %d eye-tracking %s: %s[%s] failed - Init camera state error StartDspCommandThread %s: %s: error mapping shared memory fd %d %s: %s: Couldn&#39;t get instance of CamDspWrapperMgr %s: %s failed: Cannot obtain the DSP Wrapper %s: QVRCameraDeviceClient dtor: DSPWrapper&#39;s DeleteCamera failed QVRCAMERA_CLIENT_DISCONNECTED %s: DeviceStateChangeHandler error - stateChangeEventQueue cannot be empty after conditional variable wait %s: SetParam QVR_INVALID_PARAM Error: Parameter Name &#39;%s&#39; concatenated with Value &#39;%s&#39; exceed maximum of 252 characters %s: GetParamNum %s Error: Invalid input: name or len is NULL %s: SetGammaCorrectionValue: Can&#39;t set gamma correction on raw mode %s (%d): hdr is NULL QVR_INVALID_PARAM %s: param length is 0
+ %s - Error opening %s: %s
+ %s, Error getting qvr_cam_dsp_driver_get_client_command function: %s %s: %s: mClient-&gt;CamDspClientCreate(%d) failed %s: Error: cannot set FDs on DSP for non-default camera stream %d %s: Pretending new frame arrival mutex unlock to end consumer loop
+ qvrcamdevice_flash_mode %s: GetFrame failed: requested frame number &#39;fn&#39; cannot be negative %s: GetFrame failed: no attached stream client found for stream ID %d %s: SetGammaCorrectionValue: No frame index pointer GetStreamClientIndex QVR_CAM_EXPIRED_FRAMENUMBER Stop %s (%d): hdr-&gt;cmsg_len = %zu, %zu %s: cannot write to efd - invalid fd!
+ %s: failed to register with service
+ %s: invalid response packet on connection id set prefix
+ %s:%d (%s) %s, Error getting qvr_cam_dsp_driver_delete_camera function: %s Error parsing property &#39;%s&#39;: Not a number %s: %s: Error starting DeviceStateChangeThread thread: %s QVRCAMERA_CAM_NEW_FRAME qvrcamdevice_frame_format %s: SetExposureAndGain Error: Client is not granted rights to control Camera Exposure and Gain %s: Ring buffer index for the camera device&#39;s frames is NULL. Looks like the default ring buffer is not allocated yet. %s: GetFrame failed: requested frame number &#39;fn&#39; cannot be NULL %s: GetFrame failed: block mode %d not allowed with this client %s: Tracking-cam-to-get-frame synchronizer already active. %s (%d): error occurred
+ %s: QVRSOCKET_CMD_NOTIFICATION Error: Client is not set %s: ReceivePacket: error occurred %s: warning: value for &#39;%s&#39; is being truncated (%d &lt; %d) bfc6680 %s: could not create client clk, unknown id %d %s, Error getting qvr_cam_dsp_driver_set_frame_buffer_fd function: %s QVRSERVICE_DSP_ADSP                        create_stream_option_                           É°¯     €É°°­     É°¯ €    É°¯ €    ?¯ ‚É    É°¯ €    HxDðÜºêø  pGÿ÷ý¿ÔÔµOô`ð&quot;ìIFyDð$ì hj FˆG ¹ hAh FˆG $ F½µßÿÿ (¿ðÀºpGpµp±F hFFj0FˆG0±0F)F&quot;F½èp@ð´ºOðÿ0p½°µ`±F hFj(FˆG(±(F!F½è°@ð¨º  °½°µFOô`ðÞë)FFðì hj FˆG ¹ hAh FˆG $ F°½°µ`±F hFj(FˆG(±(F!F½è°@ð‡ºOðÿ0°½ðµ°ˆ±F hFFFj8FˆG@±8F1F*F#F°½èð@ðuºOðÿ0°ð½ðµ°˜±F hFFFj8FˆGP±8h1F*F#FÐøÀ8F°½èð@`GOðÿ0°ð½pµx±F hFFj0FˆG8±0h)F&quot;FCi0F½èp@GOðÿ0p½ðµ°ˆ±F hFFFj8FˆG@±8F1F*F#F°½èð@ð2ºOðÿ0°ð½ðµ°ˆ±F hFFFj8FˆG@±8F1F*F#F°½èð@ðº  °ð½HxD hpGâù  0±€µðˆë½è€@ðºpG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðºOðÿ0pG±ðº  pG±ðºOðÿ0pG±ðºOðÿ0pGHxD hpGæø  -éðCÉ°FyHF#xDÐø Ùø  vIwJyDHzD Fð ëtHÀïP ñ ñ¤xD #Aù
+OôAhñ¬ @ù
+Oô€p¤øœ   Äé! ¤øxñ!`Oðÿ1@ö˜ç,3ñì“BEù
+ñüEù
+ÇéC ÇøÇøìíÑ¯Oôq8FðnëÀïP ñÌ @ù
+ y ( ð”€ñŒ  %@ù
+P ÄéUø 0Fð`ëø  	Ð0F7ðXëF8F1Fÿ#ðZë©« F&quot;•ðZëP±BHxD h xÀjÐ@I@JyDzDà˜ ôA±õOÑ&lt;HxD h xÀYÐ:I;JyD –zDñ8 ð@ëNà„øy @F1FðBë”ø¤ ÀÑñ àÔø¬ P±xA± !&quot;‘©ð8ëšx±  Äé, àÄé, Fð4ëH»$HOðÿ1Äé7xDÄé9 ! hÄøˆÄø„ x Õ”ø¤ ñ8À¿ñ Ôø¬ IÔé,vJyDÍévzD  ðôê „øx H˜Ùø ¿ FI°½èðƒðë ¿Òø  ë¶ÿÿŸÚÿÿ®ø  ð÷  HÉÿÿÁÙÿÿÎ÷  &amp;Éÿÿ ¸ÿÿZ÷  ŒÈÿÿ]µÿÿ-éðGÄ°F-H¯FxDOôq˜F‘FÐø  Úø  C8Fð–êñ$0FðÚê j ! ‘)F:F #ðÚêF0FðÞê•±HxD h xÀ(ÐIñ8JHyDzDxD  ð’êàø	 HEÑù@FJFðÈê %àHxD h xÀÐIñ8J yDzDðxêOðÿ5C˜Úø ¿(FD°½èð‡ðŠê®ö  vö  ÈÇÿÿ„¾ÿÿvªÿÿ:ö  ŒÇÿÿZÜÿÿ-éðCƒ°F$HOð  &amp;xD %Ðø  h§Yø%ñìCm F˜G°¹×øì  (Ô×øð&quot;Íé   #ð€ê˜±Çø,65¶õ„àÑ  àHxD h xÀÐIJyDzD	àHxD h xÀ	ÐIJyDzDñ8  •ðêOðÿ0°½èðƒ ¿Øõ  ˆõ  àÆÿÿ&#39;Çÿÿrõ  ÊÆÿÿrÍÿÿ-éðAF.H %Oðÿ8xD &#39; h0 `ë‡ÖøÌ ±”øyð:êÖøÜ AÐ !ð:êÆøÜ€Öø¼ ð&lt;êÆøÌP7/äÑOòhu &amp;ÏöÿuOðÿ8g×ø¤	h±×øˆð0ê×ø„	ð4êÇø¤iÇø„‰Çøˆi,5ëÑÔø„	@±ð0êðîè  „øˆ	Äø„	ñ  ð,ê”ø¤ À¿Ôø¬ ðÜè F½èðAð×¿ ¿õ  µ)Ò ëTøÜA¿½ !ðèéOðÿ0 `½ðê€µðê½è€@ðB¿ðµ°FIF0FyDFFðêI (8F*FyD¿F1F#F°½èð@ð§¿ ¿«›ÿÿSÁÿÿ-éðCƒ°FHñ ‰FxDh0h8Fð~é8FÕéHðˆéD±Õø¸ jF !#Íé @F GÅø¸˜1h¿°½èðƒð\é ¿àó  -éðCƒ°Føx  (mÐHx(ÑÑø FÑø€ÑøÆ²æ±°ñ€o4Ó3HxD h xÀWÐ1I2JyDzDLà+IyD	h	xÉLÐ)I#)JyDÍé zD?à¸ñ ÑñŒ &#39;Vø&#39; (±! &quot;KF •ð¨é7/óÑ¹ñ /Ñ FAF°½èðCð/¿HëƒxDhWøŒ	h˜±	
+ÕI J “yDzDñ8ðÖè8h1FBFKF •ð€éàÈ	ÐIJyDzD “ñ8 ðÂè°½èðƒ ¿Xó  ®ÄÿÿÐŸÿÿnó  ÆÄÿÿ&quot;ªÿÿ ó  NÄÿÿ`Äÿÿ*ÄÿÿjÜÿÿpµ‚°Føx ¨±#%Oðÿ6Tø% (± ! &quot; # –ðFé5&#39;-óÑ F !°½èp@ðÐ¾°p½ &quot;ðÑ¾ÔÔ-éðOÏ°€FÖH¯FxD@òFh0hNxð&gt;éQ 
+©ø4   Íé
+  F ðúÝé
+ Jö«!Êöª!ñ
+€ÇO•€DHC(Ó³FiF¹Fø1Fð¿y)0ÑÞK! ‘ !{DOðÿ2ðé ( ð‡€
+š{i ð@à8h x 	ÕÛIñ8ÛJ yD ”zDð,è Fðèø5  FðèFPF!Fÿ#ðè %ƒàx +¿0FOF(ÑÃK  ñ {D !Oðÿ2ðÚè (^F ð
+š à^FFøChÏ¿K+
+Ñ¶K! ‘ !{DOðÿ2ðÂè˜³
+šFøChÏ¿K+
+Ñ­K! ‘ !{DOðÿ2ð®èø±
+šFøChÏ¿K+
+Ñ¤K! ‘ !{DOðÿ2ðšèH±
+š Iñ yD ð=ú ( ð£€%à%à%^FOF
+˜ñ4	xÉ¿D„h Fð”ï0ø5  FðŽïBPF!Fÿ#ðïø5 8ÿ(€ðHDÅp  ©	«	@F&quot;ðˆïh±8h xÀ ðÓ€‡IˆJˆHyDzDxDÍé à	™:h±ñ€oÁó*OêihÓÀ ð½€I€J€HyDzDxDèñ8 ðhï®àô€;ÍébÎ²@ÕxIñ8wJxHyDzDxDè –ðRïOô`ð.îF˜øy ñ8ª»ñ ¿OðÍø °‹F#ÂAF&quot;F˜KFÍé
+8Fðèë‰ Øø õ	bÀøŒp  ˆø @FKm1F˜G ³˜ž xÀcÐ[I\JyDzDVàÙø   xÀ^Ð
+˜ñ8Fø/Ò¿H@iCIDJDMyDzD}DÍé T—ç%HçMI F±FyDðšïžp±8FIF &quot;ðÔï³˜ xÀ1ÐJIKJyDzD$àØø„	à³˜ xÀéÐ?I@JyDzDAH[FxDÍé  ðÖîÜç ¿&amp;ò  ìñ  8Fð¶ï¨±˜ xÀÐ9I:JyDzD9H[FxDÍé  ð¼î8Fðêíððí &#39;
+¨ð¤ïN˜1h¿8FO°½èððÊî AF &quot;ðœï -¿% (ˆøˆYÈø„	¢Ñ˜ xÀžÐIJyDzD³çð ï+°ÿÿÑ±ÿÿ|´ÿÿ0ŽÿÿŽÿÿîµÿÿ¨Àÿÿ—¼ÿÿŒÿÿøÂÿÿ~×ÿÿ¤Áÿÿ$Úÿÿ{ÿÿxÁÿÿ&quot;ÚÿÿOÿÿJÁÿÿêÓÿÿ!ÿÿÒÀÿÿ`·ÿÿiÙÿÿVÀÿÿò¥ÿÿÀ¿ÿÿ|Íÿÿ)ŒÿÿnÀÿÿP¡ÿÿ&quot;ÀÿÿÙÿÿõ‹ÿÿ-éðO‹°FFaHñOð xDh(h
+@FÍé»Íø ° ð¹ú˜ñ
+øšðF¿O¿RF•W±ë &amp;“]:+Ð6·BùÑcFàOðÿ7à“ŸcE¿Oðÿ7ñ	7³zfÐHFAF &quot;;FÍø €ð
+ïÔéˆBÒÝí™`Àí `h0``Íé»Íø°
+à FIFðüîø À¿˜ð$ízHFAFOðÿ3Íø €ðäîø ÀÑ­ø°à˜€ø °ø Íø°ÀÐ˜ðíÍø°ÝíOðÿ7šÍí˜ø’ðF¿KRF +¦ÐÖ &#39;Õ]:-Ð7»BùÑ3F àÓŸ³B¿Oðÿ7•çÊ¿Hp±ÔéˆBÐ©ð®î`h0``à© Fð®îø À¿˜ðÈì
+˜)h¿°½èðð¦í°í  °µ‚°FFFðfí)xjhË¿JBÑ (F !Oðÿ2#Fð&gt;î°ú€ð@	 à  °°½ÔÔ-éðO°-í‹ž°ƒFÒH +xDh hF“ ñFF &amp; * ð€˜ ( ð|(Fðhî ( ð`:!F•”ðhî± !p¨€ïP€0¨ñ`
+0	ñ8 ¾HOð  &amp;xD¼HxD
+»HxD»HxD hºHxD¹HxD8h™ð¶í (AÐÅI %PFÍéUyD• ðŠùIFð8îÀIPFyDð2î9hPFð.îÛø  ø`0zhDiØ™XF¿
+ñ G°ñÿ?Ü˜ xÀ	Ð²I8h²JyD›zD  ðàìHFðî%ø` À¿˜ðì - ð¶€á}h
+™(Fðlíh±’I(FyDðfí8±I(FyDð`í (@ð‰€  IFÍé ø_ ¨ ð3ù™ðàíÛø  ñ_øP ™jÐOð 	˜¿FXF¨G°ñÿ?=Ýø_ (IÑ  IFÍé ¨ ðùyIyDð¾íø@ #Ûø  ™À“•iª˜SF
+ùÏŠ¿FXF¨G°ñÿ?cÝoI}hyD(Fðí (tÐPF)Fðí (nÐ˜ xÀeÐhIiJyDÍé ZzDZà˜ xÀÐøP ™À	˜¿F ‘ Ýé!
+à˜ xÀ	ÐTIxhTJyD  zD›ðBìHFðví%øP À¿˜ðnë -uÑ˜ x@Õ.¿.ÑxhàLHxDLIMJMKyDzD{DÍé 0› ðì˜ñ7€Eôü®?à˜ xÀÐø@ ›8I8JÀyD˜zD¿F “› ð ìHFð6í%à &amp;1HQFxDPø&amp; ð”ì±6.ôÑ &amp; %ø@ À«Ð˜ðë§çHxD h xÀÐIñ8J yDzDðÖë  	àHFð
+íœXF)F2FðŠì™&quot;hQ¿°½ì‹°½èððÞë  œðç ¿âë  øè  Jºÿÿ Ïÿÿÿÿÿ°ÑÿÿÑÊÿÿtë  Ò¼ÿÿ“ÿÿÌÂÿÿMÿÿ&amp;»ÿÿñ½ÿÿOžÿÿªºÿÿéÿÿ³ÿÿ¨æ  ^»ÿÿßŒÿÿðÈÿÿàºÿÿæ§ÿÿú§ÿÿzÏÿÿšÿÿd¼ÿÿuÇÿÿ-éðAF  Äé  ˆF `Fð^ëñÒF(Òp &#39;Fø^¹àñ  ð(FðBêFh„èÁ 8FAF2Fðšë  ¸U F½èð Fð’ìø&quot;€øœ ±±hIhGpGpµÄ°F2HFOôqxDh0hC¨ðë  -Ó+HxD h xÀFÐ)Iñ8)J yDzDð&amp;ë&lt;àOô©p©«­ø  F&quot;øPðëx± HxD h xÀ	ÐIñ8J yD •zDðëÔø„	0±ðzëð8ê  Äø„	ë…  !ÀøŒ# Tø a¹0&#39;(ùÑ”øœ !„ø± hAh FˆGC˜1h¿D°p½ð ë ¿¦ç  –ç  è¸ÿÿµÿÿ\ç  ®¸ÿÿzžÿÿ-éðA ñ F˜FF8FFðîê&lt;¹8FÆéXðøê  ½èððJëðµ° ñ FFF8FðØê8FÆé!Tðäê  °ð½-éðAÄ°FH®FxDOôqÐø €Øø  C0Fðvêñ$8Fðºê j ! ‘)F2F #ðºêF8Fð¾ê}±HxD h xÀÐIñ8J yDzDðvêàÝøPC˜Øø ¿(FD°½èððˆê ¿jæ  6æ  ˆ·ÿÿç…ÿÿðµ° ñ$FFF8Fð|ê°j ! ‘)F&quot;F #ð|êF8Fð€ê F°ð½ÔÔ-éðGÄ°F-H¯FxDOôq˜F‘FÐø  Úø  C8Fðêñ$0FðTê j !L›:F ‘)FðTêF0FðXê•±HxD h xÀ(ÐIñ8JHyDzDxD  ðêàø	 HEÑù@FJFðBê %àHxD h xÀÐIñ8J yDzDðòéOðÿ5C˜Úø ¿(FD°½èð‡ðê¢å  jå  ¼¶ÿÿx­ÿÿj™ÿÿ.å  €¶ÿÿNËÿÿ-éðCÅ°FHñFxDOôqFÐø Ùø  D@Fð éñ$8Fðäé j1FBF # •ðäéF8Fðèé±HxD h xÀÐIñ8JHyDzDxD  ðžéD˜Ùø ¿(FE°½èðƒð²éÀä  Œä  Þµÿÿš¬ÿÿŒ˜ÿÿ-éðC°FR±FF)Ð.2Ññì  À&quot;à&lt;HxD h xÀBÐ:I;JyDzD8àõŒq Oô ršB&#39;ÑŠi‚B3ÑÑé€Ñø  ë	oð Xø	  *ÔOiºB¸¿  ¼ñ &quot;Ð²ñÿ?&quot;Úoð à(HxD h xÀÐ&amp;I&#39;JyD –zD	à%HxD h xÀÐ#I$JyDzDñ8 ð0éOðÿ0°½èðƒHi)F8¿WûÀFð`é  .IøpìÑÔø„i .èÐ”øˆ	ˆ¹•ø0À¿Õø8BOðÿ4 ðø ð9øF0FF ”ðJê  Ñç ¿ä  vµÿÿñÿÿÂã  µÿÿî»ÿÿªã  µÿÿmƒÿÿ°µHxDh x¿ó[
+M}DÀÐ(h°½ Fð,ê (øÐ(h ðÙû Fð,êñç ¿ã  ã  -éðC°-í‹XìŸÐé!Ðé gFð êFF0F9FðêAì0HFDì1[AFî ‹ðêAì0hî Qì0ðê½ì‹°½èðƒÔÔµ‚°)Ð)Ñ ñìà õŒtah jð\é hOðÿ2!jBP  à
+JzDhxÒ
+ÐL ñ8J |D ‘zD!Fð|èOðÿ0°½ ¿Fâ  ˜³ÿÿlºÿÿ-éðO‹°FrH)xDÐø  Úø  
+€ðÙ€ëF&gt;FVøÌ± %hà(FðÆéÇø¼ p±!ðÈé0` ±!Fø¤/ÓÑ*.ÓR1à_HxD h xÀKÐ]I^JyDzD&gt;à^HxD h xÀ@Ð\I\JyDzD3àÔø¨ ’±Ôø¬”øy02ð¤é¨±YHxD h xÀ*ÐWIWJyDzDàPHxD h xÀÐNIOJyDzDà !0høñðŽéð±LHxD h xÀÐJIKJyDzD=Hñ8xD  ðòïOðÿ5
+˜Úø ¿(F°½èððèø  (ô…¯=Hñ &#39;OðxDÐø áBFñì Ñé?Ã`ù
+Bù‹
+Ñø`BF0hÙø ÍéÃ#ðRéX»,7	ñ	·õ„âÑ”øˆ	 (?ôZ¯ F)FðJé (?ôS¯F(HxD h xÀ¶ÐðFé hðJé#I$J$KyDzD{DÍé 0ñ8 ð–ï£çHxD h xÀ›ÐIJyDzDŽçðè ¿üá  ¶á  ³ÿÿºÿÿY¦ÿÿ á  ø²ÿÿ¾«ÿÿ^á  ¶²ÿÿžÇÿÿtá  Ì²ÿÿ–„ÿÿ6á  Ž²ÿÿ¾šÿÿèà  Và  ®±ÿÿÌ ÿÿˆà  Ô±ÿÿ7ÿÿ¥¥ÿÿøˆ	pGÔÔ°µ‚°F FðúèÈ±F,Àé E*ÒHë„ñÜ !xDh(Fððèà¹,ØI(hyDððè  àHxD h xÀÐ	Iñ8	J	HyDzDxD  ðïOðÿ0°°½ð¦ïŠß  Ü°ÿÿ1 ÿÿêÉÿÿºß  bŒÿÿµ
+FIFFyDð¢ï ±½Ôø„	 (úÐ½è@ðH½yÉÿÿµFÐé ðÀè Fð&amp;è  ½ÔÔ-éðOƒ°FAHFAIxDyDÐø Ñø €™ø  Øø ‘ Õ;Iñ8;J;HyDzDxD  ðÊî  -ø ø ]Øë…”øyññWøÌOð
+Íø  ðŒè ($Ôññ %ø (Ð(
+ÑàÔø„	0±øBhŠB¿ð|è8hZF”øy3FøPøPÍø  ðfè (ßÕ™ø   ÕI84J MyDzD#F}D •ð|î™ø   ÕI J#FyD •zDðpî˜Øø ¿°½èðð†îðôî ¿öÞ  ìÞ  8°ÿÿm¹ÿÿ ˜ÿÿœ¯ÿÿ~ÿÿ˜ÿÿ~¯ÿÿú¯ÿÿð¢¼pGð¥¼ð©¼ð­¼ð±¼øx pG-éðC‡°F&gt;HFJö«,xDÊöª,ÀïP Oð 	Ðø €Øø  Ôé 	‰ûòiFAùÍ
+Áø EòUQÁòUQVŽBWØ#FSø8Jöª&#39;Àöª&#39;€ ûð¶ë@˜¿F ¸BhF8¿1Fðè˜Õí ©h`Àí šÅé ™ÅøñÔé “BÐš #QíQø|Bø|BíAé3Aø&lt;9šˆB¢ñ’ìÑ›Ôé  àšŸ&quot;`¢hÄé7Íé  hFÍéðäï˜Øø ¿°½èðƒðâí Fðàï ¿˜Ý  pµF  FFÄéQ±EòVPÁòUP…BÒëE € ðŠìëFëE ë ë‚Äé  FÄép½ð*îµAhF ðø h±ðÈì F½°µF€hˆBÐF ñ©`ø,ÒÐPøð¶ì©h¡BFðÑ°½-éðC‡°F9H‰FJö«&amp;xDÊöª&amp;ÀïP  #Ðø €Øø  Ôé 	‰ûòiFAùÍ
+`EòUQÁòUQWBOØ#FSø_(€pCJöª&amp;Àöª&amp;·ë@˜¿G °BhF8¿9FðPï˜IFðLîšÔé ñ“BÐš #QíQø|Bø|BíAé3Aø&lt;9šˆB¢ñ’ìÑ›Ôé  àšŸ&quot;`¢hÄé7Íé  hFÍéð&amp;ï˜Øø ¿°½èðƒð$í Fð&quot;ï ¿Ü  -éðO°-í‹‚°Lö &quot;F !îÃöš2„è á`ðïZì¿‰FÔéÔé eðBîFˆF0F)Fð&lt;îAì0XFHì1{QFî ‹ð2îAì0hî Qì0ð2îšiëÄé F°½ì‹°½èðµF h(± F ðø hðêë F½pµFÐé P¨BÐFøÉ¿PøðÚëµB0FôÑe`p½-éðOƒ°F‘F˜ &quot; qHF&#39;F!`Äé&quot;šFGø/ðrìñ€ðæ€žF(Òh øu¹àñ °F ð0FðVëFpñFF¡Á8FIF*FðªìOð !ø€ÀïP Oðÿ0Äéˆ@&quot;ád@#™„ø õjÄø6€Äø2€ÄøÄéÄø|õ`™@ù
+öl „ø:1F@ù
+PFÝø@°ÄøX€ÄøŒˆðhîz% &#39;ë‡ !ñ Æøü‡Æøô‡õeÆøì‡ÆøD€ð^îö  !ðbîö  !ðTîñ&lt;  !&quot;ð^î /OðÛÐñ  ! %ðDîÀïP Oðÿ0 !ëA #ë‚×3À+ýfxfùÑë )Âø„XëAõ	cOðCù
+ÂøCù
+âÐ  OôÁaÄé	 õòpðªì&quot;IÀïP õ`yD@ù
+HFðvì0¹!h  &quot;ðÈìÄøØö  !ð
+îö  !ðüí  ðîEö®ÈòÛ!Dðîˆ »ñ ¿«FÄø€¸ðê&quot;h!F #Íé Zð
+î!Äø„ÄøŒ F°½èð8FðÞì ¿&#39;Ãÿÿ-éðCƒ°*€ð ë‚ ëBFñeÕøxxÐÕø¤( ÓIyD	h	xÉ ð•€}I&#39;}J}KyDzD{DÍé 0—LàrHxD h xÀ ðƒ€pIpJqHyDzDxD =àÕø”˜  Íé p  &quot;#IFð¢ë³Æøì#Õø˜DÆøôÕøœ(lIDÆøüñ6 yD  F&quot;ð¤êòìwð±eHxD h xÀKÐcIdJyDzD&gt;à[HxD h xÀDÐYIYJZHyDzDxDÍé õc ð&quot;ë6àZIñ4   FyD&quot;#ðxêP±UHxD h xÀ!ÐSITJyDzDàSIñ8   FyD &quot;#ðbêOIyDh1h°±ÈÐLIMJyDzDCHxD õc ðîê8hIFðRëOðÿ0°½èðƒÕCICJ”ø8 yDBKzD{DÍé 0õc ðÔê mX± Fð8í8±0xÀÜÐ:I:JyDzDÏçÔøö0Ð0x #Õ9Iõc8J yDzDð´êà0H !#FxDh@Fðdì€±0xÀ¸ÐðFì hðJì(I)J)KyDzD{DÍé 0¥ç)IØø  yDðTì  ¨çð ë ¿Ø  î‘ÿÿ`ÿÿ&quot;ºÿÿ:Ø  ’ÿÿÿ˜ÿÿDºÿÿ˜×  r‘ÿÿÂÿÿ¦¹ÿÿ3¬ÿÿ®×  Š‘ÿÿz„ÿÿ&lt;¹ÿÿ[©ÿÿZ×  6‘ÿÿ»ŽÿÿÇ«ÿÿ0×  
+‘ÿÿ•¶ÿÿØÿÿ‹«ÿÿ
+¹ÿÿ¬ÿÿp³ÿÿ¤Ö  XÿÿÁÆÿÿŒ¸ÿÿŠÿÿ”€ÿÿ÷{ÿÿ-éðA„°F€FÙ±
+ŸÏ±FFFð¨ì¨BÑ&amp;I FyDð¨ìØø Ph³ñ !Fðàþ(h IÐø ÀyD&amp;àHxD h xÀÐIJyD ”zDàIyD	h	xÉÐIJÍé EyDzDõc ðêOðÿ0°½èð(h!FÐø À(F2F;F°½èðA`GrÕ  Nÿÿ¹ÁÿÿZÕ  2ÿÿœuÿÿö ÿÿ¨ï  -éðO°FpHqIxDyDÐø €Ñø °˜ø  Ûø ‘lM€}D	ÕkIõcjJ yD •zDðÆéõ	`©Fõ
+e`ù
+&amp;¯ h!m,ÍGù†
+=`Íé#ð2ìX±˜ø  ÀdÐ\I\J myDzDÍé Wà mðë`ex³¥m5¹!ðëF ( e?Ð FøBm’Ê¿OêQ
+FÔé¦ðì!y”ø: £ŽçŽè‹ 
+ñ(F™’2Fð
+ìˆ±˜ø  À,ÐFIFJyDzD à˜ø  À#Ð=I&gt;JyDzDàÔéª#ðòê˜³˜ø  ÀÐ;I&lt;JyDzDà˜ø  À
+Ð3I3JyDzDÍø õc ðHéOðÿ5˜ø  €
+Õ4Iõc4J yDÍø zDð8é˜Ûø ¿(F°½èððLéÔøØ@³$Iö| #FyD
+h !ðØê¨±F˜ø  ÀÓÐð¸ê hð¾êIõcJyDÍé zD ð
+éÂçIÔø|yDðÄê „øÜ %·çìÔ  âÔ  üˆÿÿ®Žÿÿ‹|ÿÿnŽÿÿúÁÿÿîÿÿº¾ÿÿ¼ÿÿº¾ÿÿ ŽÿÿHœÿÿÎÿÿh”ÿÿ’Ó  &lt;ÿÿ‚ÿÿlµÿÿ”ÿÿÁ}ÿÿ€µðjë  €½€µðlë  €½-éðO‹° öƒF Fðêè ‹ø9 ö ðbë F”ðîè %ë… Ðø„±XFð\ë -OðóÐñ	 ñ  &amp;Oðÿ
+õ`	ë†ñ ð¾èëFÐø¤XŽI -yD
+‘MÐòüx ö¤	 &#39;8F)Fð&lt;ëØø  ëRø3 09Ð›ø A² ) ñÿ€ëÃ*’ø€ *Ñ
+šhxÒÐ™›	xÉ¿Ûø0wI,hwJyDÍé 0 	›zD”ðVè›ù ) ñÛ€Uúð9F2F€ø€ XFðëXF9F2FðëÙø P7¯B¶Ó˜ðtè6.›Ñ %Oðÿ8 &#39;ë‡Ñøì€±ëGòìtÖø”ðèÖøð”èÆøˆÆø”X%` /OðåÐÛø  0±›øðäê  Ëø  ÛøX ³
+™h)x		ÕLI LJ	›yDzDð èÛøX ›ø Ûø\ðÐêP±(xÀÐDI DJ	›yDzD
+ðìïÛø|AÐ !ð&gt;èOðÿ0Ëø|ÛøT ð&gt;è  ËøX  % &amp;ëÆ×øÐ@±õdðHè
+ðï‡øÔX%` .OðíÐÛøAÐ !ðèOðÿ0Ëøñ ð8è %ë…ö ðêö ð,èñ ð(èñ&lt; ðŒê -OðéÐ˜ð~ê˜ðèÛøx ±ðÎè  ËøxÛø„@±ð~ê
+ðÄî  ËøŒËø„õ`ðzê›ø À¿Ûø 
+ð²îXF°½èððèNÒ  Ø‹ÿÿ5Žÿÿ&quot;‹ÿÿ`{ÿÿúŠÿÿ%¼ÿÿ-éðOÉ°FJHFxDh0hH  ë€×ø„©BÐ (Oð õÐOðÿ0wàñOô€qñ ðè h@ò[R!}­høAF­ø •ð:ê7IyDˆ±…±h xÀÐˆF3I4JõcyD zD •
+ð&amp;ïAFà -JÐö„ •–ñ&lt;õ`ö(HöÑø  ñ	xD€F%HxDƒFšø  @Õ›AF˜ZF  
+ðþî8F
+ð$ï0Fð ê8F
+ð.ï  IF(Fð ê8¹˜ (ÜOôzpð êÛç(h±ðÒé
+ðî  ž(`ÔøŒ8ÄøŒ  H™2hQ¿I°½èð
+ðîî ¿èÏ   Ï  r‰ÿÿÜŽÿÿ8‰ÿÿ×±ÿÿ°µ)ÒF ëAFÐø¤Fðléë„ ëÐøü ëÁ °½
+ð:ï°µ)˜¿*Ó
+ð2ïëBëA ë‚ ë,FTølX±©n
+ðüîhn
+ð ï  Oðÿ1Åé `°½ðµ°*$ØOôAsû×øä4Û±)ØòäDOôAwzCëA &amp; &#39;ëD õòu/Ð(h±ðˆé.`#h75ŸBóÓ°ð½
+ðîîpµFð‚éÔéVµBÐUø
+ðŠí®BùÑ F½èp@
+ð¿¼ÔÔJ(IKzDyD¿F{D (¿FFpGŽÿÿS´ÿÿ¹ÿÿ(ØIyDQø  pGHxDpGVË  _Žÿÿ-éðOË°F]HŠFOôqxD˜FFÐø Ùø  JOðÿ0  ¨
+ððí,˜¿ºñÓ
+ðšîëD 
+ëJë€ ë.FVøl± %]àë„  ñXF
+ðî@öS!8h­ø «×ø€ø$©:} ‘©ø# &quot;Íø)€Íø% ðé°±:HxD h xÀ3Ð8Fø öÉ¿08i4I4JyDèzD  à¸ŽüŽ™û ò‘B+Ò.JzDhxÒÐ:Føoöö¿V&gt;i(O(JDè@zDÍé ”9F
+ð¢íOðÿ5XF
+ðÖíJ˜Ùø ¿(FK°½èð
+ð²í˜ &quot;Íé   &quot;#
+ðÒí0±Ýé!0`Åé %àçHxD h xÀØÐ8Fø öÉ¿08iIŸJyDèzD—¡ç ¿hÍ  æÌ  °†ÿÿN¥ÿÿªÌ  t†ÿÿÀ€ÿÿ0Ì  ø…ÿÿE°ÿÿ-éðA­õ}F3HF¯ˆFxDOô€qh(h‡¸
+ðî®Oôq0F
+ðí hOôsÔø€&quot;}ø!2Fø9F­ø1ðnè¸±&quot;HxD h xÀ1Ð Fø öÉ¿0 iIJLyDzD|DÍé @àø D(Ññ@FD&quot;
+ðLí  àIyD	h	xÉÐID&#39;JKyDzD{DÍé 7õc 
+ðôìOðÿ0‡™*hQ¿õ}½èð
+ðíÀË  †Ë  N…ÿÿexÿÿÊhÿÿ@Ë  …ÿÿ¨ÿÿ”hÿÿ-éðOË°FbHFFxDFh(hJ0F“ðè°ñÿ?^Ý(•FyÒë… 0
+ðàì8h (qÐOôApëDhCOð 
+ ë0D õòy	¨… ñ	(FOô€q
+ðhíëÊAòY ­ø$ ÛøÛø Èø Öø€(Èø  !0h›‘	©ø( ªÍø503}Íø)@ø&#39;0
+ðÎï (OÑºñ˜¿,2Ø˜
+ñ
+Éø  Ûø Éø Ûø Éø 	ñ	8h‚EÀÓ&quot;à,HxD h xÀÐ0Fø öÉ¿00i&amp;I&amp;J&#39;NyDzD~DÍé `˜Íé 
+ðHìOðÿ0à
+ðÒì  šOôAqûaÁøä˜
+ðpì  J™*hQ¿K°½èð
+ðLìHxD h xÀÐ0Fø öÉ¿00iIJ yD˜zDÍé 
+ðì˜
+ðFìÅç ¿ÆÊ  öÉ  ¾ƒÿÿ ÿÿ©qÿÿ„É  Lƒÿÿ÷­ÿÿ€µ‚°y± &quot; ë‚Óø„8±›h‹B
+Ð *OðóÐOðÿ2àÐø„± &quot;F°€½	IyD	h	xÉïÐIJKyDzD{D “ õc 
+ðÐëâç ¿òÈ  Ì‚ÿÿVÿÿá·ÿÿ-éðO«°’FŒHÀïP ñh	FxD¬IF h h*	ñ  @ùÏ
+	ñ @ùÏ
+0 AùÀ
+ FAùÏ
+D!
+ð„ë0F!F
+ðøî- òñ€ëEõb’+FÑø¤(Oð  *uJ–zDÍé%XÐ°ñÿ?ëC ö¤
+Oð ë€Oð  ñdOðÿ5È¿&#39;˜¸ñ@ ðÉ€ ðÆ€F›!FIøP
+ðÌîF07Ð¸ñ@ ð¸€ëH [ø  Iø ø
+Ð˜ª›!F
+ð¾î°ñÿ?Ý&#39; à &#39;›Úø  4ñ„BÎÓà›¸ñ @ð‚€˜ h x€ÕPI PJ›yDzD
+ð6ë› &#39;âç &amp;àž ›à F&gt;³5F ž™šëƒ	hPd	x	Õ&lt;I(&lt;JOð &lt;OyD&lt;LzDD|D¿&lt;FÍé 4›
+ðë*˜1h¿(F+°½èð
+ð&quot;ë˜h x Õ2I2J›yD˜zD Íø €
+ðòê›™ˆmˆ±›± hžÁ-Ð)I*J›yD˜zD  
+ðÞê› h à  %¯çŠŽËŽÉmÍø €ZC«
+ð@îF h}±žÀ™ÐI J›yDzD
+ðÂêç Oðÿ5“çž› ÕI J›yDzD
+ð°ê›  %„çþÞ
+ð:ë ¿žÈ  NÈ  Jÿÿcvÿÿÿÿ)kÿÿŒÿÿ’ÿÿÿÿœdÿÿä€ÿÿ´ÿÿ‚€ÿÿA¡ÿÿ¤€ÿÿp›ÿÿ-éðO‘° öF8F
+ð¨ê”ø9  (ÌHxD@ðÿ‚õ`˜ñö
+õkÐø ÅHxD
+ÄHxDÄHxDÃHxDÃHxDÂHxDÍé‡ÍéºÔøth¹PF9F
+ðÆí”ø9  (@ðÑ‚Ôøt ( ðã‚ÔøpÔødŠ
+oóŸ!Pø&quot; Pø!PXF
+ð¶í8F
+ðlêÙø  æl ð µBÑ ( ð©‚-Ø
+˜ßèð. #&amp;), ˜&#39;à ( ðl€.Ø¢HxDßèð8&#39;*-03 ŸHxD0àÿ-¿˜˜àÿ.&#39;Ñ›HxD&amp;àšHxD
+àšHxDà™HxDà™HxDà˜HxD  Ýé!›
+ððémâ”HxDà”HxD
+à“HxDà“HxDà’HxDà’HxD-
+Ø‘K{Dßèð ŽK{Dàÿ-ÑŒK{DàŒK{Dà‹K{D
+à‹K{DàŠK{DàŠK{Dà‰K{D‰IŠJÍé yD›zD 
+ð°éæl-ÍéVÑ`l°³Ùø &quot;âdÊXÐ8(HØ~IyDQø  Eàh(#Ø %ë…ñ 
+ðºéö 
+ð¶é -OðñÐal˜àdAð (@ðP™ø   dÕ y9)TØlJzDRø!0Qàåd›á F ! &quot;
+ðöì`l(Ñ àd)à”ø9  (@ð‚™ø  !ád Õ^I_JyDzDà^HxD^I^J yD›zD 
+ðLéÙø ÕYIZJyDzD› 
+ð@é F
+ð¶è™ø   @ñb`l(ØRIyDQø  àPHxDPIQJ yD›zD 
+ð&amp;éMáMK{DMINJÍé yD›zD 
+ðé % &#39;ëEÐø¤ ) ðÐ€ ö¤
+ë…  òü{Oð @F
+ð¼ë#yX² ( ñ¸Ûø  ëëÁñ‘ø€ Ùø *oÑˆ
+ÕÚI0hÚJyDÍé 0zD› 
+ðæè&#39;œà ¿&amp;Æ  VwÿÿÚŒÿÿË†ÿÿÜÿÿ ¬ÿÿw£ÿÿ²vÿÿá¢ÿÿŒÿÿ›ÿÿÑ”ÿÿxÿÿVzÿÿãeÿÿÜšÿÿ¥”ÿÿÜwÿÿ*zÿÿ·eÿÿ¿…ÿÿ6vÿÿe¢ÿÿ¦‹ÿÿ–šÿÿ_”ÿÿ–wÿÿäyÿÿqeÿÿy…ÿÿ†~ÿÿ¢«ÿÿÂ  ÄÁ  Î}ÿÿ‚xÿÿ¯„ÿÿ¾}ÿÿÜ•ÿÿ¦}ÿÿÈ„ÿÿHÁ  a„ÿÿp}ÿÿ‚}ÿÿI„ÿÿV}ÿÿ÷ˆÿÿ	Õ¤I0h¤JyDÍé 0zD› 
+ðvè”ù  ( ñ)Vú€ñ‘ø€)Ñ™ø 	Õ™IÀ²3h™JyDÍé 0 ›zD
+ðZè”ù  ( ñVú€ðÿ!€ø€ FAF*F
+ðë FAF*F
+ðëÚø ñˆEÿô8¯ -Oð?ô$¯ð¿!adÝé‡Ýéº™ø   CÕ y)Ø}JzDRø!0àtK{Dš*
+ØzM}Dßèð wM}Dàÿ*ÑsM}DàtM}DàtM}D
+àsM}DàsM}DàrM}DàrM}DrIrJè) yDzD› 	ðöï™ø   ÕmI mJ›yDzD	ðêï %ë…ñ 
+ðèö 
+ðæêö 
+ðè -OðíÐ™ø  ž 8Õš y*
+Ø^K{Dßèð [K{Dàÿ*ÑVK{DàXK{DàWK{D
+àWK{DàVK{DàVK{DàUK{Dal)ØUJzDRø!PàQM}DRISJè) yDzD› 	ð˜ïál F2F
+ð$ëÔø„±ál2F
+ð$ë@F	ð²ï@FÔée	ð¼ï±ál(F°G8F	ð¦ï”ø9  (?ô#­8F	ð®ï˜ h x Ô°½èð:Iõc9J yDzD°½èðO	ðÛ½™ø  ÀäÐI J›yDzD	ðVïÛç™ø   ÚÕI J›yDzD	ðHïÑç	ðÖï ¿ÌyÿÿV«ÿÿ²yÿÿ¾_ÿÿK‚ÿÿô|ÿÿ¼ÿÿ|ÿÿÏŒÿÿÞ{ÿÿûÿÿ2¿  0ˆÿÿÀrÿÿïžÿÿ —ÿÿéÿÿ tÿÿnvÿÿûaÿÿ‚ÿÿ{ÿÿÂÿÿôzÿÿñ®ÿÿŠ‡ÿÿrÿÿIžÿÿz–ÿÿCÿÿzsÿÿÈuÿÿUaÿÿ]ÿÿIÿÿ0¾  Vzÿÿoÿÿêyÿÿâ…ÿÿµF@hÔé:1±õ oÄé8¿½ h	ðî`h!i0``¡õ€` a½F(
+ØHxDßèð HxDpGÿ)Ñ
+HxDpGHxDpGHxDpGHxDpG
+HxDpG
+HxDpG	HxDpG ¿¢…ÿÿ2pÿÿaœÿÿ’”ÿÿ[Žÿÿ’qÿÿàsÿÿm_ÿÿuÿÿpµÂ°FH!FxDh0hAQø
+xÒ¿1!i
+ð2êmF¨Oô€q	ðTï hOô«r!}ø)F­ø  
+ð‚éA™2hQ¿B°p½	ðšî ¿f¾  -éðCƒ°FHñFxD‰Fh h8F	ðŽî8FÖé	V	ðšî5±jF0F !#Íé ˜¨G˜!h¿°½èðƒ	ðpî¾  -éðCƒ°F)HxDh8h”ø9 @±˜9h¿°½èðƒ	ðZîññ %Oð	øPBFÔé3FøPÍø 
+ðÎé (Ô”ø9 ¸¹ø (Ð(ÑàÔøØH±øBhŠBÑ	ððï”ø9  à   (×ÐÆç
+HxD h x ÀÕIõcJHyDzDxD  	ðøí³çº½  @½  wÿÿ]ÿÿúvÿÿ-éðC…°FbHFbIxD™FyDFhh(x1h‘ Õõc/Ø\HxDPø&#39; àYHxDZIZJyD zD 	ðÈíÔø€(¿(Ñ/9Ð/Ð~à/0Ñ(x ÕPIõcOJ yDzD	ð®í FIF
+ðòè (=Ô(€ð€ë€×ø„¨³xl(\Ñö F	ðÀíö 
+ðœè˜1h¿ F°½èðC	ð
+¼Rà(ÅÐ/GÑ¹ñ -Ð FIF
+ðÆè (Ô(UØë€ Ðø„P±™2hQ¿AF°½èðC	ðñ»3à(x )Õ Fø öÉ¿0 i%I&amp;JyDÍé 	zD 	ðVíàö(F	ðxíõ`©Íø€
+ð éö 	ðìï(F	ðzíà(x Ô˜1h¿°½èðƒ	ðTí˜1hùÑIõcJ yDzD°½èðC	ðž»	ð²íú¼  î¼  £}ÿÿšº  ´vÿÿ]tÿÿ~vÿÿÒžÿÿÒuÿÿÑ†ÿÿpuÿÿó|ÿÿpµFF@h¡hÔé#Oðÿ1¿ë%™BÑ F
+ð¸èÔé`hDŠ
+oóŸ!Pø&quot; 2h@ø! `i0`ap½ðµ° ñFFF8F	ðí8FÆéT	ðí  °ð½ÔÔ€µ‚°JÃlzD`hx	-ÕÁl õc)
+ØHxDßèð HxDàÿ)ÑHxDàHxDàHxD
+àHxDàHxDàHxDàHxDIJyD zD 	ðœì  °€½ ¿Ðº  zÿÿ
+lÿÿ9˜ÿÿjÿÿ3Šÿÿjmÿÿ¸oÿÿE[ÿÿM{ÿÿ^tÿÿëiÿÿðµÅ°F4H¬FxDOô€qh8hD 	ð:í(}Oôªqø «(h&quot;­ø !‘!F	ðZìFh±&amp;HxD h xÀ&lt;Ð$Iõc$J yDzD2à&quot;H™xD1` h x ,Õõc)
+ØHxDßèð HxDàÿ)ÑHxDàHxDàHxD
+àHxDàHxDàHxDàHxDIJyD zD 	ðìD˜9h¿ FE°ð½	ð4ìº  î¹  Äsÿÿ‚_ÿÿÐ¹  |€ÿÿkÿÿ;—ÿÿlÿÿ5‰ÿÿllÿÿºnÿÿGZÿÿOzÿÿ`sÿÿ‚–ÿÿ-éðAFÐø€FˆF8(ØIyDQø PàM}D(F	ðÈëGì±Øø  ¸BÒIyD	h	x‰
+ÕIõcJ yDzD	ðÌëØø  ¸B8¿F F)F:F	ðŠïàÈø p  ½èð ¿ËyÿÿÒ¶  â¸  ¸rÿÿ_hÿÿ-éðAF³Fò±FF±0h ³+I8FyD	ð@ì0³)I8FyD	ðîÕø €ˆ³ñ 9F ðJøØø  &quot;IÐøÀyD*àHxD h xÀÐIJyDzDõc 	ð|ëOðÿ0½èð(F1F&quot;F	ðDï  ½èðHxD h xÀíÐIJyDzDãçØø  9FÐøÀ@F2F#F½èðA`GD¸   rÿÿ7uÿÿ¸  êqÿÿã_ÿÿ©ÿÿÊƒÿÿzÒ  pµMF  F}D±hþ&quot;ÿ#(p0xÀ¿q(F	ðhí0xÿ#vh
+IÂ¿FyDÆñþ(F	ðïÆñöñ(Fÿ#½èp@	ð¬¹æÑ  ,`ÿÿ-éðG­õ}‚F[HxDh h…³Fò±FZI0FyD	ðªëˆ³[I0FyD	ð|íÚø p (FÐ
+ñ 1Fÿ÷²ÿ8hCi…˜!hIÑRI8FyD?àHHxD h xÀÐFI
+õcFJ yDzD	ðâêOðÿ0…™&quot;hQ¿õ}½èð‡+à0F	ð¼êF(F	ð¸ê8Dý(#Ó:HxD h xÀ
+Ð8I
+õc8J yDÍé ezD	ð¼êoð Øç8hCi…˜!hÑ8F1F*Fõ}½èðGG	ðÈêõˆxOô€qñ 	ðhë
+ñ 1Fÿ÷Sÿñ	ÿ!HF	ðvê$Oÿ!D8F	ðpîF(F	ðtê Kÿ!Íé gÿ&quot;{DÍéHF ð8øW ÿ!øHF	ðZîšø0øHFøÿ!	ðNîFñ IFþ#	ðXêÚø  AF	ðbíç ¿T·  ·  äpÿÿ&amp;qÿÿu¥ÿÿÆ¶  œpÿÿ¢ÿÿœ‚ÿÿDÑ  †Ð  ©„ÿÿµ„°ŒFIyDh!h‘©‘Íé 1F &quot;cF	ð î˜!h¿°½	ðPê ¿°µ  -éðA„°F€FÙ±
+ŸÏ±FFF	ðì¨BÑ&amp;I FyD	ðìØø Ph³ñ !Fÿ÷Èþ(h IÐøÀyD&amp;àHxD h xÀÐIJyD ”zDàIyD	h	xÉÐIJÍé EyDzDõc 	ðìéOðÿ0°½èð(h!FÐøÀ(F2F;F°½èðA`GBµ  oÿÿálÿÿ*µ  oÿÿŒƒÿÿÆ€ÿÿxÏ  pµÂ°FHmFOô€qxDh0hA¨	ð†ê h@òU!}ø)F­ø  	ð´ìA™2hQ¿B°p½	ðÌé ¿²´  -éðO…°Fø: ˆ±]HxD h xÀÐ[I[JyDzDõc 	ð’éOðÿ0£àÔøôg .dÐÖø€ šFÖø„F0	ð:ì) ò—€F™ëÅÀø¡Àø qÔøô ëÅÀøÔøôÀø€P	ð\í€F	ðXíÔøôHêà|&quot;hëÅÒé,cõŒxVê&gt;ÐMò!IöybÀö±!Ïò·&quot;ACBC‰²¡ûçû
+{KöS&#39;ÁòDg¦û¡ûEöýwÃöS¦ûiû“ƒêY@OöÿsšC›ê¢û#K@†ê ê
+êêà&quot;HxD h xÀÐ I!JyDzDƒç &#39; #IÈø pÈø0yDÔøô&#39;	hëÅÂøÁÂøx ÕÔøô ñ€ëÅÑø€0Ñø„pÑøˆ`IÐø€ JyDÍé 7õczDÍé` 	ðìè  °½èð	ðvép´  Lnÿÿ!¥ÿÿz³  VmÿÿŠ¤ÿÿX³  mÿÿnmÿÿ &quot;ðc¿ÔÔ-éðA†°FTHˆFFxDFh(h F	ð
+ì°ñÿ?
+ÝF  /Ð /@ð‘€àlàIHxD h xÀ|Ð Fø öÉ¿0 iBICJCLyDzD|DÍé @–fàÔøˆà±©	ð”ì˜Á)Ùoð ^à(Ñë‡ @l(õÑÔø€(¿(Ñë‡ Ðøô0à0HxD h xÀCÐ Fø öÉ¿0 i*I*J+LyDzD|DÍé F-àë‡ ÐøôëG hÑø¤ˆBÒ	ðëë‡ ëÐøü ëÁ @hÈø  0Oð  ¿oð
+ àHxD h xÀÐIõcØø  JyD zD 	ð0èOðÿ0™*hQ¿°½èð	ðFè	ð´è ¿º²  ”²  \lÿÿôUÿÿngÿÿ&quot;²  êkÿÿÓ–ÿÿüfÿÿ²±  †kÿÿ·^ÿÿ-éðA‚°F&quot;HFšxDˆFiFFh(hOðÿ0 0F	ðîë@±™*hQ¿°½èð	ðè  / pÐŸ¹ ˜Øø ˆBÛÈø  à ˜Øø ˆBÚ  p  àç   pÝç
+HxD h xÀÐIõcJ yDzDðÄïOðÿ0Ëç ¿.±  Ô°  ªjÿÿ¹Xÿÿ€µ‚°ÝøÀOð Íé Î	ð¶ë°€½-éðO°-í‹’°FäHxDh0hOð  øC !³‰F	h±ñÿ?+ÝÔøÐ*FF¿ (/Ðµñÿ?8Ý¨ñ (³úƒó¿ ÔøØ([	@Ê³”øÜ@ê °ú€ð@	2àÍHxD h xÀ ð¬€ËIËJyDzD¡àÊHxD h xÀ ð €ÈIÈJyDzD•àÇHxD h xÀ ð”€ÅI ÅJyDzD‡àÄHxD h xÀ ð‡€ÁIÂJyD •zD{à  “[³ü÷RþQì/Íé
+!h	‘Ah‘Ðé!F	ð’è‚F‹FÝé	ðŒèAì0Ýé
+Kì1«î ‹	ð‚èAì0hî Qì0	ð‚èŠFÙø ƒFàOð Oð 
+&quot;h;F¥H ‘ñ8xDBF ðpü F)F	ðJê°ñÿ?*ÝF( ò:„Íé	«ë
+
+ñ&lt;‹F(F	ðë”ø9 Ð³(F	ðë•HxD h xÀÐ“Iõc’J yDzDðÜî hoð	 ñ8oð	 âŒHxD h xÀ
+ÐŠI‹JyD˜zD õc ðÄîoð
+˜1h¿8F°½ì‹°¿½èððÔîàl”(Ñ(F	ðÄê{HœxD h xÀÐyIõcxJ yDzDðœî ð¬ü hoð
+ ñ8oð
+ =â¨ñ (&amp;Ò˜ñC IF˜:F	ð¦ê (^ÐF(F	ð˜êhHœxD h xÀÐ8F ð­üdIõccJyD zD ðlî ð{ü hâ¸ñ @ðF
+ö Fð†î˜ñC IF˜:F	ðvêH±F0QÑ˜Àl(MÑ øC ˜ø9  ( ð°€ Fðzî(F	ðVêJHœxD h xÀÐHIõcGJ yDzDð.î ð&gt;ü hoð ñ8oð ÏáøC  ( ð(F	ð4ê&lt;HœxD h xÀÐ:Iõc9J:HyDzDxD  ð
+î ðü hoð ñ8oð ªá Fð4î(F	ðê/HxD h xÀÐ8F ð&#39;üFèlþ÷ÿ)Iõc(JyDÍé @zD ðàí ððû(h„áp°  °  ôiÿÿŸ¡ÿÿ°  Üiÿÿ5žÿÿê¯  Âiÿÿ­¡ÿÿÐ¯  ªiÿÿËuÿÿ;„ÿÿ¯  ÚhÿÿWÿÿÖ®  ²hÿÿMÿÿ„®  Zhÿÿ‰ƒÿÿ*®  ügÿÿÝSÿÿ¨­  ~gÿÿM]ÿÿd­  :gÿÿSÿÿ5ƒÿÿ­  èfÿÿßRÿÿøC€–¸ñ lÐ
+ö ˜ õ`êHxD h˜ x ÕçIÙø  æJyD› zD˜ ðrí˜!F	ðæèž–ø9  (@ðôðlÁ)€ð‚ Fð˜íšOðÿ0©0F	ðPé8±F0¿˜Àl(@ð™žÙø €FE€ò‚ Fðní˜ø9 )@ð ‚ÂlÑ)€ð‚š©	ð0é8±F0¿˜Àl(@ð’˜OðÙø ˆB£ÛOð  ¸¿ øC  FðVíž»ñ–€ðW‚˜Ùø p ëKÐø¤8FðÆïÚøügëëÈFPø¹B¿ )VÐ©IÝø, yDh!xÉÐ¦I hyD¥JÍé p “zD
+õcðêìšOðÿ0©PF	ðÚèž¸±F(F	ðôè xÀ}Ð8FÙø @ ðû–I
+õc–JyDÍé @zD ðÊìlà(FÝø8€Ùø p	ðÚè hGE ð NÑp±ŒIŒJÙø  yD‹KzD{DÍé 
+õc ð¬ìoðMà›
+ñ
+`iQiÃéÒø€’Òø„aPFðÀìVø8 (€ðÒëKÝø,€ ë@ ëë€PFWølOð¼ìž„³œš8hGF`aØø€i)fÐÝé	‰)eÑ ë€ Á ë‘p€^àp±àIáJÙø  yDàKzD{DÍé 
+õc ð^ìoð ðkúÚø   ñ88F ðúåÖHxDh8xÀ+ÐAFÙø Àø/öÒ¿ñØøà˜ÍI hyDÌJÍé ÎzDÍé° ð2ì8xÀÐÇIÈJÙø  yDÇKzD{DÍé õc ð ì(F	ð4è ð,úØø  Oðÿ7 ñ8Oðÿ0¼çÝé	‰@  ahàaÐh b  ×ø€)¿)j`b×ø€  )¿)Pj bÒøˆàbj c×ø€(¿(Ññ0 àñ,  h`c—ù  ( ñ!À²!D€ø€(Fðòï ðêù9h&quot;hžH81xD ð;ù˜`±×øØXü÷ßúü÷ûúF h (FFð
+í˜8±×øÐJF!hCF ‘ð í &#39;ôäøC€à ¿&lt;¬  fÿÿeÿÿ*«  eÿÿƒ]ÿÿºdÿÿL}ÿÿˆdÿÿ}ÿÿílÿÿ  FE¸¿ øC  FðÌë(Fð¨ï˜ xÀ ðÇ€8FÙø ` ð¾ù€Fèlþ÷¥üeIeJ›yDzDÍé h ðvëž“å FøC€ð¨ë(Fð„ï˜ xÀ
+ÐTIÙø  TJyD›zD  ð^ë ðmù˜oð	 h ñ8oð	 `à(:Ð(øC€¿oðoð5àOð  ¸¿ øC !æ  FE¸¿ øC  Fðpë(FðLï˜ xÀ
+Ð&gt;IÙø  &gt;JyD›zD  ð&amp;ëoð	]à  *2Ð*8ÑFE¸¿ øC oð7àoð
+øC€ FðFë(Fð$ï˜ xÀÐ8FÙø P ð:ù#I$J›yDzDÍé P ðøê ðù˜ h ñ88F ð«øžÿ÷+¼oð
+FE¸¿ øC àFE¸¿ øC oð Fðë(Fððî˜ xÀÐ8FÙø P ðùIJ›yDzDÍé P ðÄêžàäðPë ¿âaÿÿ¾€ÿÿaÿÿ‡Žÿÿbÿÿ„UÿÿraÿÿN€ÿÿ°`ÿÿŽÿÿêcÿÿ~|ÿÿ™ÿÿÐ©  cÿÿõSÿÿncÿÿ|ÿÿ-Gÿÿ‘Lÿÿƒ°pµƒ°F HÍéxDh0h	“ð°îÀ%ÕL«€!*F|D“ Fð®îI F€&quot;€#yDðNîð¬îM!K&quot;}D {D(Fÿ÷&quot;ø F)F€&quot;€#ð&lt;îðŠîÀ
+Ô˜1h¿°½èp@°pGðvêHxDð’îïçF¦  cÁ  ÉSÿÿ¿Á  ¸CÿÿÁ  ‚°ðµƒ°F!H’xDh8h	“ð`îÀ&amp;ÕM«J€!}D“zD(Fð\îI(F€&quot;€#yDðüíðZîN!K&quot;~D {D0Fþ÷Ðÿ(F1F€&quot;€#ðêíð8îÀ
+Ô˜9h¿°½èð@°pGð$ê	H!FxDðFîîç ¿¤¥  MÁ  òmÿÿ%Sÿÿ§Á  CÿÿíÀ  €µ‚°ðîÀÕðîI€&quot;KyD {DF€!þ÷”ÿðîÀÔ°€½HxD°½è€@ðg¸ ¿=Á  /€ÿÿ!Á  0(ØIyDQø  pGHxDpG ¿ ¢  eÿÿ &quot;ðS¸ÔÔ-éðG„°‰FFFFðôì°ñÿ?XÝF(€ðä€ë†
+ëF
+ñÐø¤H@FÚøüwðÀéHF!FðLì(yB² * ñÎ€ëëÁ Dø€ (QÑð¬íÀÕð¸ígI€&quot;gKyD {DF€!þ÷-ÿðœíÀ ñ«€ZøD(OÑ`HxD h x Õ^Iõc(y]JyDÍé 	 zDðZé•ù  ( ñ•€À²! D€ø€‚àHHxD h xÀ)Ð(Fø öÉ¿0(iAIBJBMyDzD}DÍé P ”ð4éà&gt;HxD h xÀ
+Ð&lt;Iõc;J yDÍø zDð&quot;é@FðXéOðÿ0Sà;I(yDÑø Ùø ð4Ñi±7I(ychyD&#39;h5Jè‰ õczD ðé•ù  (&gt;ÔÀ²ÿ! D2F€ø€(F!hð¶ë!h(F2Fð¸ë(F1FðDíð¹  Êø  ™ø   Õ&quot;I(y&quot;JyD zDày± I+yghyD&amp;hJÍé 7zDÍé`õc ðÌè@Fðé  °½èð‡HxDðíOçðNéÌ£  ”]ÿÿ,Gÿÿ8‹ÿÿ”£  j]ÿÿ‹ÿÿoÀ  aÿÿÿ¾  ¤  Ü]ÿÿÿÿd£  6]ÿÿ×‚ÿÿÜ\ÿÿMÿÿÌ\ÿÿÀRÿÿ-éðA))Ø€F ëAFÐø¤hæ±ë„  &#39; òüph8F1Fð:ëëUø0 (ÒëD ë@ ëë€ Àn(¹7¾BèÑ  ½èð ½èððöè-éðA ñF˜FF8FFð„è&lt;¹8FÆé	XðŽè  ½èððàè-éðO‹°Fø: ˜±‚HxD h xÀÐ€I€JyDzDõc ð:èOðÿ0°½èðÔøôW…±Ôø€(¿(ÑyHxD h xÀëÐwIxJyDzDáçqHxD h xÀàÐoIoJyDzDÖç Ž›FÝø`ÀFÝé˜BÝéêFˆ¿HEÙáŽë
+ŠBœ¿ëŠBØë	‚Bœ¿ë‚BØ¹Bˆ¿QEØ`IyD	h	xÉÐ^IãŽ^JyDÍéŒè‰ ¨zDõc€è@H Íé©ðÚïoð žçûòACû&quot;ŠBÜØÕø Õø0ð‚ê) ò€€ëÁˆFÀø€uÔøô ëÁÀø„eÔøô ëÁÀøˆµÔøô ëÁ™ÀøŒÔøô™ ëÈÀø¥Ôøô ëÈÀø”•Ôøô ëÈÀø˜Ôøô ëÈÀøœUð‚ëUF‚Fð~ëKFFÔøôJêéz ëÈ õµb hÐé,’šÍé vÍø°Íé%š“SFÍé%JF ðJø!HÔøôxDëÈ hÁø¤¥Áø • xÔøô Áø …Õ˜õcIJÍé vyDzD˜˜˜Íø°Íé ðHï  çðÔïÀ¡  œ[ÿÿeÿÿp¡  L[ÿÿ-cÿÿ†¡  b[ÿÿÿ[ÿÿ¡  îZÿÿÕ€ÿÿ
+   ÈYÿÿfÿÿ-éðOÝøD Pê3ÐEöýuKöS.ÃöSÁòDn¢ûÈÝé	GÝø4°ûˆMò%Àö±% û	¢û&amp;û‘P@ûc€ê ÄêBP@šY@ËêBêP@Ýé2ÃêBQ@Ýé2ÃêBQ@à   !Êø  Êø½èðÔÔ-éðO°-í‹‚°Fø: °±WHxD h xÀÐUIVJyDzDõc ðÊîOðÿ0°½ì‹°½èðÔøôw‡±Ôø€(¿(ÑMHxD h xÀèÐKILJyDzDÞçEHxD h xÀÝÐCICJyDzDÓç×ø€	F×ø„0ðRé)lØëÁîj õ `F€í ŠÔøôÀø€ðzêFðvê‚F hÔøôGêêxÐé,gëÅ ö)Vê (ÐEöýp !ÃöS
+û ð€²ðÎê î
+Mò,KöS#Àö±, î
+ÁòDc¦û²ªûaî
+û&quot;ûêð¼ê†êy@P@à   !JÉø  ÉøzDÔøôh ëÅÀøŠÀøªx Õ÷îÈ
+IJõcyD zDÍí ð.î  cçðºî ¿Þž  ºXÿÿ³mÿÿˆž  dXÿÿGÿÿžž  zXÿÿ$‹ÿÿ¾  ‚WÿÿÙ}ÿÿ-éðO­õK}FºHxDÐø €Øø  ÊY±FÔøxQ±Oð 
+0Fˆ&quot;ð:î &#39;‡àOðÿ7•àõ	yOô€q	ñ ð´îH­Oôq(FðÆíñ ü!XFðÀíOðÿ0	&quot;	  Oô3c­ø(  h!}Ýø&#39; ÝíÍø/&quot;*Fø&#39;IF­ø$2ÍíŠðé˜±F–HxD h xÀ	Ð”Iõc”J yD —zDð²íOð 
+?àø!!é¨ü#‘ð˜í	Ÿ‡/ÜŠHxD h xÀ*ÐˆIˆ ˆJyDÍé zDà@öè1Köƒ`§ñˆÀòú!Âö pHòû&quot;û Àò¾Oêñ‘B/Ó|HxD h xÀÐzI{JyDzDõc ðtíOð 
+Oðÿ7ºñ ¿PFð¢î·ñÿ?ÜÔøx ±ðšî  ÄøxÊ˜Øø ¿8FõK}½èððrí£û “8Fðüî ({Ð‚F©	Oô¬p‘HC ñˆ(Fððî (ÄøxxÐ	ñ	ñ
+ •Oð UF	&quot;	—Íø °­ø( ÝíÝø&#39; !}IùÉø Oô3b h­ø$&quot;Hªø&#39;‰©ðXè (_Ñø!!¨™ü#ð í	š(F™ðJí	˜?ƒDD /ÑÜÔøxQFšð&gt;íÔøxÝøàˆmpEMÑOð ˜ÁøÀÔøx°õ¬ñˆÊeÓÔøx(®ñ #ÐmOô¬r‹B	Ò3ÔøxXûUñˆG`8Fà3ÀøÀsEîÓÔøxÐæ%HxD h xÀ?ôT¯#I#JyDzDIç%HxD h xÀ?ôJ¯#I#JyDzDàIyD	h	xÉ?ô&gt;¯IJyD zDàIyD	h	xÉ?ô1¯IJyDÍé àzDõc ð˜ì$ç&lt;  ²œ  ˆVÿÿ9oÿÿvœ  PVÿÿ¦Lÿÿ2œ  VÿÿgÿÿÊš  ¤Tÿÿ0}ÿÿšš  tTÿÿþbÿÿ²š  ŒTÿÿY^ÿÿ€š  ZTÿÿÉBÿÿpµ‚°F)Ñ%Føð¿h i+IyDðúì³)HxD h xÀ-Ð .¿h i%Iõc%JyD zDàHxD h xÀÐMõcJ }D ‘zD)FàÔøÐˆ±HxD h xÀÐIJyDzDõc ð$ì  °p½!h &quot;ðí (ÄøÐôÑHxD h xÀíÐIJyDzDãç ¿º™  Sÿÿ¹rÿÿ…bÿÿÞ™  ®Sÿÿ¶Dÿÿ”™  pSÿÿ›‹ÿÿ^™  :Sÿÿ–hÿÿµF±ÔøÐˆBÐHxD h xÀÐIõc
+J yDzDðÜëoð ½±ðNìðë  ÄøÐ½™  ÚRÿÿNÿÿµ¢±ñlOð ëN #ëh”BÐ31+øÑ¾ñ OðîÐ #Oðÿ&gt;qÀø à½ðµƒ°Foð  )kÐF *hÐF +eÐÖø¤(hÖøüwFðPîëWø1 (YÒ.J ë@ Öøä4ëÁzDë +Ñh(JØ ë@ #ë ÐíyÐøìÌø Ìí 6àKk+ÙHxD h xÀÐI JÍé 0yDzDõc ð`ëOðÿ0&quot;àã±õòr &amp;`F.Ðë†¿k/ØëG6³Bëñ×í ¿h‡`Àí  ñ çÑ à #  +`Äø À°ð½ðÆë ¿t¯  ˜  æQÿÿ
+&gt;ÿÿ-éðO­õI}FMHõyFxDü!Fh hÈHFðúêF¨OôqðöêñOôqXFðîê/±=±×ø  ºñÚoðkàOðÿ:Oð &quot;ÍétF¬Íø$¢Oô3cÍø ‚­ø(&quot;Ýø&#39;&quot;0h1}Íø#!ªÝíˆø!F­ø1ÍíGð&quot;îF˜±*HxD h xÀÐ(Iõc(J yDzDðÒêµ³˜Àø €2à ñ	ñ
+	ˆ¬Oð ø  FYFü#ð¬ê‰ší±(FIFðöê‰˜ªë 
+€DDºñÜÛø!!F˜þ#ÍéˆŠð–ê0hF©ªðàíF (ÙÐ»ç˜ &#39;`œÈ˜!h¿8FõI}½èðð®ê ¿n—  î–  ÄPÿÿ`Dÿÿ-éðO°-í‹Ò°FæH›FFxD &amp;Ðø  Úø  Q–ë†Øø„ ± .OðöÐàÔøŒ(ÓÚHxD h xÀ
+ÐØI ØJyD zDõc ðTê  Q™Úø  Q¿R°½ì‹°½èððfêª‘ F !ð°îP±ÊHxD h xÀäÐÈIÉJyDzDÚçŸ8Fðàë ( ðÐ€Fª FIFÍø( ð”î ( ðÑ€‚FHFðVëñ Ýø(  ðñ€»ñÿ?@óú€ - ð‚€»ñ ~Ð FøÉ¿0 ið$ë ( ð!:!Fð&amp;ë± !põ`ªH!/­xD ùŠ ù§¦HxD	¦HxD hîHxDíHxD  ð¾è ñ&quot;Oð 
+Íé ù§F! ùŠø  IF(Fðúê	™(FðöêWø(Fðòêø@ :h™À¿i Fðé°ñÿ?Ü˜ xÀÐÝé!›Wø  ð¨éHFðÜêOð
+ø@ À¿˜ðÔèºñ @ðÃ€7»ñ±ÑHFðÈêÝø( ­Oô€q¨ðPê@òZP!}­ø@  &quot;˜« hÍé&quot;&quot;øC)Fðné (fÐ¶HxD h xÀ?ô¯ Fø öÉ¿0 i¯I°J yD˜zDç™HxD h xÀ?ô¯—I—JyDzD÷æ˜Ýé
+£(Ó€ !Š ,Ô—B$¿§ë*&amp;ÓYø! šB ð¼€1BïÓŽHxD h xÀ	ÐŒI ŒJ “yDzDõcð*éHFð^ê‡HxD h xÀ?ôÌ®…I…JyDzDÁæþÞ{HxD h xÀ?ô¿®xIyJyDzD´æÝø4 Fø0PIFðNì (2ÔF€HxD h x@Õ Fø öÉ¿0 izI&amp;yzJyDèA zD—ðèè/ ò»€ë‡ Ðø„ægHxD h xÀ?ô†®eIeJyDzD{æ  Ýø( }æ hëFõ	bhKm)F˜GH³eHxD h xÀ?ôl® Fø öÉ¿0 i^I_JyDzD.à ¿–  ö•  ÐOÿÿÞTÿÿª•  †Oÿÿ@^ÿÿÂˆÿÿÓCÿÿ•   F)F2FðxéQIyDh9h¨±È?ô&lt;® Fø öÉ¿0 iIIJJyDzD )æHFð¶édæö„HÕ Fø öÉ¿ ñÔøÀ?I y?JyDzDÍé À Íé–ðbèÝø( ˆ ð&lt;ï&quot;hõf™KFÍé !Fð²ê(`ÔøŒ0ÄøŒ(hðÂìØ±8xÀÐ F3FøÉ¿0 i)I)J yD˜zD ð4èÝø( )h FðÞêØå(h×åð¸èæ“  ÀMÿÿeDÿÿ`“  :MÿÿSDÿÿ “  xMÿÿÊ9ÿÿz“  TMÿÿ,Dÿÿî’  ÈLÿÿDÿÿæNÿÿŠjÿÿ”  ÜMÿÿÄWÿÿ2“  úLÿÿJ&gt;ÿÿº’  ‚Lÿÿƒmÿÿ\’  &quot;Lÿÿ£rÿÿîKÿÿùSÿÿŽKÿÿvUÿÿðµƒ°FH©xDh8h  (FðXìFx±HxD h xÀÐIõcJ yDzDðÈïà˜(Ðö0Fðæïõ`©ðBìö ð^ê0Fðêï˜9h¿ F°ð½ðÊï ¿ê  Ú  °JÿÿnWÿÿpµFF@h¡hÔé#Oðÿ1¿ë%™BÑ FðNëÔé`hDŠ
+oóŸ!Pø&quot; 2h@ø! `i0`ap½pµF@hÔøÀ„EÐ&quot;i¦F‘
+ ë^øDhoóŸ&quot;
+oóŸ!Pø%Pë‚ë‘B
+Ðh2Uµõ€_¿Sø/ôçñ !Îø ¬ë ‰)
+Ó hð‚îÔé0``	‰)ôØ)Ð)¿p½Oô€`àOô p ap½µFÐéˆB¿A9oê‘ ë ¿ ` h±ð\î F½-éðAˆ°FGHxDÐø €Øø   i°õ€oÓ õ€` a`h !‘Pø`` F‘© ðyø˜Øø ¿°½èððïÔé ÔéËµë ÒOô€PŠBSÑðÌí© FðvëÔçÀïP !ªFBùÁ
+ (ñQ`¿&amp;¶ñ€OCÒ° ð²í ë… ë† Oô€P‘‘ð¦í®©0FðXëÔéB	Ð¯=8F)FðVëahB÷Ñ¥h âhfù€
+©B h2`ªDù
+#Â¿i9oê‘ë¿‘ (–ÐðÒí“çðxí© Fð:ë‹çð ï ¿b  -éðGFÐépˆF‡BRÑÔé –NEÙ¦ë	 !ºë  Oð Oê¢ ëÐp¡ë`	Oê` ¦ë€Ð(F1Fðëfhë‡ë‰ Äé/à°ë	 Oê`
+¿Oð
+ºñ€O.ÒOêŠ(Fð2í*ð¾B ëÐ * Ô•BÙVø;ƒP2·BõÑÔø ‡ àF¹ñ  ëŠ„èƒ â`ÐHFðjí§hØø  8` h0 `½èð‡þÞð¶î-éðGFÐépˆF‡BRÑÔé –NEÙ¦ë	 !ºë  Oð Oê¢ ëÐp¡ë`	Oê` ¦ë€Ð(F1Fð´êfhë‡ë‰ Äé/à°ë	 Oê`
+¿Oð
+ºñ€O.ÒOêŠ(FðÌì*ð¾B ëÐ * Ô•BÙVø;ƒP2·BõÑÔø ‡ àF¹ñ  ëŠ„èƒ â`ÐHFðí§hØø  8` h0 `½èð‡þÞðPî-éðGF hfhˆF†BÐ±FKàÔéqBÒÈ!ºë   ëÐpOê`ë…	Ð©ë	1FHFðPê§hë… Äé/àOê`
+¿Oð
+ºñ€O0ÒOêŠ(Fðlì
+ñ¾B!ð ë	Ð ) ÔBÙVø+BP1·BõÑ&amp;hD àIF ëŠÄé 	Äé&amp;±0Fð¤ìÔøØø  Iø`h8``½èð‡þÞðîí-éðGFÐépˆF‡BRÑÔé –NEÙ¦ë	 !ºë  Oð Oê¢ ëÐp¡ë`	Oê` ¦ë€Ð(F1Fðìéfhë‡ë‰ Äé/à°ë	 Oê`
+¿Oð
+ºñ€O.ÒOêŠ(Fðì*ð¾B ëÐ * Ô•BÙVø;ƒP2·BõÑÔø ‡ àF¹ñ  ëŠ„èƒ â`ÐHFð&lt;ì§hØø  8` h0 `½èð‡þÞðˆí-éðGF hfhˆF†BÐ±FKàÔéqBÒÈ!ºë   ëÐpOê`ë…	Ð©ë	1FHFðˆé§hë… Äé/àOê`
+¿Oð
+ºñ€O0ÒOêŠ(Fð¤ë
+ñ¾B!ð ë	Ð ) ÔBÙVø+BP1·BõÑ&amp;hD àIF ëŠÄé 	Äé&amp;±0FðÜëÔøØø  Iø`h8``½èð‡þÞð&amp;ípµ‚°FÀïP ˜ &amp;„è %F !à`ñ „ø…`@ù
+ „øD`Äéf`cOðÿ0Eø@ñ8 ð®îñ&lt;  !ð²îñ  !ð¤î hÄéf0±™ñE @&quot;@#ð’î h³H !#FxDh(FðîÀ±HxD h xÀÐðîí hðôí
+JñE	IzDyDÍé  ð@ìOðÿ0(` F°p½Š  Ú‰  qÿÿ^5ÿÿ€µðèè  €½ÔÔpµFø… ± Fðäèp±HxD h xÀÐIñEJ yDzDðìñ8(Fð8ìñ&lt; „øD 0Fð°î(Fð&lt;ì lAÐ !ðVìOðÿ0 dñ ðxì0FðÔî(Fðrìñ ðæî Fp½ ¿t‰  5ÿÿ.lÿÿpµÆ°F5HxDh0hE”ø… (±”øD ¸±oð	 &lt;à/HxD h x 5Õ#FSøEFø/Ò¿H i(I(JyDzDà© % F•ð¸ï˜8(%Ó#HxD h x Õ#FSøEFø/Ò¿H iIJyDzD¥hL|DÍé @ •ð˜ë  E™2hQ¿F°p½ð®ë„ø…P­¨Oô€qðNìÔé @ò]S¢h­ø0	}ø)F’ðxîàç ¿èˆ  Ôˆ  T4ÿÿ´^ÿÿ wÿÿ–ˆ  4ÿÿÀLÿÿøD ±oð	 pGh‚hFðí¹€µ‚°øDÀ¼ñ ¿oð	 °€½Ðø À€hÝøàÍé à`FðNï°€½h‚hFðÝ¹ÔÔpµÆ°F&amp;HxDh0hE”ø… ð±#HxD h x Õ#FSøEFø/Ò¿H iIJ¥hyDLzD|DÍé @ •ðë  à”øD ±oð	 à ­„ø… ¨Oô€qðÎëÔé @ò\S¢h­ø0	}ø)F’ðøíE™2hQ¿F°p½ðë ¿œ‡  ”‡  3ÿÿŠKÿÿ&quot;3ÿÿ°µ‚°F€hF ¹!FQø4ðêHakxD)` h x -ÕakñE)
+ØHxDßèð HxDàÿ)ÑHxDàHxDàHxD
+àHxDàHxDàHxDàHxDIJyD zD ð¤ê  °°½Þ†  ˆMÿÿ8ÿÿGdÿÿx\ÿÿAVÿÿx9ÿÿÆ;ÿÿS&#39;ÿÿ[Gÿÿ$2ÿÿ-dÿÿ-éðO°FÇH !xDÐø  Úø  ‘ hÃN~D°±¡hð¼íF(#Ù0h xÀ,ÐÀIñE¿JÀHyDzDxD  ðbêà0h xÀÐºIñEºJºHyDzDxD  ðPêoðàñ8
+–8Fðpê”øD Ø±8Fðzê
+ž0h x 	Õ­IñE­J yD •zDð2ê˜Úø ¿°½èððHêñE ñ&lt; 
+˜ñÐø € HxDŸHxDŸHxDžHxD	žHxDHxDHxD kX¹˜9Fðzí”øD  (¹Ñ k ( ðxáj jŠ
+oóŸ!Pø&quot; Pø!XFðní8Fð$êØø  fk ð ±EÑ ( ð6¹ñØ˜ßè	ð/&quot;$&#39;*- ˜(à ( ðq€ h.ØÃK{Dßèð:),/25 ÀK{D2à¹ñÿ¿˜˜àÿ.(Ñ¸K{D&#39;à˜
+à²HxDà±HxDà±HxDà°HxD¡h›Íé  Ýé!ð¤éöà®K{Dà®K{D
+à­K{Dà­K{Dà¬K{Dà¬K{D¹ñ
+Ø«N~Dßè	ð ¨N~Dà¹ñÿÑ£N~Dà¥N~Dà¤N~D
+à¤N~Dà£N~Dà£N~Dà¢N~D¢I£JèI yDzD› ðbéfk¹ñÑ”øD  (@ðå€ h©ð–è™)¿˜ø  _êÀpOÑ h)F¢hðÐì (@ðÜ€ `c+à©ñ (%Ø h ë…  ö ð`é˜ø  Äø4 	Õ—I h—JyD›zD  ð(é h ë…  ö ð(ì h ë…  ö ðRéàÄø4˜ø   aÕ h¹ñ
+ØˆK{Dßè	ðP?BEHK …K{DHà¹ñÿCÑ€K{DBà)XØoHòxDÒèð ¿,†  &quot;†  f&#39;[^Xad ¢1ÿÿõ)ÿÿ·Uÿÿ€1ÿÿ@;ÿÿ•Uÿÿ@1ÿÿW#ÿÿº6ÿÿ&gt;Lÿÿ/Fÿÿø0ÿÿ$UÿÿÛbÿÿ[ÿÿYHxD;àiK{DàhK{D
+àhK{DàgK{DàgK{DàfK{DfIgJÍé yD›zD ð°èak F2FðDì8FðÐè”øD  (?ô›®]æÿ)Ñ@HxDàFHxD
+à@HxDà@HxDà?HxDà?HxD@I@JAKyDzD{DÍé 0› ð„è4ç˜ø  À?ô9®I J›yDzDðvè/æ˜ø   õ.®&amp;I &amp;JyDzDà˜ø  À?ô#®-I.J hyD-KzD{DÍé 0 ›ðXèæÄ-ÿÿÛMÿÿ=Tÿÿt7ÿÿÂ9ÿÿO%ÿÿ‚Kÿÿ6ÿÿMbÿÿDZÿÿTÿÿD7ÿÿ’9ÿÿ%ÿÿ&#39;Eÿÿ
+Kÿÿœ5ÿÿËaÿÿúYÿÿÃSÿÿú6ÿÿH9ÿÿÕ$ÿÿÝDÿÿ¢/ÿÿ«1ÿÿª-ÿÿ=[ÿÿJIÿÿr4ÿÿ[`ÿÿ4XÿÿýQÿÿˆ7ÿÿ#ÿÿ;Cÿÿê-ÿÿë*ÿÿÿQÿÿ”-ÿÿÊJÿÿ§Qÿÿ./ÿÿä\ÿÿ
+Jÿÿœ4ÿÿË`ÿÿ–Xÿÿ_Rÿÿ–5ÿÿä7ÿÿq#ÿÿyCÿÿ&gt;.ÿÿV.ÿÿ-éðCƒ°FHñFxD‰Fh h8Fð è8FÖéVðè5±jF0F !#Íé ˜¨G˜!h¿°½èðƒðâïè€  -éðA ñF˜FF8FFðÞï&lt;¹8FÆéXðèï  ½èðð:èpµ‚°FHñ8xDh0h ‘(FðÄïñ iFð ìñ&lt; ð&lt;ê(FðÈï˜1h¿°p½ð¨ïp€  ðµÅ°F6H¬FxDOô€qh8hD ð@èÕé @ò^Sªh­ø0«	}ø !’&quot;‘!Fð^ïFh±&#39;HxD h xÀ&lt;Ð%IñE$J yDzD2à#H™xD1` h x ,ÕñE)
+ØHxDßèð HxDàÿ)ÑHxDàHxDàHxD
+àHxDàHxDàHxDàHxDIJyD zD ð ïD˜9h¿ FE°ð½ð8ï ¿(€  ô  ‚+ÿÿ…YÿÿÖ  ‚Fÿÿ1ÿÿA]ÿÿrUÿÿ;Oÿÿr2ÿÿÀ4ÿÿM ÿÿU@ÿÿ+ÿÿ6:ÿÿðµƒ°FH©xDh8h  (Fð°ëFx±HxD h xÀÐIñEJ yDzDðØîà˜(Ðñ80Fðöîñ ©ðRëñ&lt; ðné0Fðúî˜9h¿ F°ð½ðÚî ¿
+  ú~  ˆ*ÿÿífÿÿ	(ØF ßèð		 pG pG pG  pGÔÔ€µ‚°) òƒ€Fßèð)7BMZj ?HxD h x@tÕ=Ix=JyDzDFà&lt;HxD h x@hÕ:Iˆ:JyDzD:à9HxD h x@\Õ7Ih7JyDzD.à6HxD h x@PÕhÒøÀ2I3JyDzD/à2HxD h x@BÕ0I’ù  yDà/HxD h x@7Õ-I²ù  yDà,HxD h x@,Õ*IhyD$JzD &quot;à&#39;HxD h x@ÕhÒøÀ$I$JyDzDÍé à&quot;HxD h x@Õh î
+¸î@
+IJyDzD÷îÀ
+Íí  ðî  °€½ ¿L~  K,ÿÿ(6ÿÿ4~  3,ÿÿIcÿÿ~  ,ÿÿ0Jÿÿ~  ÿ+ÿÿq3ÿÿè}  ç+ÿÿ›&amp;ÿÿÒ}  Ñ+ÿÿ¼}  ½+ÿÿ¢}  +ÿÿ©+ÿÿ‚}  y+ÿÿŸMÿÿðµÃ°FH®FxDOô€qh8hB°ð˜î(h !ø1Fø@Âh(FGB™:hQ¿C°ð½ðÞí ¿Ø|  -éðAÂ°FHèFFxDOô€qFh8hAñ ðpî0h!øAFø@Âh0Fø PGA™:hQ¿B°½èðð´í ¿Ž|  -éðCÃ°FHñFxDû!™FFh hBñ ðFî8h!øAFÍøPÂh8Fø`øGB™&quot;hQ¿C°½èðƒð†í8|  -éðCÃ°FH³õ€xDh0hBÛHxD h xÀÐI JyDzDðLíOðÿ0àñFñ Oô€qF‘Fðîñ IF*Fÿ#øPøpð&quot;í hAFÂh FGB™2hQ¿C°½èðƒðDíâ{  Þ{  Ý)ÿÿãBÿÿ-éðOÃ°F,H³õ€xDh8hB
+Û)HxD h xÀ@Ð&#39;I(JyDzD8àñ‹FñOô€qF‘F0FðÂí hAFÂhð ­ø  FG°ñÿ?Ý0FOô€qÝø0¡ð°íñ IF*Fÿ#øPø°ðÌì FAFRFð¨éàHxD h xÀÐIJyDzD ðÊìOðÿ0B™:hQ¿C°½èððÞìR{  N{  O)ÿÿUBÿÿÚz  Û(ÿÿKÿÿ-éðOÃ°F/H³õ€xDh8hB
+Û,HxD h xÀEÐ*I+JyDzD=àñ‹FñOô€qF’F0FðVí hAFÂhò ­ø  FG°ñÿ?Ý0FOô€qÝø0‘ðDíºñ øPø°Ð-Ûñ QF*Fÿ#ð\ì© FJFð&gt;éàHxD h xÀÐIJyDzD ðXìOðÿ0B™:hQ¿C°½èððnì ¿zz  vz  w(ÿÿ}Aÿÿøy  ù&#39;ÿÿÿÿpµ‚°FF±0Fðéà0hÂh0FGF°ñÿ?Ý0F)Fðé°ñÿ?Ý(xÿ(&quot;Ð $9àHxD h xÀ3ÐðRèIJyDzDàFHxD h xÀ%ÐðDèIJyDzDK  {DðìàHxD h xÀÐð0èIJKyDzD {D ðîëhx(¿Õø@Oðÿ4 F°p½py  m&#39;ÿÿS,ÿÿsaÿÿTy  Q&#39;ÿÿt^ÿÿ.y  )&#39;ÿÿjkÿÿOaÿÿ-éðA­õ}F/HF®FxDOô€qÐø €Øø  ‡°ð„ì¯Oôq8Fð–ë  1Fø(F:F #øAðšè˜»øAøP…ê ÿ(Ñø (ÑÝø $àHxD h xÀÐðÊïIJKyDzDè1 {DàHxD h xÀÐðºïIJKyDzD {D ðxëOðÿ0‡™Øø  Q¿õ}½èððŠë´x  bx  ]&amp;ÿÿ™NÿÿC!ÿÿ@x  ;&amp;ÿÿ·7ÿÿ#!ÿÿ€µOðOðññ$Áé.Áé&lt;‚h*Ñ ñ
+`Àoà  `H`€½ÔÔpµ ñFFn!0FðþëÝ±(Fðë!1€)x/9¿!Fm.ÓHxD h xÀ¿p½I JyDzD½èp@ð’¹  à!DB1F)FðØî°àgp½~w  —%ÿÿœCÿÿ-éðA‚° *JÐFXF(Ó1HxD h xÀ?Ð/I /J#FyDzD6àFF±–øŒ ˆ± !F &quot;ðÜï€F(H¸ñ xD h hÔ ð ?³h¹0à(FðÔï€F#H¸ñ xD h hÔ #ÕI JyDzDàÀÐðbì hðfìIFJ yDzDð¶êOðÿ0°½èðH±IJyDzD +FÍø €ð¦ê0F)FÆé„ð¨ïñ€ )Fð¤ê  äç ¿&amp;w  ?%ÿÿZÿÿðv  Ï$ÿÿ3,ÿÿÐv  ë$ÿÿN;ÿÿ·$ÿÿQTÿÿ€µÀéFð„ï  €½€µ‚°„F@hÜø0+Ñ #Íé 3àñ|ñÍé &gt; #ðvï (ÜÐHxD h xÀÐðúë hð ìIFJ yDzDðPêOðÿ0°€½ ¿òu  $ÿÿ¤Vÿÿ	IÀïP  ñ| &quot;yDOðÿ&lt;Cù
+	h€øŒ 1Àé ‚`pG ¿Ìu  µFHxDh`h1!` (
+Ô!ð:ï`h (ÔðŒêOðÿ0``”ø€ À¿Ôøˆ ðJé F½ ¿¦u  @h (Ô!ðª¸Oðÿ0pGµF@h (ÔðlêOðÿ0``½€µðï½è€@ð±¿F
+F!ð–¸F
+F !ð‘¸µF@h (Ôñ ðï”øŒ ñ`h *¿âon&quot;½è@ð¸Oðÿ0½@h (Ôð¸Oðÿ0pG-éðAFOðÿ0 )hÐoh /eÔ Fð˜èF1HÀïP ñ|xD !Oðÿ&lt;«h hBù
++ ñ †øŒÆé ±`&#39;IyDÑˆFñ8FðâîFØø   x Õ!I!JyDzDàˆF8F ! &quot;ðÐîFØø   x ÕIJyDzD ;FðzéAF /Ôh x ÕI J;FyDzDðlé¨hn!Æépñ ð,ê  &amp;`ðg½èð0hAh0FˆGðøê h@B½èð´t  rt  }&quot;ÿÿL,ÿÿ[&quot;ÿÿÿÿ9&quot;ÿÿØMÿÿF@h (ÔÊo1ðø¿Oðÿ0pGÔÔ-éðC‡°€F-H )xDh(hHÐ  F©ø ­ø @F&quot;ðzîF (&lt;Ô$HøÀxD†ø ÀøpÐø ù wp™ø °p	ÕIJØøàyDKzDÍé ì{DÍép ðþè/±ñ@F:FðPîF™ø   ÕI7JØø yDKzDÍé  {DðæèàOðÿ4˜)h¿ F°½èðƒðøèŒs  hs  m!ÿÿ‚?ÿÿY+ÿÿ7!ÿÿH:ÿÿ!+ÿÿ-éðOƒ° )[ÐF/H‹FxDÐø €Hx˜ø ÇÕ+I+J`hyD+KzDÍé  {Dð¬èñ &amp;H %xD‚F%HxDFÔézë+Ñ # “àãož –“ #ððíFØø   .Ý 	Õ`hQFKJFÍé  {Dð€è5D½BÚÓ  àÀÐdhðê hðêIJKyDzDÍé @{D ðhèOðÿ0°½èð°r  Ã ÿÿIÿÿÛZÿÿ§ ÿÿËWÿÿ9 ÿÿRMÿÿUZÿÿƒZÿÿÔÔÔÔ-éðA”°FeH­ÀïP xDF*Fñ h8hñ ¦h@ùÏ
+ñ, .@ù
+Oð BùÀ
+Oð CùÏ
+`Oð 	ñ$ ñ Ññ æoà &amp;–I ‘`ùÏ
+)F &quot;`hCùÏ
+–ðtíè±F°ñÿ?,ÝÝé`(˜¿ &amp;ö±0h(Ñph(¿°h(jÐOHxD h xÀXÐMINJyDzDLà9HxD h xÀMÐ7I7JyDzDAà;HxDh(xÀÑ  %à3HxD h xÀ&lt;Ðdhðré hðvé.I/J/KyDzDÍé @{D ðÄï*à,I-J`hyD,KzD  {Dð¸ï(x ð n±À±)I%)J6hyD`hzD(KÍé {D•àP± I!JyDzD`hK {D ðšïOðÿ5˜9h¿(F°½èðð®ï¸ñ ¿ðhÈø  îç ¿ ¿           °q  q  %ÿÿ#)ÿÿ&amp;ÿÿâp  ñÿÿ )ÿÿi&amp;ÿÿòp  Ùÿÿ&gt;GÿÿO&amp;ÿÿŸÿÿL]ÿÿ·ÿÿÁ_ÿÿ+&amp;ÿÿq  ;ÿÿÉ&amp;ÿÿÔÔÔÔ-éðA”°F7HF©xDÀïP Fñ Ðø €Øø  ñ §h@ùÏ
+ñ, /@ù
+Oð FùÀ
+Oð EùÏ
+0`Oð 	ñ$ ñ Ññào—à  §`hgùÏ
+’&quot;	’ &quot;“EùÏ
+ð|ìF°ñÿ?ÜHxD h xÀÐfhð èh Fð¤èIJKyDzDÍé d{D ððî˜Øø ¿(F°½èððï           ºo  &gt;o  Kÿÿ PÿÿÓ3ÿÿÔÔÔÔ-éðC•°FHÀïP ­xDF#*FÐø Ùø  ñ BùÃ
+#@ùÏ
+ñ, @ù
+ñ  ´h@ùÏ
+,`Oð	’ñ$’ñ’Ññòo“à &quot;’e£‘cùÏ
+!«$@ùÏ
+ph’&quot;‘! ”ðì°ñÿ?Ü`HxD h xÀÐð è hð&amp;è\IF\J yDzDðvîph© &quot; &#39;ðØëFph«!&quot;— ”ðÞëå±µñÿ?.ÝÝé@(˜¿ $³ h(Ñ`h(¿ h(dÐYHxD h xÀGÐWIWJyDzD	àCHxD h xÀ&lt;ÐAIBJyDzDAK{D2àEHxDh(xÀÑ  !à=HxD h xÀ)ÐðÌï hðÐï8I9J9KyDzD {D ðîà7I 7J7KyDzD{Dðî(x ð ¼±H±5I #h4JyD zD ðîOðÿ5˜Ùø ¿(F°½èðƒðî (ðÐ&amp;I &amp;JyDzDððíèç!ph‘© ‘!&quot;CFðdë°ñÿ?ÝÜ#HxD h xÀÕÐðzï hð~ïIFJyDzDÇç           ¸n  &gt;n  Mÿÿ£&amp;ÿÿ¾m  Ûÿÿ¿ÿÿÍPÿÿ”m  ¥ÿÿjKÿÿ—Pÿÿ¤m  ÿÿ}ÿÿPÿÿAÿÿûFÿÿqÿÿINÿÿÔm  ñÿÿ‚Dÿÿðl  ÿÿÿÿBhðS¼ÔÔ°µ‚°FFðrê°ñÿ?Ýhh!Fðë°ñÿ?Ü	IyD	h	xÉ	ÐIJKyDzD {D ðpíOðÿ0°°½.l  Iÿÿa)ÿÿFÿÿ°µ‚°F hFÂh(FG°ñÿ?Ýih Fðæê°ñÿ?Ü	IyD	h	xÉ	ÐIJKyDzD {D ðBíOðÿ0°°½Òk  íÿÿ)ÿÿ¦Bÿÿ@hpG°µ˜°FHxDh(hXÑlF\! FðíH!FJxDzDð¶ê Fð¼êFHxD h`XÕI JyDzDðí˜)h¿°°½ð&amp;í ¿ˆk  ©ÿÿã-ÿÿbk  Gÿÿ¯ÿÿ-éðA‚° &#39;A`F€ø&quot;p„FÂaOðÿ5sÿ!p#0˜FFø_ðªíñ  !Äø,QÄø$qðïñ  !ðïñ  !ðï   !ðtêÄø,0&quot;Ðõ˜wAF &quot;8FðˆèH !#FxDh0Fðpî³HxD h xÀÐðPî hðTîI;FJyD zD à
+HxD h xÀÐIõ˜sJ yDzDð–ìà  p F°½èðvj  ./ÿÿ^ÿÿÎj  œj  N/ÿÿ˜ÿÿ€µð.ê  €½ÔÔpµ†°F.H!xDh(h h!s03ÐÔø, (Ô! &amp;‘©&quot;–ðê (Ý h©–ð²ìOðÿ0 `à!HxD h xÀÐI JyDzDàHxD h xÀÐIÔø,JyD zDõ˜s ð:ìñ ð¶ìñ ðïñ ð®ìÔø,AÐð˜ìOðÿ0Äø,˜)h¿ F°p½ð:ìj  Äi  ~.ÿÿÿÿÚi  ˜.ÿÿ%Yÿÿ-éðOÉ°FDHxDh(hH`h (XÐÀïP !D®FùÁ
+h	iˆG!Ôø,!1`Bò!{ÍéD )F’RÑ:Hõ˜xD®¯xDÐø 7HxD‚F6HxDƒF0F!Oðÿ2ð˜é!{á»°±°ñÿ?Ý½ø€&gt;Ô8FOôqð¨ë`h9Fð¬è(¢¿ F9Fð†éà  à™ø  ÀÐðVí hðZí  QFZFCFð¬ë { (ÊÐàHxD h xÀÐIõ˜sJ yDzDð˜ëH˜)h¿  I°½èðð®ë™ø  ÀÐI JCFyDzDð‚ë FðPéåç6i  |h  4-ÿÿã4ÿÿüh  À-ÿÿÿÿ-ÿÿDBÿÿ°µ ñF FðŽëèi±hÉhˆGà
+HxD h xÀÐIõ˜sJ yDzDðPë F½è°@ðË¹ ¿ìg  ¤,ÿÿKÿÿðµƒ°FDHFxDh8hOðÿ0x ! ‘ð(Ñ`hª)Fðé°ñÿ?%Ý(x@(Ñ`hª)Fðüè (Ô(xò(Ñ`hjF)Fðúè (!Ô(x(ÐA(Ð@(Ññ0Fð4ëài ³hš‹hàÿ (€àñ0Fð&amp;ëàiˆ³hši)F˜Gàÿ (pñ0Fðëñ  )FOôrð(ëÝé ÄéIñ ðˆí0Fðë˜9h¿°ð½ðôêHxD h xÀîÐIJyDzD	àHxD h xÀãÐ
+I
+JyDzDõ˜s ðºêÙç ¿¦g  Öf  ”+ÿÿ1YÿÿÀf  ~+ÿÿ-ÿÿpµ‚°F@hH³ x8³ñF(FðÆê`hhÊh1FG°ñÿ?ÜHxD h xÀÐðÆîIJKyDzD{DÍé 0õ˜s ð€ê(Fð¶ê  à	HxD h xÀÐIõ˜sJ yDzDðlêOðÿ0°p½$f  Ü*ÿÿhNÿÿXf  +ÿÿ¥ÿÿNÿÿ-éðCƒ°F@hà³ xÐ³ñFF‰F@Fðrê`hhÊhIFG°ñÿ??Ýñ AF
+ð´íñ 8FOôrðvê±Ôø(0`±Ôø$(`@Fðbê8xÿ(&gt;Ð (SÑDHxD h xÀÐBIBJCHyDzDxD 	à6HxD h xÀÐ4I4JyDzDõ˜s ðêOðÿ5(F°½èðƒF.HxD h xÀÐð2î+I+J,KyDzD{DÍé 0õ˜s ðìé@Fð&quot;êáçxx(¿×øPOðÿ5&amp;HxD h xÀÔÐhõ˜s(Ø&quot;IyDQø  à™ø 0ƒê ÿ)Ñ %Âç IyD	h	xÉºÐIJMyDzD}DÍé S«çHxDIJLyDzD|DÍé @ •ð¬é£ç\e  *ÿÿ¦Mÿÿ0e  è)ÿÿ}ÿÿ0ÿÿxe  4*ÿÿg&lt;ÿÿ|ÿÿðd  s%ÿÿc  d)ÿÿTÿÿ¬ÿÿÀd  |)ÿÿZ1ÿÿÄÿÿ-éðG†°F&gt;HxDh0h`hè± xØ±ñ˜FFŠF(Fð”é³ñ	  Íé   IFðJï˜)FJF0ñ ðHïà-HxD h xÀ$Ð+I+JyDzDõ˜s ðHéàñ )Fðºìø±n(Ñ$HxD h xÀ	Ð&quot;Iõ˜s!J yD —zDð0é(FðdéOðÿ0™2hQ¿°½èð‡ðBéñ PFOôrðZé¸ñ ¿Ôø(Èø  (FðHéšø  ÿ(Ð  ßçHxD h xÀ×Ð
+IJyDzD±ç ¿d  Üc  š(ÿÿ&amp;Lÿÿ¬c  d(ÿÿý&gt;ÿÿBc   (ÿÿÕUÿÿ-éðG‚°FNHFNIxDÀïP ˜FyD hñ(F &quot;¢F0&quot;qCù
+Ñø  `
+ø8/ðÆî™ø IÕBISFBJyD zD ðÀèOðÿ0Oðÿ5ðºî ð˜ïð¾î `ñ$  !ðèêÄéU±0FðÊé c Fð¶î h9F‚k FG°ñÿ?1Ý¸ñ Ð hÁk FˆG°ñÿ?9Ý-I F&quot;kyDð¦î°ñÿ?Ü™ø  €Õ&#39;I &#39;JSFyDzDð~è Fðœî(àb¤¿ Fð†î hl FˆG°ñÿ?Ý  qà™ø  ÀÐIJyDzDà™ø  ÀÐIJyDzDà™ø  ÀÐIJyDzD SFðNè F°½èð‡ ¿c  îb  /%ÿÿ&lt;ÿÿm$ÿÿzQÿÿI$ÿÿ_ÿÿ1ÿÿ§$ÿÿoÿÿ[$ÿÿ“ÿÿ°µ„° ñ, ñ8Ì +JzD¿F,±KÍé !{D”àKÍé !{D(FOðÿ1@&quot;ú÷ÉýHxD h x Õ	I 	J+FyD •zDðè°°½XÿÿLQÿÿÿÿPa  ±#ÿÿiÿÿ-éðO­õG}FAHõzFxDOô€qFÐø °Ûø  Æ
+ñ ð¦èõˆxOôq@Fð¸ï¯ÿ!8Fð²ï Fð¸ïF0Fð´ï0Kÿ!Íé Tÿ&quot;{DÍé8Fú÷xý ÿ!ø8Fðšëø8Fÿ!ð”ëF
+ñ 9Fÿ#ðœïÙø QFBF #ð–ì€±FHxD h xÀ$ÐI	ñ8J yDzDð”ïàøøH@ÿ(ÑÝøQàHxD h xÀÐI	ñ8J yDzDðzïOðÿ5Æ˜Ûø ¿(FõG}½èððŒïþ`  )/ÿÿt`  Ó&quot;ÿÿ1ÿÿ@`  Ÿ&quot;ÿÿÑOÿÿðµ­õ}FCHC­Oô€qxDh8h„¨ðè®Oôq0Fð(ï&lt;I@ö@­øèyDÿ&quot;ÿ#ðlé h)F2F #ð&amp;ì€±F3HxD h xÀRÐ1Iñ81J yDzDð&amp;ïHàøøH@ÿ(Ñø ³ø P³0 !
+&quot;ð:íF°ñÿ?2Ü,HxD h xÀ*Ð*I+JyD •zDàHxD h xÀÐIJyDzDàHxD h xÀÐIJyDzD	àHxD h xÀÐIJyDzDñ8 ðÞîOðÿ5„˜9h¿(Fõ}ð½ðòî ¿Ð_  Ö(ÿÿ–_  õ!ÿÿ°(ÿÿ2_  —!ÿÿ$ÿÿ_  !ÿÿ/ÿÿ_  k!ÿÿÿÿJ_  ¯!ÿÿ@ÿÿ°µFOô¨pðˆíñ8©h*F#FðÒì¨b x±  °½HxD h xÀÐI J#FyDzDðŽîOðÿ0°½ ¿f^  Ç ÿÿ¬ÿÿµFHxDh j1!`(±ð²ìð°í   bñ$ ðòî h ±hIhˆG   ` k±ðžï   c`k±ð˜ï  `c F½Z^  €µðèîÔÔðµ­õ}FEHFOôqxDh8h†D¨ð(î¨Oôqð&quot;î h)F&quot;ð~ì`±F;HxD h xÀ Ð9I9JyDzD •à hðtì ³F5HxD h xÀÐðÂï hðÈï1I1JyDÍé PzDñ8 ðî†˜9h¿0Fõ}ð½ð*îðèÍø@òA hª­øD© #ðìêX±F HxD h xÀßÐIJyDzD½çø ñ(Ñ hD©ª#ðÖêF (çÔø  à &amp;øH@ÿ(ÄÐHxD h xÀ	ÐIñ8J yD •zDðÊíOðÿ6±çÄ]  ¤]  	 ÿÿ„ÿÿ‚]  Ýÿÿ/0ÿÿ&quot;]  ‡ÿÿ3&gt;ÿÿà\  ?ÿÿÚÿÿ-éðAFF€FðžëFðŠíFÜ±8h°BÒIyD	h	x‰	ÕIñ8J yDzDðŽí8h°B8¿F F)F2FðNé à&gt;`  ½èðh\  Çÿÿåÿÿðµ­õ	}FRHG­Oô€qxDh8hˆ¨ð4î®Oôq0FðFí@ò@­øð°ë¡h2FÍø #F)FðFê€±FBHxD h xÀgÐ@Iñ8@J yDzDðFí]àøøH@ÿ(7Ñø (F(¿&quot;*&lt;Ó  ñ¨#ðí˜ññ ññ ‘)Fðzë/HxDh0x@Õ-IÔéÔéÃyD+JÍé 0ñ8zD Íéìð
+í(h(*Ñ %àHxD h xÀÐð6éIJyDzD	àIyD	h	xÉ	ÐIJyDzD ñ8 ðèìOðÿ5ˆ˜9h¿(Fõ	}ð½ðüì1xÉðÐI#JyDÍé 0zDãç ¿\  Ö[  5ÿÿ
+ÿÿ8[  ™ÿÿbùþÿp[  Ïÿÿ;ÿÿOÿÿJ&quot;ÿÿ[  ƒÿÿ…ÿÿ-éðO­õ}F-Hõ†{FxDOô€q™FFÐø  Úø  „ñ ðdí®Oôq0FðvìøQñ$@ò &#39;­ø(F—ð°ì j«YF2F —ð²ìF(Fð¶ìï¹ø	 (ÑÝø &#39;˜Éø Èø  àHxD h xÀÐIñ8J yDzDð`ìOðÿ7„˜Úø ¿8Fõ}½èððrìzZ  Z  kÿÿ,@ÿÿ-éðG­õ}F.HõˆyFxDOô€q˜FFÐø  Úø  …	ñ ðüì®Oôq0FðìøQñ$@ò øq­ø &#39;(F—ðFì j«IF2F —ðHìF(FðLìî¹ø	 (ÑŽ˜ &amp;Ýø ™`Èø àHxD h xÀÐIñ8J yDzDðöëOðÿ6…˜Úø ¿0Fõ}½èð‡ðìªY  8Y  —ÿÿX?ÿÿ-éðG­õ}F7H *xDÐø  Úø  ‡Oðÿ0XÐF¯¸‰FOô€qFðìñOôq@Fð ëñ$@ò1­ø0Fø‘ðÞë j !« ‘9FBFðÞëF0Fðâëg±HxD h xÀ(ÐIJyDÍé yzDàø  (Ññ )F`ù
+`ù*˜Aù
+(`  Aù*àHxD h xÀÐIJyDzDñ8 ðzëOðÿ0‡™Úø  Q¿õ}½èð‡ðŒëÚX  ~X  ãÿÿÖöþÿ&gt;X  £ÿÿd&gt;ÿÿpµ‚°F hFFCm F˜G±Oðÿ0°p½2h   *ùÔqh#Íé    &quot;ðŒë±0b  íçHxD h xÀåÐIñ8J yD •zDð0ëÚç ¿®W  ÿÿ±ÿÿ-éðG­õ}‚F*HõˆxFxDOô€qÐø Ùø  …ñ ðÜë¯Oôq8Fðîê
+ñ$ $øA0FøQð,ëÚø( AF:F # ”ð,ëF0Fð0ëÕ¹ø	 (ÑÝøPàHxD h xÀÐð ïI
+ñ8JyD zD ðÞêOðÿ5…˜Ùø ¿(Fõ}½èð‡ððê ¿fW  W  iÿÿhÿÿ-éðC­õI}€FaH†¯FxDOôqFÐø Ùø  È8Fð’êD¨OôqðŽê¨ÿ!ðŠê0FðŽêF(FðŠê Dþ(ÓQHxD h xÀcÐOIOJyDÍé ezDWà0x (JÐ0F7ðtêF(FðpêKKÿ!Íé F¬{DÍé Fÿ&quot;ú÷3ø ÿ!ø FðTîø Fÿ!ðNîF8F!Fÿ#ðXêñ$ FðŒêØø(  ! ‘†©Dª #ðŠêF FðŽêo³3HxD h xÀÐ1Iñ80J yD –zDðFêà&amp;HxD h xÀÐ$I%JyDzDñ8 ð6êoðÈ˜Ùø ¿8FõI}½èðƒðHêI0FÝøqyDðÀêˆ±I0FyDðºê (äÑØø4 ±ðLë(Fð0ëÈø4 	àØø0 ±ð@ë(Fð&amp;ëÈø0 @FðèËç ¿¤V  lV  Ñÿÿ±÷þÿ¶U  ÿÿ*&gt;ÿÿ¡$ÿÿØU  7ÿÿ.;ÿÿWÿÿ2&gt;ÿÿ-éðO­õ	}‚FoHF­FxDOôq˜FFÐø °Ûø  ˆ(Fð°é¨Oôqðªé /GÐ .EÐ¸ñ Ð0h (eÐfH9FxDð\ê (UÐ 5ø8Fðšéø8Fð–éF(F9Fÿ#ð˜é
+ñ$ FðÊéñ	Úø(  ! # ‘F©JFðÈéF FðÌé -AÐPHxD h xÀÐNI
+ñ8MJ yD —zDð‚éà@HxD h xÀÐ&gt;I?JyDzD
+ñ8 ðréOðÿ5ˆ˜Ûø ¿(Fõ	}½èðð„éÚø  1FBFƒlPF˜GFêç0HxD h xÀâÐ.I/JyDzDØçø0ƒ±ø ˜BÙ.IyD	h	xÉÐÐ,I-JyDÍé zDÄç1HxD h xÀÃÐ/I/JyDzD¹ç ³¸ñ (Ð2h	ñ‚BÒ$IyD	h	x‰Õ&quot;I
+ñ8!LyDÍé r|D &quot;Fðé2h@F)FðØìàHxD h xÀ–ÐIJyDzDŒç0` %çàT  .T  “ÿÿÿÿâS  GÿÿÓ@ÿÿÁÿÿPT  ¯ÿÿ7 ÿÿ¾S  #ÿÿ{õþÿJS  ¯ÿÿÙÿÿ|S  Ýÿÿ)Fÿÿ¤S  	ÿÿÿÿ-éðO­õ}€FDHõˆyFxDOôqšFFÐø °Ûø  †HFðœè¨Oôqð˜è0Fð$ëF(Fð˜èö(
+Û5HxD h xÀÐ3I4JyDzDàFøA 	,øaøÓ.HxD h xÀ	Ð,I,JyDzDñ8  •ðŠèOðÿ5†˜Ûø ¿(Fõ}½èððœèà	ñ0ø0F)F:Fý#ð`èðQF&quot;Fðªèñ$0FðŽèØø( ª %IF # •ðŒèF0Fðè ,ÎÐHxD h xÀÐIñ8J yDzDðHè%F½ç ¿ºR  ŠR  ïÿÿ0ÿÿ`R  ÅÿÿÿÿÚQ  9ÿÿ`ðþÿ-éðO­õ}‚FXHõˆ{FxDOôq˜FFÐø Ùø  †XFðúï¨Oôqðöï0Fð‚ê…±F(Fðöïö(ÛLHxD h xÀ)ÐJIJJyDzDàCHxD h xÀÐAIBJyDzDàFø@ 	,øaøÓ?HxD h xÀ	Ð=I=JyDzD •
+ñ8 ðÜïOðÿ5†˜Ùø ¿(Fõ}½èððîïàÍø€ñ0ø)F@F:Fý#ð°ïë Ÿ&quot;F9Fðøï
+ñ$ FðÜïÚø(  !ª ‘YF #ðÚïF FðÞï}±HxD h xÀÅÐI
+ñ8J yDzDð–ï»ç0FðêFø	 BÑ¨Á8FðÈï %¬çHxD h xÀ¤ÐIJyDzDšç ¿vQ  .Q  “ÿÿÿÿDQ  ©ÿÿ#ÿÿQ  iÿÿ&gt;ÿÿxP  ×ÿÿ}*ÿÿ:P  Ÿÿÿ`6ÿÿ-éðA‚°FH $jFxD #FÐø €Øø  0h ”‡i0F¸Gˆ¹ ˜ð¢íF0hjF)F#F‡i0F¸G°ñÿ?Ü Fðœí $˜Øø ¿ F°½èððHïÎO  -éðAÂ°FHèFFxDOô€qh0hAñ ðÞïñ$Oô¡p­ø  8FøPð2ï jAFðvíF8Fð:ïu±HxD h xÀÐIñ8
+J yDzDðòîA˜1h¿(FB°½èððïfO  0O  ÿÿ&quot;ÿÿ-éðC­õ}FJHC®ˆFxDOô€qÐø Ùø  „°ð–ï¯Oôq8Fð¨îñ$@òC­ø(Føðäî j ! ‘1F:F #ðäîF(FðèîV±5HxD h xÀTÐ3I3JyDzDJàøøH@ÿ(%Ñø	 (,Ñø 2I(yD	h0Ò	x (F¿&amp;	7Õ/I (/JOð .KyD.MzD{D}D¿Fñ8Íé …ðxî#àHxD h xÀÐIJyDzDàHxD h xÀÐIJyDzDà	xÉ	ÐIJyD zDñ8 ðTî &amp;„˜Ùø ¿0Fõ}½èðƒðhî ¿ØN  ŒN  ñÿÿ#øþÿN  ÿÿ`ÿÿN  kÿÿwÿÿZN  [ÿÿt)ÿÿ­ÿÿRðþÿ¤,ÿÿ92ÿÿ-éðA­õ}F-HD®FxDOô€qÐø €Øø  …°ðÚî¯Oôq8FðìíøQñ$Oô¢p­ø(Fð(î j ! ‘1F:F #ð(îF(Fð,îV±HxD h xÀÐIJyDzDàøøH@ÿ(Ñ àHxD h xÀÐIJyDzDñ8 ðÐí  …™Øø  Q¿õ}½èððäí`M  M  yÿÿ@ÿÿìL  Qÿÿfÿÿ-éðO­õQ}õx{HFü!FxDFÐø °Ûø  Ð@Fð‚íN¨Oôqð|í¯Oôq8Fðví¥±œ±.³(h!hû ù¹ñ  ðµ€HFÍéTÍø°ðäëF àdHxD h xÀ	ÐbIcJ˜yDzD ñ8 ðpíOðÿ:¨à  ÍéTÍø°Oðÿ9 !ø	ñ
+ Oô3`¯­ø8
+ ­øH %˜Oð ø;Q ñ$N¨0
+ ‘‘Â²
+˜9Fþ#Íé‰ð2íXFðfí˜N©ª #€j •ðfí‚FXFðjíºñ +Ñø1 8F	™ü#&lt;Fðí‘šV¹*Ñ˜šF h`˜Ih`à˜h±5Fž™0FðRí‘˜D©ë 	€D–.F %¹ñÛø9&#39;F¹ç,H4FxD h xÀÐ)I*J˜yDzD ñ8 ðòì à4FŸÝéhÝé¹/³0hh±%F $Øø  Uø$ û‘ðí0h4„BóÓ8FðìàHxD h xÀ	ÐIJ˜yDzD ñ8 ðÆìoð
+Ð˜Ûø ¿PFõQ}½èððØì~L  .L  ‘ÿÿêÿÿÚJ  =ÿÿ¡3ÿÿ2K  •ÿÿéôþÿ ypG°µ„°  !&quot;Íé ! ð2øLOô€rMOô€s|D}D F)FðdèI FOô€rOô€syDð\è F)FOô€rOô€sðTè	I FOô€rOô€syDðJè F°°½ ¿g  ùþÿäøþÿ=ÿÿµ‚°H«xDh!h
+H
+JxD‘zDOô€q “ð†è˜!h¿°½ðnì ¿ìI  ±f  j ÿÿ@ò Àò0pG€µÝøÀ_ú€þÌø àÀó,Ãø ÀÀóC ``  €½ÔÔ-éðA‚°F$HFFxDh0x 	Õ!I !J&quot;KyDzD ”{Dðì8h!Fk8FG€±H ððê!F:FCFFð‚ê@hz(Û(Fð„êð:ë0x 	ÕI JKyDzD ”{Dðôë %(F°½èð0x@øÕI JKyDzD ”{Dðâëíç ¿~I  … ÿÿMðþÿóÿþÿ= ÿÿ‡*ÿÿ«ÿþÿ ÿÿ„.ÿÿ‡ÿþÿðµ°F  Äé
+ F!`Oðÿ1ÀïP Äé„ø80ññ(%Cù
+3FCù
+`d`8(bc¡`ØÁ²##úñÉÑHz!a`xD h xÀÐJ IzD —yDFàIyDQø a`hClF2F˜G	HxD h x ÕI J;FyDzDð~ë F°ð½&lt;ÿÿDH  Kÿÿò ÿÿtH  j;ÿÿyÿÿµF€jX±áhðÎë hðÒë  Oðÿ1 bÄé`k(±h!hRkG  `c F½µ„°Ðé„j!D
+l * ÜÂië‚Qø@&lt;Qø&lt;LQø8Ì¼ñ ÔÐø&lt;àôEÝBkAhÀéÃDdhÃmF°½è@G	IyD	h	xÉÐIJ hyDKzDèP {Dðë°½†G  ÿÿ=ìþÿöþÿðµÝøà¾ñ Ôø8¹ÁkqE1ÚÐé…jÀéâCdëNYÜø@w¹BÐÇi?O@&gt;C¶ú†öv	Ñ,DbQëS`ÂøàÂi:Š¿JÌø@ Ah@khÒm½èð@GHxD h xÀ Ñð½I JKyDzD{D½èð@ð@¹ÞF  ãÿÿv	ÿÿwõþÿ !Oðÿ2Àé!AdpGµF0ð2ë¡jñ$ ð6é F½µFOðÿ0Äé  &quot; b âbÄé&quot;Äé  F@ø(/ !`bñ ðÌì F½pµF8( ÒIyDQø `5hM»0 ðdéFOðÿ0Åé  !(b ébÅéÅé @(F@ø( !hbñ ð¦ì5`àHxD h xÀÐI J#FyDzDð^ê %(Fp½ ¿F  ’+ÿÿÝêþÿüD  ðµƒ° ñFF(Fðrêàh%OD€± i±áh1á`9h	x	!Õ!h)Ø&amp;JzDRø!0à8h!i hÙ±ÀèÐI JyDzDð(êàçK{DIçhJyDzDÍé  ðê(FðPê i°ð½ Õ h(ØIyDQø 0à	K{D
+I 
+JyDzDðê F1FðŽè¶ç¾E  $+ÿÿ®ÿÿÿÿD  Ø*ÿÿ­#ÿÿMÿÿ`D  +ÿÿªÿÿ-éðO—°FãHF $xDh1háH‘xDÍéD ð§ú;h—+¿+hÑ–ãHxD ðœúd ð¨èž ,1h¿$&quot;FðXè0aðäíÀÕððíÙI€&quot;ÙKyD {DF€!ø÷fÿðÔíÀ ñ…®ÀïP 0!ÓH2FBùÁ
+ñ xDAùÏ
+ñBùÏ
+AùÏ
+ ðfú˜@! iBm0FGFð´íÀÕðÀíÅI€&quot;ÅKyD {DF€!ø÷5ÿð¤íÀ ñYÀHxDÐø  Úø  ”±ÀSÐ˜ h(&lt;ØÆIyDQø 09à+Ñª!ð èœŽç@@Õ˜ h(2Ø¸IyDQø 0/à°HxD h xÀÐ®I ®JyDzDðFéðlíÀÕðxí©I€&quot;©KyD {DF€!ø÷îþð\íÀ ñ%Oðÿ5½à¦K{D§I §JyD ”zDà˜K{DŸI ŸJyD –zDðé¡No¡H~DxDƒF HxDFŸH LxD|D€F0F ðÜù˜ i i€GFð,íÀÕð8í @F€!€&quot;#Fø÷°þðíÀÔšø   Õ YFJF+FðêèU± ðŽï? /ÕÜà@Fð íéç‡I›yDñ  
+h !ðŽê`±šø  žÀ^ÐI JyDzDðÈèVàª!ðdïœžœ³{HxD ðŽù˜ iÁi FˆG¨±šø  ÀÐ˜ h(ØtIyDQø 0àqK{DrI rJyDzDð èðÆìÀÕðÒìmI€&quot;mKyD {DF€!ø÷Hþð¶ìÀzÔiHxD ðZù˜ð6ïð¬ìÀÕð¸ìdI€&quot;dKyD {DF€!ø÷-þðœìÀZÔ %ð–ìÀÕð¢ì\I€&quot;\KyD {DF€!ø÷þð†ìÀ2ÔhÐ˜1h¿°½èððrè˜i ,òÐ Fðï Fð€ïNH!šxD hQ` !a xÀáÐ˜ h(ØHIyDQø 0àEK{DFI FJyDzDð*èÎç&gt;HxDðfìÇçHxDð`ìuæHxDð\ì¡ææD  ü	ÿÿ1HxDðRìŸç+HxDðNìçHxDðHìÕæ ¿Ïéþÿúb  ÓÿÿÖ_  ÿÿ˜b  qÿÿÌ_  D  KÿÿÔC  b)ÿÿpÿÿ
+b  ãÿÿ¦_  žB  )ÿÿÿÿ]ÿÿÄB   )ÿÿšèþÿ„ÿÿü(ÿÿºþþÿ°a  ‹ÿÿC  f(ÿÿ7&amp;ÿÿ­éþÿSÿÿJA  (ÿÿû#ÿÿ¾`  —ÿÿ°_  ü&#39;ÿÿˆ`  aÿÿº_  ^`  7ÿÿà_  ¸A  gÿÿ^@  *&#39;ÿÿÃÿÿðµ›°.HF)xDh0h!Ð)FÑ*OD8hADÑ­\!(Fðjï&amp;H !&amp;JxD‘zD)Fðí©(F &quot;ð¤íøé±™	xÑ¹8`)à­\!(FðPïH !JxD‘zD)Fðþì©(F &quot;ðŠíø±™	x±HxD h xÀÐI«J yDzDðNïOðÿ0à `  ™2hQ¿°ð½ð`ï^@  fW  Æÿÿ ÿÿ)ÿÿËÿþÿä?  p%ÿÿû/ÿÿƒ°pµƒ°F HÍéxDh0h	“ðHëÀ%ÕL«€!*F|D“ FðFëI F€&quot;€#yDðæêðDëM!K&quot;}D {D(Fø÷ºü F)F€&quot;€#ðÔêð&quot;ëÀ
+Ô˜1h¿°½èp@°pGðïHxDð*ëïçv?  8]  ùìþÿ”]  èÜþÿÜ\  CmFFG i G-éðO° (JÐ€F iGL (|DPÐiOðÿ0ˆGÔø ¢F (Ùø RÐHÕ?I ?J@KyDzD{Dð¶îØø$@ñ(¬BLÐ;HxDƒF™ø  Ôég Õ7J YFzDð î0F¸G`h ±F h (ûÑà FPø
+h¢BFÐhFPøO&quot;hŠBøÑ¬BÚÑ#àHxD h xÀ4ÐI JyDzD,à h¢F x@Õ#I #JyDzDðnî
+àÕI JKyDzD{DðbîXø(¨ñ ðäìÚø   !HøŒ xÈé  ÕI JyDzDðLî  °½èð ¿:&gt;  È#ÿÿô#ÿÿÊ&gt;  B$ÿÿÖ&#39;ÿÿVíþÿ*$ÿÿ¯åþÿœ#ÿÿ“ñþÿ°ìþÿ²#ÿÿÖÿÿl#ÿÿÏ
+ÿÿÂiFGÔÔ-éðO°-í‹Œ°‚FLHxDÐø °Ûø  Úø  (GÐõ÷&quot;ýXìŸÐé u©Ðéd  Íé  ðêë0F!Fð^ïFF8F)FðXïAì0HFFì1KAFî ‹ðNïAì0Ýé%Lö #îhî Ãöš3ÂûVQì0ðDï2JGaëzDhxÊét,ÕÚø  *Ø-K{DSø&quot;0à#HxD h xÀÐÚø  (%Ø IyDQø 0&quot;à&quot;K{D#JOð zD–F!JÍé tÍéÌñzDŒèc  qFð¤í˜Ûø ¿°½ì‹°½èðàK{D˜Ûø ÑI JyDzD°½ì‹°½èðOðþ»ð¢í\=  ¾&lt;  1ýþÿj;  ê!ÿÿ½÷þÿà&lt;  sýþÿˆ;  6&quot;ÿÿ?úþÿµF± FðìÔé½ÔÔðµƒ° ñF Fð‚í8HxDhèh9x8è`	Õ)h)Ø4JzDRø!0à1K{D2I.i2JyDÍé ` zDð&gt;íèh(± F°½èð@ðµ»(i (öÐ@i€G˜±8xÀÐ(h(Ø&amp;IyDQø 0à&quot;K{D#I #JyDzDðí(jAÐ9x	ÕI JyDzDðí(j !ðbíOðÿ0(b.i.±0Fðºë0Fð8ì8x !)a ¾Õ(h(ØIyDQø 0àK{DI JyDzDðêì¬çâ;  “üþÿŠ:  V!ÿÿl÷þÿIüþÿ@:  !ÿÿ‰âþÿò ÿÿŸçþÿåûþÿÜ9  ¨ ÿÿüýþÿ@i Gµ†°K{Dh#h“Íé!ª ñ$¨Fðxëø ™&quot;hQ¿°½ðÎì²:  µ‚°J$0zDh&quot;h ‘iF’ðhë˜!h¿°½ð¸ìx:  ‚iFG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pG  pGÔÔðµƒ°F  &amp;F `HFø(ÒéIFéJyDzDQø Rø  Äé Fðëå±ãHxD h xÀ ð·ƒ0h( òö€ßIyDQø 0òàÝHxD h xÀ ð§ƒFÚIÛJyDzDãàh !ðúê ( ` ðÌ€ÖIyDðúê ( a ðÛ€ÓI hyDððê (`a ðá€ÏI hyDðèê ( a ðò€ÌI hyDðÞê (àa ðÈI hyDðÖê ( b ðÅI hyDðÌê (`b ðÁI hyDðÄê ( b ð.¾I hyDðºê (àb ð&gt;ºI hyDð²ê ( c ðß·I hyDð¨ê (`c ðî³I hyDð ê ( c ðý°I hyDð–ê (àc ð‚¬I hyDðŽê ( d ð‚©I hyDð„ê (`d ð*‚¥I hyDð|ê ( d ð9‚¢I hyDðrê (àd ðH‚žI hyDðjê ( e ðW‚›I hyDð`ê (`e ðf‚—I hyDðXê ( e ðt‚”I hyDðNê (àe ð‚‚I hyDðFêI ( fyD	h	h ðŒ‚@ñÖ‚0h( ò˜‚ˆIyDQø 0”â‡HxD h xÀ ð«‚`håh()Ø‚IyDQø p&amp;àK{DIJyDzD²â€HxD h xÀ ð”‚0h(-Ø|IyDQø P*à{HxD h xÀ ð…‚0h(6ØwIyDQø P3àuODð êtIuJyDÍé pzDmâsHxD h xÀ ðk‚0h(4ØoIyDQø P1àmM}DðæélImJyDzDTâlHxD h xÀ ðS‚0h(4ØhIyDQø P1àfM}DðÎéeIfJyDzD&lt;âeHxD h xÀ ð;‚0h(5ØaIyDQø P2à_M}Dð¶é^I_JyDzD$â^HxD h xÀ ð#‚0h(6ØZIyDQø P3àXM}DðžéWIXJyDzDâWHxD h xÀ ð‚0h( òÇ€RIyDQø PÃàQM}Dð†éPIPJyDzDóáOHxD h xÀ ðò0h( òÆ€KIyDQø PÂàIM}DðléHIIJyDzDÚá ¿¸8  ª8  Â9  l8  ¢9  .ÿÿyÞþÿöÿÿIÿÿhÿÿùþÿáÿÿ|ÿÿ¢ÿÿ÷ÿÿÂ×þÿ
+ÿÿ*åþÿ‘ÿÿÿÿŒöþÿžñþÿ³ñþÿ$ ÿÿdÿÿ‘ßþÿÀîþÿ]×þÿ8  ª6  à7  Š6  “øþÿXÿÿfÿÿ²7  ^6  ”7  @6  Iøþÿ
+ÿÿ~$ÿÿ`7  6  øþÿÖÿÿÿÿ07  Ü5  å÷þÿ¦ÿÿ9Ùþÿ 7  ¬5  µ÷þÿvÿÿÛÿÿÐ6  |5  …÷þÿFÿÿÙþÿ 6  J5  S÷þÿÿÿ_öþÿn6  5  !÷þÿâÿÿïþÿ¼HxD h xÀ ðH0h(4Ø¹IyDQø P1à¯M}DðÄè®I®JyDzD1áµHxD h xÀ ð00h(4Ø²IyDQø P1à¦M}Dð¬è¥I¥JyDzDá®HxD h xÀ ð0h(4Ø«IyDQø P1àžM}Dð”èžIžJyDzDá§HxD h xÀ ð 0h(4Ø¤IyDQø P1à—M}Dð|è—I—JyDzDéà HxD h xÀ ðè€0h(4ØIyDQø P1àM}DðdèIJyDzDÑà™HxD h xÀ ðÐ€0h(4Ø–IyDQø P1à‰M}DðLè‰I‰JyDzD¹à’HxD h xÀ ð¸€0h(4ØIyDQø P1à‚M}Dð4è‚I‚JyDzD¡à‹HxD h xÀ ð €0h(3ØˆIyDQø P0à{M}Dðè{I{JyDzD‰à„HxD h xÀ ðˆ€0h(2ØIyDQø P/àtM}DðètItJyDzDqà}HxD h xÀpÐ0h(2Ø{IyDQø P/àmM}DðìïmInJyDzDZàwHxD h xÀYÐ0h(.ØtIyDQø P+àgM}DðÖïgIgJyDzDCàpHxD h xÀBÐ0h()ØnIyDQø P&amp;à`M}Dð¾ï`IaJyDzD,àÈ/Ð0h(ØhIyDQø Pà\M}Dð¬ï\I\JyDzDàiK{DiIjJyD zD .àXM}DðšïXIXJyDzDàWM}DðïWIXJyDzD  +Fð¨è Fð\ïSHxD h xÀÐ0h(ØQIyDQø 0àMK{DNIOJyD zD ðŒè F°ð½ ¿Ïõþÿÿÿ¢èþÿŸõþÿ`ÿÿ„ÿÿ5  oõþÿÆ3  0ÿÿÅÿÿê4  ?õþÿ–3   ÿÿ×þÿº4  õþÿf3  ÐÿÿÈÿÿŠ4  ßôþÿ63   ÿÿðþÿZ4  ¯ôþÿ3  pÿÿ8ÿÿ*4  ôþÿÖ2  @ÿÿ‹#ÿÿú3  Oôþÿ¦2  ÿÿ¥&amp;ÿÿÊ3  !ôþÿv2  âÿÿCÒþÿš3  óóþÿF2  ´ÿÿ°ÿÿj3  Åóþÿ2  †ÿÿËÿÿ&lt;3  Ÿóþÿê1  `ÿÿóÿÿ3  {óþÿ¼1  &lt;ÿÿ·õþÿióþÿ–1  *ÿÿÒþÿv2  -óþÿ$1  òÿÿ¥×þÿóþÿRÿÿ&amp;ìþÿ-éðO°F h±ðÌî/H0I0JxD0KyD0MzD0N{D0O}D~D hD Õø  Öø °,N=h,O~DÒø €+JDÓø zD*K6h{Dh?hhÄé2Äév%f%J&amp;K&amp;MzD&amp;N{D&amp;O}D&amp;H~DÑø àD%IxDÒø ÀyD#J-hzD?h	hhh6h hÄé!ÄéÄéeÄé&lt;HIxDÄéºyDÄé˜ h	h šÄø àÄé	!àb°½èð&quot;1  &quot;1  &quot;1  &quot;1  &quot;1  $1  $1  1  1  1  1  ú0  ú0  ú0  ú0  ø0  ø0  ö0  ô0  Ö0  Ô0  µFðî F½jFGCjFFGƒjFFGÃjFFGkFFGCkFFGœFƒkFFbFGÂkFGpµ„°lñ ˜œFžè@Íé NÍéPFFbF°G°p½ClFFG€µžFÐøHÀFF›rF½è€@`GÂlFGœFmFFbFG€µžFÐøXÀFF›rF½è€@`G€µžFÐø\ÀFF›rF½è€@`Gpµ„°nñ ˜œFžè@Íé NÍéPFFbF°G°p½q±°µF	hFð`íah(Fð\í F½è°@ ðŽ¼pG-éðC°F˜FWøoFFŽ±h/1iˆBÒ1h9¹àB
+Ò7FWø1±&gt;F7FFïç&gt;F à7F&lt;h±  à  ðˆíFØé Äé(F1F:F#FðŒí ‰ø Éø @°½èðƒµF  Ãé  ™`` h h± `h`hFð|í h0 `½µ
+²ú‚òOêR
+s%ÐOð‹h{ *¿½ÓøàÞø  šBÐÂ±øO4±àÞø ²±øOœ¹¾ë ƒøÀ±úñOêQŽøqF‚ø ÀÛÑ½hˆBÐF,àhˆBEÐXhhY`±‹`ÓøàÀøà™h
+FRøKœB¿
+F``˜`Ðøà0àHh`±ƒ`ÓøàÁøà˜hFRøKœB¿F`K`™`Ñøà s !Þø ŽøhÎø	±ÁøàÞø`Þø
+FRø;sE¿
+F`Àø ààF!s !Þø  ŽøAhÎø 	±ÁøàÞø`Þø
+FRø;sE¿
+F`ÀøàÎø ½µ„F\ø?‹±	hdFiŠBF8¿2h(¿F *FôÑdEÐ&quot;i‘BÒ  ½!F ðø F ðþì ½µJh&quot;±Fh *ûÑà
+FRøO#h‹BÐÒø ÀbFRøO#hcE÷ÑhŠB¿`Ðé#;ƒ`Fð¢ì F½pµÑø À
+F¼ñ ÐKhk±Fh +ûÑÒøÀ¼ñ ÑOð Oð à
+F“hOðÌø0“hh”BÐÃøÀ“hà‚BÃø À ð‘€“h3h{ŠBÐh•`Žh6hŽB¿5*`h`ª`MhU`±ª`{ˆBs¿F4±(±¾ñ Ð Œø p½Oð Oðšh{hžBÐ$±Fàd³FEàƒøÀ‚øàšhTh%hU`±ª`–h¦`•h.FVø‘B¿.F4`&quot;`”`hˆBJh¿Fh±{ )EÐTh±!{ )BÐ“h‚øàƒB)Ñ6àƒøÀ‚øàšhheh`±ª`‘h¡`‘hFUøk–B¿F,`b`”`YhˆB
+h¿Fh±{ )OÐTh±!{‰³“h‚øàƒBÐ{a±™h
+FRøKœB¿
+Fh•ç #`FnçF sp½Th± { (IÐ  !shsAh`±Š`‘h`‘hFSøk–B¿F`B``4à±{°±Th  ! sPhshQ`±Š`‘h`‘hFSøk–B¿F``` àFh
+{s&quot;
+sh
+s€hhJh`±`‚hŠ`‚hFSøk†B¿F`H`àFh
+{s&quot;
+sAh
+s€hAh
+hB`±`‚hŠ`‚hFSøk†B¿F```p½0Aì   ã@õî  ãúñîÿ/‘ßí	+ßí¡`îá¼î@øî¢Aîîà¼î
+îÿ/á      ð=      ðÁ
+ î   ã  ã@
+µîúñîÿ/‘À
+÷î	ßí
++ßí¡`îá¼î@øî¢Aîîà¼î
+îÿ/á ð ã      ð=      ðÁ   ã	ßí0%Dã1Bì  ã0Dã qî1Aì¡pî0Qìÿ/á ð ã     0Åp@-é á  
+/oá  Qã 0‚â?o? #â&#39; Sã  Š@Àcâ \ã   
+ \ã   á á€  á  ê+
+Ÿí
+îp€½è(Câ áHSâ   S  êàcâPƒâ`Sâ&amp;0câ0N áE„áU áF Q P S@•á Pcâ0 á@ €á  ^ã1 Q1 á €á  SP1àç  ƒá0â  ¡âã  # á á  ê£ á€á  áŸßç‚€áþ€â
+ î
+îp€½è    C êF ê0 á á  áF ê  á °ãC êà-åÐMâ  áC ë åÐâðä Qãs  :o  
+ Páj  :Ïoá?oá0CàÍâÁLàƒÁLà 0 ãÿ/áPá1ƒ&quot;@ Pá1ƒ&quot;@ Pá2ƒ&quot;@ Pá2ƒ&quot;@ Pá3ƒ&quot;@ Pá3ƒ&quot;@ Pá4ƒ&quot;@ Pá4ƒ&quot;@ Pá5ƒ&quot;@ Pá5ƒ&quot;@ 
+Pá6ƒ&quot;
+@ 
+Pá6ƒ&quot;
+@ 	Pá7ƒ&quot;	@ 	Pá7ƒ&quot;	@ Pá8ƒ&quot;@ Pá8ƒ&quot;@ Pá9ƒ&quot;@ Pá9ƒ&quot;@ Pá:ƒ&quot;@ Pá:ƒ&quot;@ Pá;ƒ&quot;@ Pá;ƒ&quot;@ Pá&lt;ƒ&quot;@ Pá&lt;ƒ&quot;@ Pá€0ƒ&quot;@ Pá@0ƒ&quot;@ Pá 0ƒ&quot;@ Pá0ƒ&quot;@ Pá0ƒ&quot;@ Pá0ƒ&quot;@  Pá0ƒ&quot; @  Pá0ƒ&quot; @   ‚å  áÿ/á  ‚å   ãÿ/á 0 ã 0‚åÿ/á   ãÿÿÿêÿ/á@ò„,Àò üD`G@ò¨,Àò üD`G@ò¬,Àò üD`G@ò°,Àò üD`G@òÄ,Àò üD`G@òÈ,Àò üD`G@òÌ,Àò üD`G@òÐ,Àò üD`G@òä,Àò üD`G@òè,Àò üD`G@òì,Àò üD`G@òð,Àò üD`G@òô,Àò üD`G@òø,Àò üD`G@òü,Àò üD`G@ò &lt;Àò üD`G@ò&lt;Àò üD`G@ò&lt;Àò üD`G@ò&lt;Àò üD`G@ò&lt;Àò üD`G@ò&lt;Àò üD`G@ò&lt;Àò üD`G@ò&lt;Àò üD`G@ò &lt;Àò üD`G@ò$&lt;Àò üD`G@ò(&lt;Àò üD`G@ò,&lt;Àò üD`G@ò0&lt;Àò üD`G@ò”LÀò üD`G@òÈLÀò üD`G@òÜLÀò üD`G@òàLÀò üD`G@òälÀò üD`G@ò|Àò üD`G@ò|Àò üD`G@ò |Àò üD`G@ò$|Àò üD`G@ò(|Àò üD`G@ölÀò üD`G@ò &lt;Àò üD`G@òd&lt;Àò üD`G@öH,Àò üD`G@öŒ,Àò üD`G@öÀ,Àò üD`G@öD&lt;Àò üD`G@öX&lt;Àò üD`G@öÜLÀò üD`G@öðLÀò üD`G@ö\Àò üD`G@ö\Àò üD`G@ö\Àò üD`G@öLÀò üD`Gà-å æâêŽâ$ô¾åÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔ ÆâÊŒâô¼åÔÔÔÔ ÆâÊŒâ ô¼åÔÔÔÔ ÆâÊŒâôó¼åÔÔÔÔ ÆâÊŒâèó¼åÔÔÔÔ ÆâÊŒâÜó¼åÔÔÔÔ ÆâÊŒâÐó¼åÔÔÔÔ ÆâÊŒâÄó¼åÔÔÔÔ ÆâÊŒâ¸ó¼åÔÔÔÔ ÆâÊŒâ¬ó¼åÔÔÔÔ ÆâÊŒâ ó¼åÔÔÔÔ ÆâÊŒâ”ó¼åÔÔÔÔ ÆâÊŒâˆó¼åÔÔÔÔ ÆâÊŒâ|ó¼åÔÔÔÔ ÆâÊŒâpó¼åÔÔÔÔ ÆâÊŒâdó¼åÔÔÔÔ ÆâÊŒâXó¼åÔÔÔÔ ÆâÊŒâLó¼åÔÔÔÔ ÆâÊŒâ@ó¼åÔÔÔÔ ÆâÊŒâ4ó¼åÔÔÔÔ ÆâÊŒâ(ó¼åÔÔÔÔ ÆâÊŒâó¼åÔÔÔÔ ÆâÊŒâó¼åÔÔÔÔ ÆâÊŒâó¼åÔÔÔÔ ÆâÊŒâøò¼åÔÔÔÔ ÆâÊŒâìò¼åÔÔÔÔ ÆâÊŒâàò¼åÔÔÔÔ ÆâÊŒâÔò¼åÔÔÔÔ ÆâÊŒâÈò¼åÔÔÔÔ ÆâÊŒâ¼ò¼åÔÔÔÔ ÆâÊŒâ°ò¼åÔÔÔÔ ÆâÊŒâ¤ò¼åÔÔÔÔ ÆâÊŒâ˜ò¼åÔÔÔÔ ÆâÊŒâŒò¼åÔÔÔÔ ÆâÊŒâ€ò¼åÔÔÔÔ ÆâÊŒâtò¼åÔÔÔÔ ÆâÊŒâhò¼åÔÔÔÔ ÆâÊŒâ\ò¼åÔÔÔÔ ÆâÊŒâPò¼åÔÔÔÔ ÆâÊŒâDò¼åÔÔÔÔ ÆâÊŒâ8ò¼åÔÔÔÔ ÆâÊŒâ,ò¼åÔÔÔÔ ÆâÊŒâ ò¼åÔÔÔÔ ÆâÊŒâò¼åÔÔÔÔ ÆâÊŒâò¼åÔÔÔÔ ÆâÊŒâüñ¼åÔÔÔÔ ÆâÊŒâðñ¼åÔÔÔÔ ÆâÊŒâäñ¼åÔÔÔÔ ÆâÊŒâØñ¼åÔÔÔÔ ÆâÊŒâÌñ¼åÔÔÔÔ ÆâÊŒâÀñ¼åÔÔÔÔ ÆâÊŒâ´ñ¼åÔÔÔÔ ÆâÊŒâ¨ñ¼åÔÔÔÔ ÆâÊŒâœñ¼åÔÔÔÔ ÆâÊŒâñ¼åÔÔÔÔ ÆâÊŒâ„ñ¼åÔÔÔÔ ÆâÊŒâxñ¼åÔÔÔÔ ÆâÊŒâlñ¼åÔÔÔÔ ÆâÊŒâ`ñ¼åÔÔÔÔ ÆâÊŒâTñ¼åÔÔÔÔ ÆâÊŒâHñ¼åÔÔÔÔ ÆâÊŒâ&lt;ñ¼åÔÔÔÔ ÆâÊŒâ0ñ¼åÔÔÔÔ ÆâÊŒâ$ñ¼åÔÔÔÔ ÆâÊŒâñ¼åÔÔÔÔ ÆâÊŒâñ¼åÔÔÔÔ ÆâÊŒâ ñ¼åÔÔÔÔ ÆâÊŒâôð¼åÔÔÔÔ ÆâÊŒâèð¼åÔÔÔÔ ÆâÊŒâÜð¼åÔÔÔÔ ÆâÊŒâÐð¼åÔÔÔÔ ÆâÊŒâÄð¼åÔÔÔÔ ÆâÊŒâ¸ð¼åÔÔÔÔ ÆâÊŒâ¬ð¼åÔÔÔÔ ÆâÊŒâ ð¼åÔÔÔÔ ÆâÊŒâ”ð¼åÔÔÔÔ ÆâÊŒâˆð¼åÔÔÔÔ ÆâÊŒâ|ð¼åÔÔÔÔ ÆâÊŒâpð¼åÔÔÔÔ ÆâÊŒâdð¼åÔÔÔÔ ÆâÊŒâXð¼åÔÔÔÔ ÆâÊŒâLð¼åÔÔÔÔ ÆâÊŒâ@ð¼åÔÔÔÔ ÆâÊŒâ4ð¼åÔÔÔÔ ÆâÊŒâ(ð¼åÔÔÔÔ ÆâÊŒâð¼åÔÔÔÔ ÆâÊŒâð¼åÔÔÔÔ ÆâÊŒâð¼åÔÔÔÔ ÆâÊŒâøÿ¼åÔÔÔÔ ÆâÊŒâìÿ¼åÔÔÔÔ ÆâÊŒâàÿ¼åÔÔÔÔ ÆâÊŒâÔÿ¼åÔÔÔÔ ÆâÊŒâÈÿ¼åÔÔÔÔ ÆâÊŒâ¼ÿ¼åÔÔÔÔ ÆâÊŒâ°ÿ¼åÔÔÔÔ ÆâÊŒâ¤ÿ¼åÔÔÔÔ ÆâÊŒâ˜ÿ¼åÔÔÔÔ ÆâÊŒâŒÿ¼åÔÔÔÔ ÆâÊŒâ€ÿ¼åÔÔÔÔ ÆâÊŒâtÿ¼åÔÔÔÔ ÆâÊŒâhÿ¼åÔÔÔÔ ÆâÊŒâ\ÿ¼åÔÔÔÔ ÆâÊŒâPÿ¼åÔÔÔÔ ÆâÊŒâDÿ¼åÔÔÔÔ ÆâÊŒâ8ÿ¼åÔÔÔÔ ÆâÊŒâ,ÿ¼åÔÔÔÔ ÆâÊŒâ ÿ¼åÔÔÔÔ ÆâÊŒâÿ¼åÔÔÔÔ ÆâÊŒâÿ¼åÔÔÔÔ ÆâÊŒâüþ¼åÔÔÔÔ ÆâÊŒâðþ¼åÔÔÔÔ ÆâÊŒâäþ¼åÔÔÔÔ ÆâÊŒâØþ¼åÔÔÔÔ ÆâÊŒâÌþ¼åÔÔÔÔ ÆâÊŒâÀþ¼åÔÔÔÔ ÆâÊŒâ´þ¼åÔÔÔÔ ÆâÊŒâ¨þ¼åÔÔÔÔ ÆâÊŒâœþ¼åÔÔÔÔ ÆâÊŒâþ¼åÔÔÔÔ ÆâÊŒâ„þ¼åÔÔÔÔ ÆâÊŒâxþ¼åÔÔÔÔ ÆâÊŒâlþ¼åÔÔÔÔ ÆâÊŒâ`þ¼åÔÔÔÔ ÆâÊŒâTþ¼åÔÔÔÔ ÆâÊŒâHþ¼åÔÔÔÔ ÆâÊŒâ&lt;þ¼åÔÔÔÔ ÆâÊŒâ0þ¼åÔÔÔÔ ÆâÊŒâ$þ¼åÔÔÔÔ ÆâÊŒâþ¼åÔÔÔÔ ÆâÊŒâþ¼åÔÔÔÔ ÆâÊŒâ þ¼åÔÔÔÔ ÆâÊŒâôý¼åÔÔÔÔ ÆâÊŒâèý¼åÔÔÔÔ ÆâÊŒâÜý¼åÔÔÔÔ ÆâÊŒâÐý¼åÔÔÔÔ ÆâÊŒâÄý¼åÔÔÔÔ ÆâÊŒâ¸ý¼åÔÔÔÔ ÆâÊŒâ¬ý¼åÔÔÔÔ ÆâÊŒâ ý¼åÔÔÔÔ ÆâÊŒâ”ý¼åÔÔÔÔ ÆâÊŒâˆý¼åÔÔÔÔ ÆâÊŒâ|ý¼åÔÔÔÔ ÆâÊŒâpý¼åÔÔÔÔ ÆâÊŒâdý¼åÔÔÔÔ ÆâÊŒâXý¼åÔÔÔÔ ÆâÊŒâLý¼åÔÔÔÔ ÆâÊŒâ@ý¼åÔÔÔÔ ÆâÊŒâ4ý¼åÔÔÔÔ ÆâÊŒâ(ý¼åÔÔÔÔ ÆâÊŒâý¼åÔÔÔÔ ÆâÊŒâý¼åÔÔÔÔ ÆâÊŒâý¼åÔÔÔÔ ÆâÊŒâøü¼åÔÔÔÔ ÆâÊŒâìü¼åÔÔÔÔ ÆâÊŒâàü¼åÔÔÔÔ ÆâÊŒâÔü¼åÔÔÔÔ ÆâÊŒâÈü¼åÔÔÔÔ ÆâÊŒâ¼ü¼åÔÔÔÔ ÆâÊŒâ°ü¼åÔÔÔÔ ÆâÊŒâ¤ü¼åÔÔÔÔ ÆâÊŒâ˜ü¼åÔÔÔÔ ÆâÊŒâŒü¼åÔÔÔÔ ÆâÊŒâ€ü¼åÔÔÔÔ ÆâÊŒâtü¼åÔÔÔÔ ÆâÊŒâhü¼åÔÔÔÔ ÆâÊŒâ\ü¼åÔÔÔÔ ÆâÊŒâPü¼åÔÔÔÔ ÆâÊŒâDü¼åÔÔÔÔ ÆâÊŒâ8ü¼åÔÔÔÔ ÆâÊŒâ,ü¼åÔÔÔÔ ÆâÊŒâ ü¼åÔÔÔÔ ÆâÊŒâü¼åÔÔÔÔ ÆâÊŒâü¼åÔÔÔÔ ÆâÊŒâüû¼åÔÔÔÔ ÆâÊŒâðû¼åÔÔÔÔ ÆâÊŒâäû¼åÔÔÔÔ ÆâÊŒâØû¼åÔÔÔÔ ÆâÊŒâÌû¼åÔÔÔÔ ÆâÊŒâÀû¼åÔÔÔÔ ÆâÊŒâ´û¼åÔÔÔÔ ÆâÊŒâ¨û¼åÔÔÔÔ ÆâÊŒâœû¼åÔÔÔÔ ÆâÊŒâû¼åÔÔÔÔ ÆâÊŒâ„û¼åÔÔÔÔ ÆâÊŒâxû¼åÔÔÔÔ ÆâÊŒâlû¼åÔÔÔÔ ÆâÊŒâ`û¼åÔÔÔÔ ÆâÊŒâTû¼åÔÔÔÔ ÆâÊŒâHû¼åÔÔÔÔ ÆâÊŒâ&lt;û¼åÔÔÔÔ ÆâÊŒâ0û¼åÔÔÔÔ ÆâÊŒâ$û¼åÔÔÔÔ ÆâÊŒâû¼åÔÔÔÔ ÆâÊŒâû¼åÔÔÔÔ ÆâÊŒâ û¼åÔÔÔÔ ÆâÊŒâôú¼åÔÔÔÔ ÆâÊŒâèú¼åÔÔÔÔ ÆâÊŒâÜú¼åÔÔÔÔ ÆâÊŒâÐú¼åÔÔÔÔ ÆâÊŒâÄú¼åÔÔÔÔ ÆâÊŒâ¸ú¼åÔÔÔÔ ÆâÊŒâ¬ú¼åÔÔÔÔ ÆâÊŒâ ú¼åÔÔÔÔ ÆâÊŒâ”ú¼åÔÔÔÔ ÆâÊŒâˆú¼åÔÔÔÔ ÆâÊŒâ|ú¼åÔÔÔÔ ÆâÊŒâpú¼åÔÔÔÔ ÆâÊŒâdú¼åÔÔÔÔ ÆâÊŒâXú¼åÔÔÔÔ ÆâÊŒâLú¼åÔÔÔÔ ÆâÊŒâ@ú¼åÔÔÔÔ ÆâÊŒâ4ú¼åÔÔÔÔ ÆâÊŒâ(ú¼åÔÔÔÔ ÆâÊŒâú¼åÔÔÔÔ ÆâÊŒâú¼åÔÔÔÔ ÆâÊŒâú¼åÔÔÔÔ ÆâÊŒâøù¼åÔÔÔÔ ÆâÊŒâìù¼åÔÔÔÔ ÆâÊŒâàù¼åÔÔÔÔ ÆâÊŒâÔù¼åÔÔÔÔ ÆâÊŒâÈù¼åÔÔÔÔ ÆâÊŒâ¼ù¼åÔÔÔÔ ÆâÊŒâ°ù¼åÔÔÔÔ ÆâÊŒâ¤ù¼åÔÔÔÔ ÆâÊŒâ˜ù¼åÔÔÔÔ ÆâÊŒâŒù¼åÔÔÔÔ ÆâÊŒâ€ù¼åÔÔÔÔ ÆâÊŒâtù¼åÔÔÔÔ ÆâÊŒâhù¼åÔÔÔÔ ÆâÊŒâ\ù¼åÔÔÔÔ ÆâÊŒâPù¼åÔÔÔÔ ÆâÊŒâDù¼åÔÔÔÔ ÆâÊŒâ8ù¼åÔÔÔÔ ÆâÊŒâ,ù¼åÔÔÔÔ ÆâÊŒâ ù¼åÔÔÔÔ ÆâÊŒâù¼åÔÔÔÔ ÆâÊŒâù¼åÔÔÔÔ ÆâÊŒâüø¼åÔÔÔÔ ÆâÊŒâðø¼åÔÔÔÔ ÆâÊŒâäø¼åÔÔÔÔ ÆâÊŒâØø¼åÔÔÔÔ ÆâÊŒâÌø¼åÔÔÔÔ ÆâÊŒâÀø¼åÔÔÔÔ ÆâÊŒâ´ø¼åÔÔÔÔ ÆâÊŒâ¨ø¼åÔÔÔÔ ÆâÊŒâœø¼åÔÔÔÔ ÆâÊŒâø¼åÔÔÔÔ ÆâÊŒâ„ø¼åÔÔÔÔ ÆâÊŒâxø¼åÔÔÔÔ ÆâÊŒâlø¼åÔÔÔÔ ÆâÊŒâ`ø¼åÔÔÔÔ ÆâÊŒâTø¼åÔÔÔÔ ÆâÊŒâHø¼åÔÔÔÔ ÆâÊŒâ&lt;ø¼åÔÔÔÔ ÆâÊŒâ0ø¼åÔÔÔÔ ÆâÊŒâ$ø¼åÔÔÔÔ ÆâÊŒâø¼åÔÔÔÔ ÆâÊŒâø¼åÔÔÔÔ ÆâÊŒâ ø¼åÔÔÔÔ ÆâÊŒâô÷¼åÔÔÔÔ ÆâÊŒâè÷¼åÔÔÔÔ ÆâÊŒâÜ÷¼åÔÔÔÔ ÆâÊŒâÐ÷¼åÔÔÔÔ ÆâÊŒâÄ÷¼åÔÔÔÔ ÆâÊŒâ¸÷¼åÔÔÔÔ ÆâÊŒâ¬÷¼åÔÔÔÔ ÆâÊŒâ ÷¼åÔÔÔÔ Þ                         9 ;     ? C G K                                                     ×¡  ŸŸ  N  4Ç  ´®    ¹  Ã¶  †°  Õ„  (¼  Ã¶  †°  Õ„  _«  “Ñ  m„  R~  ŸŸ  N  4Ç  ´®    ¹  ¿Á  à  P–  .ž  Y£  í¶  Ð  ¥  ¥Á  ü§  ³~  ë„                          eu P  óÍ  ñ­  °   S‚  ˆ¼                          9                     ‰–                                                                 &#39;µ  »  Ô  4¡  @~  …¡  Æ€  ¿  èœ  «  ?å  1å     yE     ÃE     ÐE     ŠE     ÜE     ­E     æE     ºE     îE        ûÿÿo     `m    `g         àÿo|n  àÿo$   àÿo      ðu     P     ˆá          ¬           &#39;  
+   	F  õþÿoð     ìß       ðÿÿo&lt;  þÿÿop  ÿÿÿo                                                                                                                                                                           `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ `½ Eå  uå  å  §å  Éå  õå  æ  Kæ  æ  «æ  Ýæ                                                                                                                                                                                                                                             ç  +ç  7ç  Cç  Oç  [ç  gç  sç  ç  ‹ç  —ç  £ç  ¯ç  »ç  Çç  Óç          ßç  ëç  õç  è                                                                                                                                                                                                                                        ÿÿÿÿA;   aeabi 1   C2.09 
+A	
+  &quot;&amp; .fini_array .ARM.exidx .text .got .note.android.ident .got.plt .rel.plt .bss .ARM.attributes .dynstr .gnu.version_r .data.rel.ro .relr.dyn .rel.dyn .gnu.version .dynsym .gnu.hash .note.gnu.build-id .dynamic .ARM.extab .shstrtab .rodata .gnu_debugdata .data ý7zXZ  æÖ´F !   t/å£àQ&#39;©] ?‘E„h;ÞÞ¦Â”Ô$kÈcGã–‹¢‘š #`.ií¬¢[7õ,èn¶ª»O4Š®{
+°›§´ri:á__Ô°˜˜¼ûÇ_Ôs*û…‡Y!Î‰‚²ÏÎo&#39;5~s¯_ÀÒ{$zp	Ç¼6Ã‹›ªclu+l”žÅ¸ÔØí`€UÌÏ½ÿ(‡ä¿A†Ç-!hjŠšÃä´_°5Äó¿Âj4Þ\‚&quot;§Ë¸OÑ;´~&quot;ë1&quot;&quot;¤†B3qä+òÿÑëhÇ 6Læ¾€ØKïGAè†¤Œþ]¹ÚÜQÄËì}r…–Ì?eÏìŒ×“Z.ÂÉÞèÎììïóNçöár.¹ÒÕSÒÍ•&#39;KD9°&lt;÷ˆ¿¼éc,áönq7\þÒËÜî^¡¤µº†Ý£0ÈšâØýSµÿÀ—É
+°Ñê8²¥3Z!k¿º”_«¨ÛÒ*wõ=&#39;í`N/§—qøÙ’±E…îœ‹¶zbÇtºH2Ñ]PÃVIlÝB¨ÞŒ-Bô
+©¾ÑDÊŸö»JsQ,V‰¾6dVå	‹eÚ@Uô;wø‚B)Vê,CòÝŽ…`ñ`oÄ—¯=¹w¼lNnÛî`º«Û|2Í$T›f,Ééïs¿j8Ú,—/øÕMã_Ü÷ÛÍ¼ë·„QMöÚ#{Æ0=LFósjÔ.Ðç&lt;ß	¢R&#39;ÖükÉ~™îê›—¹­åFLÅks¡ž×§Žì‹ï§×4;2-9}Fò	‡ÈpÝ	0ûÊDc*?Ùå2¬ª6;¬û¼‘Te Ýì@EÖ
+a×
+²Ã–.ìÒvN¾Ã—ðOašvD6†y&quot;w¥oññjƒ7÷ê?td‰X©ö&lt;úáÊjéûŠ7Yy$Oªi½!¾ªž*tÊ5M%cR†áñç3³ŒŽ~òõIÛÄpsˆŠ4å&lt;G•ƒºSs{	»uVËÚ© .h$U‡«³¼?ºþøuO63]‹Ù§±@Îk5…û^š&gt;É=ôù_ï§WÚ^‚FxÐ×,xƒ¶ä]qÞ€å~| lç&amp;WÎÞëÎfuµMû_º’+w8Ø›Â‘žÅ ¾OmN^0!£&amp;ÀrWGâ:ÙO—îP_v ŸqUrz&quot;í#~çôŽÎÄ–?WÕñƒÓÔ^ð³åwÎ÷æÔâ#ÄøÚ¿âFÕÀLÐt~T´0DŽÌêÐÊ¦õƒ§œXho‘õë–ì– èEâˆV¼±àú®†º^ÙŸð7ÃrŸª€ì‡»0ï[`o©¥›ËñÇd¹ésï€îlb±&quot;Ï ¼H_™o’d¾¶ž‰ »tþ©%´¤87úõ³ƒÝ”‰,_úæ×ðò­¨Æí*È&amp;§[¸¿ª‘³˜¦½!…ÄK£nXôž§0¸dlTõyët_G	¢2v	ÅïŸe!£Émv9j ¡€†€„‡óìQ&quot;4@Y›`†0ñü&#39;†U6siX¨Ö® wŽŒX²ÁS¦cù›RJª ævÎ&gt;ÊñH¬Î¨H„Žxžr‰‰ß›×€ÆUü+T£BlÈƒ
+U}&quot;Õqº‹±µ,trž–º”jnêT‹®G•,[£LšÂ¾×-r‘aÆ³±ósuH¤ä XIëætKd½ü½0ðéÈ†´A”€·äônWÉ(;] •|Ñ“ºJÖÅg,%Aw%*ÿGTs–Ó&#39;[·ÕÇ4õ æ[|Äà_Ø»PkÞu­Ðä›Þ¡&lt;çò õÞ90XÞÙrSøjò¿–¶ñÙõ7!~±šŠu$þ´ðå¥õ…“	 ^N×–Ö1ìxwjõôœ™‚ÊW
+ÐËÒ§bß‰ü®ÈU&#39;Ú›NI÷X/OÝjÅûÊRKâ(±ðTË„Øßô×ù@Kç½•Ç£Xuq«ÒÊÍ°RzîÄ·5¥ëZÄŒ­-Q»ÄYn}|&gt;	BÙÈ“È{3°Õf‡ýL“D§D“0½_EXÉWq®×Ýt¨ßÍ”œ!sÛ¬É/LIxä%r÷ßÆ:Z%Z‰MÝ—ß$œûíL¤H;¾Ôç·ö‘Ä&quot;àËˆý£ÑZJ…e’vg©oc_ðh~s˜—U hªXó {×+ÊuÕ˜º1ªh×¨ŠaÙ¹ªÐÕ¦¬ hžêE ¼•82«qMÍçTdªÏËt¼”Æùô·³m3óå­
+b-«oœÇ—%ôžJú¾]Ié¿¹2ÆéUïu_ÀÍx–öµOÖ“óy&gt;Í®œÐñ|4hóöÀ&lt;µž.æ7í”Ì¿Õì¾„¿ÏØg4|â¾œ‡K¸‡ëˆ¥„ÝXƒëêÁÐ–jŸyî©.­Ò$ºSþƒMÔ0Ië­ïo)˜Ü¦šWÐk]ÊÞ°€—…uT{ËÊ*\ÜyâÐù&gt;øy+bö]dÑ=j^©æ™™;³²á€‚-õŠv²8@… qúG×2zÆx–Oy°X^e‘ž	g2ç&gt;ŸÃl¬ˆÚ|ß$‰ö2&#39;ZAˆèR&#39;•fFÌû,0ˆ½Êô.—8¶5G,ú¹qHC«PÞy¼k¬$¯Íy&#39;DDèŽu,‰ý@Ëã d#D¥œø¦©„?Œˆ—c„¤ZÔlðò‡s¯J”cèyLþ¿l:öóƒ0DwÕR[¤”´/qŒÄOxóN§”ÿf÷¬ŸÓe¯¦×ÿk&amp;ÉœØ¡OJ¢–øûß¾$8v:ãôø7(ûÞžº”†}\‹ƒš
+¢yp—È±Ò¤ªÏþ
+™¨Ñõ¥Ýû	ÅËuÝTXùW«^åÛØ¦Û[¤„Œ#€Á¦îq®ª¸&amp;ÒòèeLL¢Øó„.A‹}&gt;æ»nƒ5r¾$ Îw~ùÛéÊ5¨Äjx;[q¨ˆ&#39;½R?ª6²WôëMš—t×Ê1ø—¿i*µ&gt;Áú!G¾Ü…kÒ­	È¢Óü´­S¸,ÝU;5Ór[¥¦ì‚øú&lt;Ûépxõ~8Lå&#39;Êq`,ôqjš%Ÿx®6ßýƒà¤ÑFNÐ’pø[+ôá²¬¢±…¿ÓêFLð™9,ÙtoûA4Žr v0¿å´eeyn‘¥e(Yåß6êeCòX —‘dç‰æË¬G6Î¿5’-›9Çºa—yiô.HÊ³]ÛëÜf*÷¢yK½Û­ÓK¥ ñYGp’9(&quot;ÑÍMð&quot;ë;$˜J œôhkMa¥Þ§3ž;7ŽmIŒXï}ahdh•Q‚ß—ˆ»aØ¾:í¥\ÅñBA´ò&lt;š–éáLŠµ?Ü81Zÿy¾7ûroÎÂçXróÅŸÄ		h÷øz¥œÐ–÷Ð!6ù¸w\
+Ïe°Ó´Áó\„++Â.–¨ûs#¬étH›.!°òÙÜÀ]7*ÈÈ®-kSbðÇÓšåÿJ¡èŒQ¦D®H‘±f\h9N|fJ)ÑtD?ïÛ¬cc4w…]ŽK´WI÷›d¯µ}2·¯Yëº¶ü&quot;ð—P‰Hþ“´ñkéTÅÅÂÑÖ†&#39;(skÝé_ûTÎém‚Ð]‘œ™ã1!½G&#39;ù*“†pKª”í
+.‰çHm½¶üaš¯Y˜Í0&gt;‹%‹¡“GwíqÇR	T§-áþŽuâJL2ýïnÆ÷ýq~ÑAåéØå#”¨úgÎ§‘Ü/ JÙ0!–žP‡ $™Xô÷èÀ‚7&amp;iŒÆ‘Êu=~®Íž“…½UaÿË¤GsÌàÅ,¢KC£Åª’ãm$BÚ­0ÚRGàÿ¹ßbUFJòùÿE4¨»†‘\@`d3@É¨Gá_¶y
+ˆ ŠÙ		êl±¯#±ÿÚ‰ÑqÕù+ïsze‚pAT[Ùð®ÞJ­þpL;ƒ$[ð±ñ Áðž­7~ö}¢¹;ƒôEé[y‰¬›ùí»áâíÊßaÿ—®ØýtýàêdêÈÉ&lt;Ÿä™²Å&lt;+¶ŠÔ4Ïÿ ÓgeØ4‡_)£ž€·«Ð%”«Wçžå£àæë£”¾;Ó)G»©¦%#(žÇ2“¶„Hså~!
+Œ’&amp;Í‘Œú… É\’¾&quot;W$»TDtV± ÷Ú†Ö~žQj(h­z½O&amp;ÿ ¦Ë%œËê¾HmUvNìØÞ‹½,DÀªéBu\v€+-Ýà(É*alw­/,­ˆH–Ê‚hf-×·]:în 	 k·‹M§trÀü#âä Èá—JM¨púAº]:íËÎk-²¿PúâœWÔÜ,òÇÇW³Z¯Ò§\˜KzA™G6ö½S}_àè8òƒ†ÝbÿM¤ûeÑ¯Ú ÅŠVÄÆûkÍ `ÎrÈwœÄv@§^Ø´ÄWn´ÓÑü£¨ŠùÆf¹:zÿki¸µTG´?ÒËÍAý¾ÙªeÅQsÝ?,:›Ò.›ýÕ0Eÿ¶Þ“k#¦ý2üM¥‹&amp;¼~HõWqÎò Ÿ÷jŸÐ,´@¸@ÀÅ`^Uû¯œ‡4AØnt´ÁÇ‘v’ó³¶nÜd¦ÞÊFno[01ê´&#39;4V+G:hÕŸ…ËþQ-™Ë$‡O\Ó!ÑÍTàênK™7àh¡ŸÂèÚ‰cªÀG‰ÍV‰ÿ3ûÏ\-
+™…½Å—þÝ=x”E§«˜NÐ•¦!ªý“„ B–íÍ÷N~[Ý#OXR×2ÅÐcƒh.ï8iBZìÿÉ¶b¢ñ¯“Ø «ÙÚÄO*åùÁvG6+¾ðÔU}l?ðP~•ô’Ù&#39;@ÑFB!}@·YÔ¼X†*¦‘+#â¥¼yLÛ?ñq°gS½-„#…(F³½*Nf*FcgUSÇÿ&quot;ÔÑR ò·J¬šÚÍWV+ƒ™¶Ú…ºøôëÃ÷s#çÙS(4ß[°:Þn®µ„¶åX²\¡sˆˆþï²ŠóÙÂB½8]‘2Ñ’*Ï•Jì…žÉù“£¹„ÿÍ	@åvÀ6æÚ]¥pµ¶Á±Rf9ÕêÀåRSp´…í#Ó¹)¬CxÜÿ7( ºß|ÕêŽŒ@MúÍ¸o#Ö¡G–º/®ÖŽ=¾¯»o&#39;üù‘OFÑS3ÐŽ¼ï2ïGbÁ¼5EGÊÝ@Áæg~ÛcDã¯í-s¦‘„@Õ¯]bJkúQTwÅq­8ÇÛºár~›paT%ŽY}3Ž^ÿr6}–¶
+‡@&lt;4pò&quot;èMWÑ§âíuWyÏHÙ2‚OÜíj%ƒnæÅpâƒlCOè]Dœ&amp;IgaÔþ:6÷szÕ–âìWc&quot;ì®Ü8vìâÖìWZ—å¯½,5Ü«êf`ÚºýÇ ¦Nê,R¢ñÂ˜Õû‡ók;5ãÜ¤
+˜¸=¡’X?L|á5%8¿°òÆvëUqjåµä™¸HÅå4[À=d»÷Kc L$¨È˜=SÚš•y6Ÿa4	=z‹a ÿúõÀ*dð&#39;²‘ÿÔÂ*bfo·¹»Î8Œ’G g”ªû]ÍÊ¸TÉŸö¹®­ÚN&#39;ð‘V´LÁ3ôPîuC—¸ì¹Ê†–]xáüÇg4h ECpœºE­IŸJäÁ2åÐ³ ³¡œ³¯ñEÉ^&gt;t—£D2²)ŒwÇ›ÍOá^Ô“jF)Ž×Æ‹v[ý	†’o&amp;z×%ôÃ)sU…µ_o!3ÌÄ?zF e¶«*C·úªª?uÜˆau%•÷í†ƒûr^W¢_”“÷ÖmÏ&#39;øãÊ³Èp&gt;V_©ZÅG7ÂFèàlxb¦¬3)cŽíÆ¨/ºŒ*æDÉ5‚.#Ñ{©k[ºw©|@&quot;äÄkú»J]åo=—µ¡íÚr;òo8ùù÷3ˆwœM‚$#ÆÅÀØXƒÏ;yÑ`ÖÖ NÞ^ÑðÖôÙvÑ¯;_îS.²¤Pmznû8±iñ§™x?ŽµœíÀìÝ˜¢(_›is´ø¯·KÏZNS°5‰x99UhµðÜ&lt;%ë9¹¥™»žýØ±fyÐ ¶ûí“ùÖaÀè¬J)&quot;û?—G_4†
+Öðeò¬ý:†+Ø5pm[Ä¾&gt;±µ^ VbæË¡âžv¤‡·$±C½Y&quot;w„±Ûþ.mÑÓ#˜ôWúÂ}¬®tÐ&amp;uc…ÿ/µ
+|WvŒÜáó0ãpÓLÀªžÁAÐÁ€eÖt:øWûn…eJ~7zzBéÔ~öPUÜïÝe9‹|G|3ž§	Üí©™{¯T¤–‰ùè¿Ž‰”\ôº³57
+dx09É+1M3í+«ºšêO4{rÓüâçöO`X9E´ASè9Œñ°œj@B ¬ªº UþwÛ|%¸,Ö5ÞO*¨3Žq #&quot;.²mG.Í œm÷í{ºzôMŒR”FFÃS‡lö,pt½4ßk+VÈÅf^éÒv˜dA«Xe&quot;V!v,ÍVOã‘ÛŸ.ºŸ²’¨s3­¶êMzk¥u%wûK&lt;«ûbèÂ·i,
+OÓú/rù‹ËÚËRq/˜ÎŽØæ“ËëŒð¨¯†Žµ”“¿OY¯æ¿+^ÏåÅ‡˜ÁRÄæP&#39;ƒ·‚³jÉY}u\Óëwµ%Àís’Þõ ´´4O·S¿B&quot;     8¿‚qGÖÙÆ Å&#39;¨¢ k!©º±Ägû    YZ                                          #         t  t                    ´         Œ  Œ                     ¢         ¬  ¬                •   ÿÿÿo   &lt;  &lt;  2               f   þÿÿo   p  p  €                ª   öÿÿo   ð  ð                  ^         &#39;  &#39;  	F                 Œ     `   m  m  g               ‚    ÿÿo   |n  |n  $                      p‚    n   n  P                @   	      ðu  ðu  P              å      2   @~  @~  ¨V                 Ð         èÔ  èÔ  H                           0å  0Õ  0Ø                 D         `½ `­ À                 u          Þ  ¾ Ì                          ìß ì¿                   Ç         ôß ô¿                          ôà ôÀ ”                  7         ˆá ˆÁ 4                 ü         ¼õ ¼Å \                 I         ø È Ì                 N     p        È &lt;                  Û              TÈ                  í              VÉ ì                 " data-is-ci-config-file="false" id="js-blob-toggle-graph-preview"></div>
+<div class="blob-viewer" data-path="system_ext/lib/libqvrcamera_client.qti.so" data-type="simple">
+<div class="file-content blob_file blob-no-preview">
+<div class="center render-error">
+<a href="/dumps/redmi/phoenix/-/raw/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext/lib/libqvrcamera_client.qti.so"><h1 class="light">
+<svg class="s16" data-testid="download-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#download"></use></svg>
+</h1>
+<h4>
+Download (120 KB)
+</h4>
+</a></div>
+</div>
+
+</div>
+
+
+</article>
+</div>
+
+<div class="modal" id="modal-upload-blob">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="page-title">Replace libqvrcamera_client.qti.so</h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden>&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form class="js-quick-submit js-upload-blob-form" data-method="put" action="/dumps/redmi/phoenix/-/update/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system_ext/lib/libqvrcamera_client.qti.so" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="0fUtt40Lyy1nWwU/iHf/mxZdTUbozM/LqaLGlCklLWqrEEXbEvZapDlil411KOB/brWXm6n3j0ecT55/KlP2mA==" /><div class="dropzone">
+<div class="dropzone-previews blob-upload-dropzone-previews">
+<p class="dz-message light">
+Attach a file by drag &amp; drop or <a class="markdown-selector" href="#">click to upload</a>
+</p>
+</div>
+</div>
+<br>
+<div class="dropzone-alerts gl-alert gl-alert-danger gl-mb-5 data" style="display:none"></div>
+<div class="form-group row commit_message-group">
+<label class="col-form-label col-sm-2" for="commit_message-e5bd2481888bba63ef62806f60dd5e95">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-e5bd2481888bba63ef62806f60dd5e95" class="form-control js-commit-message" placeholder="Replace libqvrcamera_client.qti.so" required="required" rows="3">
+Replace libqvrcamera_client.qti.so</textarea>
+</div>
+</div>
+</div>
+
+<input type="hidden" name="branch_name" id="branch_name" />
+<input type="hidden" name="create_merge_request" id="create_merge_request" value="1" />
+<input type="hidden" name="original_branch" id="original_branch" value="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" class="js-original-branch" />
+
+<div class="form-actions">
+<button name="button" type="button" class="btn gl-button btn-success btn-upload-file" id="submit-all"><div class="spinner spinner-sm gl-mr-2 js-loading-icon hidden"></div>
+Replace file
+</button><a class="btn gl-button btn-cancel" data-dismiss="modal" href="#">Cancel</a>
+<div class="inline gl-ml-3">
+A new branch will be created in your fork and a new merge request will be started.
+</div>
+
+</div>
+</form></div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<script>
+//<![CDATA[
+if ('loading' in HTMLImageElement.prototype) {
+  document.querySelectorAll('img.lazy').forEach(img => {
+    img.loading = 'lazy';
+    let imgUrl = img.dataset.src;
+    // Only adding width + height for avatars for now
+    if (imgUrl.indexOf('/avatar/') > -1 && imgUrl.indexOf('?') === -1) {
+      const targetWidth = img.getAttribute('width') || img.width;
+      imgUrl += `?width=${targetWidth}`;
+    }
+    img.src = imgUrl;
+    img.removeAttribute('data-src');
+    img.classList.remove('lazy');
+    img.classList.add('js-lazy-loaded', 'qa-js-lazy-loaded');
+  });
+}
+
+//]]>
+</script>
+
+</body>
+</html>
+

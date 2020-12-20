@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<link as="style" href="https://git.rip/assets/application-62e4cc014d9d96f9cbf443186289ffd9c41bdfe951565324891dcf38bcca5a51.css" rel="preload">
+<link as="style" href="https://git.rip/assets/highlight/themes/white-aa4568025f9b4ea36b357bdccb95c9138a515f1e611b59f20a1777a68b6995db.css" rel="preload">
+<link as="font" href="https://git.rip/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0" rel="preload" type="font/woff2">
+
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="system/system/lib/libcom.xiaomi.camera.mianodejni.so Â· qssi-user-11-RKQ1.200826.002-20.12.10-release-keys Â· Android Dumps / Redmi / phoenix" property="og:title">
+<meta content="Redmi K30 dump" property="og:description">
+<meta content="https://git.rip/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://git.rip/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib/libcom.xiaomi.camera.mianodejni.so" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="system/system/lib/libcom.xiaomi.camera.mianodejni.so Â· qssi-user-11-RKQ1.200826.002-20.12.10-release-keys Â· Android Dumps / Redmi / phoenix" property="twitter:title">
+<meta content="Redmi K30 dump" property="twitter:description">
+<meta content="https://git.rip/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>system/system/lib/libcom.xiaomi.camera.mianodejni.so Â· qssi-user-11-RKQ1.200826.002-20.12.10-release-keys Â· Android Dumps / Redmi / phoenix Â· GitLab</title>
+<meta content="Redmi K30 dump" name="description">
+<link rel="shortcut icon" type="image/png" href="/uploads/-/system/appearance/favicon/1/git.rip.favicon.png" id="favicon" data-original-href="/uploads/-/system/appearance/favicon/1/git.rip.favicon.png" />
+
+<link rel="stylesheet" media="all" href="/assets/application-62e4cc014d9d96f9cbf443186289ffd9c41bdfe951565324891dcf38bcca5a51.css" />
+
+<link rel="stylesheet" media="all" href="/assets/application_utilities-f636133344c99e44738666d9eecff2eb037c36ed05c5cbc2bfacc8dfad2bede2.css" />
+<link rel="stylesheet" media="all" href="/assets/themes/theme_dark-de1de60d7598a5915c968eb4399f97056b5517e5bef8223fbc6a85bbd3b6be69.css" />
+
+<link rel="stylesheet" media="all" href="/assets/highlight/themes/white-aa4568025f9b4ea36b357bdccb95c9138a515f1e611b59f20a1777a68b6995db.css" />
+
+
+<script>
+//<![CDATA[
+window.gon={};gon.features={"suggestPipeline":true,"gitlabCiYmlPreview":false};
+//]]>
+</script>
+
+
+
+<script src="/assets/webpack/runtime.206056c6.bundle.js" defer="defer"></script>
+<script src="/assets/webpack/main.447bfb48.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-globalSearch-pages.admin.abuse_reports-pages.admin.application_settings.ci_cd-pages.admin.gr-bcb9d7d0.e13f2c5e.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.boards-pages.groups.details-pages.groups.show-pages.groups.wikis-pages.projects-f7a29bbf.98904b70.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.application_settings-pages.admin.application_settings.ci_cd-pages.admin.applicat-1386858e.29d837cc.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.epics.index-pages.groups.epics.new-pages.groups.epics.show-pages.groups.iterati-85c41ccb.37c1e60d.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.projects.blame.show-pages.projects.blob.edit-pages.projects.blob.new-pages.projects.bl-c6edf1dd.e3e2e206.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.projects.blob.show-pages.projects.shared.web_ide_link-pages.projects.show-pages.projec-cf300cc3.a895228a.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/pages.projects.blob.show.267e246a.chunk.js" defer="defer"></script>
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="65Im3yzp1ujELepopdEbFLxVsey9H4W7LCo06ClQXzd9YOi8wYrVpHaO8rpWB9yb0pKGYtLInXo3FZfgl5tWaw==" />
+<meta name="csp-nonce" />
+<meta name="action-cable-url" content="/-/cable" />
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
+<link color="rgb(226, 67, 41)" href="/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+
+
+
+
+</head>
+
+<body class="ui-dark tab-width-8  gl-browser-generic gl-platform-other" data-find-file="/dumps/redmi/phoenix/-/find_file/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" data-group="redmi" data-namespace-id="628" data-page="projects:blob:show" data-page-type-id="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib/libcom.xiaomi.camera.mianodejni.so" data-project="phoenix" data-project-id="2571">
+
+<script>
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isGeneric":true,"isOther":true};
+
+
+//]]>
+</script>
+
+
+<header class="navbar navbar-gitlab navbar-expand-sm js-navbar" data-qa-selector="navbar">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<span class="gl-sr-only">GitLab</span>
+<a title="Dashboard" id="logo" href="/"><img class="brand-header-logo lazy" data-src="/uploads/-/system/appearance/header_logo/1/Group_25.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li class="home"><a title="Projects" class="dashboard-shortcuts-projects" href="/explore">Projects
+</a></li><li class=""><a title="Groups" class="dashboard-shortcuts-groups" href="/explore/groups">Groups
+</a></li><li class=""><a title="Snippets" class="dashboard-shortcuts-snippets" href="/explore/snippets">Snippets
+</a></li><li>
+<a title="About GitLab CE" href="/help">Help</a>
+</li>
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item d-none d-lg-block m-auto">
+<div class="search search-form" data-track-event="activate_form_input" data-track-label="navbar_search" data-track-value="">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump toâ€¦" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options" spellcheck="false" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" data-qa-selector="search_term_field" aria-label="Search or jump toâ€¦" />
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select" data-testid="dashboard-search-options">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><div class="gl-spinner-container"><span class="gl-spinner gl-spinner-orange gl-spinner-md gl-mt-7" aria-label="Loading"></span></div></div>
+</div>
+<svg class="s16 search-icon" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" value="628" class="js-search-group-options" data-group-path="redmi" data-name="Redmi" data-issues-path="/groups/dumps/redmi/-/issues" data-mr-path="/groups/dumps/redmi/-/merge_requests" />
+<input type="hidden" name="project_id" id="search_project_id" value="2571" class="js-search-project-options" data-project-path="phoenix" data-name="phoenix" data-issues-path="/dumps/redmi/phoenix/-/issues" data-mr-path="/dumps/redmi/phoenix/-/merge_requests" data-issues-disabled="false" />
+<input type="hidden" name="scope" id="scope" />
+<input type="hidden" name="search_code" id="search_code" value="true" />
+<input type="hidden" name="snippets" id="snippets" value="false" />
+<input type="hidden" name="repository_ref" id="repository_ref" value="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" />
+<input type="hidden" name="nav_source" id="nav_source" value="navbar" />
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="2571" data-autocomplete-project-ref="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-lg-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=2571"><svg class="s16" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg>
+</a></li>
+<li class="nav-item header-help dropdown d-none d-md-block">
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><span class="gl-sr-only">
+Help
+</span>
+<svg class="s16" data-testid="question-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#question"></use></svg>
+<svg class="s16 caret-down" data-testid="chevron-down-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+
+<li>
+<a href="/help">Help</a>
+</li>
+<li>
+<a href="https://about.gitlab.com/getting-help/">Support</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" rel="noopener noreferrer" data-track-event="click_forum" data-track-property="question_menu" href="https://forum.gitlab.com/">Community forum</a>
+
+</li>
+<li>
+<button class="js-shortcuts-modal-trigger" type="button">
+Keyboard shortcuts
+<span aria-hidden class="text-secondary float-right">?</span>
+</button>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li>
+
+</li>
+
+</ul>
+
+</div>
+</li>
+<li class="nav-item">
+<div>
+<a class="btn btn-sign-in" href="/users/sign_in?redirect_to_referer=yes">Sign in / Register</a>
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right" data-testid="ellipsis_h-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+
+<div class="layout-page page-with-contextual-sidebar">
+<div class="nav-sidebar">
+<div class="nav-sidebar-inner-scroll">
+<div class="context-header">
+<a title="phoenix" href="/dumps/redmi/phoenix"><div class="avatar-container rect-avatar s40 project-avatar">
+<div class="avatar s40 avatar-tile identicon bg3">P</div>
+</div>
+<div class="sidebar-context-title">
+phoenix
+</div>
+</a></div>
+<ul class="sidebar-top-level-items qa-project-sidebar">
+<li class="home"><a class="shortcuts-project rspec-project-link" data-qa-selector="project_link" href="/dumps/redmi/phoenix"><div class="nav-icon-container">
+<svg class="s16" data-testid="home-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#home"></use></svg>
+</div>
+<span class="nav-item-name">
+Project overview
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix"><strong class="fly-out-top-item-name">
+Project overview
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Project details" class="shortcuts-project" href="/dumps/redmi/phoenix"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" data-qa-selector="activity_link" href="/dumps/redmi/phoenix/activity"><span>Activity</span>
+</a></li><li class=""><a title="Releases" class="shortcuts-project-releases" href="/dumps/redmi/phoenix/-/releases"><span>Releases</span>
+</a></li></ul>
+</li><li class="active"><a class="shortcuts-tree" data-qa-selector="repository_link" href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"><div class="nav-icon-container">
+<svg class="s16" data-testid="doc-text-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#doc-text"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-repo-link">
+Repository
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item active"><a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"><strong class="fly-out-top-item-name">
+Repository
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="active"><a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Files
+</a></li><li class=""><a id="js-onboarding-commits-link" href="/dumps/redmi/phoenix/-/commits/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Commits
+</a></li><li class=""><a data-qa-selector="branches_link" id="js-onboarding-branches-link" href="/dumps/redmi/phoenix/-/branches">Branches
+</a></li><li class=""><a data-qa-selector="tags_link" href="/dumps/redmi/phoenix/-/tags">Tags
+</a></li><li class=""><a href="/dumps/redmi/phoenix/-/graphs/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Contributors
+</a></li><li class=""><a href="/dumps/redmi/phoenix/-/network/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Graph
+</a></li><li class=""><a href="/dumps/redmi/phoenix/-/compare?from=qssi-user-11-RKQ1.200826.002-20.12.10-release-keys&amp;to=qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Compare
+</a></li><li class=""><a data-qa-selector="path_locks_link" href="/dumps/redmi/phoenix/path_locks">Locked Files
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-issues qa-issues-item" href="/dumps/redmi/phoenix/-/issues"><div class="nav-icon-container">
+<svg class="s16" data-testid="issues-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#issues"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-issues-link">
+Issues
+</span>
+<span class="badge badge-pill count issue_counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/issues"><strong class="fly-out-top-item-name">
+Issues
+</strong>
+<span class="badge badge-pill count issue_counter fly-out-badge">
+0
+</span>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Issues" href="/dumps/redmi/phoenix/-/issues"><span>
+List
+</span>
+</a></li><li class=""><a title="Boards" data-qa-selector="issue_boards_link" href="/dumps/redmi/phoenix/-/boards"><span>
+Boards
+</span>
+</a></li><li class=""><a title="Labels" class="qa-labels-link" href="/dumps/redmi/phoenix/-/labels"><span>
+Labels
+</span>
+</a></li><li class=""><a title="Service Desk" href="/dumps/redmi/phoenix/-/issues/service_desk">Service Desk
+</a></li>
+<li class=""><a title="Milestones" class="qa-milestones-link" href="/dumps/redmi/phoenix/-/milestones"><span>
+Milestones
+</span>
+</a></li><li class=""><a title="Iterations" href="/dumps/redmi/phoenix/-/iterations"><span>
+Iterations
+</span>
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-merge_requests" data-qa-selector="merge_requests_link" href="/dumps/redmi/phoenix/-/merge_requests"><div class="nav-icon-container">
+<svg class="s16" data-testid="git-merge-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#git-merge"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-mr-link">
+Merge Requests
+</span>
+<span class="badge badge-pill count merge_counter js-merge-counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/merge_requests"><strong class="fly-out-top-item-name">
+Merge Requests
+</strong>
+<span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
+0
+</span>
+</a></li></ul>
+</li><li class=""><a class="qa-project-requirements-link" href="/dumps/redmi/phoenix/-/requirements_management/requirements"><div class="nav-icon-container">
+<svg class="s16" data-testid="requirements-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#requirements"></use></svg>
+</div>
+<span class="nav-item-name">
+Requirements
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/requirements_management/requirements"><strong class="fly-out-top-item-name">Requirements</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="home"><a title="List" href="/dumps/redmi/phoenix/-/requirements_management/requirements"><span>List</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-pipelines qa-link-pipelines rspec-link-pipelines" data-qa-selector="ci_cd_link" href="/dumps/redmi/phoenix/-/pipelines"><div class="nav-icon-container">
+<svg class="s16" data-testid="rocket-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#rocket"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-pipelines-link">
+CI / CD
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/pipelines"><strong class="fly-out-top-item-name">
+CI / CD
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/dumps/redmi/phoenix/-/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/dumps/redmi/phoenix/-/jobs"><span>
+Jobs
+</span>
+</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/dumps/redmi/phoenix/-/pipeline_schedules"><span>
+Schedules
+</span>
+</a></li>
+</ul>
+</li><li class=""><a data-qa-selector="dependency_list_link" href="/dumps/redmi/phoenix/-/dependencies"><div class="nav-icon-container">
+<svg class="s16" data-testid="shield-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#shield"></use></svg>
+</div>
+<span class="nav-item-name">
+Security &amp; Compliance
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/dependencies"><strong class="fly-out-top-item-name">
+Security &amp; Compliance
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Dependency List" data-qa-selector="dependency_list_link" href="/dumps/redmi/phoenix/-/dependencies"><span>Dependency List</span>
+</a></li><li class=""><a title="License Compliance" data-qa-selector="licenses_list_link" href="/dumps/redmi/phoenix/-/licenses"><span>License Compliance</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-operations" data-qa-selector="operations_link" href="/dumps/redmi/phoenix/-/environments/metrics"><div class="nav-icon-container">
+<svg class="s16" data-testid="cloud-gear-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#cloud-gear"></use></svg>
+</div>
+<span class="nav-item-name">
+Operations
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/environments/metrics"><strong class="fly-out-top-item-name">
+Operations
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+
+<li class=""><a title="Incidents" data-qa-selector="operations_incidents_link" href="/dumps/redmi/phoenix/-/incidents"><span>
+Incidents
+</span>
+</a></li><li class=""><a title="Environments" class="shortcuts-environments qa-operations-environments-link" href="/dumps/redmi/phoenix/-/environments"><span>
+Environments
+</span>
+</a></li></ul>
+</li><li class=""><a data-qa-selector="packages_link" href="/dumps/redmi/phoenix/container_registry"><div class="nav-icon-container">
+<svg class="s16" data-testid="package-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#package"></use></svg>
+</div>
+<span class="nav-item-name">
+Packages &amp; Registries
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/container_registry"><strong class="fly-out-top-item-name">
+Packages &amp; Registries
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a class="shortcuts-container-registry" title="Container Registry" href="/dumps/redmi/phoenix/container_registry"><span>Container Registry</span>
+</a></li></ul>
+</li>
+<li class=""><a data-qa-selector="analytics_anchor" href="/dumps/redmi/phoenix/-/value_stream_analytics"><div class="nav-icon-container">
+<svg class="s16" data-testid="chart-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chart"></use></svg>
+</div>
+<span class="nav-item-name" data-qa-selector="analytics_link">
+Analytics
+</span>
+</a><ul class="sidebar-sub-level-items" data-qa-selector="analytics_sidebar_submenu">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/value_stream_analytics"><strong class="fly-out-top-item-name">
+Analytics
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="CI / CD" href="/dumps/redmi/phoenix/-/pipelines/charts"><span>CI / CD</span>
+</a></li><li class=""><a title="Code Review" href="/dumps/redmi/phoenix/-/analytics/code_reviews"><span>Code Review</span>
+</a></li><li class=""><a class="shortcuts-project-insights" data-qa-selector="project_insights_link" title="Insights" href="/dumps/redmi/phoenix/insights/"><span>Insights</span>
+</a></li><li class=""><a title="Issue" href="/dumps/redmi/phoenix/-/analytics/issues_analytics"><span>Issue</span>
+</a></li><li class=""><a class="shortcuts-repository-charts" title="Repository" href="/dumps/redmi/phoenix/-/graphs/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/charts"><span>Repository</span>
+</a></li><li class=""><a class="shortcuts-project-cycle-analytics" title="Value Stream" href="/dumps/redmi/phoenix/-/value_stream_analytics"><span>Value Stream</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/dumps/redmi/phoenix/-/wikis/home"><div class="nav-icon-container">
+<svg class="s16" data-testid="book-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#book"></use></svg>
+</div>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/wikis/home"><strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-snippets" data-qa-selector="snippets_link" href="/dumps/redmi/phoenix/-/snippets"><div class="nav-icon-container">
+<svg class="s16" data-testid="snippet-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#snippet"></use></svg>
+</div>
+<span class="nav-item-name">
+Snippets
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/snippets"><strong class="fly-out-top-item-name">
+Snippets
+</strong>
+</a></li></ul>
+</li><li class=""><a title="Members" class="qa-members-link" id="js-onboarding-members-link" href="/dumps/redmi/phoenix/-/project_members"><div class="nav-icon-container">
+<svg class="s16" data-testid="users-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#users"></use></svg>
+</div>
+<span class="nav-item-name">
+Members
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/project_members"><strong class="fly-out-top-item-name">
+Members
+</strong>
+</a></li></ul>
+</li>
+<a class="toggle-sidebar-button js-toggle-sidebar qa-toggle-sidebar rspec-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="s16 icon-chevron-double-lg-left" data-testid="chevron-double-lg-left-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-double-lg-left"></use></svg>
+<svg class="s16 icon-chevron-double-lg-right" data-testid="chevron-double-lg-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-double-lg-right"></use></svg>
+<span class="collapse-text">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+<span class="collapse-text">Close sidebar</span>
+</button>
+<li class="hidden">
+<a title="Activity" class="shortcuts-project-activity" href="/dumps/redmi/phoenix/activity"><span>
+Activity
+</span>
+</a></li>
+<li class="hidden">
+<a title="Network" class="shortcuts-network" href="/dumps/redmi/phoenix/-/network/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Graph
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="/dumps/redmi/phoenix/-/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Jobs" class="shortcuts-builds" href="/dumps/redmi/phoenix/-/jobs">Jobs
+</a></li>
+<li class="hidden">
+<a title="Commits" class="shortcuts-commits" href="/dumps/redmi/phoenix/-/commits/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Commits
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/dumps/redmi/phoenix/-/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="content-wrapper">
+<div class="mobile-overlay"></div>
+
+<div class="alert-wrapper gl-force-block-formatting-context">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="breadcrumbs container-fluid container-limited" role="navigation">
+<div class="breadcrumbs-container">
+<button name="button" type="button" class="toggle-mobile-nav"><span class="sr-only">Open sidebar</span>
+<svg class="s16" data-testid="hamburger-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#hamburger"></use></svg>
+</button><div class="breadcrumbs-links js-title-container" data-qa-selector="breadcrumb_links_content">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/dumps"><img class="avatar-tile lazy" width="15" height="15" data-src="/uploads/-/system/group/avatar/562/dumpyara.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />Android Dumps</a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li><li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/dumps/redmi">Redmi</a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li> <li><a href="/dumps/redmi/phoenix"><span class="breadcrumb-item-text js-breadcrumb-item-text">phoenix</span></a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li>
+
+<li>
+<h2 class="breadcrumbs-sub-title"><a href="/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib/libcom.xiaomi.camera.mianodejni.so">Repository</a></h2>
+</li>
+</ul>
+</div>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Android Dumps","item":"https://git.rip/dumps"},{"@type":"ListItem","position":2,"name":"Redmi","item":"https://git.rip/dumps/redmi"},{"@type":"ListItem","position":3,"name":"phoenix","item":"https://git.rip/dumps/redmi/phoenix"},{"@type":"ListItem","position":4,"name":"Repository","item":"https://git.rip/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib/libcom.xiaomi.camera.mianodejni.so"}]}
+
+</script>
+
+</div>
+</nav>
+
+</div>
+<div class="container-fluid container-limited ">
+<div class="content" id="content-body" itemscope itemtype="http://schema.org/SoftwareSourceCode">
+<div class="flash-container flash-container-page sticky" data-qa-selector="flash_container">
+</div>
+
+<div class="js-signature-container" data-signatures-path="/dumps/redmi/phoenix/-/commits/3877fc95a5a71d75fdce82b9623edc9acb32487e/signatures?limit=1"></div>
+
+<div class="tree-holder" id="tree-holder">
+<div class="nav-block">
+<div class="tree-ref-container">
+<div class="tree-ref-holder">
+<form class="project-refs-form" action="/dumps/redmi/phoenix/-/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="blob" />
+<input type="hidden" name="path" id="path" value="system/system/lib/libcom.xiaomi.camera.mianodejni.so" />
+<div class="dropdown">
+<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" data-ref="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" data-refs-url="/dumps/redmi/phoenix/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">qssi-user-11-RKQ1.200826.002-20.12.10-release-keys</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
+<div class="dropdown-menu dropdown-menu-paging dropdown-menu-selectable git-revision-dropdown qa-branches-dropdown">
+<div class="dropdown-page-one">
+<div class="dropdown-title gl-display-flex"><span class="gl-ml-auto">Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close gl-ml-auto" aria-label="Close" type="button"><svg class="s16 dropdown-menu-close-icon" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field qa-dropdown-input-field" placeholder="Search branches and tags" autocomplete="off" /><svg class="s16 dropdown-input-search" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg><svg class="s16 dropdown-input-clear js-dropdown-input-clear" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><div class="gl-spinner-container"><span class="gl-spinner gl-spinner-orange gl-spinner-md gl-mt-7" aria-label="Loading"></span></div></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<ul class="breadcrumb repo-breadcrumb">
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">phoenix
+</a></li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system">system</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system">system</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib">lib</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib/libcom.xiaomi.camera.mianodejni.so"><strong>libcom.xiaomi.camera.mianodejni.so</strong>
+</a></li>
+</ul>
+</div>
+<div class="tree-controls gl-children-ml-sm-3"><a class="gl-button btn shortcuts-find-file" rel="nofollow" href="/dumps/redmi/phoenix/-/find_file/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Find file
+</a><a class="gl-button btn" href="/dumps/redmi/phoenix/-/commits/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib/libcom.xiaomi.camera.mianodejni.so">History</a><a class="gl-button btn js-data-file-blob-permalink-url" href="/dumps/redmi/phoenix/-/blob/3877fc95a5a71d75fdce82b9623edc9acb32487e/system/system/lib/libcom.xiaomi.camera.mianodejni.so">Permalink</a></div>
+</div>
+
+<div class="info-well d-none d-sm-block">
+<div class="well-segment">
+<ul class="blob-commit-info">
+<li class="commit flex-row js-toggle-container" id="commit-3877fc95">
+<div class="avatar-cell d-none d-sm-block">
+<a href="/dumper"><img alt="dumper&#39;s avatar" src="/uploads/-/system/user/avatar/457/dumper.jpg?width=40" class="avatar s40 d-none d-sm-inline-block" title="dumper" /></a>
+</div>
+<div class="commit-detail flex-list">
+<div class="commit-content" data-qa-selector="commit_content">
+<a class="commit-row-message item-title js-onboarding-commit-item " href="/dumps/redmi/phoenix/-/commit/3877fc95a5a71d75fdce82b9623edc9acb32487e">qssi-user 11 RKQ1.200826.002 20.12.10 release-keys</a>
+<span class="commit-row-message d-inline d-sm-none">
+&middot;
+3877fc95
+</span>
+<button class="text-expander js-toggle-button">
+<svg class="s12" data-testid="ellipsis_h-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#ellipsis_h"></use></svg>
+</button>
+<div class="committer">
+<a class="commit-author-link js-user-link" data-user-id="457" href="/dumper">dumper</a> authored <time class="js-timeago" title="Dec 15, 2020 9:50pm" datetime="2020-12-15T21:50:19Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Dec 15, 2020</time>
+</div>
+
+<pre class="commit-row-description gl-mb-3 js-toggle-content">Signed-off-by: <span data-trailer="Signed-off-by:" data-user="457"><a href="https://git.rip/dumper" title="457-dumper@users.noreply.git.rip"><img alt="dumper's avatar" src="https://git.rip/uploads/-/system/user/avatar/457/dumper.jpg?width=16" class="avatar s16 avatar-inline" title="dumper"></a><a href="https://git.rip/dumper" title="457-dumper@users.noreply.git.rip">dumper</a> &lt;<a href="mailto:457-dumper@users.noreply.git.rip" title="457-dumper@users.noreply.git.rip">457-dumper@users.noreply.git.rip</a>&gt;</span></pre>
+</div>
+<div class="commit-actions flex-row">
+
+<div class="js-commit-pipeline-status" data-endpoint="/dumps/redmi/phoenix/-/commit/3877fc95a5a71d75fdce82b9623edc9acb32487e/pipelines?ref=qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"></div>
+<div class="commit-sha-group btn-group d-none d-sm-flex">
+<div class="label label-monospace monospace">
+3877fc95
+</div>
+<button class="btn gl-button btn btn-default" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy commit SHA" data-class="gl-button btn btn-default" data-clipboard-text="3877fc95a5a71d75fdce82b9623edc9acb32487e" type="button" title="Copy commit SHA" aria-label="Copy commit SHA"><svg class="s16" data-testid="copy-to-clipboard-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#copy-to-clipboard"></use></svg></button>
+
+</div>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+
+
+</div>
+<div class="blob-content-holder" id="blob-content-holder">
+<article class="file-holder">
+<div class="js-file-title file-title-flex-parent">
+<div class="file-header-content">
+<svg class="s16" data-testid="doc-text-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#doc-text"></use></svg>
+<strong class="file-title-name gl-word-break-all" data-qa-selector="file_name_content">
+libcom.xiaomi.camera.mianodejni.so
+</strong>
+<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent" data-title="Copy file path" data-clipboard-text="{&quot;text&quot;:&quot;system/system/lib/libcom.xiaomi.camera.mianodejni.so&quot;,&quot;gfm&quot;:&quot;`system/system/lib/libcom.xiaomi.camera.mianodejni.so`&quot;}" type="button" title="Copy file path" aria-label="Copy file path"><svg class="s16" data-testid="copy-to-clipboard-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#copy-to-clipboard"></use></svg></button>
+<small class="mr-1">
+53.1 KB
+</small>
+</div>
+
+<div class="file-actions gl-display-flex gl-flex-fill-1 gl-align-self-start gl-md-justify-content-end"><a class="btn btn-primary ide-edit-button gl-mr-3 btn-inverted btn-sm" data-track-event="click_edit_ide" data-track-label="Web IDE" data-track-property="secondary" href="/-/ide/project/dumps/redmi/phoenix/edit/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/-/system/system/lib/libcom.xiaomi.camera.mianodejni.so">Web IDE</a><div class="btn-group ml-2" role="group">
+
+
+</div><div class="btn-group ml-2" role="group">
+
+
+<a download="system/system/lib/libcom.xiaomi.camera.mianodejni.so" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" aria-label="Download" title="Download" data-container="body" href="/dumps/redmi/phoenix/-/raw/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib/libcom.xiaomi.camera.mianodejni.so?inline=false"><svg class="s16" data-testid="download-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#download"></use></svg></a>
+
+</div></div>
+</div>
+
+<script id="js-file-lock" type="application/json">
+{"path":"system/system/lib/libcom.xiaomi.camera.mianodejni.so","toggle_path":"/dumps/redmi/phoenix/path_locks/toggle"}
+</script>
+
+
+<div data-blob-data="ELF          (    €y  4   ˆÐ    4   
+ (      4   4   4   @  @                       €i  €i           €i  €y  €y  PQ  PQ           Ðº  ÐÚ  ÐÚ  €
+  €
+           PÅ  Põ  Põ     x            ôÁ  ôá  ôá  (  (        RåtdÐº  ÐÚ  ÐÚ  €
+  0        Qåtd                              t  t  t  8   8           pXB  XB  XB  0  0                 Android             GNU &#39;H¼?‚Ö¬)°GxÝê¾r3                                            Å              å                                        6             J             ^             r             z             ‹                          ¤             ª             ±             Á             Ë             Ò             Û             ä             é             Ž             £             ¸             Ã             Î             ä             ù             B             d             ‹             ´             ã             û             }             ]             ™             ž             Ž             “                           d             l             t             {             Â             Ç             ë             8             y             ô                          W             q             —             ²             Ç             à             þ             !             f             ‚             Þ             ü                          @             l                          ²             Õ             ø             8             n             É             ð             $             F             ’             µ             í                          e             œ             Í             å             ý                          -             P             t             ­             Å             Ý                          H             m             “             Â             ê                          0             !             F!             n!             ³!             ×!             û!             %&quot;             O&quot;             z&quot;             ¥&quot;             Å&quot;             å&quot;             #             %#             8#             y$             ¿$             ý  i  D     °  e±  Ô     u#  õº  8     û  ‘Ž  X     	  !°  T     x  ñ¬         õ¬  &lt;     â  0Ü  \     ¯   ÈÝ  \   !  )  ÔÚ  \     þ  ­€  T     (  Á  T     ž  µ‚  4     ?  ­  L       e›  T     X  ù›  0     ž  Å¸     &quot;  $  -»  \     Œ  é‚  (     ³  ]¯  T     {  ñ›       ó  ñ}       Œ  A€  $     a  Q™  T     U  dÂ       À  ŒÜ       û  $Þ  Ð   !  Œ   5z  ¨     Ï  …~  8     ð  ¤Û       0    \     ¦  å¢      ]   Ôà  „   !  ð  ­       4  Ü       Z  U±       8$  Á       y  õ}       `  Q‚  8     Ï#  ‰»  `     X  G~       &#39;  e€  $     3  ó›       ƒ  é´  ˆ     d	  Ù‡  d     Ü  U§  (        Ýz  ä    Ô  %¶       7
+  eˆ  D     Ð
+    P     (  )œ  |    m  ‰­  4     0   ˆà  L   !  Ê  ±¯  p     M  ôÞ  Ì   !  Y$  PÂ       ¬  u  8     }  Í¢       Ù   É¸     &quot;  €$  dÂ       	  ©ˆ  0     ›  ¯  8     J  ‰€  $     ÿ  iš  ü     ë  ¹›  8       é~  &lt;     Æ  ™  &lt;     &#39;  e®  T     x  áµ  D     †   Xá  €   !  i$  PÂ       Ÿ$  TÂ       ³  €  $     z  dÂ       Ž
+  UŽ  &lt;     ©  }§  D     ½  ‰‚  ,       ¹®  \     ^  %  D     +  a¿       û  ¥  ¨    ?  8Û       
+  1Ž  $       HÛ  \     9  š  T     Ç  Àß  t   !  ¯$  TÂ       /  ù}  8     Á    À       1’  L     ~  µ  |    æ  Y~  ,       1­  X     Y  m  X     Œ  M¡  ¦       ù  $     ^  ¡’  d      ­       ²  Põ         Q‚  8     c  ƒ  (     ¼	  Ùˆ  X      M¯       ê#  -»  \     W  ñ›       Ÿ   Ü       û  Á§  0     *  ñ§       ”  4à  T   !  B#  é»  ”       e²  Ì     T   •y        ñ
+  éŽ  4     Ä   øÜ  Ð   !  ‚  Â  @     «  A™       ß  ¥™  p     Î  ¯       Î  ñ¦  d       1~         0Û       „  ‚  &lt;     A  ±³  €     õ  ±  T       ¹›  8       œÜ  \     Û  1´  ¸     ¢#  õº  8     +  ½~  ,     1	  qµ  p     ¯
+  Å  T     J  ½­  P     $  TÂ       Š  PÂ       ¥  9²  ,     ÿ  1³  €      $  Øá       Ü  ‰‚  ,        u  8     Â  ´Û  \     /  ®  X     M$  Â  @     h
+  =ˆ  (     ³  9ƒ  0    ä  µ¼  t    7  }’       á  u°  Œ     V  õ¡  Ø     &gt;  =¶                                                                                                                                                                                                                                                                                        Æ$  0        ×$  0        ë$  @       7q   Ð$      c    ß$     @i   ä$      c    ß$      %   x   @        @       À¸  @    H$  „ ‚ &quot;  C              ¸  ÂI[ à J   @@@h        A  	- 2  @€ !@
+€€    @ Š$€(€  &amp;    €     
+€20 ‚      €	 @ `*  €    @@  €À Œ P€R@Bp„      @ ÊˆB‹˜          `@²†p@ &quot;@  @…x   {      …   Š      “   ™          ¤   ¦   ­   °   ´   ¶   ¹   À   Ä   Æ   É   Ï   Ó   ×   Û   à   æ   ç   ê       ï   ó   ø   ý         ž_tõ&amp;“·—oUÅòÆZŽž5Þ¥¤H&quot;Õø‰;¥5eLÔÞ®Iò6™HÆHjå,¬äæEAôA¢ævG6Îà×¬ûw0âˆÈüµsü$˜Ý&amp;Cð&#39;2jØ–ÿ9ÔSnDÄÑr&quot;äÏþyã~×sõ0kr3œ·mKH%HèÓ†Â]DC§ÄÑ¿
+N·
+™ó
+OÔynÄ¤«äU¤ûw+ÎðBBY˜ó$˜óvþÒø%Tçî­ðo›zåeUd´\}T¦ÆZÎ¨®Õø}=cX´=ÇzawÖsà8Ò$»§6œL®Ò1‰Î8ÒäÜv£ëQ¾4Ùÿfr6Šyk$˜ÞctõFžóV&amp;¦Õøð¦„úXÓvà8ÒwAÒ¼Ë&gt;ÝŒÎ8Ò4ÆZy`ù9$1¬äñA˜¯(JAçÇû3ä[GÑÊ
+­òiª8&gt;¸x0¼SwAÒ8QÝ7h&gt;FØôŒ‰›æÆ¾ÛsõÕøÜ»mKÛÈÊ`:ÆJ}8†G§IÜÌË©«äØî$¤ˆœÞ€ÊŽ—¨ûwØ÷$˜XÁ±øž˜ì¼¿_Î^õÏ›õ4K¸^–„†”ªÆZ7) úV&gt;éXnöÕdŽÚ¡?§ç%ï²_þvœj8ò,2þçq!D³¬„¸o$˜bjÅ|Ãç½jb htõøÎd&#39;¢ÆZhªÕøÿ–nD^TnDŒ&#39;8´–-Ó]#Óq€f5¬ää¶§È˜ô0F˜¯‘4HISß5k¤”‡ xgþ&quot;ëÎ0Â‹@	ìnj“A” __cxa_atexit __cxa_finalize _ZN6mialgo7MiaUtil10DumpToFileEPNS_13MiImageBufferEPKc _ZN6mialgo7MiaUtil12MiDumpBufferEPNS_12_MiImageListEPKc _ZN6mialgo7MiaUtil12MiDumpBufferEPNS_13MiImageBufferEPKc _ZN7android7String85setToERKS0_ _ZN7android7String86appendEPKc _ZN7android7String8C1EPKc _ZN7android7String8D1Ev __android_log_print __cxa_guard_acquire __cxa_guard_release __errno __stack_chk_fail __stack_chk_guard fclose fopen fwrite fwrite_unlocked localtime strcmp strerror strftime time vsnprintf _Z10xml_parserPKc _Z12xml_get_itemP7_xmlDocP8_xmlNodePPcS4_ _Z12xml_get_nodeP7_xmlDocPP8_xmlNodeS3_b _Z12xml_get_propP8_xmlNodePKcPPc _Z8xml_freeP7_xmlDoc xmlDocGetRootElement xmlFirstElementChild xmlFreeDoc xmlGetProp xmlNextElementSibling xmlNodeListGetString xmlParseFile _ZN6mialgo7MiaNode10InitializeEv _ZN6mialgo7MiaNode12FreeMetaDataEv _ZN6mialgo7MiaNode14ProcessRequestEPNS_23_NodeProcessRequestInfoE _ZN6mialgo7MiaNode15PrePareMetaDataEPv _ZN6mialgo7MiaNode6DeInitEv _ZN6mialgo7MiaNodeC1Ev _ZN6mialgo7MiaNodeC2Ev _ZN6mialgo7MiaNodeD0Ev _ZN6mialgo7MiaNodeD1Ev _ZN6mialgo7MiaNodeD2Ev _ZN7android7RefBase10onFirstRefEv _ZN7android7RefBase13onLastWeakRefEPKv _ZN7android7RefBase15onLastStrongRefEPKv _ZN7android7RefBase20onIncStrongAttemptedEjPKv _ZN7android7RefBaseC2Ev _ZN7android7RefBaseD2Ev _ZTTN6mialgo7MiaNodeE _ZTVN6mialgo7MiaNodeE _ZTv0_n12_N6mialgo7MiaNodeD0Ev _ZTv0_n12_N6mialgo7MiaNodeD1Ev _ZdlPv _ZN6mialgo14MiaNodeFactory10GetMiaNodeENS_15mia_node_type_tE _ZN6mialgo14MiaNodeFactory10InitializeENS_15mia_node_type_tE _ZN6mialgo14MiaNodeFactory11GetInstanceEv _ZN6mialgo14MiaNodeFactory6DeInitENS_15mia_node_type_tE _ZN6mialgo14MiaNodeFactoryC1Ev _ZN6mialgo14MiaNodeFactoryC2Ev _ZN6mialgo14MiaNodeFactoryD0Ev _ZN6mialgo14MiaNodeFactoryD1Ev _ZN6mialgo14MiaNodeFactoryD2Ev _ZN6mialgo16MiaNodeClearShotC1Ev _ZN6mialgo18MiaNodeClearShot_SC1Ev _ZTVN6mialgo14MiaNodeFactoryE _Znwj Java_com_xiaomi_engine_MiaNodeJNI_deInit Java_com_xiaomi_engine_MiaNodeJNI_init Java_com_xiaomi_engine_MiaNodeJNI_processRequest _ZN13FrameDataUtil11getMiaFrameEP7_JNIEnvPN6mialgo8MiaFrameEP8_jobject _ZN13FrameDataUtil14getMiImageListEP7_JNIEnvPN6mialgo12_MiImageListEP8_jobject __aeabi_memclr8 __aeabi_memcpy free malloc _ZN20VendorMetadataParser11getTagValueEPvjPS0_ _ZN20VendorMetadataParser12freeMetadataEPv _ZN20VendorMetadataParser12getVTagValueEPvPKcPS0_ _ZN20VendorMetadataParser20allocateCopyMetadataEPv _ZN6mialgo16MiaNodeClearShot10InitializeEv _ZN6mialgo16MiaNodeClearShot12FreeMetaDataEv _ZN6mialgo16MiaNodeClearShot14ProcessRequestEPNS_23_NodeProcessRequestInfoE _ZN6mialgo16MiaNodeClearShot14UpdateMetaDataEy _ZN6mialgo16MiaNodeClearShot15PrePareMetaDataEPv _ZN6mialgo16MiaNodeClearShot6DeInitEv _ZN6mialgo16MiaNodeClearShotC2Ev _ZN6mialgo16MiaNodeClearShotD0Ev _ZN6mialgo16MiaNodeClearShotD1Ev _ZN6mialgo16MiaNodeClearShotD2Ev _ZN6mialgo17QVisidonClearshot4initEv _ZN6mialgo17QVisidonClearshot6deinitEv _ZN6mialgo17QVisidonClearshot7processEPNS_13MiImageBufferES2_iiPi _ZN6mialgo17QVisidonClearshotC1Ev _ZTCN6mialgo16MiaNodeClearShotE0_NS_7MiaNodeE _ZTTN6mialgo16MiaNodeClearShotE _ZTVN6mialgo16MiaNodeClearShotE _ZTv0_n12_N6mialgo16MiaNodeClearShotD0Ev _ZTv0_n12_N6mialgo16MiaNodeClearShotD1Ev __aeabi_l2d atoi property_get systemTime VDDClearShot_APIOps_DeInit VDDClearShot_APIOps_Init VDDualCameraClearShotInitialize VDDualCameraClearShotProcess VDDualCameraClearShotRelease VDDualCameraClearShotSetNRForBrightness VDDualCameraClearShotVersion _ZN6mialgo17QVisidonClearshot12ParseAlogLibEv _ZN6mialgo17QVisidonClearshotC2Ev _ZN6mialgo17QVisidonClearshotD0Ev _ZN6mialgo17QVisidonClearshotD1Ev _ZN6mialgo17QVisidonClearshotD2Ev _ZTVN6mialgo17QVisidonClearshotE __aeabi_memclr dlclose dlerror dlopen dlsym VDClearShot_APIOps_DeInit VDClearShot_APIOps_Init VDClearShot_GetVersion VDClearShot_Initialize VDClearShot_Process VDClearShot_Release VDClearShot_SetNRForBrightness _ZN6mialgo19QVisidonClearshot_S12ParseAlogLibEv _ZN6mialgo19QVisidonClearshot_S13get_int_arrayEPcPi _ZN6mialgo19QVisidonClearshot_S13set_parameterEP25_VDClearShotRuntimeParamsPNS_27VDClearShotRuntimeParamsXmlEi _ZN6mialgo19QVisidonClearshot_S16parser_parameterEPKcPNS_27VDClearShotRuntimeParamsXmlES2_ _ZN6mialgo19QVisidonClearshot_S4initEv _ZN6mialgo19QVisidonClearshot_S6deinitEv _ZN6mialgo19QVisidonClearshot_S7processEPNS_13MiImageBufferES2_iiiPi _ZN6mialgo19QVisidonClearshot_SC1Ev _ZN6mialgo19QVisidonClearshot_SC2Ev _ZN6mialgo19QVisidonClearshot_SD0Ev _ZN6mialgo19QVisidonClearshot_SD1Ev _ZN6mialgo19QVisidonClearshot_SD2Ev _ZTVN6mialgo19QVisidonClearshot_SE atof sscanf _ZN6mialgo18MiaNodeClearShot_S10InitializeEv _ZN6mialgo18MiaNodeClearShot_S12FreeMetaDataEv _ZN6mialgo18MiaNodeClearShot_S14ProcessRequestEPNS_23_NodeProcessRequestInfoE _ZN6mialgo18MiaNodeClearShot_S14UpdateMetaDataEy _ZN6mialgo18MiaNodeClearShot_S15PrePareMetaDataEPv _ZN6mialgo18MiaNodeClearShot_S6DeInitEv _ZN6mialgo18MiaNodeClearShot_SC2Ev _ZN6mialgo18MiaNodeClearShot_SD0Ev _ZN6mialgo18MiaNodeClearShot_SD1Ev _ZN6mialgo18MiaNodeClearShot_SD2Ev _ZTCN6mialgo18MiaNodeClearShot_SE0_NS_7MiaNodeE _ZTTN6mialgo18MiaNodeClearShot_SE _ZTVN6mialgo18MiaNodeClearShot_SE _ZTv0_n12_N6mialgo18MiaNodeClearShot_SD0Ev _ZTv0_n12_N6mialgo18MiaNodeClearShot_SD1Ev _ZN20VendorMetadataParser11getErrorMsgEi _ZN20VendorMetadataParser11setTagValueEPvjS0_j _ZN20VendorMetadataParser12VErrorStringE _ZN20VendorMetadataParser12setVTagValueEPvPKcS0_j _ZN20VendorMetadataParser14getTagValueExtEPvjPS0_Rj _ZN20VendorMetadataParser15getVTagValueExtEPvPKcPS0_Rj _ZN20VendorMetadataParser25allocateCopyInterMetadataEPv _ZN20VendorMetadataParser8getTagIDEP15camera_metadataPKcPj _ZN7android14CameraMetadata14getTagFromNameEPKcPKNS_19VendorTagDescriptorEPj _ZN7android24VendorTagDescriptorCache23getGlobalVendorTagCacheEv _ZN7android8hardware7camera26params24VendorTagDescriptorCache22getVendorTagDescriptorEyPNS_2spINS_19VendorTagDescriptorEEE _ZNK7android14CameraMetadata10getAndLockEv _ZNK7android14CameraMetadata6unlockEPK15camera_metadata add_camera_metadata_entry allocate_copy_camera_metadata_checked find_camera_metadata_entry free_camera_metadata get_camera_metadata_size get_camera_metadata_vendor_id get_local_camera_metadata_tag_type update_camera_metadata_entry _Z16getANativeWindowP7_JNIEnvP8_jobject _ZN7android10IInterfaceD0Ev _ZN7android10IInterfaceD1Ev _ZN7android11BnInterfaceINS_17IProducerListenerEE10onAsBinderEv _ZN7android14sp_report_raceEv _ZN7android16ProducerListenerD0Ev _ZN7android16ProducerListenerD1Ev _ZN7android17IProducerListener10descriptorE _ZN7android17IProducerListenerC2Ev _ZN7android17IProducerListenerD0Ev _ZN7android17IProducerListenerD1Ev _ZN7android17IProducerListenerD2Ev _ZN7android18BnProducerListener10onTransactEjRKNS_6ParcelEPS1_j _ZN7android18BnProducerListener18needsReleaseNotifyEv _ZN7android18BnProducerListener18onBuffersDiscardedERKNSt3__16vectorIiNS1_9allocatorIiEEEE _ZN7android23sp_report_stack_pointerEv _ZN7android7BBinder10onTransactEjRKNS_6ParcelEPS1_j _ZN7android7BBinder10pingBinderEv _ZN7android7BBinder11linkToDeathERKNS_2spINS_7IBinder14DeathRecipientEEEPvj _ZN7android7BBinder11localBinderEv _ZN7android7BBinder12attachObjectEPKvPvS3_PFvS2_S3_S3_E _ZN7android7BBinder12detachObjectEPKv _ZN7android7BBinder13unlinkToDeathERKNS_2wpINS_7IBinder14DeathRecipientEEEPvjPS4_ _ZN7android7BBinder4dumpEiRKNS_6VectorINS_8String16EEE _ZN7android7BBinder8transactEjRKNS_6ParcelEPS1_j _ZN7android7BBinderC2Ev _ZN7android7BBinderD0Ev _ZN7android7BBinderD1Ev _ZN7android7BBinderD2Ev _ZN7android7IBinder11localBinderEv _ZN7android7IBinder12remoteBinderEv _ZN7android7IBinder19queryLocalInterfaceERKNS_8String16E _ZN7android7IBinderD0Ev _ZN7android7IBinderD1Ev _ZNK7android17IProducerListener13getHalVariantEv _ZNK7android17IProducerListener22getInterfaceDescriptorEv _ZNK7android7BBinder10findObjectEPKv _ZNK7android7BBinder13isBinderAliveEv _ZNK7android7BBinder22getInterfaceDescriptorEv _ZNK7android7IBinder13checkSubclassEPKv _ZNK7android7RefBase9decStrongEPKv _ZNK7android7RefBase9incStrongEPKv _ZNK7android8String164sizeEv _ZTC14SurfaceWrapper0_N7android11BnInterfaceINS_17IProducerListenerEEE _ZTC14SurfaceWrapper0_N7android16ProducerListenerE _ZTC14SurfaceWrapper0_N7android17IProducerListenerE _ZTC14SurfaceWrapper0_N7android18BnProducerListenerE _ZTC14SurfaceWrapper4_N7android10IInterfaceE _ZTC14SurfaceWrapper8_N7android7BBinderE _ZTC14SurfaceWrapper8_N7android7IBinderE _ZTT14SurfaceWrapper _ZTV14SurfaceWrapper _ZThn4_N7android11BnInterfaceINS_17IProducerListenerEE10onAsBinderEv _ZThn4_N7android17IProducerListenerD0Ev _ZThn4_N7android17IProducerListenerD1Ev _ZThn8_N7android18BnProducerListener10onTransactEjRKNS_6ParcelEPS1_j _ZTv0_n12_N7android10IInterfaceD0Ev _ZTv0_n12_N7android10IInterfaceD1Ev _ZTv0_n12_N7android16ProducerListenerD0Ev _ZTv0_n12_N7android16ProducerListenerD1Ev _ZTv0_n12_N7android17IProducerListenerD0Ev _ZTv0_n12_N7android17IProducerListenerD1Ev _ZTv0_n12_N7android7BBinderD0Ev _ZTv0_n12_N7android7BBinderD1Ev _ZTv0_n12_N7android7IBinderD0Ev _ZTv0_n12_N7android7IBinderD1Ev __cxa_pure_virtual strzcmp16 _ZN17FrameDataCallback7releaseEPN6mialgo8MiaFrameE _ZN17FrameDataCallbackC1EP7_JNIEnvP8_jobject _ZN17FrameDataCallbackC2EP7_JNIEnvP8_jobject _ZN17FrameDataCallbackD0Ev _ZN17FrameDataCallbackD1Ev _ZN17FrameDataCallbackD2Ev _ZTV17FrameDataCallback _Z15get_api_versionv __floatdidf __aeabi_memcpy4 __aeabi_memcpy8 memcpy __aeabi_memclr4 __aeabi_memset __aeabi_memset4 __aeabi_memset8 memset liblog.so LIBLOG libc.so LIBC LIBC_P libdl.so libvndksupport.so libcamera_client.so libcamera_metadata.so libgui.so libbinder.so libutils.so libcutils.so libxml2.so libc++.so libm.so libcom.xiaomi.camera.mianodejni.so APS2’ ‚&lt; ¶ô ì ü ì Ð¬Ìô Ô Ì „€‚&gt;ärô ì ü ì Ð¬Ìô Ô Ì „€‚À Ðrô ì ü ì Ð¬Ìô Ô Ì „€‚Â Ürô ì ü ì Ð¬Ìô Ô Ì „€‚šŒw¬Ì˜‚œüx¬Ì˜‚žˆy¬Ì˜‚ äx¬Ì˜‚¢øx¬Ì˜‚¤àx¬Ì˜‚¦äx¬Ì˜‚¨ôx¬Ì˜‚´y¬Ì˜„‚¼€w¬ÐÌ‚À˜{¬Ì˜‚ÂÐx¬Ì˜‚Æˆy¬Ì˜„‚è´yÐÄ Ì Ì Ì‚ðÔràè‚Šð|àè‚À ¬Ð‚œÐwàè‚¤”À ‚Âàyàè‚Ü”0‚ä¸~¬Ì‚ìÀwàè‚ò |àè‚€Ä|àè‚Œä|àè‚šô‚®üyàè‚Ò˜Ð â  z‚‚‚‚‚‚‚ˆ‚Ò‚ô‚È‚Œ‚Ð‚è‚º ‚ª‚¬‚–‚†‚†‚–è ‚²‚Ú‚˜‚Ä‚ö‚ö‚Ü‚Ê‚†‚Ä‚Æ ‚ˆ‚Š‚þ‚ê‚ê‚þø ‚’‚”‚è ‚ÒÈ ‚È‚È‚Ø‚Ø‚°‚ú‚ú‚°À ‚’‚”‚è ‚ÒÌ‚˜Ä ‚Œ‚Š‚¾‚Ð‚Î$‚Þ‚Ü ‚„‚‚,‚Ú‚Ø ‚þ ‚ü $‚Ö‚Ô ‚¶‚Ä4‚®‚¬‚˜ ‚â‚à ‚¶0‚²‚º‚¸ ‚æ‚ä‚’‚¾‚Ê´•••‚•‚•’•ª•–•´•Â•¢•þ•´•€•Ò•†•€   ÐÚ  Ý  Ç` 0  `€†a 1À  ìá     Põ     (7  °°°€47  °®€Ì7  °¯€l8  ä  H;  °¨€p;  °°°€p;  °„€ ;  °°¨€P&lt;  °„€„&lt;  °°¨€À&lt;  °„€H=  °„€ô=  °°ª€@&gt;  °ª€ø&gt;  „€D?  °¨€x?  °„€¨?  °°¨€P@  ¯?€xD  p  ¨D  h  ØD  °ª€4E  °„€TE  °¨€E  °°¨€¸E  L  K  °¨€$K  °„€XK  °°¨€¨K  °„€,M  °¨€\M  °°°€\M  °®€ÐN  °ª€O  °°¨€0O    ŒU  „€ÀU  °°°€ÈU  „€V  °ª€|V  „€ÈV  ä  ¼W  „€X  °¨€8X  °°°€8X  °¨€`X  °®€ÔY  °¯€t]  °„€^  °¬€ä^  °°¨€ô^     øb  °ª€Tc  °„€tc  °¨€°c  °°¨€Øc  „  Ðh  °°°€Ìh  °„€ i  °°¨€Pi  °„€Ôj  „€k  °°°€k  „€Xk  °«€Àk  „€l  ª€l  „€Ül  °°°€äl  °¬€°m  °¨€Ôm  °®€˜n  °«€o  °¬€ˆo  °­€Àp  °°ª€(q  °°¨€dq  °°°€tq  ­B—€ts  °°°€ts  ­B—€äs  °°°€äs  ­B—€Lt  °°°€Lt  °„€¬t  °°°€¨t  °„€Ðt  °°ª€ u  °„€(u  °°ª€Xu  °„€üu  °ª€Pv  „€¨v  °ª€4w    dw  °®€Ðy     z  °¯€|  °ª!€ |  °°°€Ø|     ð|     hã    lã    pã    tã    xã    |ã    €ã    „ã    ˆã    Œã    ã    ”ã    ˜ã    œã  
+   ã    ¤ã    ¨ã    ¬ã    °ã    ´ã  	  ¸ã    ¼ã    Àã    Äã    Èã    Ìã    Ðã    Ôã    Øã  &quot;  Üã  #  àã  $  äã  Û  èã  %  ìã  {  ðã  Ô  ôã  ‚  øã  Ð  üã  ƒ   ä  ñ  ä  &#39;  ä  Á  ä   ä  ý  ä  Ç  ä  &amp;  ä    ä  Ñ  $ä  	 (ä  ù  ,ä  §  0ä  )  4ä  (  8ä  ¦  &lt;ä  þ  @ä  ÿ  Dä  *  Hä  Ø  Lä  ê  Pä  Ó  Tä  ø  Xä  -  \ä  .  `ä  º  dä  ,  hä  Ò  lä  +  pä  ë  tä    xä  ì  |ä    €ä  Ì  „ä  ·  ˆä  †  Œä  0  ä  µ  ”ä    ˜ä  Ï  œä      ä  /  ¤ä  ï  ¨ä    ¬ä  ª  °ä  È  ´ä  Þ  ¸ä  ‹  ¼ä  ­  Àä  |  Ää  
+ Èä  ó  Ìä  ¸  Ðä   Ôä  ±  Øä  —  Üä  2  àä  ;  ää  3  èä  1  ìä  æ  ðä  &lt;  ôä  8  øä  y  üä  6   å  =  å  4  å  :  å  7  å  5  å  9  å  K  å  e   å  d  $å  @  (å  D  ,å  U  0å  _  4å  f  8å  u  &lt;å  X  @å  G  Då  z  Hå  v  Lå  w  ?¯ É    „°°     /²¯ É    g²¯ É    „°°    ?#¯ †É    1²¯ É    diff %s %s outputFrame 0: width*height %d*%d, plane %d&#39;s Pitch %d, Plane %p UpdateMetaData %llu QVisidonClearshot::construct %s : %d MIALGO_dualcameraclearshot:%s: VDDualCameraClearShotProcess failed VDClearShot_SetNRForBrightness brightening invalid tag type %s: Invalid java metadata object. DeInit GetMiaNode releaseRequestRes start  process value MIALGO_clearshot: iso: %d Open %s Error :%s VDClearShot_Process MIALGO_clearshot:%s-- DumpToFile %s width:height = %d * %d
+ get frameDataList: list size is %d ###Open %s with handle:%p iso:%d,targetParamIndex: %d, luminanceNoiseReduction:%f,inputBrightnessThreshold:%f,sharpen:%f, effectiveFrames: %dchromaNoiseReduction:%f
+ QVisidonClearshot_S ======================================================= ()Ljava/nio/ByteBuffer; CameraMetadata_getNativeMetadata MIA_NODE_FACTORY Deinit Java_com_xiaomi_engine_MiaNodeJNI_deInit ProcessRequest start &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; get ABNER, 2222, ----------------- getFrameNumber ()Landroid/os/Parcelable; getFormat ProcessRequest now distruct --&gt;&gt; MiaNodeFactory
+ VDDualCameraClearShotRelease MIALGO_dualcameraclearshot:Version %s MIALGO_dualcameraclearshot:%s-- deghosting_strength huangxin QVisidonClearshot_S::init start %s : %d invalid tag wb+ [%s:%d]: ERR! DO NOTHING DUE TO NULL POINTER pNodeProcReqInfo = %p clearshot_output_%dx%d VDClearShot_Release error %d in getTagID miImage-&gt;format.width = %d remaining MiDump %s width:height = %d * %d
+ ParseAlogLib WARNING! %s, clip effectiveFrames from %d to maximum %d MIALGO_dualcameraclearshot:Selected base frame was %d malloced and initialized MiImageList_t %p, size %d for input buffer %d %d,%d,%d,%d,%d,%d Tag %d: did not have a type %s: input frame: %p getBuffer mMetadataPtr unsupport mia node:%d We get input buffer overflow max size input buf cnt %d, output buf cnt %d, miBuffer addr %p, phOutputBuffer[0] %p free input buffer %d&#39;s space %p id getImageFlag frame-&gt;frame_number = %lld /sdcard/DCIM/Camera/ MIA_NODE_DAEM MIA_CLEARSHOT_A VDDualCameraClearShotVersion null input metadata %p or tagname %p! release IMG_%Y%m%d%H%M%S ERR! %s SHOULD NOT BE HERE!
+ outbuf %d: W*H %d*%d, planeStride %d, sliceHeight %d plane_num %d, pAddr[0] %p, pAddr[1] %p, planeSize[0] %zu, planeSize[1] %zu name now construct --&gt;&gt; MiaNodeClearShot_S
+ QVisidonClearshot::init start %s : %d allocate MIALGO_clearshot:Version %s mNativeObject ()J ()Landroid/media/Image; miImage-&gt;format.format = %d releaseRequestRes end  0 %s clearshot lib spent %d. ms. /vendor/lib/libVDClearShot.so readTagValues %d failed null input metadata %p or tagname %p or data:%p! ()V %s%s_%s MIA_NODE_JNI size MiaNodeClearShot::Initialize end %s : %d /vendor/lib/libVDDualCameraClearShot.so color_boost null input metadata! ro.build.version.sdk .%s FreeMetaData phInputBuffer[%d]: %p, format is 0x%x VDDualCameraClearShotProcess QVisidonClearshot::init end %s : %d VDClearShot_GetVersion noise_reduction_adjustment no error getSequenceId ()[Landroid/media/Image$Plane; PrePareMetaData now construct --&gt;&gt; MiaNodeFactory
+ now construct --&gt;&gt; MiaNodeClearShot
+ VDDualCameraClearShotSetNRForBrightness luminance_noise_reduction input_sharpness_threshold /vendor/etc/camera/visidon_clearshot_params_algoup.xml QVisidonClearshot_S::init end %s : %d device %s MIALGO_clearshot:%s++,input_num=%d MiaNodeClearShot_S::Initialize start %s : %d no tag entry getBufferImage clearshot_input_%dx%d_%d baseFrame MIALGO_clearshot:%s: VDClearShot_Initialize failed[%d] allocateCopyInterMetadata metadata size %d getHeight miImage-&gt;numberOfPlanes = %d mia node:%d java/lang/Exception persist.camera.capture.app.clearshotdump MIALGO_dualcameraclearshot:%s++,input_num=%d MIALGO_dualcameraclearshot:%s: Memory allocation failed. moving_object_noise_removal Init Java_com_xiaomi_engine_MiaNodeJNI_deInit MIALGO_clearshot:Selected base frame was %d getPlanes yuv now construct --&gt;&gt; MiaNode
+ Java_com_xiaomi_engine_MiaNodeJNI_processRequest huangxin iIsDumpData: %d MIA_NODE_UTIL OK! init input_brightness_threshold Ljava/lang/Object; getCaptureResultMetaDataNative getCaptureRequestMetaDataNative Initialize inbuf %d: W*H %d*%d, planeStride %d, sliceHeight %d plane_num %d, pAddr[0] %p, pAddr[1] %p, planeSize[0] %zu, planeSize[1] %zu com.qti.sensorbps.gain null input metadata %p or data:%p! _%d.%s PutFrameInQueue start %s : %d Fail t open file for image dumping %s: %s
+ ABNER, 11111, +++++++++++++++++, inputNum %d, fmt 0x%x; outputNum %d, fmt 0x%x QVisidonClearshot VDDClearShot_APIOps_Init effectiveFrames moving_pixels_rejection_threshold null input metadata %p! null input src metadata! J java/lang/RuntimeException inputFrame %d: width*height %d*%d, plane %d&#39;s Pitch %d, Plane %p VDClearShot_Initialize ro.product.device invalid param FrameDataUtil frame-&gt;stream_index = %u getWidth (I)Ljava/lang/Object; ProcessRequest end &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; WARNING! Metadata is NULL useTripodMode mLock  fetch list frameDataElement failure! now distruct --&gt;&gt; MiaNodeClearShot
+ MIALGO_clearshot :iso:%d, luminanceNoiseReduction:%f, inputBrightnessThreshold:%f, sharpen:%f, chromaNoiseReduction:%f, noiseReductionAdjustment[0]:%d, effectiveFrames:%d MIALGO_clearshot:%s: VDClearShot_Process failed %s%s now distruct  ~~~
+ ERR! Invalid mNodeType: %d
+ VDDualCameraClearShotInitialize MIALGO_dualcameraclearshot:%s: VDClearShot_Initialize failed[%d] QVisidonClearshot_S::construct %s : %d MIA_CLEARSHOT_A_S VDClearShot_APIOps_Init frame-&gt;requestId = %d ()I sharpen MIALGO_clearshot:%s: Memory allocation failed. get input request metadata size %d FrameDataCallback not find class ERR! Overflow! We get input buffer cnt %d, Max is %d persist.camera.capture.app.clearshotdbg chroma_noise_reduction could not find tag ID for tagname %s the input request metadata is null %p android/view/Surface frame-&gt;meta point addr == 0x%llx MiaNodeClearShot::Initialize start %s : %d MiaNodeClearShot_S::Initialize end %s : %d now distruct --&gt;&gt; MiaNodeClearShot_S
+ miImage-&gt;format.height = %d plane %d size is : %d miImage-&gt;planeSize[%d] = %zu; addr = %p    €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?zû?î?ä×?¹?£‘?Ìa?³)?hé~?¡~?×P~?Âø}?™}?º1}?	Ã|?M|?ÕÏ{?”K{?bÀz?^.z?«•y?jöx?­Px?¥¤w?sòv?*:v?ê{u?å·t?îs?Ás?Jr?Ûoq?“p?.¬o?ÎÂn?•Ôm?µál?-êk?Bîj?òíi?péh?Îàg?=Ôf?ÎÃe?£¯d?Ý—c?ž|b?^a?:&lt;`?Y_?cï]?¬Ä\?$—[?gZ?z4Y?zÿW?PÈV?üŽU? ST?nS?ˆ×Q?ÿ–P?ãTO?wN?ÍÌL?_zK?AJ?‰H?ÕëF?;7E?lC?‹A?•??ìŠ=?em;?C=9?Lû6?]¨4?,E2?…Ò/?PQ-?HÂ*?$&amp;(?Ð}%?óÉ&quot;?‰ ?(C?Îq? ˜?é¶?Ï?Xá?€î?U÷?±ü?Lÿ?   ?ƒ¢ù&gt;ó“ò&gt;‚ãê&gt; â&gt;„ØÙ&gt;ú›Ð&gt;vùÆ&gt; ½&gt;Œ¾²&gt;D¨&gt;Ÿ&gt;øß’&gt;rˆ&gt;á—z&gt;
++e&gt;  P&gt;ç4;&gt;æç&amp;&gt;ß6&gt;÷? &gt; BÜ=ð¹=*Æ™=&quot; x=5´A= =ÄxÍ&lt;ÿ…&lt;6‘&lt;z ‹;ÉŽ:                                                                                                                                                                                                                                                                  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?  €?zû?î?ä×?¹?£‘?Ìa?³)?hé~?¡~?×P~?Âø}?™}?º1}?	Ã|?M|?ÕÏ{?”K{?bÀz?^.z?«•y?jöx?­Px?¥¤w?sòv?*:v?ê{u?å·t?îs?Ás?Jr?Ûoq?“p?.¬o?ÎÂn?•Ôm?µál?-êk?Bîj?òíi?péh?Îàg?=Ôf?ÎÃe?£¯d?Ý—c?ž|b?^a?:&lt;`?Y_?cï]?¬Ä\?$—[?gZ?z4Y?zÿW?PÈV?üŽU? ST?nS?ˆ×Q?ÿ–P?ãTO?wN?ÍÌL?_zK?AJ?‰H?ÕëF?;7E?lC?‹A?•??ìŠ=?em;?C=9?Lû6?]¨4?,E2?…Ò/?PQ-?HÂ*?$&amp;(?Ð}%?óÉ&quot;?‰ ?(C?Îq? ˜?é¶?Ï?Xá?€î?U÷?±ü?Lÿ?   ?ƒ¢ù&gt;ó“ò&gt;‚ãê&gt; â&gt;„ØÙ&gt;ú›Ð&gt;vùÆ&gt; ½&gt;Œ¾²&gt;D¨&gt;Ÿ&gt;øß’&gt;rˆ&gt;á—z&gt;
++e&gt;  P&gt;ç4;&gt;æç&amp;&gt;ß6&gt;÷? &gt; BÜ=ð¹=*Æ™=&quot; x=5´A= =ÄxÍ&lt;ÿ…&lt;6‘&lt;z ‹;ÉŽ:                                                                                                                                                                                                                                                                                                                                                                                                                                                    HxDðt¼Ja  pGÿ÷ý¿ÔÔ-éðG‚°‰F&quot;I‚FHFyDðÌì±°½èð‡Úø #(¿(/ÑÚé X¸ñ ÛÚø@FFÚø8p8F)F&quot; #ðºì&#39;D&gt;öÑ¸ñÛëØpÚøpÚø&lt;`D0F)F&quot; #ð¨ì&gt;D&lt;öÑI JKFyDÍé XzDð¢ì  °½èðGð*¼Õÿÿ*ßÿÿ;Õÿÿ-éðOƒ°F$I‚F(FyDð|ì (&gt;Ð€FÚø  #(¿(1ÑÚéi¹ñ&quot;ÛÚøp«FÚø@MF F1F&quot;CFð‚ì&lt;D=öÑ¹ñ]FÛ	ëÙpÚø°Úø@G F1F&quot;CFðnì\D?öÑ
+I 
+J+FyDÍé izDðRì@F°½èðOðÙ»°½èðcÔÿÿˆÞÿÿ™Ôÿÿ-éðO°-í‹Î° J (zDhhM“ ð¡€,¯«Ã€ïP€p&quot;8FšI ùÂŠ¬ñPñ@	 ùÏŠñ` ñ0
+ñ ñ ùÏŠñ` yD ùÏŠñP  ùÏŠñ@  ùÏŠñ0  ùÏŠñ   ùÏŠñ  ùÏŠ F ùÂŠ ùÏŠ  ùÏŠ	ùÏŠ
+ùÏŠùÏŠùÏŠ	‘y¿ó[À ðÒ€­(Fðüë(Fð ìwJF˜p!zDùÏŠ ùÏŠ8F ùÁŠ€! ùÏŠ FùÏŠ
+ùÏŠ	ùÏŠùÏŠðîëkKlH{DÝø°xDÍé 8FÍø° ðéø  9F
+
+¨ðäë	ž
+œ5h F)FðäëÈ±dI dJ#FyD •zDð¢ë  
+©°`0FðÜë^K_H{DxD ,¨ ðÄøà oà°hRISKByD²`{DÍé 8F ðµøOI 
+›NJyD —zDð|ë
+¨,©Ýøð¾ëMI
+˜yDðbëÐ³‚FÙø  #(¿(/ÑÙéH¸ñ ÛÙøPFFÙøp8F!F&quot;SFðjë/D&gt;öÑ¸ñÛIFëØpÙøÍiG(F!F&quot;SFðVëMD?öÑ5I 5J[FyDÍé HzDð:ëPFð&gt;ëà
+œð‚ë hðˆë-I#F-JyD zD ð&amp;ë
+¨ð„ëš  M™hQ¿N°½ì‹°½èðð~ë	˜0ð€ë (?ô&amp;¯I	yD(Fð8ë	H)F	JxDzD hðxë˜ð|ëç ¿,h  0z  ÆßÿÿÄe  r]  7ÖÿÿØÿÿƒÕÿÿŠÜÿÿ8ÞÿÿÜÜÿÿÓáÿÿ(Ýÿÿ’ÍÿÿbØÿÿ¢Üÿÿ-ÒÿÿXÜÿÿuÎÿÿ2Üÿÿ›Ýÿÿµ‚°	IF«yDh!h‘€! “ðLë˜!h¿°½ð$ë ¿Ne  ðJºðNº°µFFS±)h )¿  °½ðJë(` ` °½ h±ðJëà(hðNë ` (¿ °½µF‹h`&quot;ÉhðHë ` ½µFðJë ` (¿ ½µFh `KhPøIJyD#PzD ðvê F½ ¿ÓÿÿfÚÿÿµF0ð2ëHIxDJyD hzD ñD0 ` £`ðZê F½Žd  àÒÿÿ:ÚÿÿµFh `KhPøIJyD#PzD ðDê F½ ¿¨Òÿÿhßÿÿ°µF
+HI%FxD
+JyD hzD ñD0Eø #`ð*ê(Fðöê F°½.d  €Òÿÿ@ßÿÿµIhyDÑø ÀRø&lt;
+Iñ
+JÄPÄñD yDzDDø ðê F½è@ð¢¹öc  2ÒÿÿôÞÿÿ°µFHI%FxDJyD hzD ñD0Eø #`ðêé(Fð¶ê F½è°@ð‡¹ ¿®c   ÒÿÿÀÞÿÿ°µIhyDhRø&lt;ñIJÄPÄñD %FyDzDEø ðÄé(Fðê F½è°@ða¹ ¿nc  ªÑÿÿlÞÿÿ€µI JKyDzD{Dðªé  €½tÑÿÿìÑÿÿ¸Ùÿÿ€µI JKyDzD{Dð˜é  €½PÑÿÿÈÑÿÿ¤Êÿÿ€µI JKyDzD{Dð†é  €½,Ñÿÿ¤Ñÿÿ Õÿÿ€µI JKyDzD{Dðté  €½Ñÿÿ€Ñÿÿ Ôÿÿ€µI JKyDzD{Dðbé  €½äÐÿÿ\Ñÿÿ*ÍÿÿpµN~D0x¿ó[ÀÐ0p½L|D Fð¼é (öÐ%(Fð&amp;êH)FJxDzD hð¶é Fðºé0p½Àt  ®t  Hb  îY  pµ‚°F%I%JFyD zD#Fð$é,
+Ð,Ð,.Ñ  ðêFðêàI&lt; JKyDzD {D ðé Èò  0°p½  ðìéFðøé0hh0FˆGIë„ JyDF`zD ðòè  °p½I J#FyDzDðèè Èò  °p½ÅËÿÿ‘ÖÿÿGËÿÿÏÿÿ—ËÿÿmÍÿÿ~ØÿÿaËÿÿÔ×ÿÿ°µ‚° ëUøO\± hÁh FˆG hAh FˆG  (`°°½IL JKyDzD {D ð²è Èò  °°½ ¿ãÊÿÿ¹ÌÿÿÚÈÿÿµ‚° ë Dh± F°½IY JKyDzD {D ð’è F°½ ¿£ÊÿÿyÌÿÿ¡Èÿÿ°µF	H
+I%FxD	JyD hzD0Eø ðxèÀïP  FEù
+°½Î`  sÊÿÿÓÿÿµFHIxDJyD hzD0 ` ð^è F½˜`  =Êÿÿ7ËÿÿµFH	IxD	JyD hzD0 ` ðHè F½è@ðé¿ ¿l`  ÊÿÿËÿÿµIFJ yDzDð4èð2é!Fð6é  ½ÑÿÿxÕÿÿµIFJ yDzDð èðé!Fð*é  ½ÛÐÿÿÆÉÿÿ-éðOÙ°FÜH’F˜FxDÐø Ùø  ÙLÚJ|DXzD !Fð è×JY ×K!FzD {D ðöï(hQFÂo(FG ±F(hÐJ!FÐKÐø„pzD{D(F¸G!F(hÌJÌKÐø„pzD{DàÊI ÊJyDzDðÔï(h !Ðø„p(FÆJÇKzD{D¸G !(hÄJÅKÐø„pzD{D(F¸GF(FQFbœ ð¼ù¿IF¿J yD3FzDð°ï.–Û»I
+ »J›yDzD  ð¢ï(h¸I‚iyD(FGF0±(h1F´JƒkzD(F˜G(h1FÂm(FGðŒè!Fð¢è ( ð˜€H ð¢èÀïP F ñ 0D!&quot;F@ù
+ñ0  ,Bù
+@ù
+Oð  Kù
+ d` ð„€¤I ¤J#FyDcžzDð`ï™¶ú†ðá`@	 )`d@ó‚€¨Íé‰0šHOð 	xD™HxD˜N™H~DxD
+˜HxD	š(FQFKF ð\ù€F˜¹(hWF™‚i(FG‚F(±(hQFšƒk(F˜G(hQFÂm(FGºF¯Oô”q8FðHè(F9FBFðLèOô„pð8è (Kø)  ðŸ€
+šFOô„p1FÍé 	 ðï[ø)pOô„r™8Fð8è¸h1F	šKFÍé p ðøîU™	ñ	˜¡`HE­ÑÝé‰à`Io `J`KyDzD{Dà_Iu _J_KyDzD{D  ðÚî@òÈò sà¡hÝø Úø  iPFG¯Oô„q8Fððï(F9FBFðèWN WJ~DãhzDÍé Äé 1F—ð´îÚø  !F‚iPFGOJ 1FÔø@€zDð¦îàh¨±KO &amp;KMD}D[ø&amp; 9F*F  3Fð–î[ø&amp; ðÚïàh6†BîÓ   cà`Úø  AiPFˆG FðÊï&lt;L &lt;J|DzD!Fðzî:J !FzDðtîà8I’ 8J8KyDzD {D ðhî ÝøÈò   ñX˜Ùø ¿@FY°½èðð¾îÒ_  ¡ÐÿÿºÉÿÿ×ÿÿ‚ÕÿÿÚÉÿÿâØÿÿ\Ðÿÿ‰ÛÿÿCÐÿÿíÛÿÿ¢ÉÿÿªØÿÿ&amp;ÐÿÿSÛÿÿýÏÿÿ‡ÇÿÿåÏÿÿžÛÿÿ×ÿÿpÌÿÿgÎÿÿÉÿÿ^ÓÿÿWÎÿÿ	ÉÿÿNÓÿÿ_Ïÿÿ&lt;ÊÿÿëÒÿÿIØÿÿ%ÏÿÿËÿÿÇÏÿÿÎÿÿäÊÿÿÐÄÿÿÕÍÿÿôÊÿÿ“ÍÿÿæÌÿÿÖÿÿsÍÿÿ%ÈÿÿhÒÿÿ°°µƒ°L|D%h,h“”hÓøÈ@«“ G™*hQ¿°½è°@°pGðJî¨[  °°µƒ°L|D%h,h“”hÓøŒ@«“ G™*hQ¿°½è°@°pGð.îp[  pµ‚°LFJ  M|DzD }D !F+Fð´í ðšîð ï0aðïJ  !+FÆézDð`)   !Fðží  °p½ ¿žÉÿÿ½ØÿÿÒÑÿÿóËÿÿ°µF i %ÄéUH±ðêî i (¿hIhˆG   a  e`°½µ‚°9±FFðàî`a  °½I? JKyDzD {D ðhí Èò  °½ ¿Éÿÿ%ÆÿÿæÌÿÿµF@i(±ðÆî  `a  ½I JyDzDðLí  ½ ¿ÂÈÿÿÔÿÿ-éðO°-í‹­õ0}FßH‹FOô´qxDÐø €Øø  ¯T¨ðXîJªÀïP ñ×HØL2­AùÏ
+ !|DxDBùÁ
+ !`*FÍéñ@AùÏ
+ñ0AùÏ
+ñ AùÏ
+ñAùÏ
+L!BùÁ
+)FBù
+&quot;Fðzî(Fð€î)FÃH&quot;FxDðpî(FðvîFÛé0Ûéa€hh¼I½JyDÍé zD •ðäìÙø0+@ðû€ ,Íé	˜”UÐÛø 8³³Hñ²O $xDD‚FXø$ Ðé é ñÁiœèhÐé Íé éñŽèh #FÍé  ÍéÁQF:Fð´ìÛø 4„BßÓÛø8 8³ñHñ&lt;ñO $xDD‚FXø$ Ðé é ñÁiœèhÐé Íé éñŽèh #FÍé  ÍéÁQF:FðŠìÛø8 4„BßÓÛø Ÿ ( ð¥€€ïP€ &amp;õ¨zÍø&lt; Íø,°à˜6$0Ûø †B€ð’€ë† ëÆTªÐøë# Íø4€Bø! ÂFÙø  JøÙø HøÙø ³	ñ8Oð àÙø ñƒE&#39;ÒÙø  /™ ñ? ë‹Oêàr ë’` ð? È`Uø+0‹aæÐ¾I4FÚø pØø `yD»JzDÍé vÍé° “#F&amp;Fð ìŸÑç˜Ýø,° (¤ÐÛø ( Ó¬p! F ùÁŠ ùÏŠñ`  ùÏŠñP  ùÏŠñ@  ùÏŠñ0  ùÏŠñ   ùÏŠñ  ùÏŠÙø éhŸKÍé  F{D–ÿ÷ù(F!FðníŸoç”I ”JyDzDðÞë Èò  áÛø&lt;€# Jõ”zØø  ØøKØø La³ŒHñ8ŒM $xD}DFàØø 4„BÒØø 
+ë„ / ñ? Oêàq ë‘` ð? Ð`Vø$‘aèÐÝéK2Íé $*FÍé IFð ëŸÛç	Ÿ!ªÀòxið&amp;í˜ª (¿h $qIxiyDð&quot;í˜Ø±Ÿíe
+í !î 
+½îÀ
+î
+à ¿(Z  §ÎÿÿIÊÿÿ{ÖÿÿüÇÿÿDÑÿÿÈÇÿÿÐÿÿd `CHòQÅòëPûð\I]JyDzDCëÐv 3FðZë ðöìF8iF@±©Ûø0JªÍé aT©ðòì ðæì ©AðòìAì1ßí= Áî ßí=`î¡½îàGIGJHKyDzD{Dí 
+ð,ë˜³Ûø (.Ó¬ÀïP p!M˜&quot;FBùÁ
+ñ`AùÏ
+ñPAùÏ
+ñ@AùÏ
+ñ0AùÏ
+ñ AùÏ
+ñBùÏ
+AùÏ
+Øø0K{DÍé  Fÿ÷*øJ¨!Fð~ì×é›0Añ ÇéÛé &amp;L&#39;J|DËø@0zDÍé  !Fðàê&quot;J !FzDðÚêÝø(€  ¯™Øø  Q¿õ0}½ì‹°½èðð2ë ¿rÇÿÿùÇÿÿ    eÍÍA     @@  ÈBæÅÿÿ­Òÿÿ~ÆÿÿÂÐÿÿqËÿÿ®ÅÿÿÛ½ÿÿÎÿÿèÄÿÿi¾ÿÿˆÄÿÿeÆÿÿÀÀÿÿŒÁÿÿøÃÿÿb¼ÿÿÈ¿ÿÿµ‚°I LyDÍé #|D&quot;FðŒê°½JÃÿÿ´»ÿÿ°µF1Fð8ì h(`ãhPøIJ+P  yDzDÅé (a ðpê(F°½ ¿Ãÿÿ-ÇÿÿµF0ð,ëHxD h FðìHOð IxDJyD hzD ñD0 ` £aÄéÌÄøÀðHê F½ ¿T  €T  ÐÂÿÿéÆÿÿ°µFh(`FËhPøIJyD+PzD ð,ê!(F½è°@ðÒ¹ˆÂÿÿ6Îÿÿ°µFHI%FxDJyD hzD ñD0Eø #`ðê	HxD h FðÈë(FðÖê F°½ ¿
+T  ZÂÿÿÎÿÿèS  °µIhyDhRø&lt;ñIJÄPÄñD %FyDzDEø ðäé	HxD h Fðœë(F½è°@ðw¹ ¿¾S  øÁÿÿ¨ÍÿÿS  °µFHI%FxDJyD hzD ñD0Eø #`ð¼é
+HxD h Fðtë(Fð‚ê F½è°@ðR¹bS  ²Áÿÿ`Íÿÿ@S  °µIhyDhRø&lt;ñIJÄPÄñD %FyDzDEø ðŽé
+HxD h FðFë(FðTê F½è°@ð$¹S  LÁÿÿüÌÿÿäR  µ‚°F	H	JxD	IzD hyD0 ` F  ðdé F°½ ¿¶R  †¹ÿÿ›ÊÿÿpGðý¸ÔÔ-éðG‚°AMÀïP F@H}D !a`xD*FBùÍ
+` !ðë¸³=IF=J&gt;KyDzD {D ð8é;I0FyDðëx³&lt;IF0FyDðüê€³&lt;I€F0FyDðôêˆ³=IF0FyDðîê³=I‚F0FyDðæê˜³…è€(a(Fðèêf`  °½èð‡ðèêIJKyDzD{D&amp;à!I0 !J!KyDzD{Dà!I4 !J!KyDzD{Dà!I8 !J!KyDzD{Dà!I&lt; !J!KyDzD{Dà!I@ !J!KyDzD{D  ðÖèOðÿ0°½èð‡ ¿Èd  fÃÿÿËÉÿÿÉ¹ÿÿÖÂÿÿ=ÊÿÿÀºÿÿFÃÿÿžÀÿÿ»ÉÿÿA½ÿÿ	¾ÿÿeÍÿÿ«Éÿÿ1½ÿÿù½ÿÿ´Äÿÿ›Éÿÿ!½ÿÿé½ÿÿ¥Ãÿÿ‹Éÿÿ½ÿÿÙ½ÿÿÃ¼ÿÿ{Éÿÿ½ÿÿÉ½ÿÿpµ‚°LFJP M|DzD }D !F+Fðˆè0FðnêJR   zD!F+Fð|è°p½ãÈÿÿyÀÿÿÇÿÿ„ÂÿÿµF@h±ð\ê  ``½è@ð¸ÔÔÔÔÔÔÔÔÔÔÔÔ-éðO°-í‹­õh}’€ïP€°HÜ®ˆF %xD1FÒ¬ñ 	 hF hçñ ä• ùÏŠ$ ùÀŠ`ñÚ•ùÏŠ!FùÀŠHF`Oô*q&#39;•ðXéžI žJŸKyDzD•{D —ð&amp;è¨
+/ ñºFùÏŠ ñ ùÏŠOð0 ùÁŠ`	ñ ¨¿Oð
+
+MF/Ûñ &quot;hFø&quot;0Kh$1Dø&quot;02REõÛØé!/ö›.F‘ñ?!ð?‘ñ?“F!ð?	—ÛÀïQ ñ4 &quot;&#39;¡ñ2Aø|RE`ñDEù
+óÛò´AMò
+waùïjò¸AMò
+rIöšaùïJò¸AÃö#GÃö£Baùï*ò¸AÃö™|Oôtaùï
+ò¸A€F%aùïŠ ñDOð^Ç+AùŠ ñˆAùŠLöÍAÃöLq)‘(—Íé9qOð 6’ÍéJ| õîwHù„j ñÌDùJ õˆtDùJLöÍDÃöÌdG’/‘*‘@‘;‘8•Q‘L‘I•b‘]‘ÍøpáÍéZTFòfdÃöftX’i’Íémás‘ÍékTFòfdÃöætÍøôÁz’Oð€LÍé~A õªt„‘DùJLöÍDÃöÌt|••‘‘Íø&lt;ÂÍéT õÌt õp‹’Dù*@ò Äò ¦‘¡‘ ”Íéž\œ’Gù*·‘Íé±AÍé¯T@ù*@ò  Äò@ ÂOðÿ0­’È‘Ã‘ÍéÀT¾’Hù
+Ñ•Ï’Ð¿®Œ{jYH7GÓ£ñÇ Ê(Ò!Aà£ò‘°õÈÒ!:à£ò!0°õÈÒ!3à£ò±@°õÒ!,à£ò	p°õÒ!%à£öa°õHÒ!à£ö@°õz
+Ò!à ¿\P  ÈÿÿàÄÿÿë·ÿÿAò|PƒBOð Aòi È¿	!@òRB8¿!ëë€˜í 
+DF˜í˜í*˜í:»M÷îÂ
+Tø@ºJ}D zD ‘÷îÃ)F÷îÀ*÷îÁ:Íí
+;Íí+ÍíÍíð´îð²è®JF )FzDð¬îš&#39;¨Íé *!šKFÍé YFð¦è (@ðé€&#39;™ ) ðå€4 
+û õ(Fð²ï ( ðä€)FÍé@ðšè˜õ\|œõR~ž(Û˜ !&quot;#0&#39;\ø!PÀé)@é{@éC@é–Àé )a^ø!P1QEEañ…a ñ4 çÛ°î ŠŒO²îš™÷DÑé&quot;Íé–#Íé´ $&quot;’’&quot; “’Íø„Íé#H%‘&amp;˜í 
+°îH F´îH
+ñîúH¿°î@—í *&#39;šî
+ ï	îðFè47@,äÑœž hPEÝpIpJqKyDzDÍé 
+{D ðîÄø  &#39;˜oF¨Øé #©ñ PøKGøKPøKGøKPøKGøKPøKGøKPøKGøKPøKGøKPøKGøKPøKGøKPøKGøKPøKGøKPøKGøKPøKGøKPøKGøKPøKGøKPøK0FGøKððï›FGI GJyDzDðÆí˜ ,(`ÜCI CJDKyDzD{Dðºí0Fðþî&#39;˜œ ¹à/I0J0KyDzD {Dà.I/J/KyDzD{D ð¢í&#39;˜œ ±&#39;¨ðÄï  &#39;2I 2J2KyDzD{Dðíç˜!h¿õh}½ì‹°½èððìí ¿ ¿ ¿           
+                                                           UÅÿÿîµÿÿ
+¸ÿÿÃÿÿ…Æÿÿñ²ÿÿÃÿÿÀÿÿã²ÿÿÒÊÿÿÄÿÿb¸ÿÿÕ³ÿÿUÃÿÿê·ÿÿ=ÃÿÿG²ÿÿ³ÿÿëÂÿÿüµÿÿ¿²ÿÿ€µ‚°(±IyD`  °€½J K !zD {D ðíOðÿ0°€½ ¿‹µÿÿÂÿÿ”\  H !xD`  pG\\  €µ‚°HxD h(± hH±°½è€@ G
+J 
+KzD{Dà	J  	KzD{D   !ðìì  °€½ ¿J\  ;µÿÿ$¸ÿÿ/µÿÿ¸ÿÿpµ„°L|DÔø À¼ñ ÐÜøÀ¼ñ ÐÝéTÝé
+æÍé TÍéæàG°p½J( KzD{Dà
+J) 
+KzD{D   !ð¶ìOðÿ0°p½ ¿ö[  Í´ÿÿ‹ÄÿÿÁ´ÿÿÄÿÿ€µ‚°K{Dh+±›hK±°½è€@G
+J0 
+KzD{Dà	J1 	KzD{D   !ðŠìOðÿ0°€½†[  w´ÿÿ’»ÿÿk´ÿÿ†»ÿÿ‚°°µ’°8LÍé#|D&quot;h *QÐÒøÀ¼ñ RÐÝé&#39;â¬’Ôé #Íø&lt;àñlF^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[^ø[Dø[àG°½è°@°pGJ9 KzD{DàJ: KzD{D   !ðìOðÿ0°½è°@°pG ¿,[  ƒ³ÿÿ¹ÿÿw³ÿÿ‘¹ÿÿ€µ‚°IyD	h)±	iI±°½è€@G
+JA 
+KzD{Dà	JB 	KzD{D   !ðâëOðÿ0°€½6Z  &#39;³ÿÿm²ÿÿ³ÿÿa²ÿÿµ‚°F	H	JxD	IzD hyD0 ` F  ðÂë F°½ ¿vG  Ãÿÿ‚°ÿÿpGð[»ÔÔµ„°F	IññyDñÍé CñÍéìðÐí°½-´ÿÿ-éðG‚°AMÀïP F@H}D !a`xD*FBùÍ
+` !ðRí¸³=IF=J&gt;KyDzD {D ð~ë;I0FyDðHíx³&lt;IF0FyDðBí€³&lt;I€F0FyDð:íˆ³=IF0FyDð4í³=I‚F0FyDð,í˜³…è€(a(FðŽíf`  °½èð‡ð.íIJKyDzD{D&amp;à!I8 !J!KyDzD{Dà!I&lt; !J!KyDzD{Dà!I@ !J!KyDzD{Dà!ID !J!KyDzD{Dà!IH !J!KyDzD{D  ðëOðÿ0°½èð‡ ¿lY  D·ÿÿ‚¯ÿÿU®ÿÿ´¶ÿÿô¯ÿÿL¯ÿÿ$·ÿÿœ¸ÿÿr¯ÿÿÍ±ÿÿ•²ÿÿ•¿ÿÿb¯ÿÿ½±ÿÿ…²ÿÿê­ÿÿR¯ÿÿ­±ÿÿu²ÿÿŸ®ÿÿB¯ÿÿ±ÿÿe²ÿÿa²ÿÿ2¯ÿÿ±ÿÿU²ÿÿ-éðO›°Íé2FÒIyD	h‘	h‘ !Íéðí©ª#Fðí ( ð„ÉH¬­ñPxDÇHñL	ñDxD	ÄHxDà©0F&quot;F#ðôì ( ði  0Fà0F¬ª!F #ðæì (éÐ !˜Íéª™ðäì™˜ðÈê (èÑ©0Fà0F©­*F #ðÌì (ÜÐ !˜‘ª	™ðÌì˜ðøëF0F)FBF #ðºì (ãÐOôrq˜û %!à©0FBF #ðªì
+ñX75 ( ðŠF !˜ª‘Íé™ð ì˜ðÎë8e0FAFJF #ðŽì (ÜÐñ4 ñ0 ñ, ñ( ñ$ ñ  
+à˜ð†ìAì0·îà‡í 
+0FAFJF #ðjì (¸Ð™ª0F[FðzìwIœyD FðLê (àÐtI FyDðFê (`ÐrI FyDð&gt;ê (cÐoI FyDð8ê (fÐmI FyDð0ê (dÐjI FyDð*ê (bÐhI FyDð&quot;ê (`ÐeI FyDðê (^ÐcI FyDðê (\ÐaI FyDðê (eÐ_I FyDðê (hÐ\I FyDð ê (fÐZI FyDðøé (dÐWI FyDðòé (bÐUI FyDðêé (ô‡¯˜ð,ëødç˜ð ìAì0·îà‡í
+wç˜ðöëAì0·îà‡í
+mç˜ðëø`hç˜ðë8acç˜ð
+ëxa^ç˜ðë¸aYç˜ð ëøaTç˜1Iš ’yDš’š’š’Ýé
+#ðžëDç˜ðÂëAì0·îà‡í
+:ç˜ðàêøc5ç˜ðÜê8d0ç˜ðÖêxd+ç˜ðªëAì0·îà‡í
+!çoð =Pªñ
+X8ºñøÜ´æ0Fð¦ë˜™	h¿°½èððœé ¿fE  «´ÿÿF³ÿÿ­ÿÿ¾¶ÿÿÍÀÿÿç¿ÿÿ3«ÿÿî´ÿÿØ¸ÿÿ‚¶ÿÿK³ÿÿ{µÿÿÇ¯ÿÿ¡¹ÿÿP·ÿÿ€»ÿÿ&quot;½ÿÿt»ÿÿ^®ÿÿ°µÒøTà¾ñ Ým˜BÚX $û ,F F¦EÐñXÕø¨PDBFôÛàX:	à#àbF #pE¸¿# +¿X:h`PhH`hˆ`ÐhÈ`iaPiHaiˆaÐiÈakˆcÐkÈcldPlHdlˆdÐlÈdñ0 `ùñ  `ù*ñ  @ù*ñ0 @ù°½ÔÔ-éðAš°F+HxDÐø €Øø  )L*J*M|Dà }DzD  !F+Fðžè0Fðë¯ÀïP ñ@!H;FAùÏ
+ñ0xDAùÏ
+ñ AùÏ
+ñAùÏ
+L!CùÁ
+9FJCù
+zDðôé6Oôra0Fð†êI2F;FyDðèêJè Íé  zD!F+Fðfè˜Øø ¿°½èððÄè ¿A  &gt;ªÿÿR¬ÿÿ8·ÿÿä¹ÿÿý°ÿÿ¦³ÿÿÍ³ÿÿµF@h±ð4ê  ``½è@ðö¿-éðO°-í‹ä°’™F ˆFçHV­çI€ïP€xDæJçKJ¬ h.F&#39;FyDzD h{Dcñ Íø  ùÏŠ  ùÀŠùÀŠùÏŠD¯8FùÏŠñ ùÍŠùÏŠ &amp;` /–!–ðè&quot;¨¹ñ ñËFùÏŠ ñ ùÏŠOð0 ùÁŠ`¨¿Oð¹ñÍøtÛñ  !hEø! Bh$0Dø! 1YEõÛ Øéš
+ñ?  ð?|›Õø$	ñ?  ð? )ÝÕø $õtpšBÚX&quot;¼Fû õb%/F©BÐRøXK}œB÷Û¢ñ¨ BgF¨¿X8àõ^p ñ$Ðé %aù
+ ñ îZ!ùŠ ñ&lt;î*!ùªi÷îÌ:‘Ái‘Ál ‘9F‡kAùÍ
+îzj÷îÈ
+@k`	¨•’€ù¿¨” ÷îÀ”÷îÁ*Íí ;Íí+ÍíÍíMJ}DzD)FðpïðöéŠJF )FzDðhï/¨ÿ!&quot;Íé ‹Íé!IF	 RF3Fðêé (@ðÄ€/œ , ðÀ€4 û ððnè ( ð¿€0¨”0˜—( Û˜J©Vª#0OðOð	QøK»ñRø[@ééñ@é¬@éhÀé 6Àé6ÀéT‡a ñ4 çÑ°î Ú#²îê$~´îMÊñîúH¿°îLÚ=î
+šÒéÍé&amp;hÍé#š(“	# ï*”%”&quot;“)–Íé+`Pî-’š.  ðŽéRHxD ñ°îL/š F–í 
+ î!ïîð|é46@,íÑD«0©ž$1cùÍ
+oFAù
+4!2FùŠ™1‘™0‘™8‘™7‘™6‘™/˜ùª&gt;‘h š=‘&quot;©!¨C’Ýé0#H VøK8GøKùÑž0FðPé!›F/I /JyDzDð¦î!˜,(`Ú+I +J,KyDzD{Dðšî0FðÞï/˜œ ¹àIJKyDzD {Dà&quot;I#J#KyDzD{D ð‚î/˜œ ±/¨ð$é  /I JKyDzD{Dðpîc˜!h¿d°½ì‹°½èððÌî@  :©ÿÿu³ÿÿá§ÿÿÖ§ÿÿâ¸ÿÿ\®ÿÿ
+¦ÿÿÔ°ÿÿ±¤ÿÿÀÿÿ@¦ÿÿŒ²ÿÿ(¦ÿÿß·ÿÿÑ¤ÿÿú¥ÿÿé¸ÿÿ£¤ÿÿÖ¥ÿÿÏ¤ÿÿ¤ÿÿpµ‚°LFJ  M|DzD }D !F+Fð(î@ö(pðïðÒè0aðØèJ  !+FÆézDð`)   !Fðî  °p½ó·ÿÿ¬¯ÿÿº²ÿÿ¢¹ÿÿ°µF i %ÄéUH±ð¾è i (¿hIhˆG   a  e`°½µ‚°9±FFðTï`a  °½I? JKyDzD {D ðÜí Èò  °½ ¿W·ÿÿ§ÿÿÎ­ÿÿµF@i(±ð:ï  `a  ½I JyDzDðÀí  ½ ¿·ÿÿµÿÿ-éðO°-í‹­õ2}FÊHFOô´qxDÐø €Øø  ±V¨ðÌîLªÀïP ñÂHÃL4­AùÏ
+ !|DxDBùÁ
+ !`*FÍéñ@AùÏ
+ñ0AùÏ
+ñ AùÏ
+ñAùÏ
+L!BùÁ
+)FBù
+&quot;Fðîî(Fðôî)F®H&quot;FxDðäî(FðêîF×é0×éa€hh§I¨JyDÍé zD •ðXíÙø0+@ð÷€ ,Íé	˜”SÐøh8³ïHñ $xDƒFíHxD‚FXø$ Ðé é ñÁiœèhÐé Íé éñŽèh #FÍé  ÍéÁYFRFð(íøh4„BàÓ¸k8³âHñ&lt; $xDƒFàHxD‚FXø$ Ðé é ñÁiœèhÐé Íé éñŽèh #FÍé  ÍéÁYFRFðþì¸k4„BàÓøh ( ð¤€ÎH€ïP€õ¬y $xDËH—xDàøh4	ñ$	„B€ð€ë„ ëÄVª”Ðø€ë
+# Íø&lt; Bø! TFØø  DøØø JøØø p³ñ8Oð àØø ñƒE#ÒØø 	ë‹ - ñ? Oêàr ë’` ð? È`Vø+0‹açÐªIÚø P&#39;hyD¨JÍé uÍé°zD“ ›ð˜ìÕçœ Ýé!#Fðì ,Ÿœ£Ðøh( Ó®p!0F ùÁŠ ùÏŠñ`  ùÏŠñP  ùÏŠñ@  ùÏŠñ0  ùÏŠñ   ùÏŠñ  ùÏŠØé ‹Kè 0F{Dý÷‘ù˜1Fðæísç}I }JyDzDðVì Èò  Õàþk# Lõ˜xÝø$ 0hqiMphN©³zHñ8 %xDFxHxDƒFàpi5…B&#39;Òðhë…?0Á ë‘` ð? Ð`Tø%‘aš *ëÐÝéM2Íé %ZFÍé IFðìßç;  ¯ÿÿ1«ÿÿc·ÿÿQ¶ÿÿ,²ÿÿÚø !ªÀòð–í˜ª (¿h $Ýø(€YIÚø yDðíWI WJ#FyDzDððë ðŽíFÚø ‰FH±ylªûhÍé AV©’Lªð¦î ð|í@aë	ð†íAì1ßí5 Áî ßí5`î¡½îàBIBJCKyDzD{Dí 
+ðÀë˜€³øh(-Ó¬ÀïP p !FAùÀ
+ñ` @ùÏ
+ñP @ùÏ
+ñ@ @ùÏ
+ñ0 @ùÏ
+ñ  @ùÏ
+ñ AùÏ
+@ùÏ
+Öé ,KÍé  F{Dý÷ÀøL¨!FðíÚé&amp;I&#39;J0Cñ yDzDžÊé &gt;dð|ë  ±™Øø  Q¿õ2}½ì‹°½èððÖë ¿!¶ÿÿó°ÿÿ    eÍÍA     @@C´ÿÿ³ÿÿÍµÿÿã¨ÿÿoµÿÿ—¯ÿÿÛ´ÿÿª±ÿÿ]¬ÿÿ´ÿÿÍžÿÿÞ®ÿÿy³ÿÿŸÿÿ³ÿÿ§ÿÿè¡ÿÿ²¢ÿÿ›²ÿÿ¡ÿÿpGÔÔ°µF1Fðèì h(`ãhPøIJ+P  yDzDÅé (a ð ë(F°½ ¿ß±ÿÿ~¥ÿÿµF0ðÜëHxD h FðÄìHOð IxDJyD hzD ñD0 ` £aÄéÌÄøÀðøê F½ ¿ 6  ð5  ±ÿÿ:¥ÿÿ°µFh(`FËhPøIJyD+PzD ðÜê!(F½è°@ð‚ºU±ÿÿ[³ÿÿ°µFHI%FxDJyD hzD ñD0Eø #`ðÀê	HxD h Fðxì(Fð†ë F°½ ¿z5  &#39;±ÿÿ-³ÿÿX5  °µIhyDhRø&lt;ñIJÄPÄñD %FyDzDEø ð”ê	HxD h FðLì(F½è°@ð&#39;º ¿.5  Å°ÿÿÍ²ÿÿ 5  °µFHI%FxDJyD hzD ñD0Eø #`ðlê
+HxD h Fð$ì(Fð2ë F½è°@ðºÒ4  °ÿÿ…²ÿÿ°4  °µIhyDhRø&lt;ñIJÄPÄñD %FyDzDEø ð&gt;ê
+HxD h Fðöë(Fðë F½è°@ðÔ¹‚4  °ÿÿ!²ÿÿT4  €µ‚°(±IyD`  °€½J K !zD {D ðê °€½{ŸÿÿÑ¯ÿÿœF  H !xD`  pGhF  €µ‚°HxD h(± hH±°½è€@ G
+J 
+KzD{Dà	J  	KzD{D   !ðæé  °€½ ¿VF  /ŸÿÿŠ¥ÿÿ#Ÿÿÿ~¥ÿÿðµ…°L|DÔø À¼ñ ÐÜøÀ¼ñ ÐÝé
+NÝévÍé NÍév•àG°ð½
+J) 
+KzD{Dà	J* 	KzD{D   !ð®é °ð½F  ½žÿÿ¬ÿÿ±žÿÿ¬ÿÿ€µ‚°K{Dh+±›hK±°½è€@G
+J1 
+KzD{Dà	J2 	KzD{D   !ð„é °€½ ¿’E  kžÿÿ0šÿÿ_žÿÿ$šÿÿ‚°pµ”°LÍé#|D&quot;hÚ±ÒøÀ¼ñ ÐÝé,R¬ñ’Ôé #H$•mF^øk&lt;EøkùÑàG°½èp@°pGJ: KzD{DàJ; KzD{D   !ðBé °½èp@°pG ¿8E  åÿÿmšÿÿÙÿÿašÿÿ€µ‚°IyD	h)±	iI±°½è€@G
+JB 
+KzD{Dà	JC 	KzD{D   !ðé °€½ ¿²D  ‹ÿÿãÿÿÿÿ×ÿÿIyD	hQø  pGî1  -éðA„°F0H &amp;FxDFÐø €Øø  ¨Íéfð¼ë˜P±8Fð¾ëF˜« “FðÀëž F1F*FðÂëP± J  !#FzDðÒè$˜¹à $˜ˆ±L0¿ó[Pè J@è # +øÑ)Ñ¿ó[PøLIhˆG˜ˆ± 0¿ó[Pè J@è # +øÑ)Ñ¿ó[Pø IhˆG˜Øø ¿ F°½èððé ¿¦1  l®ÿÿµ‚°K{Dh#h“ # “kFðxë™&quot;hQ¿°½ðèèÚ0  -éðG†°F,HxDÐø Ùø  Oð  `D³FF!FFFð`ë‚F0&#39;Ð  jFÀïP  FGùÀ
+ F)F•ðXë9h1`ø¹ñ±ºñ-Øßè
+ð ˜Èø    àJ  ! #zDð@è àJ  !+FzDð6è àJ  !+FzDð.è ™Ùø  Q¿°½èð‡ðŠè  Õçª0  ¢¨ÿÿYÿÿ  ÿÿðµ…°FH ,xDh8hOð  ¿ )	ÑJ  ‘ !zD#Fðè&amp;àF  ª Fð ë@±JF  !zD3F ððïà™« F*FðØêF˜9h¿0F°ð½ðFèÞ/  [žÿÿ›ÿÿ-éðA„°FH ,xDh0h¿ )	ÑJ  ‘ !zD#F ðÄï%àF  ª F˜FðÂê@±JF  !zD+F ð°ïà™ F:FCFðšêF˜1h¿(F°½èððè\/  ßÿÿ›ÿÿ-éðC‰°F(HF ,xDh0h¿ )Ñ$J Íé  !zD#F ð‚ï&#39;˜1h¿8F	°½èðƒ ðÞï -éÐªOð 	 F˜FÍøðtê@±JF  !zD;F ðbïàçªÀïP ™F@ùÍ
+Àø  FðVê0±™ F*FCFð^êà™    F*FCFð^êFÂç ¿Ú.  bŸÿÿƒšÿÿ-éðC‰°FHF ,xDh0h¿ -	ÑJ  !#FzD • ð&amp;ï àªÀïP Oð 	˜FFF@ùÍ
+Àø  Fðê0± F9F*FCFðêà™ F*FCFÍø ðê™2hQ¿	°½èðƒ ðdï&quot;.  S¥ÿÿpµ¸±FðêFØ±(FðêJF  !zD ðèî(FðêF(FðêFàJ  ! &amp;zD ðØî0Fp½	J  !#FzD &amp; ðÎî F)Fðê0Fp½ ¿ê¥ÿÿà©ÿÿ‹ªÿÿµ±FðäéJF  !zD ð´î FðÚéF F½è@ ði¾J  !zD ð¦î  ½ ¿†¥ÿÿ]¡ÿÿ (¿ ð^¾J  !zD ð^¾2žÿÿ-éðC¯…°FwHˆFxDÐø Ùø   hsI‚i  yD FGF hBm FGF hmJ1FmKÐøxQzD{D F¨GF hAFÐø|1 F˜GF h)FÐød# FG˜» h1FbJcKÐøxÁzD{D FàGF hAFÐø”1 F˜Gž€FX±‡ê  !±ë?¿ðŠé©@FðŽé .¿ñ0Fðé˜†B¿ð’é h)FÍø€Ðøh# FG h)FÂm FG˜Oð  (uÐ  ðïÀïP F0.F@ù
+ FùÀ
+ñ  ðØî&gt;HxDh(Fñðpéñ ñ(ðré8H•xDhñ¸ hañ ñX@11`‡ê(`ª`¸ë?Ñð4é(hPø©(Dð4éÝéT•u±…ê  !±ë?¿ð é(h©Pø(Dð&quot;é hª! #Ðøœ` F°G˜0±hQøD©ðéÝé (€F¿ñ9±hPøD©ð
+é˜ (¿ñðé˜Ùø ¿@F°½èðƒ ðî ¿Î,  ªÿÿŒ¦ÿÿì¢ÿÿTœÿÿý¤ÿÿ,  ê+  þÞ ð[½ÔÔ-éðC¯°€FF‰Fhð éFHxD hhðúèF0F!F*Fðüè(±  Èø  °½èðƒ	ñ¹ñ HF¿ FÈø  òÐ‡ê	  !±ë?¿ð¢è hAFPø Dð¤è°½èðƒì*  0pG0pG-éðC¯°FFˆFhðÀèFHxD hhðºèF0F)F&quot;Fð¼è(±  Éø  °½èðƒ¨ñ  !x@¨ñÉø @±ë?¿ðhè hIFPø Dðhè°½èðƒ ¿l*  8 ðß¼ÔÔ°µF	HxDhñ ñ(ð”èñ Fð–èñ  ðÊí F°½þ)  °µFHxDhñ ñ(ð|èñ Fð~èñ  ð²í F½è°@ ðƒ¼ ¿Î)  pGÔÔ°µF	HxDh ñ(ð^è ñðbèñ ½è°@ ðc¼ ¿’)  pµFHxDh ñ(ðFè%ñ(FðHèñ  ð|í(F½èp@ ðM¼ ¿b)  °µF	HxDh Fñ(ð*è¤ñ ñð,èñ ½è°@ ð.¼*)  pµFHxDh Fñ(ðè¤ññ(Fðèñ  ðHí(F½èp@ ð¼ú(  °µhJzDQøhDñ ñ( ðòïñ F ðöïñ ½è°@ ð÷» ¿Â(  °µhJzDQøhDñ ñ( ðÖïñ F ðÚïñ  ðí F½è°@ ðÞ»Š(  °µF
+HFxD h0(`hCmFF˜Gh` hIÐøl#yD FG(F°½ ¿X(  ¤:  pµ‚°FHIxDyDh	h(h1`h!`x±H &amp; – &quot;xD hhiiF˜G ˜ahh’mGf`˜)h¿ F°p½ ðZìâ&#39;  (  j:  °µ‚°FHIxDyDh	h(h1`h!`p±H ! ‘ &quot;xD hhiiF˜G ˜ahh’mG F ð¤ì˜)h¿°°½ ð,ì ¿†&#39;  À&#39;  :  pµ„°FHxDh0hMJK}DzD{D ‘ )F ðªë`hè±H !‘ &quot;xD hhi©˜G˜ahhÒoGF˜hJKÕø„PzD{D¨GFah˜ ðø˜1h¿°p½ ðêë ¿(&#39;  “£ÿÿe”ÿÿÕ•ÿÿ¢9  ™•ÿÿ©—ÿÿ°°µƒ°L|D%h,h“”hÓøø@«“ G˜)h¿°½è°@°pG ðÀë”&amp;  -éðG‚°F h’F‰FQFÂo0FGyO€FyJ DzD9F ðBë0hAFuJÐø„PzDtL0F|D#F¨GF0FQFü÷6ýpJFÉø   zD9F ð*ë0hAFÐø„P0FjJkKzD{D¨GF0FQF ðþøÉéÍé  eJ9FzD ðë0hAF#FÐø„P0F`JzD¨GF0FQFü÷ý]JFÉø  zD9F ðúê0hAFYJYKÐø„pzD{D0F¸GF0FQFü÷
+ýÀ±F0h!FÂo0FGF0hSJSKÐøxqzD{D0F¸GF0h!FÐø”10F˜G h	àGI GJHKyDzD{D ðÈê  GI #GJyDÉøzDÍé   ðºê0hAFBJCKÐø„pzD{D0F¸GF0FQFü÷ËüÀ±F0h!FÂo0FGF0h&lt;J=KÐøxqzD{D0F¸GF0h!FÐø”10F˜G h	à1I 1J1KyDzD{D ðˆê  1I #1JyDÉø zDÍé   ð|ê0hAF,J,KÐø„pzD{D0F¸GF0FQFü÷Œü	ñF0F ð¦ë  ðLë1FRF ð îÉø$  °½èð‡ ¿rŸÿÿŒÿÿS”ÿÿE¢ÿÿLŸÿÿqÿÿô•ÿÿ”ÿÿó—ÿÿµ¡ÿÿœÿÿ ÿÿ|žÿÿâŒÿÿäŽÿÿÛ’ÿÿžÿÿjžÿÿ¤¢ÿÿ¦›ÿÿ¢ÿÿþÿÿdŒÿÿfŽÿÿ]’ÿÿ‰ÿÿìÿÿ&amp;¢ÿÿp˜ÿÿž”ÿÿ°°µƒ°L|D%h,h“”hÓøÔ@«“ Gš+hš¿°½è°@°pG ðjêè#  -éðO…°F hFŠF1FÂo(FGoI€FoJ yDzD‰F ðìé(hAFkJÐø„@zDjO(FD;F GF(F1Fü÷àûfJFÊø   zDIF“ ðÒé(hAF;FÐø„@(F_JzD GF(F1Fü÷Èû\JFÊø  zDIF“ ðºé(hAF;FÐø„@(FUJzD GF(F1Fü÷°ûRJFÊø  zDIF ð¤é AFÊø$ (hÐø„p(FKJKKzD{D¸GF(F1Fü÷±ûƒF(hYFÐø¬&quot;(FG€F(¨¿OðÊø€AJF IFzDCF ð|é,UÛ $(hYF&quot;FÐø´2(F˜GF(h1FÂo(FGF(h5J5KÐø„pzD{D(F¸GF(F1Fü÷|ûF(h1FÂo(FGF(h,J-KÐø„pzD{D(F¸GF(F1Fü÷Kû(OF(J#FD zD 9F ð&lt;é(h1FÐø˜#(FG!J
+ë„ #zDËbˆc#FÁø9FÍé   ð&amp;é4DEªÛ˜Êø ˜Êø   Êø(   °½èðÆœÿÿàŒÿÿÙœÿÿ™Ÿÿÿzÿÿ°—ÿÿ?¡ÿÿ¼ÿÿ“ÿÿ˜˜ÿÿ•ÿÿ&quot;—ÿÿáÿÿ Œÿÿ‡Žÿÿožÿÿj›ÿÿ_ ÿÿW ÿÿpµ¢°HNxD~Dh0h)h!‘X»lFÀïP p!#FHJCùÁ
+ñ`xDzDAùÏ
+ñPAùÏ
+ñ@AùÏ
+ñ0AùÏ
+ñ AùÏ
+ñAùÏ
+!FCùÏ
+ ð6ê F ð:ê0`!™*hQ¿&quot;°p½ ðé ¿!  64  Í’ÿÿ³‘ÿÿ î	ßí
++ßí  ãÀøî0Dã¡+@î0Aì rî0Qìÿ/á ð ã      ðA      0Ã ê0 á á  á ê  á °ã ê@ò´Àò üD`G@òèÀò üD`G@òìÀò üD`G@òðÀò üD`G@òT,Àò üD`G@òX,Àò üD`G@òLÀò üD`G@ò€LÀò üD`G@ò„\Àò üD`G@òØlÀò üD`G@òìlÀò üD`G@ò`Àò üD`G@òD|Àò üD`G    à-å æâêŽâHð¾åÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔ ÆâÊŒâ0ð¼åÔÔÔÔ ÆâÊŒâ$ð¼åÔÔÔÔ ÆâÊŒâð¼åÔÔÔÔ ÆâÊŒâð¼åÔÔÔÔ ÆâÊŒâ ð¼åÔÔÔÔ ÆâÊŒâôÿ¼åÔÔÔÔ ÆâÊŒâèÿ¼åÔÔÔÔ ÆâÊŒâÜÿ¼åÔÔÔÔ ÆâÊŒâÐÿ¼åÔÔÔÔ ÆâÊŒâÄÿ¼åÔÔÔÔ ÆâÊŒâ¸ÿ¼åÔÔÔÔ ÆâÊŒâ¬ÿ¼åÔÔÔÔ ÆâÊŒâ ÿ¼åÔÔÔÔ ÆâÊŒâ”ÿ¼åÔÔÔÔ ÆâÊŒâˆÿ¼åÔÔÔÔ ÆâÊŒâ|ÿ¼åÔÔÔÔ ÆâÊŒâpÿ¼åÔÔÔÔ ÆâÊŒâdÿ¼åÔÔÔÔ ÆâÊŒâXÿ¼åÔÔÔÔ ÆâÊŒâLÿ¼åÔÔÔÔ ÆâÊŒâ@ÿ¼åÔÔÔÔ ÆâÊŒâ4ÿ¼åÔÔÔÔ ÆâÊŒâ(ÿ¼åÔÔÔÔ ÆâÊŒâÿ¼åÔÔÔÔ ÆâÊŒâÿ¼åÔÔÔÔ ÆâÊŒâÿ¼åÔÔÔÔ ÆâÊŒâøþ¼åÔÔÔÔ ÆâÊŒâìþ¼åÔÔÔÔ ÆâÊŒâàþ¼åÔÔÔÔ ÆâÊŒâÔþ¼åÔÔÔÔ ÆâÊŒâÈþ¼åÔÔÔÔ ÆâÊŒâ¼þ¼åÔÔÔÔ ÆâÊŒâ°þ¼åÔÔÔÔ ÆâÊŒâ¤þ¼åÔÔÔÔ ÆâÊŒâ˜þ¼åÔÔÔÔ ÆâÊŒâŒþ¼åÔÔÔÔ ÆâÊŒâ€þ¼åÔÔÔÔ ÆâÊŒâtþ¼åÔÔÔÔ ÆâÊŒâhþ¼åÔÔÔÔ ÆâÊŒâ\þ¼åÔÔÔÔ ÆâÊŒâPþ¼åÔÔÔÔ ÆâÊŒâDþ¼åÔÔÔÔ ÆâÊŒâ8þ¼åÔÔÔÔ ÆâÊŒâ,þ¼åÔÔÔÔ ÆâÊŒâ þ¼åÔÔÔÔ ÆâÊŒâþ¼åÔÔÔÔ ÆâÊŒâþ¼åÔÔÔÔ ÆâÊŒâüý¼åÔÔÔÔ ÆâÊŒâðý¼åÔÔÔÔ ÆâÊŒâäý¼åÔÔÔÔ ÆâÊŒâØý¼åÔÔÔÔ ÆâÊŒâÌý¼åÔÔÔÔ ÆâÊŒâÀý¼åÔÔÔÔ ÆâÊŒâ´ý¼åÔÔÔÔ ÆâÊŒâ¨ý¼åÔÔÔÔ ÆâÊŒâœý¼åÔÔÔÔ ÆâÊŒâý¼åÔÔÔÔ ÆâÊŒâ„ý¼åÔÔÔÔ ÆâÊŒâxý¼åÔÔÔÔ ÆâÊŒâlý¼åÔÔÔÔ ÆâÊŒâ`ý¼åÔÔÔÔ ÆâÊŒâTý¼åÔÔÔÔ ÆâÊŒâHý¼åÔÔÔÔ ÆâÊŒâ&lt;ý¼åÔÔÔÔ ÆâÊŒâ0ý¼åÔÔÔÔ ÆâÊŒâ$ý¼åÔÔÔÔ ÆâÊŒâý¼åÔÔÔÔ ÆâÊŒâý¼åÔÔÔÔ ÆâÊŒâ ý¼åÔÔÔÔ ÆâÊŒâôü¼åÔÔÔÔ ÆâÊŒâèü¼åÔÔÔÔ ÆâÊŒâÜü¼åÔÔÔÔ ÆâÊŒâÐü¼åÔÔÔÔ ÆâÊŒâÄü¼åÔÔÔÔ ÆâÊŒâ¸ü¼åÔÔÔÔ ÆâÊŒâ¬ü¼åÔÔÔÔ ÆâÊŒâ ü¼åÔÔÔÔ ÆâÊŒâ”ü¼åÔÔÔÔ ÆâÊŒâˆü¼åÔÔÔÔ ÆâÊŒâ|ü¼åÔÔÔÔ ÆâÊŒâpü¼åÔÔÔÔ ÆâÊŒâdü¼åÔÔÔÔ ÆâÊŒâXü¼åÔÔÔÔ ÆâÊŒâLü¼åÔÔÔÔ ÆâÊŒâ@ü¼åÔÔÔÔ ÆâÊŒâ4ü¼åÔÔÔÔ ÆâÊŒâ(ü¼åÔÔÔÔ ÆâÊŒâü¼åÔÔÔÔ ÆâÊŒâü¼åÔÔÔÔ ÆâÊŒâü¼åÔÔÔÔ ÆâÊŒâøû¼åÔÔÔÔ ÆâÊŒâìû¼åÔÔÔÔ ÆâÊŒâàû¼åÔÔÔÔ ÆâÊŒâÔû¼åÔÔÔÔ ÆâÊŒâÈû¼åÔÔÔÔ ÆâÊŒâ¼û¼åÔÔÔÔ ÆâÊŒâ°û¼åÔÔÔÔ ÆâÊŒâ¤û¼åÔÔÔÔ ÆâÊŒâ˜û¼åÔÔÔÔ ÆâÊŒâŒû¼åÔÔÔÔ ÆâÊŒâ€û¼åÔÔÔÔ ÆâÊŒâtû¼åÔÔÔÔ ÆâÊŒâhû¼åÔÔÔÔ ÆâÊŒâ\û¼åÔÔÔÔ ÆâÊŒâPû¼åÔÔÔÔ ÆâÊŒâDû¼åÔÔÔÔ ÆâÊŒâ8û¼åÔÔÔÔ ÆâÊŒâ,û¼åÔÔÔÔ ÆâÊŒâ û¼åÔÔÔÔ ÆâÊŒâû¼åÔÔÔÔ ÆâÊŒâû¼åÔÔÔÔ ÆâÊŒâüú¼åÔÔÔÔ ÆâÊŒâðú¼åÔÔÔÔ ÆâÊŒâäú¼åÔÔÔÔ ÆâÊŒâØú¼åÔÔÔÔ ÆâÊŒâÌú¼åÔÔÔÔ ÆâÊŒâÀú¼åÔÔÔÔ ÆâÊŒâ´ú¼åÔÔÔÔ ÆâÊŒâ¨ú¼åÔÔÔÔ ÆâÊŒâœú¼åÔÔÔÔ ÆâÊŒâú¼åÔÔÔÔ ÆâÊŒâ„ú¼åÔÔÔÔÐÚ                                                         øÿÿÿøÿÿÿ                               D                                                                          èÿÿÿèÿÿÿ                                  D   D                                                          èÿÿÿèÿÿÿ                                                                                                                   èÿÿÿèÿÿÿ                                  D   D                                                          èÿÿÿèÿÿÿ                                       E¹  u¹  ­¹              G¸  M¸             üÿÿÿ    ±¹  á¹         øÿÿÿ    Í¸  =¹                                                  º  Iº                      ìÿÿÿìÿÿÿ    º  ¹º                                 &lt;      4   \   4         h   l   ´   &lt;   T   ¸   @   X   ¸   @   X              E¸  E¸                  G¸  M¸             üÿÿÿ    E¸  E¸         øÿÿÿ    Í¸  =¹                                                  E¸  E¸                      ìÿÿÿìÿÿÿ    E¸  E¸                             E¸  E¸                  G¸  M¸         üÿÿÿ    E¸  E¸         øÿÿÿ    Í¸  =¹                                                  E¸  E¸                      ìÿÿÿìÿÿÿ    E¸  E¸                                                            üÿÿÿ                                ìÿÿÿìÿÿÿ                                                                           ìÿÿÿìÿÿÿ                                                                   ðÿÿÿðÿÿÿ                                                                                                                           ôÿÿÿôÿÿÿ                                                                                                                       ôÿÿÿôÿÿÿ                                                y  y     ô$     %     %     0%     :%     G%     S%     Æ$     `%     k%     ×$     u%     ë$     }%        ûÿÿo     ` &gt;    `…         àÿo(B  àÿo0   àÿo      ˆE     Ð     \ã           ¬              
+    %  õþÿo     ìá        ðÿÿo|  þÿÿo˜  ÿÿÿo                                                                                       Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  Ã  &lt;U  :\  N  ŸJ  ÝV  A;   aeabi 1   C2.09 
+A	
+  &quot;&amp; .fini_array .ARM.exidx .text .got .note.android.ident .got.plt .rel.plt .bss .ARM.attributes .dynstr .gnu.version_r .data.rel.ro .relr.dyn .rel.dyn .gnu.version .dynsym .gnu.hash .note.gnu.build-id .dynamic .ARM.extab .shstrtab .rodata .gnu_debugdata .data ý7zXZ  æÖ´F !   t/å£à&amp;—	£] ?‘E„h;ÞÞ¦Â”Ô$ž:ÁYÈÃ±aÍx9Ê &lt;Üí{QÓÿý•Urê ôªÇÉ¥¶:î5·«}ÙÁ‘îÅ4æ­±½)t	¹vühÑ£öŠ¾{ÑlÎfðß¦«V0+ý„ÑÜl×{ü»áéf¼Gñd§ÍË°ÌÃº&amp;E]ŸÀS›âxåÍ?Ÿ™±&gt;Ú-.Ã³ÃB‡•L•=Xk:ô6ÈÙv ùvIìA|&lt;å¡?§Âp-1þuô?XÀý4Œ[ÜÃßY00Áç5Œâ‰½RæŠÃ` ±z·ÏþàÒípŽž¬GÊ†h&gt;À]gCg ±ûîe•ØWÚs%žú£¿:v]–÷5 à:ëè$ŽtÊ;@	 ÑÞëS-rðÖö*4MFàBd~cx2æ³¤iÛT¤Ç$6jGVACaÓîÜ?ñ‚µé²‡©TT~—xž?¦1îzÅ [à·,CƒcíPçýóqUµòáî ÖûÀ&quot;Êza¬Efœ`ãªau¶7÷–_Ðû5
+y€›üµòêjµ—Ê€h¾Û6•Ÿp€÷FIT„eyƒ¦!Ã^_ofwÁÅÙà¨==4ÒäNØ¨Þº9eÐp„ü6·qy¨-TìöðCB^sÑNvüST}42?q—ðÅ2¬J–Ûñ§ó‹²”§Êtª –Û¼¿¾¡ãç™ä[§~+¿ÈÜ‚ë¨½OˆŒ!wQkR“MäÛ¡SC6G”¾KÂ˜HŽ§iá¾ÅÍ¸ïúÅ&quot;þ­wb°¯(á…#£ûxÃ@ŒóMÅî¨ÜW¶m»}?Ó3o[ èr¼(–“¾„U¡§©cÏWÁ}Ã^n+&amp;ßë²¢æ—¨àHÒ,:šÓs@F¢´L­z^¡”¶‹Ì‡¥	jGyñsˆeX‡ZÙ_­ñ¯SÉ`ôO]vìÆN3`’ÍÐ­æž.Óï :‘hÞ†QŽ\2Mx¸àò™Öc*þ&gt;‘|	q\m– ž¨50h ˆ’O4©@ê½ËnUgEí&gt;$ÌPG¤¥µeo˜•×Ü+ Ð•·&amp;Ñs°kŠÚ	ö¸œq‰ªtïˆUiX(ù©Á‘éÍx¾x†„äæ&#39;¥e¸	&#39;;ì°“ïä^øvÒ%Ü«æ(¹‚µÓÖ×ýç	[Æ6È¥e0ªfH—+‡˜£¨©²¿HòB˜Ó˜GÇZÁ2såcÇÖÔXb¦rÑ¬»2¹.#i&#39;:«Ðn\p1þºfÐ¡‰R­öNY½C§aÎ’éžtlí(Ú·OMç­Œ#Z0gñºüan€F ¢%+³¶ê‘X,L‹¥#«ƒ¨[GÓ~›fÄëÅéÞíµ­ªÑìv0oo7ci$Rð·Ô®çp~ž7XŸ{ì]Á¥´àË8ç;I™4‰}ð´ƒõóT†&lt;ýiu•¿©15ÿD¢—×ûjî}GdºªÞK¿ûíçÕ!TÅu;˜µ^s²·ŠI¬ˆgØ/Y!“Z&amp;3 vgïRB”ñC»‡Ë³PV!hÒ¨º—Û&lt;¨t¦%ï—ó98ßÆ³§¸¶»Äœác4ßT7ÀzÜ+E…b¸%“qIN£\2«W!Í¢VßkjW„!´$-`XÅÝÇß-rÃ‹wp&#39;ÍQf‘Z‰&quot;&amp;´ç0ÐNÉF%¹w¦ÎŸ8«íª92Ñà³?ctÑù°tŸæžFþ„HDHsÍž*¡	1ï(qÙIæÏ&#39;ñîëñ¹¢¯óžÃ’ žÈŽðÑŸ.?Úî[O’í0é=ÝºÕå|!doŽhq–‰š7å;æËCÐ,¾	²š$‘†‘L/’áÄ¨BíLíêSÞd¡ù1‰ëi¡,l~D¨ïÌ¦äEÀ.&gt;qÌÆá¼_M^îÃ§½Mü`&amp;S]—Ç8O%ãO2ŽƒòÝì9iŸ4páß’ç~!ãŒ$«¢ªs^XJüÃ‚¬dÇ†Ô‡æ«ß{Ðúä¶dà†“ˆ oÿ~ƒåÒ„gWÔÔ]Nç.SM&#39;ÉÜ³óès›éHÊåHž÷Ï6œcuÌ*cÐÍ¯(
+Ã/Ëˆ5ýQ¶^l.&#39;%KäWÊþ¢ÝoLÆ§âÉX Í&lt;Hå,þl¦dîŽ•\oçq›Wq6Ê&amp;…¸hòp¶îæ¨©Œ&quot;Ba~!Ì_h:’	aÖ‚@ùû1Ç*ƒþ3@[×ð~{µ D›â lßèÀêjÀŸ·â§Ä{ G£¬—³¯Ô]Æ•V9ËQúÔþŒ„Ê6Ô–³´~ôÅçä®*3cÄYT}¡ôžøjxüö7Ô¢Ì¯´òwöv8ìÝŸÎ‰g×^š†ïg3¸­ìÀæ~‹³àò#A]lfNÂ£8—L—BÆvçÆü$±„`ÿÍ¥³H¹KXû¡Ö…þ×DÛv8L›{
+ê¼
+dm-[c§ÁBöÚ«&amp;™‡.ŸòGf•©õjÜkÌMB¯˜bÄ­Ãc?9œ†‡¹’@XKçFP‘Û Ûw2ˆÏ£*«M‡cØè™­hÇla’e„äåVq»&gt;Õ»*¦éámœk%Võ¶³ßÅ)‚nÀH¿%&lt;]«Iót\:ˆeÁñ…Tây±š€¾Èbcâyis¿jÝqUSÊ¡ë§ˆ‘È[ƒ=1žxf §²…¸ª]Ã&gt;‰|&amp; ÝÒ­*¹¸¼ùA[UµKù&gt;.á•Ù‰¨±KÇw&lt;¾wÚp.·ÏSˆËìdGo{Áh áe[
+TÚ&gt;9çÃ”líÈô®W¤‚hF’
+„ßºÜ®;ú¢)Ëý®;d((r+\Ë×„[DwÉ³ö„Îì«3
+–¾ –ží42)gP¡a†ê Zò®WÎìÑìzAª&amp;×ÉùQ4š¬g O–ù×?!DýƒÑ#ð y	Ø¥+ÑÝÄ…ÅÈÐ‡ã¯D«å®¼O®l~Ð Ò”0~¹$K,îk™£—ì~f…&amp;6Îƒfž¤Ï!ið:ûVg³o¨AÄ µàJ&quot;ÛbÜU”·X³7,ù1ÄL1ÜÞi•©&quot;8ß|ÿ©þºÖ©–qì¿¸™Ô9µ¦³¾ºNáóÊÒÐ2Äû½°uÒÁZëq¢Xì&lt;œ{ªáÍHµ	j…¡© ° £qƒTõ¬#Í“ÀÄ‚åÂá’ŸÈÆÑx¦¾Áº„[šXt„´“H¤û8F¥ª­Ùºoâ£ØÉ¿žœÕ®– ªÈ&amp;áaŒáÐÿº1ð,ÃÖ&#39;yÑŽ,›óINCVÇ  &lt;N%OÓEÙ ¿˜M  ÷O?±Ägû    YZ                                          #         t  t                    ´         Œ  Œ                     ¢         ¬  ¬  Ð              •   ÿÿÿo   |  |                 f   þÿÿo   ˜  ˜  p                ª   öÿÿo       ø                ^                %                 Œ     `    &gt;   &gt;  …               ‚    ÿÿo   (B  (B  0                      p‚   XB  XB  0                @   	      ˆE  ˆE  Ð              Ð         XI  XI  T                  å      2   ¬I  ¬I  Ô                          €y  €i  ŒI                 D         Ã  ³  À                 u         ÐÚ  Ðº                            ìá  ìÁ                    Ç         ôá  ôÁ  (                        ã  Ã  @                  7         \ã  \Ã  ô                 ü         Põ  PÅ                    I         hõ  dÅ  `                  N     p        dÅ  &lt;                  Û               Å                   í              ¢Æ  ä	                 " data-is-ci-config-file="false" id="js-blob-toggle-graph-preview"></div>
+<div class="blob-viewer" data-path="system/system/lib/libcom.xiaomi.camera.mianodejni.so" data-type="simple">
+<div class="file-content blob_file blob-no-preview">
+<div class="center render-error">
+<a href="/dumps/redmi/phoenix/-/raw/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib/libcom.xiaomi.camera.mianodejni.so"><h1 class="light">
+<svg class="s16" data-testid="download-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#download"></use></svg>
+</h1>
+<h4>
+Download (53.1 KB)
+</h4>
+</a></div>
+</div>
+
+</div>
+
+
+</article>
+</div>
+
+<div class="modal" id="modal-upload-blob">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="page-title">Replace libcom.xiaomi.camera.mianodejni.so</h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden>&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form class="js-quick-submit js-upload-blob-form" data-method="put" action="/dumps/redmi/phoenix/-/update/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib/libcom.xiaomi.camera.mianodejni.so" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="dlaaszQUXxIpE0DcVB1FG4do/3FrFa7uYs7WIL4jPPXgpFTQ2XdcXpuwWA6ny4KU6a/I/wTCti958XUoAOg1qQ==" /><div class="dropzone">
+<div class="dropzone-previews blob-upload-dropzone-previews">
+<p class="dz-message light">
+Attach a file by drag &amp; drop or <a class="markdown-selector" href="#">click to upload</a>
+</p>
+</div>
+</div>
+<br>
+<div class="dropzone-alerts gl-alert gl-alert-danger gl-mb-5 data" style="display:none"></div>
+<div class="form-group row commit_message-group">
+<label class="col-form-label col-sm-2" for="commit_message-36c08afd24186350f39362fa48b16042">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-36c08afd24186350f39362fa48b16042" class="form-control js-commit-message" placeholder="Replace libcom.xiaomi.camera.mianodejni.so" required="required" rows="3">
+Replace libcom.xiaomi.camera.mianodejni.so</textarea>
+</div>
+</div>
+</div>
+
+<input type="hidden" name="branch_name" id="branch_name" />
+<input type="hidden" name="create_merge_request" id="create_merge_request" value="1" />
+<input type="hidden" name="original_branch" id="original_branch" value="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" class="js-original-branch" />
+
+<div class="form-actions">
+<button name="button" type="button" class="btn gl-button btn-success btn-upload-file" id="submit-all"><div class="spinner spinner-sm gl-mr-2 js-loading-icon hidden"></div>
+Replace file
+</button><a class="btn gl-button btn-cancel" data-dismiss="modal" href="#">Cancel</a>
+<div class="inline gl-ml-3">
+A new branch will be created in your fork and a new merge request will be started.
+</div>
+
+</div>
+</form></div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<script>
+//<![CDATA[
+if ('loading' in HTMLImageElement.prototype) {
+  document.querySelectorAll('img.lazy').forEach(img => {
+    img.loading = 'lazy';
+    let imgUrl = img.dataset.src;
+    // Only adding width + height for avatars for now
+    if (imgUrl.indexOf('/avatar/') > -1 && imgUrl.indexOf('?') === -1) {
+      const targetWidth = img.getAttribute('width') || img.width;
+      imgUrl += `?width=${targetWidth}`;
+    }
+    img.src = imgUrl;
+    img.removeAttribute('data-src');
+    img.classList.remove('lazy');
+    img.classList.add('js-lazy-loaded', 'qa-js-lazy-loaded');
+  });
+}
+
+//]]>
+</script>
+
+</body>
+</html>
+

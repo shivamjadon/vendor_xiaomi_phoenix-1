@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<link as="style" href="https://git.rip/assets/application-62e4cc014d9d96f9cbf443186289ffd9c41bdfe951565324891dcf38bcca5a51.css" rel="preload">
+<link as="style" href="https://git.rip/assets/highlight/themes/white-aa4568025f9b4ea36b357bdccb95c9138a515f1e611b59f20a1777a68b6995db.css" rel="preload">
+<link as="font" href="https://git.rip/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0" rel="preload" type="font/woff2">
+
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="system/system/lib64/libCameraEffectJNI.so Â· qssi-user-11-RKQ1.200826.002-20.12.10-release-keys Â· Android Dumps / Redmi / phoenix" property="og:title">
+<meta content="Redmi K30 dump" property="og:description">
+<meta content="https://git.rip/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://git.rip/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib64/libCameraEffectJNI.so" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="system/system/lib64/libCameraEffectJNI.so Â· qssi-user-11-RKQ1.200826.002-20.12.10-release-keys Â· Android Dumps / Redmi / phoenix" property="twitter:title">
+<meta content="Redmi K30 dump" property="twitter:description">
+<meta content="https://git.rip/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>system/system/lib64/libCameraEffectJNI.so Â· qssi-user-11-RKQ1.200826.002-20.12.10-release-keys Â· Android Dumps / Redmi / phoenix Â· GitLab</title>
+<meta content="Redmi K30 dump" name="description">
+<link rel="shortcut icon" type="image/png" href="/uploads/-/system/appearance/favicon/1/git.rip.favicon.png" id="favicon" data-original-href="/uploads/-/system/appearance/favicon/1/git.rip.favicon.png" />
+
+<link rel="stylesheet" media="all" href="/assets/application-62e4cc014d9d96f9cbf443186289ffd9c41bdfe951565324891dcf38bcca5a51.css" />
+
+<link rel="stylesheet" media="all" href="/assets/application_utilities-f636133344c99e44738666d9eecff2eb037c36ed05c5cbc2bfacc8dfad2bede2.css" />
+<link rel="stylesheet" media="all" href="/assets/themes/theme_dark-de1de60d7598a5915c968eb4399f97056b5517e5bef8223fbc6a85bbd3b6be69.css" />
+
+<link rel="stylesheet" media="all" href="/assets/highlight/themes/white-aa4568025f9b4ea36b357bdccb95c9138a515f1e611b59f20a1777a68b6995db.css" />
+
+
+<script>
+//<![CDATA[
+window.gon={};gon.features={"suggestPipeline":true,"gitlabCiYmlPreview":false};
+//]]>
+</script>
+
+
+
+<script src="/assets/webpack/runtime.206056c6.bundle.js" defer="defer"></script>
+<script src="/assets/webpack/main.447bfb48.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-globalSearch-pages.admin.abuse_reports-pages.admin.application_settings.ci_cd-pages.admin.gr-bcb9d7d0.e13f2c5e.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.boards-pages.groups.details-pages.groups.show-pages.groups.wikis-pages.projects-f7a29bbf.98904b70.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.application_settings-pages.admin.application_settings.ci_cd-pages.admin.applicat-1386858e.29d837cc.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.epics.index-pages.groups.epics.new-pages.groups.epics.show-pages.groups.iterati-85c41ccb.37c1e60d.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.projects.blame.show-pages.projects.blob.edit-pages.projects.blob.new-pages.projects.bl-c6edf1dd.e3e2e206.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.projects.blob.show-pages.projects.shared.web_ide_link-pages.projects.show-pages.projec-cf300cc3.a895228a.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/pages.projects.blob.show.267e246a.chunk.js" defer="defer"></script>
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="o9m26/JWjmYfEB3Xh8f5/on7UPK/VAt0v5Y0s3zw+BG9jLPsP1scF1+Xa3j7LFcwmC8xZ4dESu11I0kD197fcA==" />
+<meta name="csp-nonce" />
+<meta name="action-cable-url" content="/-/cable" />
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152" />
+<link color="rgb(226, 67, 41)" href="/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+
+
+
+
+</head>
+
+<body class="ui-dark tab-width-8  gl-browser-generic gl-platform-other" data-find-file="/dumps/redmi/phoenix/-/find_file/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" data-group="redmi" data-namespace-id="628" data-page="projects:blob:show" data-page-type-id="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib64/libCameraEffectJNI.so" data-project="phoenix" data-project-id="2571">
+
+<script>
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isGeneric":true,"isOther":true};
+
+
+//]]>
+</script>
+
+
+<header class="navbar navbar-gitlab navbar-expand-sm js-navbar" data-qa-selector="navbar">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<span class="gl-sr-only">GitLab</span>
+<a title="Dashboard" id="logo" href="/"><img class="brand-header-logo lazy" data-src="/uploads/-/system/appearance/header_logo/1/Group_25.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li class="home"><a title="Projects" class="dashboard-shortcuts-projects" href="/explore">Projects
+</a></li><li class=""><a title="Groups" class="dashboard-shortcuts-groups" href="/explore/groups">Groups
+</a></li><li class=""><a title="Snippets" class="dashboard-shortcuts-snippets" href="/explore/snippets">Snippets
+</a></li><li>
+<a title="About GitLab CE" href="/help">Help</a>
+</li>
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item d-none d-lg-block m-auto">
+<div class="search search-form" data-track-event="activate_form_input" data-track-label="navbar_search" data-track-value="">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump toâ€¦" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options" spellcheck="false" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" data-qa-selector="search_term_field" aria-label="Search or jump toâ€¦" />
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select" data-testid="dashboard-search-options">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><div class="gl-spinner-container"><span class="gl-spinner gl-spinner-orange gl-spinner-md gl-mt-7" aria-label="Loading"></span></div></div>
+</div>
+<svg class="s16 search-icon" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" value="628" class="js-search-group-options" data-group-path="redmi" data-name="Redmi" data-issues-path="/groups/dumps/redmi/-/issues" data-mr-path="/groups/dumps/redmi/-/merge_requests" />
+<input type="hidden" name="project_id" id="search_project_id" value="2571" class="js-search-project-options" data-project-path="phoenix" data-name="phoenix" data-issues-path="/dumps/redmi/phoenix/-/issues" data-mr-path="/dumps/redmi/phoenix/-/merge_requests" data-issues-disabled="false" />
+<input type="hidden" name="scope" id="scope" />
+<input type="hidden" name="search_code" id="search_code" value="true" />
+<input type="hidden" name="snippets" id="snippets" value="false" />
+<input type="hidden" name="repository_ref" id="repository_ref" value="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" />
+<input type="hidden" name="nav_source" id="nav_source" value="navbar" />
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="2571" data-autocomplete-project-ref="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-lg-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=2571"><svg class="s16" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg>
+</a></li>
+<li class="nav-item header-help dropdown d-none d-md-block">
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><span class="gl-sr-only">
+Help
+</span>
+<svg class="s16" data-testid="question-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#question"></use></svg>
+<svg class="s16 caret-down" data-testid="chevron-down-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+
+<li>
+<a href="/help">Help</a>
+</li>
+<li>
+<a href="https://about.gitlab.com/getting-help/">Support</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" rel="noopener noreferrer" data-track-event="click_forum" data-track-property="question_menu" href="https://forum.gitlab.com/">Community forum</a>
+
+</li>
+<li>
+<button class="js-shortcuts-modal-trigger" type="button">
+Keyboard shortcuts
+<span aria-hidden class="text-secondary float-right">?</span>
+</button>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li>
+
+</li>
+
+</ul>
+
+</div>
+</li>
+<li class="nav-item">
+<div>
+<a class="btn btn-sign-in" href="/users/sign_in?redirect_to_referer=yes">Sign in / Register</a>
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right" data-testid="ellipsis_h-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+
+<div class="layout-page page-with-contextual-sidebar">
+<div class="nav-sidebar">
+<div class="nav-sidebar-inner-scroll">
+<div class="context-header">
+<a title="phoenix" href="/dumps/redmi/phoenix"><div class="avatar-container rect-avatar s40 project-avatar">
+<div class="avatar s40 avatar-tile identicon bg3">P</div>
+</div>
+<div class="sidebar-context-title">
+phoenix
+</div>
+</a></div>
+<ul class="sidebar-top-level-items qa-project-sidebar">
+<li class="home"><a class="shortcuts-project rspec-project-link" data-qa-selector="project_link" href="/dumps/redmi/phoenix"><div class="nav-icon-container">
+<svg class="s16" data-testid="home-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#home"></use></svg>
+</div>
+<span class="nav-item-name">
+Project overview
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix"><strong class="fly-out-top-item-name">
+Project overview
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Project details" class="shortcuts-project" href="/dumps/redmi/phoenix"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" data-qa-selector="activity_link" href="/dumps/redmi/phoenix/activity"><span>Activity</span>
+</a></li><li class=""><a title="Releases" class="shortcuts-project-releases" href="/dumps/redmi/phoenix/-/releases"><span>Releases</span>
+</a></li></ul>
+</li><li class="active"><a class="shortcuts-tree" data-qa-selector="repository_link" href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"><div class="nav-icon-container">
+<svg class="s16" data-testid="doc-text-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#doc-text"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-repo-link">
+Repository
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item active"><a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"><strong class="fly-out-top-item-name">
+Repository
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="active"><a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Files
+</a></li><li class=""><a id="js-onboarding-commits-link" href="/dumps/redmi/phoenix/-/commits/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Commits
+</a></li><li class=""><a data-qa-selector="branches_link" id="js-onboarding-branches-link" href="/dumps/redmi/phoenix/-/branches">Branches
+</a></li><li class=""><a data-qa-selector="tags_link" href="/dumps/redmi/phoenix/-/tags">Tags
+</a></li><li class=""><a href="/dumps/redmi/phoenix/-/graphs/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Contributors
+</a></li><li class=""><a href="/dumps/redmi/phoenix/-/network/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Graph
+</a></li><li class=""><a href="/dumps/redmi/phoenix/-/compare?from=qssi-user-11-RKQ1.200826.002-20.12.10-release-keys&amp;to=qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Compare
+</a></li><li class=""><a data-qa-selector="path_locks_link" href="/dumps/redmi/phoenix/path_locks">Locked Files
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-issues qa-issues-item" href="/dumps/redmi/phoenix/-/issues"><div class="nav-icon-container">
+<svg class="s16" data-testid="issues-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#issues"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-issues-link">
+Issues
+</span>
+<span class="badge badge-pill count issue_counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/issues"><strong class="fly-out-top-item-name">
+Issues
+</strong>
+<span class="badge badge-pill count issue_counter fly-out-badge">
+0
+</span>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Issues" href="/dumps/redmi/phoenix/-/issues"><span>
+List
+</span>
+</a></li><li class=""><a title="Boards" data-qa-selector="issue_boards_link" href="/dumps/redmi/phoenix/-/boards"><span>
+Boards
+</span>
+</a></li><li class=""><a title="Labels" class="qa-labels-link" href="/dumps/redmi/phoenix/-/labels"><span>
+Labels
+</span>
+</a></li><li class=""><a title="Service Desk" href="/dumps/redmi/phoenix/-/issues/service_desk">Service Desk
+</a></li>
+<li class=""><a title="Milestones" class="qa-milestones-link" href="/dumps/redmi/phoenix/-/milestones"><span>
+Milestones
+</span>
+</a></li><li class=""><a title="Iterations" href="/dumps/redmi/phoenix/-/iterations"><span>
+Iterations
+</span>
+</a></li>
+</ul>
+</li><li class=""><a class="shortcuts-merge_requests" data-qa-selector="merge_requests_link" href="/dumps/redmi/phoenix/-/merge_requests"><div class="nav-icon-container">
+<svg class="s16" data-testid="git-merge-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#git-merge"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-mr-link">
+Merge Requests
+</span>
+<span class="badge badge-pill count merge_counter js-merge-counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/merge_requests"><strong class="fly-out-top-item-name">
+Merge Requests
+</strong>
+<span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
+0
+</span>
+</a></li></ul>
+</li><li class=""><a class="qa-project-requirements-link" href="/dumps/redmi/phoenix/-/requirements_management/requirements"><div class="nav-icon-container">
+<svg class="s16" data-testid="requirements-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#requirements"></use></svg>
+</div>
+<span class="nav-item-name">
+Requirements
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/requirements_management/requirements"><strong class="fly-out-top-item-name">Requirements</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="home"><a title="List" href="/dumps/redmi/phoenix/-/requirements_management/requirements"><span>List</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-pipelines qa-link-pipelines rspec-link-pipelines" data-qa-selector="ci_cd_link" href="/dumps/redmi/phoenix/-/pipelines"><div class="nav-icon-container">
+<svg class="s16" data-testid="rocket-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#rocket"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-pipelines-link">
+CI / CD
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/pipelines"><strong class="fly-out-top-item-name">
+CI / CD
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/dumps/redmi/phoenix/-/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/dumps/redmi/phoenix/-/jobs"><span>
+Jobs
+</span>
+</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/dumps/redmi/phoenix/-/pipeline_schedules"><span>
+Schedules
+</span>
+</a></li>
+</ul>
+</li><li class=""><a data-qa-selector="dependency_list_link" href="/dumps/redmi/phoenix/-/dependencies"><div class="nav-icon-container">
+<svg class="s16" data-testid="shield-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#shield"></use></svg>
+</div>
+<span class="nav-item-name">
+Security &amp; Compliance
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/dependencies"><strong class="fly-out-top-item-name">
+Security &amp; Compliance
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Dependency List" data-qa-selector="dependency_list_link" href="/dumps/redmi/phoenix/-/dependencies"><span>Dependency List</span>
+</a></li><li class=""><a title="License Compliance" data-qa-selector="licenses_list_link" href="/dumps/redmi/phoenix/-/licenses"><span>License Compliance</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-operations" data-qa-selector="operations_link" href="/dumps/redmi/phoenix/-/environments/metrics"><div class="nav-icon-container">
+<svg class="s16" data-testid="cloud-gear-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#cloud-gear"></use></svg>
+</div>
+<span class="nav-item-name">
+Operations
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/environments/metrics"><strong class="fly-out-top-item-name">
+Operations
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+
+<li class=""><a title="Incidents" data-qa-selector="operations_incidents_link" href="/dumps/redmi/phoenix/-/incidents"><span>
+Incidents
+</span>
+</a></li><li class=""><a title="Environments" class="shortcuts-environments qa-operations-environments-link" href="/dumps/redmi/phoenix/-/environments"><span>
+Environments
+</span>
+</a></li></ul>
+</li><li class=""><a data-qa-selector="packages_link" href="/dumps/redmi/phoenix/container_registry"><div class="nav-icon-container">
+<svg class="s16" data-testid="package-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#package"></use></svg>
+</div>
+<span class="nav-item-name">
+Packages &amp; Registries
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/container_registry"><strong class="fly-out-top-item-name">
+Packages &amp; Registries
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a class="shortcuts-container-registry" title="Container Registry" href="/dumps/redmi/phoenix/container_registry"><span>Container Registry</span>
+</a></li></ul>
+</li>
+<li class=""><a data-qa-selector="analytics_anchor" href="/dumps/redmi/phoenix/-/value_stream_analytics"><div class="nav-icon-container">
+<svg class="s16" data-testid="chart-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chart"></use></svg>
+</div>
+<span class="nav-item-name" data-qa-selector="analytics_link">
+Analytics
+</span>
+</a><ul class="sidebar-sub-level-items" data-qa-selector="analytics_sidebar_submenu">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/value_stream_analytics"><strong class="fly-out-top-item-name">
+Analytics
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="CI / CD" href="/dumps/redmi/phoenix/-/pipelines/charts"><span>CI / CD</span>
+</a></li><li class=""><a title="Code Review" href="/dumps/redmi/phoenix/-/analytics/code_reviews"><span>Code Review</span>
+</a></li><li class=""><a class="shortcuts-project-insights" data-qa-selector="project_insights_link" title="Insights" href="/dumps/redmi/phoenix/insights/"><span>Insights</span>
+</a></li><li class=""><a title="Issue" href="/dumps/redmi/phoenix/-/analytics/issues_analytics"><span>Issue</span>
+</a></li><li class=""><a class="shortcuts-repository-charts" title="Repository" href="/dumps/redmi/phoenix/-/graphs/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/charts"><span>Repository</span>
+</a></li><li class=""><a class="shortcuts-project-cycle-analytics" title="Value Stream" href="/dumps/redmi/phoenix/-/value_stream_analytics"><span>Value Stream</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/dumps/redmi/phoenix/-/wikis/home"><div class="nav-icon-container">
+<svg class="s16" data-testid="book-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#book"></use></svg>
+</div>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/wikis/home"><strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-snippets" data-qa-selector="snippets_link" href="/dumps/redmi/phoenix/-/snippets"><div class="nav-icon-container">
+<svg class="s16" data-testid="snippet-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#snippet"></use></svg>
+</div>
+<span class="nav-item-name">
+Snippets
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/snippets"><strong class="fly-out-top-item-name">
+Snippets
+</strong>
+</a></li></ul>
+</li><li class=""><a title="Members" class="qa-members-link" id="js-onboarding-members-link" href="/dumps/redmi/phoenix/-/project_members"><div class="nav-icon-container">
+<svg class="s16" data-testid="users-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#users"></use></svg>
+</div>
+<span class="nav-item-name">
+Members
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/dumps/redmi/phoenix/-/project_members"><strong class="fly-out-top-item-name">
+Members
+</strong>
+</a></li></ul>
+</li>
+<a class="toggle-sidebar-button js-toggle-sidebar qa-toggle-sidebar rspec-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="s16 icon-chevron-double-lg-left" data-testid="chevron-double-lg-left-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-double-lg-left"></use></svg>
+<svg class="s16 icon-chevron-double-lg-right" data-testid="chevron-double-lg-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#chevron-double-lg-right"></use></svg>
+<span class="collapse-text">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg>
+<span class="collapse-text">Close sidebar</span>
+</button>
+<li class="hidden">
+<a title="Activity" class="shortcuts-project-activity" href="/dumps/redmi/phoenix/activity"><span>
+Activity
+</span>
+</a></li>
+<li class="hidden">
+<a title="Network" class="shortcuts-network" href="/dumps/redmi/phoenix/-/network/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Graph
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="/dumps/redmi/phoenix/-/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Jobs" class="shortcuts-builds" href="/dumps/redmi/phoenix/-/jobs">Jobs
+</a></li>
+<li class="hidden">
+<a title="Commits" class="shortcuts-commits" href="/dumps/redmi/phoenix/-/commits/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Commits
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/dumps/redmi/phoenix/-/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="content-wrapper">
+<div class="mobile-overlay"></div>
+
+<div class="alert-wrapper gl-force-block-formatting-context">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="breadcrumbs container-fluid container-limited" role="navigation">
+<div class="breadcrumbs-container">
+<button name="button" type="button" class="toggle-mobile-nav"><span class="sr-only">Open sidebar</span>
+<svg class="s16" data-testid="hamburger-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#hamburger"></use></svg>
+</button><div class="breadcrumbs-links js-title-container" data-qa-selector="breadcrumb_links_content">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/dumps"><img class="avatar-tile lazy" width="15" height="15" data-src="/uploads/-/system/group/avatar/562/dumpyara.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />Android Dumps</a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li><li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/dumps/redmi">Redmi</a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li> <li><a href="/dumps/redmi/phoenix"><span class="breadcrumb-item-text js-breadcrumb-item-text">phoenix</span></a><svg class="s8 breadcrumbs-list-angle" data-testid="angle-right-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#angle-right"></use></svg></li>
+
+<li>
+<h2 class="breadcrumbs-sub-title"><a href="/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib64/libCameraEffectJNI.so">Repository</a></h2>
+</li>
+</ul>
+</div>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Android Dumps","item":"https://git.rip/dumps"},{"@type":"ListItem","position":2,"name":"Redmi","item":"https://git.rip/dumps/redmi"},{"@type":"ListItem","position":3,"name":"phoenix","item":"https://git.rip/dumps/redmi/phoenix"},{"@type":"ListItem","position":4,"name":"Repository","item":"https://git.rip/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib64/libCameraEffectJNI.so"}]}
+
+</script>
+
+</div>
+</nav>
+
+</div>
+<div class="container-fluid container-limited ">
+<div class="content" id="content-body" itemscope itemtype="http://schema.org/SoftwareSourceCode">
+<div class="flash-container flash-container-page sticky" data-qa-selector="flash_container">
+</div>
+
+<div class="js-signature-container" data-signatures-path="/dumps/redmi/phoenix/-/commits/3877fc95a5a71d75fdce82b9623edc9acb32487e/signatures?limit=1"></div>
+
+<div class="tree-holder" id="tree-holder">
+<div class="nav-block">
+<div class="tree-ref-container">
+<div class="tree-ref-holder">
+<form class="project-refs-form" action="/dumps/redmi/phoenix/-/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="destination" id="destination" value="blob" />
+<input type="hidden" name="path" id="path" value="system/system/lib64/libCameraEffectJNI.so" />
+<div class="dropdown">
+<button class="dropdown-menu-toggle js-project-refs-dropdown qa-branches-select" type="button" data-toggle="dropdown" data-selected="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" data-ref="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" data-refs-url="/dumps/redmi/phoenix/refs?sort=updated_desc" data-field-name="ref" data-submit-form-on-click="true" data-visit="true"><span class="dropdown-toggle-text ">qssi-user-11-RKQ1.200826.002-20.12.10-release-keys</span><i aria-hidden="true" data-hidden="true" class="fa fa-chevron-down"></i></button>
+<div class="dropdown-menu dropdown-menu-paging dropdown-menu-selectable git-revision-dropdown qa-branches-dropdown">
+<div class="dropdown-page-one">
+<div class="dropdown-title gl-display-flex"><span class="gl-ml-auto">Switch branch/tag</span><button class="dropdown-title-button dropdown-menu-close gl-ml-auto" aria-label="Close" type="button"><svg class="s16 dropdown-menu-close-icon" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field qa-dropdown-input-field" placeholder="Search branches and tags" autocomplete="off" /><svg class="s16 dropdown-input-search" data-testid="search-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#search"></use></svg><svg class="s16 dropdown-input-clear js-dropdown-input-clear" data-testid="close-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#close"></use></svg></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><div class="gl-spinner-container"><span class="gl-spinner gl-spinner-orange gl-spinner-md gl-mt-7" aria-label="Loading"></span></div></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<ul class="breadcrumb repo-breadcrumb">
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">phoenix
+</a></li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system">system</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system">system</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/tree/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib64">lib64</a>
+</li>
+<li class="breadcrumb-item">
+<a href="/dumps/redmi/phoenix/-/blob/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib64/libCameraEffectJNI.so"><strong>libCameraEffectJNI.so</strong>
+</a></li>
+</ul>
+</div>
+<div class="tree-controls gl-children-ml-sm-3"><a class="gl-button btn shortcuts-find-file" rel="nofollow" href="/dumps/redmi/phoenix/-/find_file/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys">Find file
+</a><a class="gl-button btn" href="/dumps/redmi/phoenix/-/commits/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib64/libCameraEffectJNI.so">History</a><a class="gl-button btn js-data-file-blob-permalink-url" href="/dumps/redmi/phoenix/-/blob/3877fc95a5a71d75fdce82b9623edc9acb32487e/system/system/lib64/libCameraEffectJNI.so">Permalink</a></div>
+</div>
+
+<div class="info-well d-none d-sm-block">
+<div class="well-segment">
+<ul class="blob-commit-info">
+<li class="commit flex-row js-toggle-container" id="commit-3877fc95">
+<div class="avatar-cell d-none d-sm-block">
+<a href="/dumper"><img alt="dumper&#39;s avatar" src="/uploads/-/system/user/avatar/457/dumper.jpg?width=40" class="avatar s40 d-none d-sm-inline-block" title="dumper" /></a>
+</div>
+<div class="commit-detail flex-list">
+<div class="commit-content" data-qa-selector="commit_content">
+<a class="commit-row-message item-title js-onboarding-commit-item " href="/dumps/redmi/phoenix/-/commit/3877fc95a5a71d75fdce82b9623edc9acb32487e">qssi-user 11 RKQ1.200826.002 20.12.10 release-keys</a>
+<span class="commit-row-message d-inline d-sm-none">
+&middot;
+3877fc95
+</span>
+<button class="text-expander js-toggle-button">
+<svg class="s12" data-testid="ellipsis_h-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#ellipsis_h"></use></svg>
+</button>
+<div class="committer">
+<a class="commit-author-link js-user-link" data-user-id="457" href="/dumper">dumper</a> authored <time class="js-timeago" title="Dec 15, 2020 9:50pm" datetime="2020-12-15T21:50:19Z" data-toggle="tooltip" data-placement="bottom" data-container="body">Dec 15, 2020</time>
+</div>
+
+<pre class="commit-row-description gl-mb-3 js-toggle-content">Signed-off-by: <span data-trailer="Signed-off-by:" data-user="457"><a href="https://git.rip/dumper" title="457-dumper@users.noreply.git.rip"><img alt="dumper's avatar" src="https://git.rip/uploads/-/system/user/avatar/457/dumper.jpg?width=16" class="avatar s16 avatar-inline" title="dumper"></a><a href="https://git.rip/dumper" title="457-dumper@users.noreply.git.rip">dumper</a> &lt;<a href="mailto:457-dumper@users.noreply.git.rip" title="457-dumper@users.noreply.git.rip">457-dumper@users.noreply.git.rip</a>&gt;</span></pre>
+</div>
+<div class="commit-actions flex-row">
+
+<div class="js-commit-pipeline-status" data-endpoint="/dumps/redmi/phoenix/-/commit/3877fc95a5a71d75fdce82b9623edc9acb32487e/pipelines?ref=qssi-user-11-RKQ1.200826.002-20.12.10-release-keys"></div>
+<div class="commit-sha-group btn-group d-none d-sm-flex">
+<div class="label label-monospace monospace">
+3877fc95
+</div>
+<button class="btn gl-button btn btn-default" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy commit SHA" data-class="gl-button btn btn-default" data-clipboard-text="3877fc95a5a71d75fdce82b9623edc9acb32487e" type="button" title="Copy commit SHA" aria-label="Copy commit SHA"><svg class="s16" data-testid="copy-to-clipboard-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#copy-to-clipboard"></use></svg></button>
+
+</div>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+
+
+</div>
+<div class="blob-content-holder" id="blob-content-holder">
+<article class="file-holder">
+<div class="js-file-title file-title-flex-parent">
+<div class="file-header-content">
+<svg class="s16" data-testid="doc-text-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#doc-text"></use></svg>
+<strong class="file-title-name gl-word-break-all" data-qa-selector="file_name_content">
+libCameraEffectJNI.so
+</strong>
+<button class="btn btn-clipboard btn-transparent" data-toggle="tooltip" data-placement="bottom" data-container="body" data-class="btn-clipboard btn-transparent" data-title="Copy file path" data-clipboard-text="{&quot;text&quot;:&quot;system/system/lib64/libCameraEffectJNI.so&quot;,&quot;gfm&quot;:&quot;`system/system/lib64/libCameraEffectJNI.so`&quot;}" type="button" title="Copy file path" aria-label="Copy file path"><svg class="s16" data-testid="copy-to-clipboard-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#copy-to-clipboard"></use></svg></button>
+<small class="mr-1">
+27.9 KB
+</small>
+</div>
+
+<div class="file-actions gl-display-flex gl-flex-fill-1 gl-align-self-start gl-md-justify-content-end"><a class="btn btn-primary ide-edit-button gl-mr-3 btn-inverted btn-sm" data-track-event="click_edit_ide" data-track-label="Web IDE" data-track-property="secondary" href="/-/ide/project/dumps/redmi/phoenix/edit/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/-/system/system/lib64/libCameraEffectJNI.so">Web IDE</a><div class="btn-group ml-2" role="group">
+
+
+</div><div class="btn-group ml-2" role="group">
+
+
+<a download="system/system/lib64/libCameraEffectJNI.so" class="btn btn-sm has-tooltip" target="_blank" rel="noopener noreferrer" aria-label="Download" title="Download" data-container="body" href="/dumps/redmi/phoenix/-/raw/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib64/libCameraEffectJNI.so?inline=false"><svg class="s16" data-testid="download-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#download"></use></svg></a>
+
+</div></div>
+</div>
+
+<script id="js-file-lock" type="application/json">
+{"path":"system/system/lib64/libCameraEffectJNI.so","toggle_path":"/dumps/redmi/phoenix/path_locks/toggle"}
+</script>
+
+
+<div data-blob-data="ELF          ·     0      @       xi          @ 8 
+ @         @       @       @       0      0                                           ”)      ”)                    0       0       0      @(      @(                    `       `       `      À      À                   Àd      Àt      Àt              y                    `      `      `      `      `             Råtd    `       `       `      À                    Påtd    #       #       #      $      $             Qåtd                                                         p      p      p      8       8                       Android             GNU AÀÕeÕ¤uÞMïÖœF                                                                    )                      B                      W                      o                      &amp;                     -                     3                     G                     j                     x                     Š                                          ²                     ñ                     ö                                                               +                     &lt;                     Y                     p                     ‚                                          ¡                     ¯                     ¼                     É                     	                     	                     .	                     D	                     \	                     q	                     ˆ	                     –	                     £	                     ´	                     È	                     Ú	                     ë	                     ÿ	                     
+                     $
+                     9
+                     @
+                     H
+                     Ž
+                     ž
+                     §
+                     ³
+                     Ã
+                     —    x&gt;      ì      ¼    °3            ð    l7      8           dA      Ô          DP      t      T    M      Ü       Ô    TI      ô       O
+     u             x
+    ¸R      @           ÈJ      &lt;       +    XJ             z    LO      è       ·    lN      à           ¤7            à    0u             û    (u             †     L:      8      m    Ä1      ì      ]
+    Àt      (       ‰    4P             U    4L      \      _    ÄJ             Ö    ¼8            X    8u             Q    0      °      å    4u             Ã     „&lt;      ô      D    ”E      ´       ×    K      0      è    HJ                 Ä6      ¨       Ò    8D      \          øG      \      ¤    ŒJ      8       Ò     u             ×    u             n
+    èt             ó    HF      °      &lt;    øR      È       ’    hJ      $       ¤    ÀS      „                                                                                                           Ó
+  0        ä
+  0        ý
+  0       7q   Ý
+      ´~,   ò
+      c          
+   6          D† @À @    H‘¨€€ B   Ä    G@    „  ( ’%„  6   9   ?   F   I   N   P   U   [   ]   Þ„)ÿ&gt;GªÞõœÔ±ÜB†»¥hÔèg¦æ&#39;×Š¾·@áK¨¨ˆ)¢¤&gt;œÿÈÑê6Òök`ï†ˆC‰À¡Ji#¨Æ(ùïA¹r`)#Ô.ÖuÌ…=F ‰ZÍ÷ø2ä¬÷è©[6öŽLK(g^@È;k&lt;æ…Aeé²nç7K(aÅüéji¶Hà£û³r°‰ƒùüíFfpåÉÛpH __cxa_finalize AHardwareBuffer_allocate AHardwareBuffer_describe AHardwareBuffer_lock AHardwareBuffer_release AHardwareBuffer_unlock Java_com_android_camera_effect_ShaderNativeUtil_compressJpeg Java_com_android_camera_effect_ShaderNativeUtil_decompressJpeg Java_com_android_camera_effect_ShaderNativeUtil_genWaterMarkRange Java_com_android_camera_effect_ShaderNativeUtil_getCenterSquareImage Java_com_android_camera_effect_ShaderNativeUtil_getGraphicBufferFboTexId Java_com_android_camera_effect_ShaderNativeUtil_getJpegFromMemImage Java_com_android_camera_effect_ShaderNativeUtil_getJpegPicture Java_com_android_camera_effect_ShaderNativeUtil_getWaterMarkRange Java_com_android_camera_effect_ShaderNativeUtil_initJpegTexture Java_com_android_camera_effect_ShaderNativeUtil_mergeWaterMarkRange Java_com_android_camera_effect_ShaderNativeUtil_mergeYUV Java_com_android_camera_effect_ShaderNativeUtil_parseYUVImage Java_com_android_camera_effect_ShaderNativeUtil_readGraphicBuffer Java_com_android_camera_effect_ShaderNativeUtil_readPixelsAndMerge Java_com_android_camera_effect_ShaderNativeUtil_readPixelsPboPlainMerge Java_com_android_camera_effect_ShaderNativeUtil_releaseGraphicBuffer Java_com_android_camera_effect_ShaderNativeUtil_resizeGraphicBuffer Java_com_android_camera_effect_ShaderNativeUtil_setupGraphicBuffer Java_com_android_camera_effect_ShaderNativeUtil_setupGraphicBufferWithChannels Java_com_android_camera_effect_ShaderNativeUtil_texChannelUV Java_com_android_camera_effect_ShaderNativeUtil_texChannelY Java_com_android_camera_effect_ShaderNativeUtil_updateTextureWidthStride _Z11bindTexturejPhii _Z13jpeg_compressPhiiPS_Pmi _Z15jpeg_decompressPhiiRiS0_S0_ _Z15readFrameBufferiii _Z15readFrameBufferiiii _Z18initHardWareBufferiii _Z18readHardWareBufferiii _Z20resizeHardWareBufferii _Z21releaseHardWareBufferv _ZdaPv _Znam __android_log_print __stack_chk_fail bUseGraphicBuffer clock_gettime eglCreateImageKHR eglDestroyImageKHR eglGetCurrentDisplay eglGetNativeClientBufferANDROID framebufferId framebufferTexId free glBindFramebuffer glBindTexture glDeleteFramebuffers glDeleteTextures glEGLImageTargetTexture2DOES glFramebufferTexture2D glGenFramebuffers glGenTextures glMapBufferRange glPixelStorei glReadPixels glTexImage2D glUnmapBuffer graphicBuffer graphicbufferChannels imageEGL jpeg_CreateCompress jpeg_CreateDecompress jpeg_destroy_compress jpeg_destroy_decompress jpeg_finish_compress jpeg_finish_decompress jpeg_mem_dest jpeg_mem_src jpeg_read_header jpeg_read_scanlines jpeg_set_defaults jpeg_set_quality jpeg_start_compress jpeg_start_decompress jpeg_std_error jpeg_write_scanlines memcpy memmove memset reuseMemImage reuseMemYUVImage waterMark _Z13printGLStringPKcj glActiveTexture glFinish glGetString glTexParameterf glTexParameteri liblog.so LIBLOG libandroid.so LIBANDROID libc.so LIBC libcutils.so libGLESv2.so libGLESv3.so libEGL.so libui.so libjnigraphics.so libgui.so libjpeg.so libc++.so libm.so libdl.so libCameraEffectJNI.so APS2	 	øÄˆ€€Ð	 ˆ€€ ˆ€€Ð ˆ€€ð	 ˆ€€€ ˆ€€À ˆ€€Ð ˆ€€  ˆ€€€	        `             Øb                   àb        ,           èb                   ðb        $           øb        (            c        )           c        *           c        -           c        &quot;            c                    (c        
+           0c        0           8c                   @c        %           Hc        &amp;           Pc        +           Xc                   `c        &#39;           hc        .           pc        #           xc        !           €c        	           ˆc                   c                   ˜c                    c                   ¨c                   °c                   ¸c                   Àc                   Èc                   Ðc                   Øc                   àc                   èc                   ðc                   øc                    d        T           d        7           d                   d                    d                   (d                   0d                   8d                   @d        N           Hd                   Pd        G           Xd        \           `d        ^           hd        /           pd                   xd                   €d                   ˆd        L           d        C           ˜d        3            d        1           ¨d        4           °d        5           ¸d        2                 GraphicBuffer w %d h %d ret %d channely=%p	channeluv=%p	channelvu=%p SetIntArrayRegion %lf libCameraEffect Graphic read buffer result %d format %d release graphicBuffer readW %d yHeight %d uvHeight %d offsety %d offsetuv %d rowStrideUV=%d jpeg_decompress %lf release eglImage delete %lf decompress w = %d, h = %d GL %s = %s jpeg_compress %lf channels %d not support GraphicBuffer w %d h %d ret %d without usage gpu color output. use[GraphicBuffer]GraphicBuffer fbo %d fbotexture %d invalid format desc.format =%d NewByteArray %lf RGBA2RGB %lf glTexImage2D %lf GraphicBuffer channels not supported!!! init GraphicBuffer width %d height %d channels %d GetByteArrayElements %lf rowStrideY=%d use[framebuffer]FrameBuffer fbo %d fbotexture %d readFrameBuffer w %d h %d offset %d readFrameBuffer %lf decompress result :width = %d ,height=%d, depth = %d upload texture %lf   Ò0     80  ;$  #      @    X    p    ˆ  Ä  ¸  °  è  Ä    l  8  ¤  X  ¼  €  L  °  „  è  x    d  P  8!  ˆ  ”&quot;  ¸  H#  à  ø$    T&amp;  8  H&#39;  `  X&#39;  x  h&#39;    Œ&#39;  ¨  Ä&#39;  È  È&#39;  à  (     4)  0  *  X  l+  ˆ  L,  °  4-  Ø  D-  ð  ¸/     ø/  @  À0  h             zR |           ¸                4   ¬                L   ˜             ,   d   „  °   \P“”•–—
+˜™œž       ,   ”     ì   ``“”•–—
+˜™šœž     ,   Ä   À     ``“”•–—
+˜™š›ž        ô   ¤  ¨    L “”ž        ,  8    L “”ž   $   4  D     T@“”•–—
+˜ž   ,   \  4     \P“”•–—
+˜™šž       4   Œ  ”  8   dp“”•–—
+˜™šžHIJ      ,   Ä  ”  ô   d`“”•–—
+˜™žHIJ4   ô  X  ì   h€“”•–—
+˜™š›œžHIJ  4   ,    Ô   dp“”•–—
+˜™šžHIJ      ,   d  ¨  \   ``“”•–—
+˜™š›œž   $   ”  Ô  ´    XP“”•–—
+˜™ž ,   ¼  `  °   `P“”•–—
+˜™žH      $   ì  à   \   \P“”•–—
+˜™ž $     &quot;  ô    T@“”•–—
+˜ž      &lt;  à&quot;                T  Ø&quot;                l  Ð&quot;  $              „  Ü&quot;  8    L “”ž      ¤  ô&quot;                ¼  à&quot;  &lt;    L “ž     ,   Ü  ü&quot;  0   \`“”•–—
+˜™š›ž     $     ü#  \   T0“”•–ž
+       ,   4  0%  Ü    \`“”•–—
+˜™š›œž   $   d  Ü%  à    T0“”•–ž
+       $   Œ  ”&amp;  è    T0“”•–ž
+          ´  T&#39;             ,   Ì  L&#39;  t   ``“”•–—
+˜™š›œž      ü  )  @    L “ž     $     °)  È    X@“”•–ž
+H    $   D  P*  „    T@“”•–—ž                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ð   ‘	 À_Öÿÿÿý{»©üg©ø_©öW©ôO©ý ‘ÿCÑYÐ;Õ(@ùé‘ó ªêC ‘ ä o¨ƒø(! ‘àC ‘ô*÷ªøªõ*ö* ­ ­ ­ ­ ­ 
+­ 	­ ­ &lt; Ž&lt; &lt; Œ&lt; ‹&lt; Š&lt; ‰&lt; ˆ&lt; ‡&lt; †&lt; …&lt; „&lt; ƒ&lt; ‚&lt; &lt; €&lt;ÿ[ ù@­àƒ­àƒ­àƒ­àƒ ­ÿ ùç ”àc ùà‘Á€RA€Ræ ”à‘áªâªæ ”èÿÿÐ ÅGýà‘öW)à ýä ”à‘&quot; €Rá*ä ”à‘! €Rå ”èóA¹é÷@¹	kÂ Téó@¹4	ˆ~h‹à‘á# ‘&quot; €Rè ùÜ ”èóA¹é÷@¹	kÃþÿTà‘Ú ”à‘Ü ”(@ù©ƒ_ø	ë TÿC‘ôOD©öWC©ø_B©ügA©ý{Å¨À_ÖÔ ”ý{º©ü ùúg©ø_©öW©ôO©ý ‘ÿÃÑYÐ;Õ(@ùéÃ‘ö*÷*ø ª ! ‘N€Rá*óªôªõª¨ƒøÂ ” ä oà ‘ÿS ùà­à­à­à­à ­‘ ”à[ ùàÃ‘Á€RO€R¸ ”â~@“àÃ‘áª¸ ”àÃ‘! €R7 €R¸ ”àÃ‘÷Û)¹ ”è;A¹¨ ¹è?A¹ˆ ¹÷G¹w ¹¸€¹š€¹} }@“± ”›}›á€Rö ª˜ ”è_@ù©@¹j@¹àÃ‘	@ù! €RB}	# €R ?Öè[A¹é?A¹	k‚ T÷ ªøªàÃ‘&quot; €Ráª ”¨€¹i€¹á@ùàª&quot;}›› ”¨€¹é[A¹ê?A¹k€¹?
+kxa›þÿTàÃ‘– ”àÃ‘˜ ”£@¹„@¹e@¹áÿÿÐâÿÿð!¬?‘B¨
+‘€ €R“ ”(@ù©ƒ_ø	ëA TàªÿÃ‘ôOE©öWD©ø_C©úgB©ü@ùý{Æ¨À_ÖY ”ÿÃÑý{©û3 ùúg©ø_©öW	©ôO
+©ýC‘XÐ;Õ@ù  ð  ðZ?Aù{CAù¨ƒø  ð9GAùó*ô*õ *áÿÿÐâÿÿð6 €R ä o!¬?‘B ‘€ €Rã*ä*å*V 9 ù? ùÿ ùàƒ ­a ” qà  T q Th €Rè ¹ö ƒR  ö ¹!ƒR  áÿÿÐâÿÿð!¬?‘B ‘À €RP ”ö*  ðIAù) €Rj@€RàC ‘á# ‘õS)ÿ ùõ) ¹é ¹ê ùÿ ùE ”÷ *áÿÿÐâÿÿÐ!¬?‘B@&gt;‘€ €Rã*ä*å*7 ”  ðsNAù÷ 4h €RàC ‘á# ‘è ù3 ”÷ *áÿÿÐâÿÿð!¬?‘Bø‘€ €Rã*ä*å*% ”÷ 4_ 9  ð÷RAù  €Ráª&amp; ”á@¹ ¼R&#39; ” ¼R&#39;€‚Rá*â*ã*ä*å*æ*ÿ ù! ”  €Ráª&quot; ”a@¹ ¨‘R# ”ã@¹ ¨‘Rœ‘R&quot;¼Rä*! ”c@¹ä@¹áÿÿÐâÿÿð!¬?‘B	‘/  à@ù` ù ”ô ª ”èÿÿðÑ‘	@ù	@¹¤c Ñ(†Ráªãª©ƒø¨¸ ”  ù  ð”RAù  €Ráªð ”@¹ ¼Rñ ”!@ù ¼R ”  €Ráªó ”a@¹ ¨‘Rô ”ƒ@¹ ¨‘Rœ‘R&quot;¼Rä*ò ”c@¹„@¹áÿÿÐâÿÿð!¬?‘Bô‘€ €RÎ ”`@¹@ù©ƒ_ø	ë! TôOJ©öWI©ø_H©úgG©û3@ùý{E©ÿÃ‘À_Ö” ”ý{¾©ôO©ý ‘  ðsBAùh@ùH ´áÿÿÐâÿÿð!¬?‘BŒ ‘€ €R³ ”`@ùá ” ù  ð!LAù  €Rà ”Ï ”  ð”FAùˆ@ùˆ ´áÿÿÐâÿÿðó ª!¬?‘BL‘€ €R  ”@ùàªÕ ”Ÿ ù  ð!PAùôOA©  €Rý{Â¨Ò ý{¾©ôO©ý ‘ó*ô *Ð ”  ðIAùà*á*ôOA©@¹ý{Â¨Ì ý{¼©ø_©öW©ôO©ý ‘ö*ó*õ *áÿÿÐâÿÿð!¬?‘BÈ	‘€ €Rã*ä*å*w ”  ðWAù@¹kÁ T@ùâ*ã*ôOC©Á6‹öWB©ø_A©ä ƒR%€‚Rà*á*ý{Ä¨­ ·è~ }@“M ”ô ªä ƒR%€‚Rà*á*â*ã*æª  ” që T@ùÁ6‹ö~@“÷ªàªáªâªB ”€¹s q÷‹‹µ‹áþÿTàªôOC©öWB©ø_A©ý{Ä¨Ž ÿCÑý{©úg©ø_©öW©ôO©ý‘WÐ;Õè@ù  ðö *ó*¨ƒøÿ ùCAù ä oáC ‘õ* @ùàƒ ­} ” @ùù+€¹ä# ‘a €R €ãªÿ ùy ”ä@¹áÿÿÐâÿÿÐã *!¬?‘Bì?‘€ €R ”ã@¹ q T  ðZWAùô@ùH@¹I@ùk5Á5‹á T q‹ TÈ)}@“9}@“àªáªâªü ”µ‹s q”‹!ÿÿT  áÿÿÐâÿÿð!¬?‘BÈ‘À €Rý ”   qË TÈ}@“9‹àªáªâªç ”H€¹s q”‹‹µ‹áþÿT @ùáªB ”è@ù©ƒ_ø	ë TôOH©öWG©ø_F©úgE©ý{D©ÿC‘À_Ö² ”ÿƒÑê ýé#mý{©úg©ø_©öW©ôO	©ýÃ ‘XÐ;Õ@ùô ªác ‘à*ó*õ*ö*¨ƒøÿÿ©&amp; ”  ðè@ùà@ý9WAù	ÐÒ}€RÉ%èò7@ù(gž}› Øa^bž hác ‘à*ÿÿ ©ÿÿ©	(a ”ãC ‘ä# ‘àªá*â*å* ”ác ‘à*ÿÿ© ”è@ùà@ýõÿÿÐµ®?‘}› Øa^bž h
+(aâÿÿð@9iBP‘€ €Ráª ”ˆ@ùá@¹àªÁBù ?Öˆ@ùã@¹ä@ùó ªACùàªáªâ* ?Öác ‘à*ÿÿ©ç ”è@ùà@ýâÿÿðBD‘}› Øa^bž h(a 9j€ €Ráª~ ” @ù@  ´Ç ”è@ù? ùˆ  ´à@ùÚ ”ÿ ùác ‘à*ÿÿ©Í ”è@ùà@ý	ÐÒÉ%èò
+}€R!gž}
+› Øa^bž a (báÿÿÐâÿÿð 8h!¬?‘B‘€ €R_ ”@ù©ƒ_ø	ëa TàªôOI©öWH©ø_G©úgF©ý{E©é#Dmê@ýÿƒ‘À_Ö$ ”ÿCÑê ýé£mýû©ù/ ùø_©öW©ôO©ýÃ ‘XÐ;Õ@ùó ªá# ‘à*ô*õª¨ƒøÿÿ ©™ ”i@ùè@ùà@ý
+ÐÒ)áBù}€RÊ%èò}› Øa^Hgžbž hàªáªâª	(a ?Öö ªá# ‘à*ÿÿ ©ƒ ”è@ùà@ý÷ÿÿÐ÷®?‘}› Øa^bž h
+(aâÿÿð@9iBh‘€ €Ráª ”h@ùàªáª­Bù ?Öèc ‘á *! ‘~²ãc ‘àªâ*ÿ# ¹ÿ ùq ”ô ªá# ‘à*ÿÿ ©` ”è@ùà@ýâÿÿðBü‘}› Øa^bž h (a 8j€ €Ráª÷ ”
+  ðè@ùé#@¹JUAùA €RàªT	 ùH ùI ¹h@ùÍBù ?Öh@ùô ªäc ‘C €RMCùàªáªâ* ?Ö@ù©ƒ_ø	ëa TàªôOH©öWG©ø_F©ù/@ùýûD©é£Cmê@ýÿC‘À_Ö§ ”ÿÃÑê ýé#mý{©üo©úg©ø_©öW	©ôO
+©ýÃ ‘HÐ;Õè ù@ùó ªá# ‘à*÷*ö*ôª¨ƒøÿÿ © ”i@ùè@ùà@ý
+ÐÒ)áBù}€RÊ%èò}› Øa^Hgžbž hàªáªâª	(a ?Öh@ùõ ªàªáª­Bù ?Öù *ûc ‘á# ‘à*ÿ# ¹ÿ©z# ‘ÿ ùù ”è@ùà@ýøÿÿÐ¯?‘}› Øa^bž h
+(aâÿÿð@9iBh‘€ €RáªŽ ”d~²ãc ‘àªá*â*åªï ”ùkC)âÿÿð÷ ªB¼‘€ €Ráªã*ä*~ ”á# ‘à*ÿÿ ©Ö ”è@ùà@ýâÿÿðBü‘}› Øa^bž h	(a 9j€ €Ráªm ”à*áªâ*ã*Ô ”á# ‘à*ÿÿ ©À ”è@ùà@ýâÿÿÐB|‘}› Øa^bž h(a 9i€ €RáªW ”w  ´àª  ”h@ùàªáªâªCùã* ?Öh@ùA €RàªÍBù ?Öh@ùô ªäc ‘C €RMCùàªáªâ* ?Öá# ‘à*ÿÿ ©— ”è@ùà@ý	ÐÒÉ%èò
+}€R!gž}
+› Øa^bž a (báÿÿ°âÿÿ° 8h!¬?‘BT?‘€ €R) ”è@ù@ù©ƒ_ø	ë TàªôOJ©öWI©ø_H©úgG©üoF©ý{E©é#Dmê@ýÿÃ‘À_Öì ”ÿƒÑê ýé#mý{©úg©ø_©öW©ôO	©ýÃ ‘YÐ;Õ(@ùó ªác ‘à*õ*ö*÷*ô*ø*¨ƒøÿÿ ©ÿÿ©] ”è@ùà@ý	ÐÒÉ%èò}€R(gž}› Øa^bž hà*á*â*ã*	(aa ”ô ªác ‘à*ÿÿ©H ”è@ùà@ýáÿÿ°âÿÿÐ}› Øa^bž h(a 9i!¬?‘BX
+‘€ €RÞ ”t ´È~ q« Téªêª+@9 qK 9+@9K 9+	@9) ‘K	 9J ‘áþÿTác ‘à*ÿÿ©&amp; ”è@ùà@ý	ÐÒÉ%èò}€R)gž}› Øa^bž iøÿÿ°
+(a¯?‘âÿÿÐ@9hBˆ‘€ €Ráª· ”ãC ‘ä# ‘àªá*â*å* ”ác ‘à*ÿÿ© ”è@ùà@ýâÿÿÐBP‘}› Øa^bž i(a 9j€ €RáªŸ ”h@ùá@¹àªÁBù ?Öh@ùã@¹ä@ùõ ªACùàªáªâ* ?ÖàªÛ ”è@ùˆ  ´à@ùï ”ÿ ùác ‘à*ÿÿ©â ”è@ùà@ý	ÐÒÉ%èò
+}€R!gž}
+› Øa^bž a (báÿÿ°âÿÿÐ 8h!¬?‘BD‘€ €Rt ”  õª(@ù©ƒ_ø	ëa TàªôOI©öWH©ø_G©úgF©ý{E©é#Dmê@ýÿƒ‘À_Ö7 ”ÿÑý{©üo©úg©ø_©öW©ôO©ýƒ ‘æ ¹[Ð;Õh@ù•©~ó ª }@“ö*÷*ù*ú*¨ƒøÿÿ ©9 ”Ü qô ª« T  ÐUAù¸~@“	@¹	@ù*i)	J
+Á*‹5}@“úªàªáªâª/ ”¼  4œ QZ‹9‹øÿÿå@¹ãC ‘ä# ‘àªá*â* ”h@ùá@¹àªÁBù ?Öh@ùã@¹ä@ùõ ªACùàªáªâ* ?Öàªk ”è@ùˆ  ´à@ù ”ÿ ùh@ù©ƒ_ø	ëA TàªôOG©öWF©ø_E©úgD©üoC©ý{B©ÿ‘À_Öà ”ý{»©ù ùø_©öW©ôO©ý ‘  ÐÖVAùÓ^@)k­ Tÿ q+ Th~@“Ó
+@ùé~@“J4	‹uÂ*‹‹ù*àªáªâªg ”µ‹9 qs‹!ÿÿT× ¹	  
+ TÀ
+@ùh	}}À)‹Z ”Ó ¹ôOD©öWC©ø_B©ù@ùý{Å¨À_ÖÿÃÑè ýýû©ù ùø_©öW©ôO©ýƒ ‘XÐ;Õ@ùá# ‘à*ö*ô*ó*õ*÷*¨ƒøÿÿ ©&#39; ”  Ðè@ùà@ýkUAù
+ÐÒ	}€RÊ%èòy	@ùAgž}	› Øa^bž aŸk(b T ¼Rá*Ä ”(Ã6‹ ¼Râ ƒRæ ƒR&#39;€‚Rá*ã*ä*å*è ù½ ”  @žRá*! ” ¼Rá*² ”(Ã6‹ ¼Râ ƒRæ ƒR&#39;€‚Rá*ã*ä*å*è ù« ”@žRá* ”á# ‘à*ÿÿ ©ð ”è@ùà@ý	ÐÒÉ%èò
+}€R!gž}
+› Øa^bž a (b xž bžáÿÿ°âÿÿÐ 8h!¬?‘B¼‘€ €R€ ”@ù©ƒ_ø	ë! TôOF©öWE©ø_D©ù@ùýûB©è@ýÿÃ‘À_ÖG ”ÿÃÑý{©ù ùø_©öW©ôO©ýƒ ‘WÐ;Õè@ù  ÐYô*¨ƒøWAùó*õ*6@¹k! Tá# ‘à*ÿÿ ©· ”ä ƒR%€‚Rà*á*â*ã*æª› ”Ó~@“`‘R# €RáªâªÉ ”@ùá ªâª Á4‹&lt; ”  ä ƒR%€‚Rà*á*â*ã*æª‡ ”Â~@“`‘R# €Ráª¶ ” që T@ùõ ª6@“Á4‹àªáªâª$ ”€¹s qµ‹‹”‹áþÿT`‘R¨ ”è@ù©ƒ_ø	ë TôOF©öWE©ø_D©ù@ùý{B©ÿÃ‘À_Öð ”ý{¼©ø_©öW©ôO©ý ‘  ÐWAùõ*ö*ó*@¹kÁ T@ùâ*ã*ôOC©Á5‹öWB©ø_A©ä ƒR%€‚Rà*á*ý{Ä¨J ×è~ }@“ê ”ô ªä ƒR%€‚Rà*á*â*ã*æª= ” që T@ùö~@“÷ªÁ5‹àªáªâªß ”€¹s q÷‹‹µ‹áþÿTàªôOC©öWB©ø_A©ý{Ä¨+ à*b €Rá* á*à*â*   Ð=Aùá*à*â*@9H  4S V ý{¾©ôO©ý ‘ó*ô* ”  ÐIAùà*á*ôOA©@¹ý{Â¨ ÿ ý{¾©ó ùý ‘  ÐsZAù¨|} }@“b )d)  ”`
+ ùó@ùý{Â¨À_Öý{º©û ùúg©ø_©öW©ôO©ý ‘³c@¹ù*ú*÷*{~h }@“ø*õ*ö*Š ” qô ªà  T q TÀK¡Kä ƒR  ÀK¡K!ƒR%€‚Râ*ã*æªÕ ”÷ qj T  áÿÿ°âÿÿÐ!¬?‘B˜‘À €Rã*ƒ ”÷ qË T  Ð[Aù&#39;@)
+@¹ÈK©	K(!
+}u@“öª@ùáªâª Á9‹f ”×  4@¹÷ QÖ‹eöÿÿàªôOE©öWD©ø_C©úgB©û@ùý{Æ¨° ÿCÑý{©öW©ôO©ýƒ ‘UÐ;Õ¨@ù  Ð¨ƒøÖZAùÿÿ ©È
+@ùh ´ô*ó ª qà T qá TÉ*A)I}	? q+ Té*êª@9) K 9@9K 9	@9 ‘K	 9Ë2A)J ‘‹}?k‹þÿT	  ôª$  áÿÿ°âÿÿÐ!¬?‘B˜‘À €R5 ”À
+@ùÁ
+A)ãC ‘ä# ‘å* ”h@ùá@¹àªÁBù ?Öh@ùã@¹ä@ùô ªACùàªáªâ* ?ÖÀ
+@ù@  ´j ”è@ùß
+ ùˆ  ´à@ù} ”ÿ ù¨@ù©ƒ_ø	ëá  TàªôOD©öWC©ý{B©ÿC‘À_Öá ”ý{º©üo©úg©ø_©öW©ôO©ý ‘ @ùºc@¹»s@¹¼k@¹™Cùáªó*ôªõªö*÷ ªø* ?Öè@ùù ªàªáª™Cù ?Öè@ùõ ªàªáª™Cù ?Öô ªáÿÿ°âÿÿ°!¬?‘B¼&gt;‘€ €Rãªäªåªã ”  Ð]AùY )m)i)Ñ©ôOE©öWD©ø_C©úgB©üoA©ý{Æ¨À_ÖÿÑý{©öW©ôO©ýC ‘  ÐÖ^Aùõ*ó*ô*È@¹k  TÉ@¹	k` Táÿÿ°âÿÿÐ!¬?‘BÌ‘€ €Rã*¿ ”Á@¹@žR4 ”È@ù ¼R&quot;!ƒR&amp;!ƒRÁ5‹&#39;€‚Rá*ã*ä*å*è ùÀ ”È@¹k! TÉ@¹	kÁ  TôOC©öWB©ý{A©ÿ‘À_ÖôOC©öWB©ý{A©@žRá*ÿ‘ ÿÑý{©öW©ôO©ýC ‘  ÐÖ^Aùô*õ*ó*Ã@¹È@¹ k  Th|k` Táÿÿ°âÿÿÐ!¬?‘BÀ‘€ €R‡ ”È@¹@žR}û ”È@ù ¼RB!ƒRF!ƒRÁ5‹&#39;€‚Rá*ã*ä*å*è ù‡ ”È@¹É@¹	k! T}kÁ  TôOC©öWB©ý{A©ÿ‘À_ÖôOC©öWB©ý{A©@žRá*ÿ‘Ü   °QAù @¹À_ÖÿÃÑý{©üo©úg©ø_©öW©ôO©ýC ‘  °_Aù@ &quot;, ! (` &quot;@¹!7 (* !ô*ù*ó*õ*k (! T	@¹	kÁ Táÿÿâÿÿ°!¬?‘Bä ‘€ €Rã*ä*å*æ*ç*7 ”@ù!ƒR%€‚Rà*Á9‹á*â*ã*v ”&amp;  È~uS }@“ú ¹´Ã¸ ”ú ª!ƒR%€‚Rà*á*â*ã*æªf ”ô* që T@ù»~@“ó*üªÁ9‹àªáªâª ”€¹œ‹s q9‹ÿÿTàªW ”ó*´Ã_¸ú@¹	@¹@¹?ka Tk! T@ùá*â*ã*Á4‹ôOF©öWE©ø_D©úgC©üoB©ý{A©!ƒR%€‚Rà*ÿÃ‘: È~uS }@“Ú  ”ù ª!ƒR%€‚Rà*á*â*ã*æª- ”@ùz~
+ q÷*Á4‹´~@“õªk Tàªáªâª÷ Ì  ”€¹µ‹ÿkÖ‹ëþÿTó  6ÿk¡  T¡ËàªâªÀ  ”àªôOF©öWE©ø_D©úgC©üoB©ý{A©ÿÃ‘ ý{¾©ó ùý ‘ó ªà*I ”ãªó@ùáÿÿâÿÿ°ä ª!¬?‘B$‘€ €Rý{Â¨³  ÿCÑè ýý{©öW©ôO©ýC ‘ö * ˜Ró*ô*õª7 ” ¼Rá*°  ”€€RÃ¨r&#39; ¼R! …R ¨N1 ” ¼R …R ¨N- ” ¼RA …Râ%R- ” ¼Ra …Râ%R) ” ¼Râ ƒRæ ƒR&#39;€‚Rá*ã*ä*å*õ ù—  ”ôOD©öWC©ý{B©è@ýÿC‘À_Öý{¼©÷ ùöW©ôO©ý ‘H|uSö * }@“ó*ô*õ*`  ”ˆ~3›õ~Óá*÷ ªG  ”
+ ”!ƒR%€‚Rà*á*â*ã*æª®  ”àªôOC©öWB©÷@ùý{Ä¨À_Ö            ð{¿©  °jAùB‘ Ö Õ Õ Õ  °nAùb‘ Ö  °rAù‚‘ Ö  °vAù¢‘ Ö  °zAùÂ‘ Ö  °~Aùâ‘ Ö  °‚Aù‘ Ö  °†Aù&quot;‘ Ö  °ŠAùB‘ Ö  °ŽAùb‘ Ö  °’Aù‚‘ Ö  °–Aù¢‘ Ö  °šAùÂ‘ Ö  °žAùâ‘ Ö  °¢Aù‘ Ö  °¦Aù&quot;‘ Ö  °ªAùB‘ Ö  °®Aùb‘ Ö  °²Aù‚‘ Ö  °¶Aù¢‘ Ö  °ºAùÂ‘ Ö  °¾Aùâ‘ Ö  °ÂAù‘ Ö  °ÆAù&quot;‘ Ö  °ÊAùB‘ Ö  °ÎAùb‘ Ö  °ÒAù‚‘ Ö  °ÖAù¢‘ Ö  °ÚAùÂ‘ Ö  °ÞAùâ‘ Ö  °âAù‘ Ö  °æAù&quot;‘ Ö  °êAùB‘ Ö  °îAùb‘ Ö  °òAù‚‘ Ö  °öAù¢‘ Ö  °úAùÂ‘ Ö  °þAùâ‘ Ö  °Bù‘ Ö  °Bù&quot;‘ Ö  °
+BùB‘ Ö  °Bùb‘ Ö  °Bù‚‘ Ö  °Bù¢‘ Ö  °BùÂ‘ Ö  °Bùâ‘ Ö  °&quot;Bù‘ Ö  °&amp;Bù&quot;‘ Ö  °*BùB‘ Ö  °.Bùb‘ Ö  °2Bù‚‘ Ö  °6Bù¢‘ Ö  °:BùÂ‘ Ö  °&gt;Bùâ‘ Ö  °BBù‘ Ö  °FBù&quot;‘ Ö  °JBùB‘ Ö  °NBùb‘ Ö  °RBù‚‘ Ö  °VBù¢‘ Ö  °ZBùÂ‘ Ö  °^Bùâ‘ Ö                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 `      0       0             Ó
+             
+                          $             1             ä
+             ;             D             V             `             k             ý
+             u             }             †                    ûÿÿo             `    h        `    R       	               àÿo    À      àÿo           àÿo                  Ð             ¸             Àb                           ¨                           Ì      
+       œ      õþÿo    °             `                    ðÿÿo          þÿÿo    P      ÿÿÿo                                                                                                                           PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT      PT       .fini_array .text .got .note.android.ident .got.plt .rela.plt .bss .dynstr .eh_frame_hdr .gnu.version_r .data.rel.ro .relr.dyn .rela.dyn .gnu.version .dynsym .gnu.hash .eh_frame .note.gnu.build-id .dynamic .shstrtab .rodata .gnu_debugdata ý7zXZ  æÖ´F !   t/å£à_†] ?‘E„h=‰¦ÚŠá†&quot;¢ÍŒcúpiî-œm#°JvLýL3zþt|úZ*CåÓbiÐ×0ày«t?øzm49v€ÙK Ae(§wìÌ&quot;)äÿµú}ÝRƒO6Òf_ºp&gt;åÅ?”UƒwlKv8&#39;žÄ|ý‚ÞÃ!†‚HU®ØUSŸÚ««¥F»B/GÂf,ãuˆÉâU“f+]±2Ba‘‘œT¨MNÏÄBo»“[ÎÂÿjC#ï3õ–ÞtÖ9ÈÂ 9¶niü¥N8­W\‹Ýé`dƒ½¬ÌH– =&#39;×TOñÓf“OÒjÇ8j)ä
+b·n¦sÙnŸ¶“N+*…»ÎqBÆôË:ÊçÁ´äq*6RîÓ&quot;Bg¥ÙK\î¯¸)T%{~môƒ_„io¹™2•lÆ |à&quot;pÑê´o
+Ó&#39;3í	¿?u¡B’†+ü²%³öÜs©3y nÙ{6‡²‹Gûå®£*/­8¦:±‚ôÙÄâP:øcGýÊ(ŽËžN°±6±©äÅm\îôTÕ©$&quot;€É}‡ÎÀUw$è×
+`Ì¯¤•6Œ©KrÀÐ¨¿&#39;,“-Žh§¬$ÄLJGK°q8q9ÿ8s—Œ3‡Ž‘§Èë3±ìs8ó™l~&quot;æ¶Ï¶§¼ÄU §¯°,sÆƒŽí[5Ÿè¢h•ÖAÂ‰ÙwÄÞùLÄ…q˜0`ÎÀ&quot;*©õŽú:$U®ÊQJu¿“qrr¾S-Ìwn?z«ÎÜÝ”Ù„ÈóqÜ¿Ën¦-ÑXšÚ3èutŽ€²°fúí–rîLçBAwìÖ¾&gt;1Þ%UÔ¶¦!@k ¢ sÞrGˆõI‡(	¦ÔÕ–Iä¬ðy[Þ°Œ|[Ëgð¶xkÄ
+ññ-§ƒ\GX
+“ïØš| %±N#}PH°éÁ6-	“¾âëð
+•MÄ¨¦,{P-›Õ`×¤_sU†?Ê&lt;º¸ŠöËÌão8Cü|éâ““Ì­±ïgºðd=º &#39;Xµ+G‘hV›öàËé¢qtÌÁªc]×ûHS¶%ÈrÖ¿—&amp;&amp;ÏDÊû6”(½›„ƒÎ”’ÂW–Œq›…wÃ6›Xzgƒ¸”\H‹¨Ù¼ ”5â[qÛÆ›iòV½GåÐËÜÄiòp¡h6GHáûÓˆ5Uû&#39;ÁÃ@L_8T1X›   ôfb&quot;[5° ¢à   ð¿“Ë±Ägû    YZ                                                                             p      p                                    ³             ˆ      ˆ                                     —             ¨      ¨      è                          Š   ÿÿÿo                   ¾                            Z   þÿÿo       P      P      `                            Ÿ   öÿÿo       °      °                                  D             Ì      Ì      œ                             €     `       h      h      R                            v    ÿÿo       À      À                                   5             Ð      Ð      ¸                          Ù      2       ˆ      ˆ      x                             L              #       #      $                             ©             ($      ($      l                                           0       0      D$                             :             PT      PT      ð                             i              `       `                                                 `      `                                    Æ             `      `      `                                        xb      xb      H                              ,             Àb      Àb                                    ?             Àt      Àd      y                              Ï                      Àd      ð                              á                      °e      È                             " data-is-ci-config-file="false" id="js-blob-toggle-graph-preview"></div>
+<div class="blob-viewer" data-path="system/system/lib64/libCameraEffectJNI.so" data-type="simple">
+<div class="file-content blob_file blob-no-preview">
+<div class="center render-error">
+<a href="/dumps/redmi/phoenix/-/raw/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib64/libCameraEffectJNI.so"><h1 class="light">
+<svg class="s16" data-testid="download-icon"><use xlink:href="/assets/icons-e0a66cb8e6ca64bcdd2a8f111cbd9e94cf727c1bd5939bc71619df5c973fbc87.svg#download"></use></svg>
+</h1>
+<h4>
+Download (27.9 KB)
+</h4>
+</a></div>
+</div>
+
+</div>
+
+
+</article>
+</div>
+
+<div class="modal" id="modal-upload-blob">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="page-title">Replace libCameraEffectJNI.so</h3>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden>&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form class="js-quick-submit js-upload-blob-form" data-method="put" action="/dumps/redmi/phoenix/-/update/qssi-user-11-RKQ1.200826.002-20.12.10-release-keys/system/system/lib64/libCameraEffectJNI.so" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="ZnrefLuT6uLsGpcIOYYBJd5aw4wWc6vcAslkePBdLRh4L9t7dp54k6yd4adFba/rz46iGS5j6kXIfBnIW3MKeQ==" /><div class="dropzone">
+<div class="dropzone-previews blob-upload-dropzone-previews">
+<p class="dz-message light">
+Attach a file by drag &amp; drop or <a class="markdown-selector" href="#">click to upload</a>
+</p>
+</div>
+</div>
+<br>
+<div class="dropzone-alerts gl-alert gl-alert-danger gl-mb-5 data" style="display:none"></div>
+<div class="form-group row commit_message-group">
+<label class="col-form-label col-sm-2" for="commit_message-4a5e66a726f4f5723e78d0ab7b748d5f">Commit message
+</label><div class="col-sm-10">
+<div class="commit-message-container">
+<div class="max-width-marker"></div>
+<textarea name="commit_message" id="commit_message-4a5e66a726f4f5723e78d0ab7b748d5f" class="form-control js-commit-message" placeholder="Replace libCameraEffectJNI.so" required="required" rows="3">
+Replace libCameraEffectJNI.so</textarea>
+</div>
+</div>
+</div>
+
+<input type="hidden" name="branch_name" id="branch_name" />
+<input type="hidden" name="create_merge_request" id="create_merge_request" value="1" />
+<input type="hidden" name="original_branch" id="original_branch" value="qssi-user-11-RKQ1.200826.002-20.12.10-release-keys" class="js-original-branch" />
+
+<div class="form-actions">
+<button name="button" type="button" class="btn gl-button btn-success btn-upload-file" id="submit-all"><div class="spinner spinner-sm gl-mr-2 js-loading-icon hidden"></div>
+Replace file
+</button><a class="btn gl-button btn-cancel" data-dismiss="modal" href="#">Cancel</a>
+<div class="inline gl-ml-3">
+A new branch will be created in your fork and a new merge request will be started.
+</div>
+
+</div>
+</form></div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<script>
+//<![CDATA[
+if ('loading' in HTMLImageElement.prototype) {
+  document.querySelectorAll('img.lazy').forEach(img => {
+    img.loading = 'lazy';
+    let imgUrl = img.dataset.src;
+    // Only adding width + height for avatars for now
+    if (imgUrl.indexOf('/avatar/') > -1 && imgUrl.indexOf('?') === -1) {
+      const targetWidth = img.getAttribute('width') || img.width;
+      imgUrl += `?width=${targetWidth}`;
+    }
+    img.src = imgUrl;
+    img.removeAttribute('data-src');
+    img.classList.remove('lazy');
+    img.classList.add('js-lazy-loaded', 'qa-js-lazy-loaded');
+  });
+}
+
+//]]>
+</script>
+
+</body>
+</html>
+
